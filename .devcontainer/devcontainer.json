@@ -9,7 +9,7 @@
 	"forwardPorts": [
 		3000
 	],
-	"postCreateCommand": "pip install sqlalchemy && cd /web_app && npm install",
+	"postCreateCommand": "cd /webapp && npm install",
 	"customizations": {
 		"vscode": {
 			"extensions": [

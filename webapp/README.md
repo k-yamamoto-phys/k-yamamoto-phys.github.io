@@ -1,0 +1,1 @@
+# yamamoto 先生のwebサイトの本体

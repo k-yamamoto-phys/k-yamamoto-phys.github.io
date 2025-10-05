@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+:root {
+    --text-color-rgb: 0, 0, 0;
+    --background-color-rgb: 255, 255, 255;
+  }
+
+.dark{
+    --text-color-rgb: 255, 255, 255; 
+    --background-color-rgb: 0, 0, 0; 
+}
+
+body {
+  color: rgb(var(--text-color-rgb));
+  background-color: rgb(var(--background-color-rgb));
+} */
+
+body {
+  @apply bg-slate-100 dark:bg-slate-900 dark:text-gray-200;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
