@@ -1,0 +1,19 @@
+original_paper:
+  - title: "Dimensionality effect on exceptional fermionic superfluidity with spin-dependent asymmetric hopping"
+    authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga # Kazuki Yamamotoという文字列に対して、自動的に下線を引くように設定
+    arXiv: 2509.17414
+    journal: None
+  - title: "Itinerant ferromagnetism in an SU(3) Fermi-Hubbard model at finite temperatures: A dynamical mean-field theory study"
+    authors: Juntaro Fujii, Kazuki Yamamoto, and Akihisa Koga
+    arXiv: 2505.12704
+    journal: 
+      name: Phys. Rev. B 112, 115136 (2025)
+      url: https://journals.aps.org/prb/abstract/10.1103/vpb4-4d54
+proceedings:
+  - title: "Point-gap topology of non-Hermitian many-body systems"
+    authors: Shu Hamanaka, Kazuki Yamamoto, and Tsuneya Yoshida
+    arXiv: None
+    journal: 
+      name: "New Phys.: Sae Mulli 73, 1178 (2023)"
+      url: https://doi.org/10.3938/NPSM.73.1178
+      supplemental: (Proceedings of International Conference on Strongly Correlated Systems 2023)

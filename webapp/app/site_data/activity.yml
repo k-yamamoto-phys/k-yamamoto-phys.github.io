@@ -1,0 +1,9 @@
+- date: [2025-12-14, 2025-12-18] # 日付のリスト。単一の日付の場合は文字列でOK
+  content: 
+    ja: > # >で複数行の記載が可能に。markdown記法をレンダリングできる。
+      国際会議 [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italyで口頭発表を行います。
+    en: >
+      I am going to give a talk in [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italy
+- date: 2025-10-05
+  content: >
+      国際会議 [2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi) - Tohoku Univ.で招待講演を行いました。

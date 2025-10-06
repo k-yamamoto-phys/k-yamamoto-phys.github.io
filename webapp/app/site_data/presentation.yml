@@ -1,0 +1,6 @@
+- title: "Towards postselection-free measurement-induced phenomena in quantum many-body dynamics"
+  presenter: Kazuki Yamamoto
+  date: 2025-10-5 # 発表日を指定することで、将来の発表予定が管理されます。
+  detail: "[2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi) @ Tohoku University, Oct. 2025"
+  type: invited_talk # seminar, talk, poster, other_talk 
+  place: international # domestic
