@@ -2,12 +2,12 @@ import type { ResolvingMetadata, Metadata } from "next";
 import { loadMarkdown } from "@/app/lib/file-loader";
 import { MetadataGenerator } from "@/app/lib/metadata";
 
-export async function generateMetadata(parent: ResolvingMetadata): Promise<Metadata> {   
-    return MetadataGenerator(`CV(日本語)`, `山本和樹の履歴`); 
+export async function generateMetadata(parent: ResolvingMetadata): Promise<Metadata> {
+    return MetadataGenerator(`CV`, `CV for Dr. Kazuki Yamamoto`);
 }
 
 export default async function Page() {
-    const markdownContent = await loadMarkdown('app/site_data/cv_ja.md'); 
+    const markdownContent = await loadMarkdown('app/site_data/cv_en.md');
     return (
         <div className="m-2 p-2 prose">
             <div dangerouslySetInnerHTML={{ __html: markdownContent || "<p>Error loading content.</p>" }} />
