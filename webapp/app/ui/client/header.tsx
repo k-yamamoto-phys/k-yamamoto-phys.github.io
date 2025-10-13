@@ -104,14 +104,13 @@ export default function Navbar() {
                         }
 
                         <li>
-                            <details>
+                            <details style={{zIndex: 9999}}>
                                 <summary>{isEnglish ? "External" : "外部リンク"}</summary>
-                                <ul className="p-2 w-auto min-w-max">
+                                <ul className="p-2 w-auto min-w-max" style={{marginTop: "1.2rem"}}>
                                     {
                                         externalLinks.map((link) => (
                                             <li key={link.href}>
                                                 <Link href={link.href} target="_blank" rel="noopener noreferrer">{link.name} <FaExternalLinkAlt /></Link>
-
                                             </li>
                                         ))
                                     }
