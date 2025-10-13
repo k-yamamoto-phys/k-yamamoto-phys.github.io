@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useAtom } from "jotai";
-import { darkModeAtom, EngAtom } from "@/app/lib/atom";
+import {  EngAtom } from "@/app/lib/atom";
 import { usePathname } from "next/navigation";
 export default function ClientHead() {
     return (
