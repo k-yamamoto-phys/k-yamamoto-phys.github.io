@@ -34,7 +34,7 @@ export default function RootLayout({
         </main>
         <footer className="font-light text-sm flex justify-center">
           <p className="">
-          ©{year} {siteMetadata.name.ja}. All Right Reserved.
+          ©{year} {siteMetadata.name.en}. All Right Reserved.
             </p></footer>
       </body>
       </Provider>
