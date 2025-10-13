@@ -1,6 +1,41 @@
+# - title:
+#   presenter: Kazuki Yamamoto
+#   date:
+#   type: # invited, seminar, talk, poster, other
+#   isInternational: false
+#   detail: >
 - title: "Towards postselection-free measurement-induced phenomena in quantum many-body dynamics"
   presenter: Kazuki Yamamoto
-  date: 2025-10-5 # 発表日を指定することで、将来の発表予定が管理されます。
-  detail: "[2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi) @ Tohoku University, Oct. 2025"
-  type: invited_talk # seminar, talk, poster, other_talk 
-  place: international # domestic
+  date: 2025-10-5 # 出力はないのでnullでもよいですが、発表日を指定することで将来の発表予定が管理されます。
+  type: invited # seminar, talk, poster, other
+  isInternational: true # (日本語でentryを書いている国内学会の場合はfalseにする)
+  detail: > # markdown記法が使えます。
+    [2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi) @ Tohoku University, Oct. 2025 
+- title: "TBA"
+  presenter: 山本 和樹
+  date: 2026-02
+  type: invited
+  isInternational: false
+  detail: >
+    第10回「凝縮系理論の最前線」研究会 @ 湯河原, 2026年2月
+- title: 散逸の存在する冷却原子系におけるフェルミ超流動と臨界現象の理論" (若手奨励賞受賞記念講演)
+  presenter: 山本 和樹
+  date: 2025-03
+  type: invited
+  isInternational: false
+  detail: >
+    [日本物理学会 2025年春季大会](https://www.jps.or.jp/activities/meetings/spring/spring_index.php) @ Online, 2025年3月
+- title: Correlation versus dissipation in a non-Hermitian Anderson impurity model
+  presenter:  Kazuki Yamamoto
+  date: 2024-09
+  type: invited # invited, seminar, talk, poster, other
+  isInternational: false
+  detail: >
+     [物性研究所セミナー](https://www.issp.u-tokyo.ac.jp/maincontents/seminar/filtered.html?filter=86) @ Institute for Solid State Physics, University of Tokyo, Sep. 2024 
+- title: "TBA"
+  presenter: Kazuki Yamamoto
+  date: 2025-12
+  type: invited
+  isInternational: true
+  detail: >
+     [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) @ Erice, Sicily, Italy, Dec. 2025

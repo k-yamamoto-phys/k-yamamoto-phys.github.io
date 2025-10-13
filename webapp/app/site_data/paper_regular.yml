@@ -1,0 +1,10 @@
+- title: "Dimensionality effect on exceptional fermionic superfluidity with spin-dependent asymmetric hopping"
+  authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga # Kazuki Yamamotoという文字列に対して、自動的に下線を引くように設定
+  arXiv: 2509.17414
+  journal: null # unpublishedの場合はnullを設定
+- title: "Itinerant ferromagnetism in an SU(3) Fermi-Hubbard model at finite temperatures: A dynamical mean-field theory study"
+  authors: Juntaro Fujii, Kazuki Yamamoto, and Akihisa Koga
+  arXiv: 2505.12704
+  journal: 
+    name: Phys. Rev. B 112, 115136 (2025)
+    url: https://journals.aps.org/prb/abstract/10.1103/vpb4-4d54
