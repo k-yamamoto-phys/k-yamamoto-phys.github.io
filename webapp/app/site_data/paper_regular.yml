@@ -11,17 +11,13 @@
 
 - title: "Spin-Depairing-Induced Exceptional Fermionic Superfluidity"
   authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga
-  arXiv: null
-  journal:
-    name: 2504.19525
-    url: https://arxiv.org/abs/2504.19525
+  arXiv: 2504.19525
+  journal: null
 
 - title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics "
   authors: Kazuki Yamamoto and Ryusuke Hamazaki
-  arXiv: null
-  journal:
-    name: 2503.02418
-    url: https://arxiv.org/abs/2503.02418
+  arXiv: 2503.02418
+  journal: null
 
 - title: "Measurement-induced phase transitions for free fermions in a quasiperiodic potential "
   authors: Toranosuke Matsubara, Kazuki Yamamoto, and Akihisa Koga
@@ -58,7 +54,7 @@
     name: "Phys. Rev. B 108, 155114 (2023)"
     url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.155114
 
-- title: "6 . Localization p roperties in d isordered q uantum m any- b ody d ynamics under c ontinuous m easurement"
+- title: "Localization p roperties in d isordered q uantum m any- b ody d ynamics under c ontinuous m easurement"
   authors: Kazuki Yamamoto and Ryusuke Hamazaki
   arXiv: 2301.07290
   journal:
