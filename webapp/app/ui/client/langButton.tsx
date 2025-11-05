@@ -10,7 +10,6 @@ export const LangButton = () => {
     if (siteMetadata.noEnglish.includes(currentPath)) return <></>;
     const locale = currentPath.split("/")[1];
     const router = useRouter();
-    // console.log(locale, currentPath)
     const lang = isEnglish ? "en": "ja";
     if (locale === lang) {
         const newPath = lang === "en" ? currentPath.replace("/en", "/ja") : currentPath.replace("/ja", "/en");

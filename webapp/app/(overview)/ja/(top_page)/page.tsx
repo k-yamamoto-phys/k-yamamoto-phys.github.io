@@ -1,9 +1,9 @@
 import type { ResolvingMetadata, Metadata } from "next";
 import Link from "next/link"
-import { FaHome, FaSearch, FaBook, FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 import { MetadataGenerator } from "@/app/lib/metadata";
-import Acctivity from "@/app/ui/server/acctivity";
-import { Crousel } from "@/app/ui/client/crousel";
+import Activity from "@/app/ui/server/activity";
+import { Carousel } from "@/app/ui/client/carousel";
 import { siteMetadata } from "@/app/site_data/_metadata";
 export async function generateMetadata(parent: ResolvingMetadata): Promise<Metadata> {
     return MetadataGenerator(`ホーム`, `山本和樹のホームページ`);
@@ -12,7 +12,7 @@ export async function generateMetadata(parent: ResolvingMetadata): Promise<Metad
 export default async function Page() {
     return (
         <>
-            <Crousel crousels={[{ image: "/images/top.jpg", caption: "Varenna, Lake Como" }]} />
+            <Carousel carousels={[{ image: "/images/top.jpg", caption: "Varenna, Lake Como" }]} />
             <div className="m-2 p-2">
                 <div className="flex flex-col md:flex-row justify-between  mb-6">
                     <div className="prose">
@@ -26,7 +26,7 @@ export default async function Page() {
                         </ul>
                     </div>
                     <div className="md:w-1/3 w-2/3 mt-3">
-                        <Crousel crousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.ja }))} />
+                        <Carousel carousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.ja }))} />
                     </div>
                 </div>
                 <div className="prose ">
@@ -38,7 +38,7 @@ export default async function Page() {
                     <Link href="/ja/research" className="btn btn-primary  text-white">研究の詳細へ<FaArrowRight /></Link>
 
                 <h2>最近の活動</h2>
-                <Acctivity lang={"ja"} limit={5} /> <br />
+                <Activity lang={"ja"} limit={5} /> <br />
                     <Link href="/ja/news" className="btn btn-primary  text-white">一覧へ<FaArrowRight /></Link>
                 <h2>リンク</h2>
                 <ul>

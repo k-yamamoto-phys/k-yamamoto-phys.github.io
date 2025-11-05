@@ -1,24 +1,24 @@
 'use client';
 import { useEffect, useRef, useState } from "react";
 
-export type CrouselProps = {
+export type CarouselProps = {
     image: string;
     caption: string;
 };
 
-export function Crousel({
-    crousels,
+export function Carousel({
+    carousels,
     isFullScreen = false,
 }: {
-    crousels: CrouselProps[];
+    carousels: CarouselProps[];
     isFullScreen?: boolean;
 }) {
     const [index, setIndex] = useState(0);
     const [imageWidth, setImageWidth] = useState<number>(10000);
     const imageRef = useRef<HTMLImageElement | null>(null);
 
-    const next = () => setIndex((i) => (i + 1) % crousels.length);
-    const prev = () => setIndex((i) => (i - 1 + crousels.length) % crousels.length);
+    const next = () => setIndex((i) => (i + 1) % carousels.length);
+    const prev = () => setIndex((i) => (i - 1 + carousels.length) % carousels.length);
 
     // ✅ 画像サイズ監視
     useEffect(() => {
@@ -42,11 +42,11 @@ export function Crousel({
     const [isPaused, setIsPaused] = useState(false);
     const resumeTimer = useRef<NodeJS.Timeout | null>(null); // タイマーIDを保持
     useEffect(()=>{
-        if (crousels.length <= 1 || isPaused) return; // 画像が1枚以下なら自動再生しない
+        if (carousels.length <= 1 || isPaused) return; // 画像が1枚以下なら自動再生しない
 
         const interval = setInterval(next, AUTOPLAY);
         return () => clearInterval(interval);
-    }, [crousels.length, isPaused]);
+    }, [carousels.length, isPaused]);
 
     const handleAction = (action: ()=> void) => {
         action();
@@ -78,18 +78,18 @@ export function Crousel({
                 className="flex transition-transform duration-700 ease-in-out"
                 style={{ transform: `translateX(-${index * 100}%)` }}
             >
-                {crousels.map((crousel, i) => (
+                {carousels.map((carousel, i) => (
                     <div key={i} className="w-full flex-shrink-0 relative">
                         <img
                             ref={i === index ? imageRef : null} // ✅ 現在のスライドのみ監視
-                            src={crousel.image}
-                            alt={crousel.caption}
+                            src={carousel.image}
+                            alt={carousel.caption}
                             className="w-full max-h-[250px] md:max-h-[300px] lg:max-h-[400px] object-cover"
                         />
                         {/* ✅ 幅に応じて切り替え */}
                         {!isNarrow && (
                             <div className="absolute bottom-4 right-4 bg-black/60 text-white text-sm md:text-base px-3 py-1 rounded-md">
-                                {crousel.caption}
+                                {carousel.caption}
                             </div>
                         )}
                     </div>
@@ -97,7 +97,7 @@ export function Crousel({
             </div>
 
             {/* ナビゲーション */}
-            {crousels.length > 1 && (
+            {carousels.length > 1 && (
                 <>
                     <div className="absolute inset-0 flex items-center justify-between px-0">
                         <div
@@ -111,7 +111,7 @@ export function Crousel({
                     </div>
 
                     <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-2">
-                        {crousels.map((_, i) => (
+                        {carousels.map((_, i) => (
                             <button
                                 key={i}
                                 onClick={() => handleAction(() => setIndex(i))}
@@ -124,9 +124,9 @@ export function Crousel({
             )}
             </div>
             {/* ✅ 幅が狭いときは画像の下に表示 */}
-            {isNarrow && crousels[index]?.caption && (
+            {isNarrow && carousels[index]?.caption && (
                 <div className="mt-2 text-center text-sm md:text-base text-gray-700">
-                    {crousels[index].caption}
+                    {carousels[index].caption}
                 </div>
             )}
         </div>

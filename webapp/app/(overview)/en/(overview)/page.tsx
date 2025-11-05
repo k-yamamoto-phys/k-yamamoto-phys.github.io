@@ -1,9 +1,9 @@
 import type { ResolvingMetadata, Metadata } from "next";
 import Link from "next/link";
 import { MetadataGenerator } from "@/app/lib/metadata";
-import Acctivity from "@/app/ui/server/acctivity";
+import Activity from "@/app/ui/server/activity";
 import { FaArrowRight } from "react-icons/fa";
-import { Crousel } from "@/app/ui/client/crousel";
+import { Carousel } from "@/app/ui/client/carousel";
 export async function generateMetadata(parent: ResolvingMetadata): Promise<Metadata> {
     return MetadataGenerator(`Home`, `Dr. Kazuki Yamaomoto's personal website`);
 }
@@ -11,7 +11,7 @@ import { siteMetadata } from "@/app/site_data/_metadata";
 export default async function Page() {
     return (
         <>
-            <Crousel crousels={[{ image: "/images/top.jpg", caption: "Varenna, Lake Como" }]} />
+            <Carousel carousels={[{ image: "/images/top.jpg", caption: "Varenna, Lake Como" }]} />
             <div className="m-2 p-2">
                 <div className="flex flex-col md:flex-row justify-between  mb-6">
                     <div className="prose">
@@ -25,7 +25,7 @@ export default async function Page() {
                         </ul>
                     </div>
                     <div className="md:w-1/3 w-2/3 mt-3">
-                        <Crousel crousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.en }))} />
+                        <Carousel carousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.en }))} />
                     </div>
                 </div>
                 <div className="prose ">
@@ -36,7 +36,7 @@ export default async function Page() {
                     <p>Recently, quantum measurement has attracted great attention as it causes drastic nonequilibrium quantum phenomena such as in condensed matter physics and quantum information sciences. We have revealed that subsystem fluctuations in many-body systems can exhibit novel measurement-induced universality and are accessed in experiments without postselection (see our paper).</p>
                     <Link href="/en/research" className="btn btn-primary text-white">Details<FaArrowRight /></Link>
                     <h2>What's New</h2>
-                    <Acctivity lang={"en"} limit={5} />
+                    <Activity lang={"en"} limit={5} />
                     <Link href="/en/news" className="btn btn-primary text-white">More news<FaArrowRight /></Link>
                     <h2>Links</h2>
                     <ul>

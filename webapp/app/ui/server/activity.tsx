@@ -1,15 +1,15 @@
 import { convertMarkdownToHtml } from "@/app/lib/markdown"
 import activity_data from "@/app/site_data/activity.yml"
 import dayjs from "dayjs";
-export type activityEntry = {
+export type ActivityEntry = {
     date: Date[] | Date; // 単一の日付の場合は文字列、複数の日付の場合は文字列の配列
     content: {
         ja?: string;
         en?: string;
     };
 }
-export default function Acctivity({lang, limit}: {lang: string, limit?: number}) {
-    const activityData = activity_data as activityEntry[];
+export default function Activity({lang, limit}: {lang: string, limit?: number}) {
+    const activityData = activity_data as ActivityEntry[];
     return (
         <>
             <ul>
@@ -25,7 +25,7 @@ export default function Acctivity({lang, limit}: {lang: string, limit?: number})
     );
 }
 
-async function ActivityItem({ activity, lang }: { activity: activityEntry, lang: string }) {
+async function ActivityItem({ activity, lang }: { activity: ActivityEntry, lang: string }) {
     let dateString: string;
     const compileString = lang === "ja" ? "YYYY年MM月DD日" : "MMM. DD, YYYY";
     if (Array.isArray(activity.date)) {

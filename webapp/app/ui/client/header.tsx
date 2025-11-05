@@ -1,18 +1,13 @@
 "use client";
-import { FaHome, FaSearch, FaBook, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 import Link from "next/link";
-import clsx from "clsx";
-import { usePathname } from 'next/navigation';
-import React, { use, useEffect, useRef } from 'react';
-import Image from 'next/image'
 import { siteMetadata } from "@/app/site_data/_metadata.js"
-import { LangButton } from './langBotton';
+import { LangButton } from './langButton';
 import { EngAtom } from '@/app/lib/atom';
 import { useAtom } from "jotai";
 
 export default function Navbar() {
     const [isEnglish, setIsEnglish] = useAtom(EngAtom);
-    const pathname = usePathname();
     const links = isEnglish ? siteMetadata.Navigation.en : siteMetadata.Navigation.ja;
     const siteTitle = isEnglish ? siteMetadata.SiteTitle.en : siteMetadata.SiteTitle.ja;
     const externalLinks = isEnglish ? siteMetadata.ExternalLinks.en : siteMetadata.ExternalLinks.ja;
