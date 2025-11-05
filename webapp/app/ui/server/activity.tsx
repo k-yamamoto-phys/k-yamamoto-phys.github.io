@@ -2,7 +2,7 @@ import { convertMarkdownToHtml } from "@/app/lib/markdown"
 import activity_data from "@/app/site_data/activity.yml"
 import dayjs from "dayjs";
 export type ActivityEntry = {
-    date: Date[] | Date; // 単一の日付の場合は文字列、複数の日付の場合は文字列の配列
+    date: Date[] | Date; // Single date or array of dates for date ranges
     content: {
         ja?: string;
         en?: string;

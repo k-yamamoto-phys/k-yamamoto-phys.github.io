@@ -96,7 +96,7 @@ export function Carousel({
                 ))}
             </div>
 
-            {/* ナビゲーション */}
+            {/* Navigation */}
             {carousels.length > 1 && (
                 <>
                     <div className="absolute inset-0 flex items-center justify-between px-0">
