@@ -20,7 +20,7 @@ export function Carousel({
     const next = () => setIndex((i) => (i + 1) % carousels.length);
     const prev = () => setIndex((i) => (i - 1 + carousels.length) % carousels.length);
 
-    // ✅ 画像サイズ監視
+    // Monitor image size
     useEffect(() => {
         if (!imageRef.current) return;
 
@@ -31,18 +31,18 @@ export function Carousel({
 
         observer.observe(imageRef.current);
         return () => observer.disconnect();
-    }, [index]); // スライドが切り替わるたびに再監視
+    }, [index]); // Re-observe when slide changes
 
-    // ✅ 表示判定（例: 画像幅 500px 以下なら下に表示）
+    // Determine display position (show below if image width <= 500px)
     const isNarrow = imageWidth < 500;
 
-    // 自動再生の設定
-    const AUTOPLAY = 5000; // 10秒ごとに切り替え
-    const AUTOPLAY_PAUSE = 10000; // ユーザー操作後に再開するまでの待機時間
+    // Auto-play settings
+    const AUTOPLAY = 5000; // Switch every 5 seconds
+    const AUTOPLAY_PAUSE = 10000; // Wait time before resuming after user interaction
     const [isPaused, setIsPaused] = useState(false);
-    const resumeTimer = useRef<NodeJS.Timeout | null>(null); // タイマーIDを保持
-    useEffect(()=>{
-        if (carousels.length <= 1 || isPaused) return; // 画像が1枚以下なら自動再生しない
+    const resumeTimer = useRef<NodeJS.Timeout | null>(null); // Timer ID reference
+    useEffect(() => {
+        if (carousels.length <= 1 || isPaused) return; // Don't autoplay if only one image
 
         const interval = setInterval(next, AUTOPLAY);
         return () => clearInterval(interval);
@@ -73,7 +73,7 @@ export function Carousel({
                 }`}
         >
             <div className="relative">
-            {/* スライド全体 */}
+            {/* Slides */}
             <div
                 className="flex transition-transform duration-700 ease-in-out"
                 style={{ transform: `translateX(-${index * 100}%)` }}
@@ -81,12 +81,12 @@ export function Carousel({
                 {carousels.map((carousel, i) => (
                     <div key={i} className="w-full flex-shrink-0 relative">
                         <img
-                            ref={i === index ? imageRef : null} // ✅ 現在のスライドのみ監視
+                            ref={i === index ? imageRef : null} // Only monitor current slide
                             src={carousel.image}
                             alt={carousel.caption}
                             className="w-full max-h-[250px] md:max-h-[300px] lg:max-h-[400px] object-cover"
                         />
-                        {/* ✅ 幅に応じて切り替え */}
+                        {/* Show caption based on width */}
                         {!isNarrow && (
                             <div className="absolute bottom-4 right-4 bg-black/60 text-white text-sm md:text-base px-3 py-1 rounded-md">
                                 {carousel.caption}
@@ -123,7 +123,7 @@ export function Carousel({
                 </>
             )}
             </div>
-            {/* ✅ 幅が狭いときは画像の下に表示 */}
+            {/* Show caption below image when narrow */}
             {isNarrow && carousels[index]?.caption && (
                 <div className="mt-2 text-center text-sm md:text-base text-gray-700">
                     {carousels[index].caption}
