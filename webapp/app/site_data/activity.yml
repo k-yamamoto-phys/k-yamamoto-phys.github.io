@@ -1,5 +1,5 @@
 - date: [2025-12-14, 2025-12-18]
-  label: activity
+  label: activity # publication, activity, award, appointment, miscのいずれかを選択
   content: 
     ja: >
       国際会議 [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italyで口頭発表を行います。
