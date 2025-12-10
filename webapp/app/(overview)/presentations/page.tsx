@@ -13,15 +13,17 @@ type Presentation = {
     presenter: string;
     date: Date;
     detail: string;
-    type: "invited" | "seminar" | "talk" | "poster" | "other";
-    isInternational: boolean;
+    category: "international" | "domestic" | "seminar";
+    type: "invited" | "oral" | "poster";
 }
 const BadgeMap = {
-    invited: "badge-warning",
+    award: "badge-warning",
+    publication: "badge-success",
     seminar: "badge-info",
-    talk: "badge-success",
-    poster: "badge-accent",
-    other: "badge-natural"
+    "invited seminar": "badge-info",
+    talk: "badge-accent",
+    "invited talk": "badge-accent",
+    poster: "badge-natural",
 }
 export async function generateMetadata(): Promise<Metadata> {
     return MetadataGenerator(`Presentations`, `presentations by Dr. Kazuki Yamamoto`);
@@ -32,7 +34,6 @@ export default async function Page() {
     const conference = conference_unsorted.sort((a, b) => (a.date < b.date ? 1 : -1));
     const current = new Date();
     const upcoming = conference.filter(p => dayjs(p.date).isAfter(current)).sort((a, b) => (a.date < b.date ? -1 : 1));
-    const others = conference.filter(p => p.type === "other" && dayjs(p.date).isBefore(current));
     return (
         <div className="m-2 p-2 prose">
             <h1>Presentations</h1>
@@ -46,15 +47,17 @@ export default async function Page() {
                         }
                     </ul></>
             }
-            <CollapsibleSection title="International Conference (Invited)" info={conference.filter(p => p.isInternational && p.type === "invited" && dayjs(p.date).isBefore(current))} />
-            <CollapsibleSection title="Domestic Conferences (Invited)" info={conference.filter(p => !p.isInternational && p.type === "invited" && dayjs(p.date).isBefore(current))} />
-            <CollapsibleSection title="International Conferences (Oral Presentations)" info={conference.filter(p => p.isInternational && p.type === "talk" && dayjs(p.date).isBefore(current))} />
-            <CollapsibleSection title="Domestic Conferences (Oral Presentations)" info={conference.filter(p => !p.isInternational && p.type === "talk" && dayjs(p.date).isBefore(current))} />
-            <CollapsibleSection title="International Conferences (Poster Presentations)" info={conference.filter(p => p.isInternational && p.type === "poster" && dayjs(p.date).isBefore(current))} />
-            <CollapsibleSection title="Domestic Conferences (Poster Presentations)" info={conference.filter(p => !p.isInternational && p.type === "poster" && dayjs(p.date).isBefore(current))} />
-            <CollapsibleSection title="Seminars" info={conference.filter(p => p.type === "seminar" && dayjs(p.date).isBefore(current))} />
-            <CollapsibleSection title="Other " info={conference.filter(p => p.type === "other" && dayjs(p.date).isBefore(current))} />
-
+            <h2>International Conferences</h2>
+            <CollapsibleSection title="Invited talks" info={conference.filter(p => p.category === "international" && p.type === "invited" && dayjs(p.date).isBefore(current))} />
+            <CollapsibleSection title="Oral Presentations" info={conference.filter(p => p.category === "international" && p.type === "oral" && dayjs(p.date).isBefore(current))} />
+            <CollapsibleSection title="Poster Presentations" info={conference.filter(p => p.category === "international" && p.type === "poster" && dayjs(p.date).isBefore(current))} />
+            <h2>Domestic Conferences</h2>
+            <CollapsibleSection title="Invited talks" info={conference.filter(p => p.category === "domestic" && p.type === "invited" && dayjs(p.date).isBefore(current))} />
+            <CollapsibleSection title="Oral Presentations" info={conference.filter(p => p.category === "domestic" && p.type === "oral" && dayjs(p.date).isBefore(current))} />
+            <CollapsibleSection title="Poster Presentations" info={conference.filter(p => p.category === "domestic" && p.type === "poster" && dayjs(p.date).isBefore(current))} />
+            <h2>Seminars and External activities</h2>
+            <CollapsibleSection title="Invited talks" info={conference.filter(p => p.category === "seminar" && p.type === "invited" && dayjs(p.date).isBefore(current))} />
+            <CollapsibleSection title="Seminars" info={conference.filter(p => p.category === "seminar" && p.type === "oral" && dayjs(p.date).isBefore(current))} />
         </div>
     );
 }
@@ -63,7 +66,7 @@ async function CollapsibleSection({ title, info }: { title: string; info: Presen
         <>
             {info.length > 0 && (
                 <details className="collapse bg-base-100">
-                    <summary className="collapse-title p-0"><h2 className="border-b border-base-600 flex justify-between content-center"><div>{title}</div><IoIosArrowDown className={`inline-block my-auto ${styles.arrow}`} /></h2></summary>
+                    <summary className="collapse-title p-0"><h3 className="border-b border-base-600 flex justify-between content-center"><div>{title}</div><IoIosArrowDown className={`inline-block my-auto ${styles.arrow}`} /></h3></summary>
                     <div className="collapse-content text-sm">
                         <ul className="list-none">
                             {
@@ -80,13 +83,11 @@ async function CollapsibleSection({ title, info }: { title: string; info: Presen
     );
 }
 async function ConferenceItem({ p, number }: { p: Presentation, number: number }) {
-    const badgeType = BadgeMap[p.type];
     const markdownContent = await convertMarkdownToHtml(p.detail);
     return (
         <li>
             <p>
                 {number}.&nbsp;
-                {/* <span className={`badge  badge-soft ${badgeType}`}>{p.type}</span> */}
                 "{p.title}"
             </p>
 

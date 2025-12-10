@@ -7,6 +7,7 @@ type Paper = {
     title: string;
     authors: string;
     arXiv?: string;
+    year?: number;
     journal?: {
         name: string;
         url: string;
@@ -18,6 +19,18 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Page() {
     const regular_paper = paper_data as Paper[];
+    const preprints = regular_paper.filter(p => p.journal === null);
+    const published_papers = regular_paper.filter(p => p.journal !== null);
+    const published_papers_by_year = Object.entries(
+        published_papers.reduce((acc, paper) => {
+            const year = paper.year || 'Unknown';
+            if (!acc[year]) acc[year] = [];
+            acc[year].push(paper);
+            return acc;
+        }, {} as Record<string | number, Paper[]>)
+    ).sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+        .map(([year, data]) => ({ year, data }));
+    console.log(published_papers_by_year);
     const conference_paper = conference_data as Paper[];
     return (
         <div className="m-2 p-2 prose">
@@ -30,14 +43,28 @@ export default async function Page() {
                     <a href="https://www.webofscience.com/wos/author/record/ACR-5130-2022" target="_blank" rel="noopener noreferrer" >Web of Science</a>
                 </li>
             </ul>
-            <h2>Original Paper</h2>
+            <h2>Preprints</h2>
             <ul className="list-none">
                 {
-                    regular_paper.map((paper, index, array) => (
+                    preprints.map((paper, index, array) => (
                         <PaperItem key={index} paper={paper} number={array.length - index} />
                     ))
                 }
             </ul>
+            <h2>Original Paper</h2>
+            {
+                published_papers_by_year.map(({ year, data }) => (
+                    <>
+                    <h3 key={year}>{year}</h3>
+                    <ul className="list-none" key={year}>
+                        {
+                            data.map((paper, index, array) => (
+                                <PaperItem key={index} paper={paper} number={array.length - index} />
+                            ))
+                        }
+                    </ul>
+                    </>))
+            }
             <h2>Conference Proceedings</h2>
             <ul className="list-none">
                 {
