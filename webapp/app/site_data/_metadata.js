@@ -15,14 +15,14 @@ export const siteMetadata = {
         {
             image: "/images/cj1.jpg",
             caption: {
-                ja: "Prof. Werner, Mithilesh (Dr. Nayak)とDr. Rayとのpizzeriaでの夕食",
-                en: "Dinner at a pizzeria with Prof. Werner, Mithilesh (Dr. Nayak), and Dr. Ray"
+                ja: "Prof. Werner, Mithilesh, Dr. Nayak, Dr. Rayとのpizzeriaでの夕食",
+                en: "Dinner at a pizzeria with Prof. Werner, Mithilesh, Dr. Nayak, and Dr. Ray"
             }
         },
-        {
+        { 
             image: "/images/cj2.jpg",
             caption: {
-                ja: "Tomaz Prosen @ Évora, PortugalにてProf. Tomaz Prosenと",
+                ja: "Évora, PortugalにてProf. Tomaz Prosenと",
                 en: "With Prof. Tomaz Prosen @ Évora, Portugal"
             }
         },
