@@ -1,5 +1,5 @@
 - date: [2025-12-14, 2025-12-18]
-  label: activity # publication, activity, award, appointment, miscのいずれかを選択
+  label: talk
   content:
     ja: >
       国際会議 [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italyで口頭発表を行います。
@@ -9,7 +9,7 @@
   label: publication
   content:
     ja: >
-      共著論文" [Spin-Depairing-Induced                                        Exceptional Fermionic Superfluidity](https://arxiv.org/abs/2504.19525)" が[Physical Review Letters](https://arxiv.org/abs/2509.17414)に受理されました。
+      共著論文" [Spin-Depairing-Induced Exceptional Fermionic Superfluidity](https://arxiv.org/abs/2504.19525)" が[Physical Review Letters](https://arxiv.org/abs/2509.17414)に受理されました。
     en: >
       Joint paper " [Spin-Depairing-Induced Exceptional Fermionic Superfluidity](https://arxiv.org/abs/2504.19525) "
       has been accepted for publication in [Physical Review Letters](https://arxiv.org/abs/2509.17414)
@@ -17,12 +17,12 @@
   label: publication
   content:
     ja: >
-      共著論文" [Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an                                         SU(N) Fermi-Hubbard model](https://arxiv.org/abs/2512.01264) "がarXivに公開されました。
+      共著論文" [Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU(N) Fermi-Hubbard model](https://arxiv.org/abs/2512.01264) "がarXivに公開されました。
     en: >
-      Joint paper " [Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an                                         SU(N) Fermi-Hubbard model](https://arxiv.org/abs/2512.01264) "
+      Joint paper " [Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU(N) Fermi-Hubbard model](https://arxiv.org/abs/2512.01264) "
       has appeard on arXiv
 - date: [2025-11-14, 2025-11-19]
-  label: activity
+  label: other
   content:
     ja: >
       京都大学基礎物理学研究所より [下村顕士さん(D2)](https://scholar.google.co.jp/citations?user=lsldsIcAAAAJ&hl=ja&oi=sra)
@@ -32,7 +32,7 @@
       [Mr. Kenji Shimomura (D2)](https://scholar.google.co.jp/citations?user=lsldsIcAAAAJ&hl=ja&oi=sra) 
       has visited our laboratory. We have organized [Quantum Physics and Nanoscience Seminar](https://www.phys.sci.isct.ac.jp/wp/wp-content/uploads/2025/11/427.pdf).
 - date: [2025-11-10, 2025-11-11]
-  label: activity
+  label: seminar
   content:
     ja: >
       京都大学基礎物理学研究所に滞在して [セミナー](https://www.yukawa.kyoto-u.ac.jp/seminar/s53541)
@@ -57,7 +57,7 @@
       The original paper "[Kondo breakdown induced by the non-Hermitian complex hybridization](https://arxiv.org/abs/2510.20186)"
       has appeard on arXiv
 - date: 2025-10-05
-  label: activity
+  label: invited talk
   content:
     ja: >
       国際会議 [2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi) - Tohoku Univ.で招待講演を行いました。
@@ -85,7 +85,7 @@
       temperatures: A dynamical mean-field theory study" has been published in [Physical
       Review B](https://journals.aps.org/prb/abstract/10.1103/vpb4-4d54)
 - date: "2025-09-05"
-  label: activity
+  label: talk
   content:
     ja: >
       研究会「 [熱場の量子論とその応用](https://www.riise.hiroshima-u.ac.jp/TQFT/html2025/tqft2025.html)
@@ -93,7 +93,7 @@
     en: >
       I have given an oral presentation in the workshop " [Thermal Quantum Field Theory and Its Applications](https://www.riise.hiroshima-u.ac.jp/TQFT/html2025/tqft2025.html) ".
 - date: "2025-08-21"
-  label: activity
+  label: other
   content:
     ja: >
       今年も [冷却原子研究会「アトムの会」](https://www.omu.ac.jp/sci/laserQ/atomnokai/index.html)
@@ -112,7 +112,7 @@
       Joint paper " Measurement-induced phase transitions for free fermions in a quasiperiodic
       potential " has been published in [Physical Review B](https://journals.aps.org/prb/abstract/10.1103/3zfd-3hqt)
 - date: "2025-07-08"
-  label: activity
+  label: talk
   content:
     ja: >
       国際会議 [International Conference on Strongly Correlated Electron Systems 2025](https://sces2025.org/en)
@@ -140,7 +140,7 @@
       The original paper "Correlation versus dissipation in a non-Hermitian Anderson
       impurity model" has been published in [Physical Review B](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.125157)
 - date: "2025-03-19"
-  label: activity
+  label: talk
   content:
     ja: >
       [APS Joint March & April Meeting: Global Physics Summit 2025](https://www.aps.org/events/2025/joint-meeting)
@@ -149,7 +149,7 @@
       I have given a talk in [APS Joint March & April Meeting: Global Physics Summit
       2025](https://www.aps.org/events/2025/joint-meeting)
 - date: "2025-03-19"
-  label: activity
+  label: invited talk
   content:
     ja: >
       [日本物理学会 2025年春季大会](https://www.jps.or.jp/activities/meetings/spring/spring_index.php)
@@ -176,7 +176,7 @@
       I have received [Best Teacher Award in the Department of Physics](https://www.isct.ac.jp/en/001/about/organizations/school-of-science)
       from Institute of Science Tokyo
 - date: "2025-03-20"
-  label: activity
+  label: talk
   content:
     ja: >
       [APS Joint March & April Meeting: Global Physics Summit 2025](https://www.aps.org/events/2025/joint-meeting)
@@ -195,7 +195,7 @@
       The joint paper " Phase diagram of non-Hermitian BCS superfluids in a dissipative
       asymmetric Hubbard model " has been published in [Physical Review B](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.184518)
 - date: "2024-11-22"
-  label: activity
+  label: talk
   content:
     ja: >
       国際会議 [ISSP Theory mini-Workshop "Correlated Quantum Materials + beyond" (CQM+b2024)](https://sites.google.com/g.ecc.u-tokyo.ac.jp/cqmb2024/home)
@@ -214,7 +214,7 @@
       I have received [Young Scientist Award of the Physical Society of Japan, 2025
       (Division 1, Atomic and Molecular physics, Quantum Electronics, Radiation)](https://www.jps.or.jp/english/meetings-and-awards/award.html)
 - date: "2024-09-06"
-  label: activity
+  label: invited seminar
   content:
     ja: >
       東京大学物性研究所にて [理論セミナー](https://www.issp.u-tokyo.ac.jp/maincontents/seminar/filtered.html?filter=86)
@@ -223,7 +223,7 @@
       I have given a [Theory Seminar](https://www.issp.u-tokyo.ac.jp/maincontents/seminar/filtered.html?filter=86)
       at the Institute for Solid State Physics (ISSP), University of Tokyo.
 - date: "2024-09-02"
-  label: activity
+  label: seminar
   content:
     ja: >
       京都大学理学研究科物理学第一教室にて [量子光学セミナー](https://drive.google.com/file/d/1oY6ZhlZqe7zXY78Q7mslfJqzbbjs_L_k/view?usp=drive_link)
@@ -232,7 +232,7 @@
       I have given a [Quantum Optics Seminar](https://drive.google.com/file/d/1oY6ZhlZqe7zXY78Q7mslfJqzbbjs_L_k/view?usp=drive_link)
       at the Department of Physics, Kyoto University.
 - date: "2024-07-30"
-  label: activity
+  label: invited seminar
   content:
     ja: >
       [船井情報科学振興財団夏の交流会](https://funaifoundation.jp/scholarship/column-scholarship_koryukai2024.htm#id_h4_clmn_det_article_129_2)
@@ -241,7 +241,7 @@
       I have given an invited talk in [The Funai Foundation Summer Exchange Meeting](https://funaifoundation.jp/scholarship/column-scholarship_koryukai2024.htm#id_h4_clmn_det_article_129_2)
       - University of Cambridge St. John's College, United Kingdom.
 - date: "2024-07-15"
-  label: activity
+  label: poster
   content:
     ja: >
       [The 28th International Conference on Atomic Physics](https://icap28.com/) -
@@ -257,7 +257,7 @@
     en: >
       I have received the [23rd Tokyo Tech Challenging Research Awards](https://www.ori.titech.ac.jp/en/activity-support/awards/1/)
 - date: "2024-06-18"
-  label: activity
+  label: poster
   content:
     ja: >
       [Trends in Theory ofQuantumMaterials 2024](https://events.unifr.ch/ttqm2024/en/)
@@ -273,7 +273,7 @@
     en: >
       I have received [23th Funai Information Research Award for Young Researchers](https://funaifoundation.jp/grantees/awardees_up_to_now.html)
 - date: "2024-04-22"
-  label: activity
+  label: talk
   content:
     ja: >
       [Quantum Simulation of Novel Phenomena with Ultracold Atoms and Molecules](https://www2.yukawa.kyoto-u.ac.jp/~ultracold2023/index.php)
@@ -284,7 +284,7 @@
       Atoms and Molecules](https://www2.yukawa.kyoto-u.ac.jp/~ultracold2023/index.php)
       - Kyoto
 - date: "2024-03-21"
-  label: activity
+  label: seminar
   content:
     ja: >
       チューリッヒ大学でセミナーを行いました(主催 [Theory of Quantum Matter Laboratory (PI: Prof. Titus
@@ -294,7 +294,7 @@
       Matter Laboratory (PI: Prof. Titus Neupert)](https://www.physik.uzh.ch/en/groups/neupert.html)
       ). I especially thank to Prof. Neupert for the discussion and the nice lunch!
 - date: "2024-03-15"
-  label: activity
+  label: invited seminar
   content:
     ja: >
       フリーブール大学でセミナーを行いました(主催: [計算物理研究グループ(PI: Prof. Philipp Werner)](https://www.unifr.ch/phys/en/research/groups/werner/)
@@ -304,7 +304,7 @@
       Physics Laboratory (PI: Prof. Philipp Werner)](https://www.unifr.ch/phys/en/research/groups/werner/)
       )
 - date: "2024-03-14"
-  label: activity
+  label: seminar
   content:
     ja: >
       ジュネーブ大学でセミナーを行いました(主催: [Theory of Quantum Matter Laboratory (PI: Prof. Thierry
@@ -315,7 +315,7 @@
       ). Prof. Giamarchi and a lot of researchers have welcomed me. Especially, I
       thank Prof. Giamarchi for the nice lunch and all of his hospitality!
 - date: [2024-03-11, 2024-03-27]
-  label: activity
+  label: other
   content:
     ja: >
       スイスのフリーブール大学の [計算物理研究グループ(PI: Philipp Werner教授)](https://www.unifr.ch/phys/en/research/groups/werner/)
@@ -351,7 +351,7 @@
     en: >
       I have received [40th Inoue Research Award for Young Scientists](https://www.inoue-zaidan.or.jp/)
 - date: "2023-12-12"
-  label: activity
+  label: talk
   content:
     ja: >
       [12th Nonequibilrium Quantum Workshop](https://nqw.ijs.si/) - Kravavec, Sloveniaにて、"
@@ -371,7 +371,7 @@
       The joint paper "Interaction-induced Liouvillian skin effect in a fermionic
       chain with a two-body loss" has been published in [Physical Review B](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.155114)
 - date: "2023-10-04"
-  label: activity
+  label: talk
   content:
     ja: >
       [Workshop on Criticality, Dynamics, and Nonequilibrium Behavior in Quantum Systems](https://www.cdnbqs.uevora.pt/Web-2023/webpage/index.php)
@@ -382,7 +382,7 @@
       Behavior in Quantum Systems](https://www.cdnbqs.uevora.pt/Web-2023/webpage/index.php)
       - Évora, Portugal
 - date: "2023-08-21"
-  label: activity
+  label: talk
   content:
     ja: >
       [Workshop on Dynamics of Monitored Quantum Many-Body Systems](https://indico.ictp.it/event/10202)
@@ -392,7 +392,7 @@
       I have given an oral presentation in [Workshop on Dynamics of Monitored Quantum
       Many-Body Systems](https://indico.ictp.it/event/10202) - Trieste, Italy
 - date: "2023-08-09"
-  label: activity
+  label: talk
   content:
     ja: >
       [28th International Conference on Statistical Physics](https://statphys28.org/)
@@ -402,7 +402,7 @@
       I have given an oral presentation in [28th International Conference on Statistical
       Physics](https://statphys28.org/) - Tokyo
 - date: "2023-06-26"
-  label: activity
+  label: invited seminar
   content:
     ja: >
       [学術変革領域研究A「極限宇宙の物理法則を創る」](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/)
@@ -422,7 +422,7 @@
       dynamics under continuous measurement" has been published in [Physical Review
       B (Letter)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.L220201)
 - date: "2023-04-21"
-  label: activity
+  label: invited seminar
   content:
     ja: >
       "非平衡開放系における強相関物理"というタイトルで、 [量子物理学・ナノサイエンスセミナー](https://educ.titech.ac.jp/phys/event_information/2023/064133.html)
@@ -432,14 +432,14 @@
       entitled "Nonequilibrium quantum many-body physics in open systems" in Tokyo
       Institute of Technology
 - date: "2023-04-01"
-  label: appointment
+  label: other
   content:
     ja: 東京工業大学理学院物理学系( [古賀研究室](http://www.stat.phys.titech.ac.jp/koga/) )に助教として着任しました。
     en: >
       I have moved to [Tokyo Institute of Technology](http://www.stat.phys.titech.ac.jp/koga/)
       as an assistant professor
 - date: "2023-03-07"
-  label: activity
+  label: talk
   content:
     ja: >
       アメリカのラスベガスにて行われる、 [American Physical Society March Meeting 2023](https://meetings.aps.org/Meeting/MAR23/Session/G66.13)
@@ -448,7 +448,7 @@
       I have given a talk in [American Physical Society March Meeting 2023](https://meetings.aps.org/Meeting/MAR23/Session/G66.13)
       - Las Vegas
 - date: "2023-01-03"
-  label: activity
+  label: talk
   content:
     ja: >
       スイスの国際会議 [Trends in the Theory of Quantum Materials 2022 (Swiss-Japan workshop
@@ -468,7 +468,7 @@
       in Japan Physical Society Autumn Meeting 2022 (release from [Kyoto University](https://sci.kyoto-u.ac.jp/ja/research/award/2022/202210?auHash=rmQkXamushHSdOp6KKi2E5Kfs-ZGUrWb83mkumqRqJE)
       )
 - date: "2022-08-19"
-  label: activity
+  label: talk
   content:
     ja: >
       北海道にて行われた国際会議 [29th International Conference on Low Temperature Physics](https://www.lt29.jp/index.html)
@@ -476,7 +476,7 @@
     en: >
       I have given a talk in [29th International Conference on Low Temperature Physics](https://www.lt29.jp/index.html)
 - date: "2022-07-26"
-  label: activity
+  label: poster
   content:
     ja: オランダのアムステルダムにて行われた国際会議 [SCES2022](https://www.sces2022.org/) にてポスター発表を行いました。
     en: >
@@ -494,7 +494,7 @@
       Case study of a non-Hermitian XXZ spin chain" has been published in [Physical
       Review B](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.205125)
 - date: "2022-05-17"
-  label: activity
+  label: invited talk
   content:
     ja: >
       韓国で行われた国際会議 [APCTP workshop "Numerical Methods in Theoretical Physics"](https://sites.google.com/view/nmtp2022/)
@@ -504,7 +504,7 @@
       Physics"](https://sites.google.com/view/nmtp2022/) ( [Youtube](https://www.youtube.com/watch?v=4kMetRPztq0)
       )
 - date: "2022-04-12"
-  label: activity
+  label: talk
   content:
     ja: >
       沖縄で行われた国際会議 [Ultracold Atoms Japan 2022](https://groups.oist.jp/ultracoldjapan/program)
