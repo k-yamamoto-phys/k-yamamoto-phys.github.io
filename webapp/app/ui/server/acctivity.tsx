@@ -71,10 +71,14 @@ async function ActivityItem({ activity, lang }: { activity: activityEntry, lang:
     } else {
         budgeObject = <></>
     }
-    const compileString = lang === "ja" ? "YYYY年MM月DD日" : "MMM. DD, YYYY";
-    const compileString2 = lang === "ja" ? "MM月DD日" : "MMMM DD";
+    const compileString = lang === "ja" ? "YYYY年M月D日" : "MMM. D, YYYY";
+    const compileString2 = lang === "ja" ? "M月D日" : "MMM. D";
     if (Array.isArray(activity.date)) {
-        dateString = activity.date.map(date => dayjs(date).format(compileString)).join(" ~ ");
+        const startYear = dayjs(activity.date[0]).year();
+        const endYear = dayjs(activity.date[activity.date.length - 1]).year();
+        const singleYear = startYear === endYear;
+        const formatString = singleYear ? compileString2 : compileString;
+        dateString = activity.date.map(date => dayjs(date).format(formatString)).join(" ~ ");
     } else {
         dateString = dayjs(activity.date).format(compileString2);
     }
