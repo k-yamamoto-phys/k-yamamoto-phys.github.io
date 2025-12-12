@@ -3,7 +3,7 @@ import { FaHome, FaSearch, FaBook, FaExternalLinkAlt } from 'react-icons/fa';
 import Link from "next/link";
 import clsx from "clsx";
 import { usePathname } from 'next/navigation';
-import React, { use, useEffect, useRef } from 'react';
+import React, { use, useEffect, useRef, useState } from 'react';
 import Image from 'next/image'
 import { siteMetadata } from "@/app/site_data/_metadata.js"
 import { LangButton } from './langBotton';
@@ -16,37 +16,48 @@ export default function Navbar() {
     const links = isEnglish ? siteMetadata.Navigation.en : siteMetadata.Navigation.ja;
     const siteTitle = isEnglish ? siteMetadata.SiteTitle.en : siteMetadata.SiteTitle.ja;
     const externalLinks = isEnglish ? siteMetadata.ExternalLinks.en : siteMetadata.ExternalLinks.ja;
+    const targetRef = useRef<HTMLDivElement>(null);
+    const closeMenu = () => {
+        setTimeout(() => {
+            targetRef.current?.focus();
+            
+        }, 0);
+    }
     return (
         <>
-            <header className="navbar bg-base-100 shadow-sm">
+            <header className="navbar bg-base-100 shadow-sm" >
+                <div 
+                ref={targetRef}
+                tabIndex={0}
+                ></div>
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden" >
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                         </div>
                         <ul
                             tabIndex={-1}
-                            className="menu menu-xl dropdown-content bg-base-100 rounded-box z-1 mt-3 p-2 shadow w-auto min-w-max">
+                            className={`menu menu-xl dropdown-content bg-base-100 rounded-box z-1 mt-3 p-2 shadow w-auto min-w-max`}>
                             {
                                 links.map((link) => (
                                     <li key={link.href}>
-                                        <Link href={link.href} className="c-globalNavigation__categoryLink">{link.name}</Link>
+                                        <Link href={link.href} className="c-globalNavigation__categoryLink" onClick={closeMenu} >{link.name}</Link>
                                     </li>
                                 ))
                             }
-                            <div className='mt-2'>
-                                <summary>{isEnglish ? "External" : "外部リンク"}</summary>
+                            <li className='mt-2' >
+                                <summary aria-disabled="true" style={{ pointerEvents: "none" }}>{isEnglish ? "External" : "外部リンク"}</summary>
                                 <ul className="p-2 w-auto min-w-max">
                                     {
                                         externalLinks.map((link) => (
                                             <li key={link.href}>
-                                                <Link href={link.href} target="_blank" rel="noopener noreferrer">{link.name} <FaExternalLinkAlt /></Link>
+                                                <Link href={link.href} target="_blank" rel="noopener noreferrer" onClick={closeMenu} >{link.name} <FaExternalLinkAlt /></Link>
 
                                             </li>
                                         ))
                                     }
                                 </ul>
-                            </div>
+                            </li>
                         </ul>
                     </div>
                     <Link
