@@ -40,7 +40,7 @@ export default async function Page() {
                             style={{ marginTop: "1em", marginBottom: "1em" }}
                             alt="測定" />
                         <div className="card-body pt-0 sm:pt-4">
-                            <h2 className="card-title mt-6 block"><div className="badge badge-secondary relative -top-0.5">Recent Research</div>&nbsp;<span className="inline">Novel Many-Body Measurement-Induced Universality</span></h2>
+                            <h2 className="card-title mt-6 block"><div className="badge badge-info relative -top-0.5">Recent Research</div>&nbsp;<span className="inline">Novel Many-Body Measurement-Induced Universality</span></h2>
                             <p>Recently, quantum measurement has attracted great attention as it causes drastic nonequilibrium quantum phenomena such as in condensed matter physics and quantum information sciences. We have revealed that subsystem fluctuations in many-body systems can exhibit novel measurement-induced universality and are accessed in experiments without postselection.</p>
                             <div className="card-actions justify-end">
                                 <Link href="/en/research" className="btn btn-primary  text-white">Details<FaArrowRight /></Link>
