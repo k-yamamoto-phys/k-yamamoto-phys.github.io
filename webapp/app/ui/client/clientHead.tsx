@@ -35,6 +35,7 @@ function LangSetting() {
     const [isEnglish, setIsEnglish] = useAtom(EngAtom);
     const path = usePathname(); 
     const locale = path.split("/")[1];
+    // console.log("Current locale:", locale, path);
     useEffect(()=> {
         if (locale === "ja") {
             // console.log("Language set to Japanese");
@@ -46,19 +47,19 @@ function LangSetting() {
     }, [locale, setIsEnglish]);
 
     // リロードの際に設定を保存する
-    useEffect(() => {
-        const savedLang = localStorage.getItem('lang');
-        // console.log("Saved language:", savedLang);
-        if (savedLang !== "ja") {
-            setIsEnglish(true);
-        } else {
-            setIsEnglish(false);
-        }
-    }, [setIsEnglish]);
+    // useEffect(() => {
+    //     const savedLang = localStorage.getItem('lang');
+    //     // console.log("Saved language:", savedLang);
+    //     if (savedLang !== "ja") {
+    //         setIsEnglish(true);
+    //     } else {
+    //         setIsEnglish(false);
+    //     }
+    // }, [setIsEnglish]);
     
-    useEffect(() => {
-        localStorage.setItem('lang', isEnglish ? "en" : "ja");
-    }, [isEnglish]);
-    return <></>
+    // useEffect(() => {
+    //     localStorage.setItem('lang', isEnglish ? "en" : "ja");
+    // }, [isEnglish]);
+    return <></>;
 }
 

@@ -9,3 +9,4 @@ layoutを日本語と英語で共通のものがあるので、そのあたり�
 ## TODO
 
 - h3属性に色つきの"|"をつける
+-  pip freeze > requirements.txtをうまく吐いて、自動的に必要なpythonライブラリをInstallできるようにする

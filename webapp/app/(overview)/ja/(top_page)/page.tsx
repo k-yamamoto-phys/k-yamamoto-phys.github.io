@@ -38,7 +38,7 @@ export default async function Page() {
                             style={{marginTop:"1em", marginBottom: "1em"}}
                                 alt="測定" />
                         <div className="card-body pt-0 sm:pt-4">
-                            <h2 className="card-title mt-6 block"><div className="badge badge-secondary relative -top-0.5">最近の研究</div>&nbsp;<span className="inline">量子測定が誘起する多体物理の新たな普遍性の解明</span></h2>
+                            <h2 className="card-title mt-6 block"><div className="badge badge-info relative -top-0.5">最近の研究</div>&nbsp;<span className="inline">量子測定が誘起する多体物理の新たな普遍性の解明</span></h2>
                             <p>近年、測定の反作用によって引き起こされる孤立系には存在しない新しい物理現象が次々と報告され、凝縮系物理・統計力学・原子物理・量子情報などの幅広い分野から注目を集めています。我々は量子多体系における測定の反作用がもたらす部分系の揺らぎのダイナミクスを理論的に解析することで、実験的にも低コストで実現可能な、新たな普遍性をもつ測定誘起多体効果が現れることを明らかにしました。</p>
                             <div className="card-actions justify-end">
                                 <Link href="/ja/research" className="btn btn-primary  text-white">研究の詳細へ<FaArrowRight /></Link>

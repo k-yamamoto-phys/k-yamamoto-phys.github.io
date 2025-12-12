@@ -21,6 +21,7 @@ export default async function Page() {
     const regular_paper = paper_data as Paper[];
     const preprints = regular_paper.filter(p => p.journal === null);
     const published_papers = regular_paper.filter(p => p.journal !== null);
+    const total_published_count = published_papers.length;
     const published_papers_by_year = Object.entries(
         published_papers.reduce((acc, paper) => {
             const year = paper.year || 'Unknown';
@@ -30,7 +31,6 @@ export default async function Page() {
         }, {} as Record<string | number, Paper[]>)
     ).sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
         .map(([year, data]) => ({ year, data }));
-    console.log(published_papers_by_year);
     const conference_paper = conference_data as Paper[];
     return (
         <div className="m-2 p-2 prose">
@@ -53,17 +53,17 @@ export default async function Page() {
             </ul>
             <h2>Original Paper</h2>
             {
-                published_papers_by_year.map(({ year, data }) => (
-                    <>
-                    <h3 key={year}>{year}</h3>
-                    <ul className="list-none" key={year}>
+                published_papers_by_year.map(({ year, data }, index) => (
+                    <React.Fragment key={index}>
+                    <h3>{year}</h3>
+                    <ul className="list-none">
                         {
                             data.map((paper, index, array) => (
-                                <PaperItem key={index} paper={paper} number={array.length - index} />
+                                <PaperItem key={index} paper={paper} number={total_published_count - (published_papers.indexOf(paper))} />
                             ))
                         }
                     </ul>
-                    </>))
+                    </React.Fragment>))
             }
             <h2>Conference Proceedings</h2>
             <ul className="list-none">

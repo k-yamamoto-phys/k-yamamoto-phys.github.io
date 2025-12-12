@@ -13,7 +13,10 @@ export default function RootPage() {
 
 const detectUserLang = (): string => {
     if (typeof navigator !=='undefined') {
-        return navigator.language.startsWith("ja") ? "ja" : "en";
+        const isJapanese =
+            navigator.languages?.some(lang => lang.startsWith("ja")) ||
+            navigator.language.startsWith("ja");
+        return isJapanese ? "ja" : "en";
     } 
     return "en";
 }
