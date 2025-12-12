@@ -8,7 +8,7 @@
 
 ## Keywords
 
-Fermionic superfluids, Tomonaga-Luttinger liquids, SU(N) symmetry, Nonequilibrium steady states, Lindblad master equation, Quantum measurement, Full counting statistics
+Fermionic superfluids, Tomonaga-Luttinger liquids, SU($N$) symmetry, Nonequilibrium steady states, Lindblad master equation, Quantum measurement, Full counting statistics
 
 ## Tools
 
@@ -43,12 +43,12 @@ We have predicted a new mechanism to induce collective excitations and a nonequi
 #### Universal properties of dissipative Tomonaga-Luttinger liquids
 
 ([Phys. Rev. B 105, 205125 (2022)](https://doi.org/10.1103/PhysRevB.105.205125))
-We have demonstrated the universal properties of dissipative Tomonaga-Luttinger (TL) liquids by calculating correlation functions and performing finite-size scaling analysis of a NH XXZ spin chain as a prototypical model in one-dimensional(1D) open quantum many-body systems. We have used several analytical and numerical techniques: **Effective field theory with bosonization**, finite-size scaling approach in **conformal field theory (CFT)**, **Bethe-ansatz (BA) solution**, and **NH generalization of the density-matrix renormalization group (NH-DMRG)**. We have uncovered that the model in the massless regime with weak dissipation belongs to the universality class characterized by the **complex-valued TL parameter**, which is related to the **complex generalization of the c=1 CFT**.
+We have demonstrated the universal properties of dissipative Tomonaga-Luttinger (TL) liquids by calculating correlation functions and performing finite-size scaling analysis of a NH XXZ spin chain as a prototypical model in one-dimensional (1D) open quantum many-body systems. We have used several analytical and numerical techniques: **Effective field theory with bosonization**, finite-size scaling approach in **conformal field theory (CFT)**, **Bethe-ansatz (BA) solution**, and **NH generalization of the density-matrix renormalization group (NH-DMRG)**. We have uncovered that the model in the massless regime with weak dissipation belongs to the universality class characterized by the **complex-valued TL parameter**, which is related to the **complex generalization of the $c=1$ CFT**.
 
-#### Universal properties of dissipative TL liquids with SU(N) spin symmetry
+#### Universal properties of dissipative TL liquids with SU($N$) spin symmetry
 
 ([Phys. Rev. B 107, 045110 (2023)](https://doi.org/10.1103/PhysRevB.107.045110))
-Motivated by recent **experimental realizations of SU(N) Hubbard models**, we have obtained universal scaling relations for dissipative TL liquids with SU(N) spin symmetry for both fermions and bosons, by using asymptotic BA solutions and CFT in 1D NH quantum many-body systems with SU(N) symmetry. We have uncovered that the spectrum of dissipative TL liquids with SU(N) spin symmetry is described by the sum of one charge mode characterized by a complex generalization of **c=1 U(1) Gaussian CFT**, and $N-1$ spin modes characterized by **level-1 SU(N) Kac-Moody algebra with the conformal anomaly c=N-1**, and thereby dissipation only affects the charge mode as a result of **spin-charge separation in 1D NH quantum systems**.
+Motivated by recent **experimental realizations of SU($N$) Hubbard models**, we have obtained universal scaling relations for dissipative TL liquids with SU($N$) spin symmetry for both fermions and bosons, by using asymptotic BA solutions and CFT in 1D NH quantum many-body systems with SU($N$) symmetry. We have uncovered that the spectrum of dissipative TL liquids with SU($N$) spin symmetry is described by the sum of one charge mode characterized by a complex generalization of **$c=1$ U(1) Gaussian CFT**, and $N-1$ spin modes characterized by **level-1 SU($N$) Kac-Moody algebra with the conformal anomaly $c=N-1$**, and thereby dissipation only affects the charge mode as a result of **spin-charge separation in 1D NH quantum systems**.
 
 ---
 
