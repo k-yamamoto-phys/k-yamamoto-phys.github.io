@@ -13,11 +13,20 @@ export const LangButton = () => {
     const locale = currentPath.split("/")[1];
     const router = useRouter();
     const lang = isEnglish ? "en" : "ja";
+    const handleClick = () => {
+        if (!isEnglish) {
+            localStorage.setItem('lang', "en");
+            setIsEnglish(true);
+        } else {
+            localStorage.setItem('lang', "ja");
+            setIsEnglish(false);
+        }
+    }
     if (locale === lang) {
         const newPath = lang === "en" ? currentPath.replace("/en", "/ja") : currentPath.replace("/ja", "/en");
         return <button className="btn" onClick={() => router.push(newPath)}>{lang === "en" ? "日本語" : "English"}</button>;
     } else {
-        return <button className="btn" onClick={() => setIsEnglish(!isEnglish)}>{isEnglish ? "日本語" : "English"}</button>;
+        return <button className="btn" onClick={() => handleClick()}>{isEnglish ? "日本語" : "English"}</button>;
     }
 }
 

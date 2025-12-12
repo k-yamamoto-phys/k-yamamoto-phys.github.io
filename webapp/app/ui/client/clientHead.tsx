@@ -49,8 +49,10 @@ function LangSetting() {
             const savedLang = localStorage.getItem('lang');
             // console.log("calling savedLang: ", savedLang)
                 if (savedLang !== "ja") {
+                    localStorage.setItem('lang', "en");
                     setIsEnglish(true);
                 } else {
+                    localStorage.setItem('lang', "ja");
                     setIsEnglish(false);
                 }
         }
