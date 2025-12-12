@@ -14,6 +14,7 @@ export async function convertMarkdownToHtml(markdownString: string): Promise<str
             target: "_blank",
             rel: ["nofollow", "noopener", "noreferrer"]
         })
+        .use(rehyperh3Decorate) // h3をデコレート
         .use(rehyperImageWithCaption) // 画像にキャプションを追加
         .use(rehypeStringify) // HTML AST → HTML文字列に変換
         .process(markdownString);
@@ -27,12 +28,25 @@ export async function convertMarkdownToHtmlWithSectionize(markdownString: string
             target: "_blank",
             rel: ["nofollow", "noopener", "noreferrer"]
         })
+        .use(rehyperh3Decorate) // h3をデコレート
         .use(rehyperImageWithCaption) // 画像にキャプションを追加
         .use(rehypeSectionize) // セクション分割
         .use(rehypeStringify) // HTML AST → HTML文字列に変換
         .process(markdownString);
 
     return processedContent.toString();
+}
+const rehyperh3Decorate: Plugin<[], Root> = () => {
+    return (tree) => {
+        visit(tree, 'element', (node) => {
+            if (node.tagName !== 'h3') return;
+            
+            node.properties = {
+                ...node.properties,
+                className: ["my-2", "p-1", "border-l-4", "border-primary", "pl-2"]
+            };
+        })
+    }
 }
 const rehyperImageWithCaption: Plugin<[], Root> = () => {
     return (tree) => {
