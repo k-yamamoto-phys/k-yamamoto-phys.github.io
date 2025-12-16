@@ -136,7 +136,7 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo along with educati
 
 ## Referee Activities
 
-*Phys. Rev. Lett.*, *Phys. Rev. X*, *PRX Quantum*, *Phys. Rev. A*, *Phys. Rev. B*, *Phys. Rev. Research*, *SciPost Physics*, *Prog. Theor. Exp. Phys.*
+*Phys. Rev. Lett.*, *Phys. Rev. X*, *PRX Quantum*, *Phys. Rev. A*, *Phys. Rev. B*, *Phys. Rev. Research*, *Commun. Phys.*, *SciPost Phys.*, *Prog. Theor. Exp. Phys.*
 
 ---
 

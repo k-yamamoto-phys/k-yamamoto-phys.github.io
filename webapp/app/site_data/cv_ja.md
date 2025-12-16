@@ -127,8 +127,7 @@
 
 ## 査読
 
-- *Phys. Rev. Lett.*, *Phys. Rev. X*, *Phys. Rev. X Quantum*, *Phys. Rev. A*, *Phys. Rev. B*, *Phys. Rev. Research*,  
-  *SciPost Physics*, *Prog. Theor. Exp. Phys.*
+- *Phys. Rev. Lett.*, *Phys. Rev. X*, *PRX Quantum*, *Phys. Rev. A*, *Phys. Rev. B*, *Phys. Rev. Research*, *Commun. Phys.*, *SciPost Physics*, *Prog. Theor. Exp. Phys.*
 
 ---
 
