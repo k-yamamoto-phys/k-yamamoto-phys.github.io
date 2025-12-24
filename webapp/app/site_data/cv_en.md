@@ -154,14 +154,13 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo
 ## Others
 
 **Teaching Assistant (Kyoto University):**  
-Mechanics, Research Practice Q11, Computational Physics II, Statistical Mechanics A, Statistical Mechanics II (Exercise),  
-Quantum Mechanics I (Exercise), Electromagnetism I (Exercise)
+Mechanics, Research Practice Q11, Computational Physics II, Statistical Mechanics A, Statistical Mechanics II (Exercise), Quantum Mechanics I (Exercise), Electromagnetism I (Exercise)
 
 **Qualifications:**  
 Ski License (SAJ): General Class 2, Junior Class 1
 
 **Hobbies:**  
-Soccer (since elementary school; good at shooting and long-distance kicks)  
-Swimming (until age 12; breaststroke faster than crawl at that time)  
-Badminton (junior high school club)  
+Football (since elementary school; good at shooting and long-distance kicks)  
+Swimming (until age 12; breaststroke was faster than crawl at that time)  
+Badminton (club activity in junior high school)  
 Running (since high school; usually 10 km on weekends or at night)
