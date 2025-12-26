@@ -3,7 +3,7 @@
 ## Research Interests
 
 * **Condensed Matter Physics**: Strongly correlated systems
-* **AMD(Atomic Morecular, and Optical) Physics**: Ultracold atoms, Open quantum systems, Non-Hermitian systems
+* **AMD(Atomic Molecular, and Optical) Physics**: Ultracold atoms, Open quantum systems, Non-Hermitian systems
 * **Quantum Many-Body Physics/Quantum information**: Continuously monitored systems
 
 ## Keywords
@@ -24,12 +24,20 @@ Effective field theory, Conformal field theory, Bethe ansatz, (Non-Hermitian) de
 * **The interplay between exceptional manifolds and Van Hove singularity** [Phys. Rev. B **109**, L060501 (2024)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.L060501)
 * **A system with a dissipative asymmetric hopping** [Phys. Rev. B **110**, 184518 (2024)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.184518)
 
-Motivated by recent experimental advances in ultracold atoms, we have analyzed a **non-Hermitian (NH) BCS Hamiltonian** with a complex-valued interaction arising from inelastic scattering between fermions. We have first **generalized the standard BCS theory to NH systems**, finding unconventional phase transitions unique to NH systems: Superfluidity shows reentrant behavior with increasing dissipation as a consequence of exceptional points unique to NH systems.
+Motivated by recent experimental advances in ultracold atoms, we have analyzed a **non-Hermitian (NH) BCS Hamiltonian** with a complex-valued interaction arising from inelastic scattering between fermions. We have first **generalized the standard BCS theory to NH systems**, finding unconventional phase transitions unique to NH systems: Superfluidity shows reentrant behavior with increasing dissipation as a consequence of exceptional points (EPs) unique to NH systems.
 
-#### Non-Hermitian superconductivity (fermionic superfluids)
+![Phase diagram of NH BCS model: dependence of attractive interaction (U/t) and dissipation ($\gamma/t$) obtained by solving the NH gap equation](/images/MSF_PD.jpg)
+
+* **Exceptional fermionic superfluidity induced by spin-depairing effect** [Phys. Rev. Lett. **135**, 266002 (2025)](https://journals.aps.org/prl/accepted/10.1103/ntjf-zb2v)
+
+Furthermore, we analyze the NH BCS Hamiltonian with spin-depairing effect, namely spin-dependent dissipation, and find a new superfluid phase. While EPs have been believed to appear only on the phase boundary, we have found that, in this new phase, the EPs arise within the stable superfluid phase. Moreover, by introducing the density of states in complex energy plane, we demonstrate the mechanism of how the exceptional fermionic superfluidity emerge.
+
+![Phase diagram of NH BCS model with spin-depairing](/images/ESF_PD.jpg)
+
+<!-- #### Non-Hermitian superconductivity (fermionic superfluids)
 
 ([Phys. Rev. Lett. 123, 123601 (2019)](https://doi.org/10.1103/PhysRevLett.123.123601), [Phys. Rev. B 109, L060501 (2024)](https://doi.org/10.1103/PhysRevB.109.L060501), [Phys. Rev. B 110, 184518 (2024)](https://link.aps.org/doi/10.1103/PhysRevB.110.184518))
-Motivated by recent experimental advances in ultracold atoms, we have analyzed a **non-Hermitian (NH) BCS Hamiltonian** with a complex-valued interaction arising from inelastic scattering between fermions. We have first **generalized the standard BCS theory to NH systems**, finding unconventional phase transitions unique to NH systems: Superfluidity shows **reentrant** behavior with increasing dissipation as a consequence of **exceptional points** unique to NH systems.
+Motivated by recent experimental advances in ultracold atoms, we have analyzed a **non-Hermitian (NH) BCS Hamiltonian** with a complex-valued interaction arising from inelastic scattering between fermions. We have first **generalized the standard BCS theory to NH systems**, finding unconventional phase transitions unique to NH systems: Superfluidity shows **reentrant** behavior with increasing dissipation as a consequence of **exceptional points** unique to NH systems. -->
 
 #### Dynamical phase transition in dissipative fermionic superfluids
 
@@ -56,3 +64,8 @@ Motivated by recent **experimental realizations of SU($N$) Hubbard models**, we 
 
 #### Dissipation-induced nonreciprocal transport
 ([Phys. Rev. Research 2, 043343 (2020)](https://doi.org/10.1103/PhysRevResearch.2.043343))
+
+
+Nonreciprocal phenomena, exemplified by rectification, have attracted considerable attention across a wide range of fields, including condensed matter physics and nonequilibrium statistical physics. We propose a minimal model to realize a unidirectional particle current in a nonequilibrium steady state. Specifically, we consider a one-dimensional fermionic system coupled to two heat baths, one in a nonequilibrium state and the other in equilibrium. First, we derive the conditions under which a unidirectional particle current can emerge when the dissipation is nonreciprocal. Furthermore, we demonstrate that even when the dissipation is reciprocal, a unidirectional particle current can arise if both nversion symmetry and time-reversal symmetry are broken.
+
+![Schematic image of a unidirectional particle current induced by coupling to baths](/images/unidirectional_transport.jpg)
