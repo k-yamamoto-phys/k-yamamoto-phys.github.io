@@ -10,8 +10,8 @@
   arXiv: 2504.19525
   year: 2025
   journal:
-    name: Phys. Rev. Lett. 135, 266002 (2025)
-    url: https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v
+    name: To appear in Physical Review Letters
+    url: https://journals.aps.org/prl/accepted/10.1103/ntjf-zb2v
 - title: "Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU(N) Fermi-Hubbard model"
   authors: Jutaro Fujii, Kazuki Yamamoto, and Akihisa Koga
   arXiv: 2512.01264
@@ -81,7 +81,7 @@
   journal:
     name: "Phys. Rev. B 107, L220201 (2023)"
     url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.L220201
-- title: "Universal description of dissipative Tomonaga-Luttinger liquids with SU($N$) spin symmetry: Exact spectrum and critical exponents "
+- title: "Universal description of dissipative Tomonaga-Luttinger liquids with SU (N)  spin symmetry: Exact spectrum and critical exponents "
   authors: Kazuki Yamamoto and Norio Kawakami
   arXiv: 2207.04395
   year: 2023

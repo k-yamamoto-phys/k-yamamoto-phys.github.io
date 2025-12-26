@@ -1,11 +1,3 @@
-- date: "2025-12-23"
-  label: publication
-  content:
-    ja: >
-      共著論文" Spin-Depairing-Induced Exceptional Fermionic Superfluidity "が [Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v) 誌に出版されました。
-    en: >
-      Joint paper " Spin-Depairing-Induced Exceptional Fermionic Superfluidity "
-      has been published in [Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v)
 - date: [2025-12-14, 2025-12-18]
   label: talk
   content:
@@ -13,6 +5,14 @@
       国際会議 [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italyで口頭発表を行いました。
     en: >
       I have given a talk in [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italy
+- date: "2025-12-02"
+  label: publication
+  content:
+    ja: >
+      共著論文" [Spin-Depairing-Induced Exceptional Fermionic Superfluidity](https://journals.aps.org/prl/accepted/10.1103/ntjf-zb2v)" が[Physical Review Letters](https://arxiv.org/abs/2509.17414)に受理されました。
+    en: >
+      Joint paper " [Spin-Depairing-Induced Exceptional Fermionic Superfluidity](https://arxiv.org/abs/2504.19525) "
+      has been accepted for publication in [Physical Review Letters](https://journals.aps.org/prl/accepted/10.1103/ntjf-zb2v)
 - date: "2025-12-02"
   label: publication
   content:
