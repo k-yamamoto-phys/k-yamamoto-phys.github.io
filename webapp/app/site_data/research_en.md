@@ -2,17 +2,17 @@
 
 ## Research Interests
 
-* **Condensed Matter Physics**: Strongly correlated systems
+* **Condensed Matter Physics**: Strongly correlated quantum (electron) systems
 * **AMD(Atomic Morecular, and Optical) Physics**: Ultracold atoms, Open quantum systems, Non-Hermitian systems
 * **Quantum Many-Body Physics/Quantum information**: Continuously monitored systems
 
 ## Keywords
 
-Fermionic superfluids, Tomonaga-Luttinger liquids, SU($N$) symmetry, Nonequilibrium steady states, Lindblad master equation, Quantum measurement, Full counting statistics
+Fermionic superfluids, Tomonaga-Luttinger liquids, Kondo effect, (Itinerant) ferromagnetism, SU($N$) symmetry, Nonequilibrium steady states, Lindblad master equation, Quantum measurement, Full counting statistics
 
 ## Tools
 
-Effective field theory, Conformal field theory, Bethe ansatz, (Non-Hermitian) density-matrix renormalization group, (Time-dependent) generalized Gibbs ensemble, Quantum trajectory method
+Effective field theory, Conformal field theory, Bethe ansatz, (Non-Hermitian) density-matrix renormalization group, Dynamical mean-field theory, (Time-dependent) generalized Gibbs ensemble, Quantum trajectory method
 
 ## Research details
 
