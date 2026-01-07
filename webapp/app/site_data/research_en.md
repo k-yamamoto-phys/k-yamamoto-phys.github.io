@@ -52,6 +52,7 @@ We have predicted a new mechanism to induce collective excitations and a nonequi
 
 ([Phys. Rev. B 105, 205125 (2022)](https://doi.org/10.1103/PhysRevB.105.205125))
 We have demonstrated the universal properties of dissipative Tomonaga-Luttinger (TL) liquids by calculating correlation functions and performing finite-size scaling analysis of a NH XXZ spin chain as a prototypical model in one-dimensional (1D) open quantum many-body systems. We have used several analytical and numerical techniques: **Effective field theory with bosonization**, finite-size scaling approach in **conformal field theory (CFT)**, **Bethe-ansatz (BA) solution**, and **NH generalization of the density-matrix renormalization group (NH-DMRG)**. We have uncovered that the model in the massless regime with weak dissipation belongs to the universality class characterized by the **complex-valued TL parameter**, which is related to the **complex generalization of the $c=1$ CFT**.
+![(a),(b) Critical exponents and (c),(d) velocity of excitations obtained by NH-DMRG and Bethe-ansatz](/images/NHDMRG.jpg)
 
 #### Universal properties of dissipative TL liquids with SU($N$) spin symmetry
 
