@@ -1,3 +1,10 @@
+- title: "Dimensionality effect on exceptional fermionic superfluidity with spin-dependent asymmetric hopping"
+  authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga
+  arXiv: 2509.17414
+  year: 2026
+  journal:
+    name: To appear in Journal of Low Temperature Physics
+    url: null
 - title: "Elliptical-rod geometries enhance photonic band gaps in disordered stealthy hyperuniform photonic crystals"
   authors: Kota Asakura, Kazuki Yamamoto, and Akihisa Koga
   arXiv: 2510.20374
@@ -20,11 +27,6 @@
 - title: "Kondo breakdown induced by the non-Hermitian complex hybridization"
   authors: Kazuki Yamamoto, Masaya Nakagawa, and Norio Kawakami
   arXiv: 2510.20186
-  year: null
-  journal: null
-- title: "Dimensionality effect on exceptional fermionic superfluidity with spin-dependent asymmetric hopping"
-  authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga
-  arXiv: 2509.17414
   year: null
   journal: null
 - title: "Itinerant ferromagnetism in an SU(3) Fermi-Hubbard model at finite temperatures: A dynamical mean-field theory study"
