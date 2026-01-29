@@ -1,3 +1,11 @@
+- date: "2026-01-29"
+  label: publication
+  content:
+    ja: >
+      原著論文" [Complex nonlinear sigma model](https://arxiv.org/abs/2601.20166) "がarXivに公開されました。
+    en: >
+      Joint paper " [Complex nonlinear sigma model](https://arxiv.org/abs/2601.20166) "
+      has appeard on arXiv
 - date: [2026-02-17, 2026-02-19]
   label: invited talk
   content:
