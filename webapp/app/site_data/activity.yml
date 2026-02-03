@@ -1,3 +1,10 @@
+- date: [2026-02-17, 2026-02-19]
+  label: invited talk
+  content:
+    ja: >
+      研究会 [第10回「凝縮系理論の最前線」](https://sites.google.com/view/10th-cmworkshop/) - 湯河原 で招待講演を行います。
+    en: >
+      I am going to give an invited talk in [Frontiers in Condensed Matter Physics](https://sites.google.com/view/10th-cmworkshop/) - Yugawara, Japan
 - date: "2026-02-03"
   label: publication
   content:
@@ -6,14 +13,13 @@
     en: >
       Joint paper " Dimensionality effect on exceptional fermionic superfluidity with spin-dependent asymmetric hopping "
       has been published in [Journal of Low Temperature Physics](https://link.springer.com/article/10.1007/s10909-026-03372-0).
-- date: "2026-01-29"
-  label: publication
+- date: [2026-02-01, 2026-02-14]
+  label: seminar
   content:
     ja: >
-      原著論文" [Complex nonlinear sigma model](https://arxiv.org/abs/2601.20166) "がarXivに公開されました。
+      スイスのフリーブール大学とETHチューリッヒに滞在し、共同研究とセミナーを行います。
     en: >
-      Joint paper " [Complex nonlinear sigma model](https://arxiv.org/abs/2601.20166) "
-      has appeard on arXiv
+      I am visiting Univ. of Fribourg and ETH Zürich to have a seminar.
 - date: "2026-01-30"
   label: publication
   content:
@@ -22,20 +28,14 @@
     en: >
       Joint paper "Elliptical-rod geometries enhance photonic band gaps in disordered stealthy hyperuniform photonic crystals"
       has been published in [Journal of the Physical Society of Japan](https://journals.jps.jp/doi/full/10.7566/JPSJ.95.024711).
-- date: [2026-02-17, 2026-02-19]
-  label: invited talk
+- date: "2026-01-29"
+  label: publication
   content:
     ja: >
-      研究会 [第10回「凝縮系理論の最前線」](https://sites.google.com/view/10th-cmworkshop/) - 湯河原 で招待講演を行います。
+      原著論文" [Complex nonlinear sigma model](https://arxiv.org/abs/2601.20166) "がarXivに公開されました。
     en: >
-      I am going to give an invited talk in [Frontiers in Condensed Matter Physics](https://sites.google.com/view/10th-cmworkshop/) - Yugawara, Japan
-- date: [2026-02-01, 2026-02-14]
-  label: seminar
-  content:
-    ja: >
-      スイスのフリーブール大学とETHチューリッヒに滞在し、共同研究とセミナーを行います。
-    en: >
-      I am visiting Univ. of Fribourg and ETH Zürich to have a seminar.
+      Joint paper " [Complex nonlinear sigma model](https://arxiv.org/abs/2601.20166) "
+      has appeard on arXiv
 - date: "2025-12-23"
   label: publication
   content:
@@ -82,14 +82,6 @@
   label: publication
   content:
     ja: >
-      共著論文" [Elliptical-rod geometries enhance photonic band gaps in disordered stealthy hyperuniform photonic crystals](https://arxiv.org/abs/2510.20374) "がarXivに公開されました。
-    en: >
-      Joint paper " [Elliptical-rod geometries enhance photonic band gaps in disordered stealthy hyperuniform photonic crystals](https://arxiv.org/abs/2510.20374) "
-      has appeard on arXiv
-- date: "2025-10-24"
-  label: publication
-  content:
-    ja: >
       原著論文"[Kondo breakdown induced by the non-Hermitian complex hybridization](https://arxiv.org/abs/2510.20186)"がarXivに公開されました。
     en: >
       The original paper "[Kondo breakdown induced by the non-Hermitian complex hybridization](https://arxiv.org/abs/2510.20186)"
@@ -101,16 +93,6 @@
       国際会議 [2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi) - Tohoku Univ.で招待講演を行いました。
     en: >
       I have given an invited talk in [2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi)
-- date: "2025-09-23"
-  label: publication
-  content:
-    ja: >
-      共著論文" [Dimensionality effect on exceptional fermionic superfluidity with spin-dependent
-      asymmetric hopping](https://arxiv.org/abs/2509.17414) "がarXivに公開されました。
-    en: >
-      Joint paper " [Dimensionality effect on exceptional fermionic superfluidity
-      with spin-dependent asymmetric hopping](https://arxiv.org/abs/2509.17414) "
-      has appeard on arXiv
 - date: "2025-09-16"
   label: publication
   content:
