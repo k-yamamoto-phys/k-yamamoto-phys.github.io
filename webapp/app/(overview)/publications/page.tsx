@@ -2,6 +2,7 @@ import type { ResolvingMetadata, Metadata } from "next";
 import { MetadataGenerator } from "@/app/lib/metadata";
 import paper_data from "@/app/site_data/paper_regular.yml"
 import conference_data from "@/app/site_data/paper_conference.yml"
+import { convertMarkdownToHtml } from "@/app/lib/markdown"
 import React from "react";
 type Paper = {
     title: string;
@@ -81,13 +82,11 @@ export default async function Page() {
         </div>
     );
 }
-
-function PaperItem({ paper, number }: { paper: Paper, number: number }) {
+async function PaperItem({ paper, number }: { paper: Paper, number: number }) {
+    const markdownContent = await convertMarkdownToHtml(`${number}. ${paper.title}`);
     return (
         <li>
-            <p>
-                {number}. "{paper.title}"
-            </p>
+             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
             <p><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p>
             <p>
                 {paper.journal === null ?
