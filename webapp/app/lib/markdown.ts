@@ -10,6 +10,7 @@ import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
 // import type { ContainerNode } from "./container-node";
 import remarkParse from "remark-parse";
+
 export async function convertMarkdownToHtml(markdownString: string): Promise<string> {
     const altParts = await extractAlts(markdownString); // 画像のalt部分を事前に抽出（remarkmathがparse前に動作して、alt内の数式ノーテーションを削除してしまうため）
     const processedContent = await remark()
@@ -45,22 +46,28 @@ export async function convertMarkdownToHtmlWithSectionize(markdownString: string
 
     return processedContent.toString();
 }
+
 const rehyperh3Decorate: Plugin<[], Root> = () => {
-    return (tree) => {
-        visit(tree, 'element', (node) => {
-            if (node.tagName !== 'h3') return;
+    return (tree: Root) => {
+        // guard: treeがRootでない/壊れている場合は何もしない
+        if (!tree || typeof (tree as any).type !== "string" || (tree as any).type !== "root") return;
+        if (!Array.isArray((tree as any).children)) return;
 
+        visit(tree, "element", (node: Element) => {
+            if (node.tagName !== "h3") return;
             node.properties = {
-                ...node.properties,
-                className: ["my-2", "p-1", "border-l-4", "border-primary", "pl-2"]
+                ...(node.properties ?? {}),
+                className: ["my-2", "p-1", "border-l-4", "border-primary", "pl-2"],
             };
-        })
-    }
+        });
+    };
+};
+
+
+function isElement(node: unknown): node is Element {
+    return !!node && typeof node === "object" && (node as any).type === "element";
 }
 
-function isElement(node: RootContent): node is Element {
-    return node.type === "element";
-}
 async function extractAlts(markdownText: string) {
     const tree = unified().use(remarkParse).parse(markdownText);
     const alts: Element[] = [];
@@ -113,35 +120,49 @@ async function extractAlts(markdownText: string) {
 const rehyperImageWithCaption: Plugin<[{ altData: Element[] }], Root> = (options) => {
     const { altData } = options || { altData: [] };
     let altIndex = 0;
+
     return (tree) => {
-        visit(tree, 'element', (node, index, parent) => {
-            if (!parent || typeof index !== 'number') return;
-            if (node.tagName !== 'img') return;
+        visit(tree, "element", (node, index, parent) => {
+            if (!parent || typeof index !== "number") return;
+            if (node.tagName !== "img") return;
+
+            const caption = altData[altIndex]; // これが undefined のことがある
+
+            const children: ElementContent[] = [
+                {
+                    type: "element",
+                    tagName: "img",
+                    properties: {
+                        ...node.properties,
+                        className: ["mb-0"],
+                    },
+                    children: [],
+                },
+            ];
+
+            // caption があるときだけ追加（undefined混入を防ぐ）
+            if (caption) children.push(caption);
+
             const wrapper: Element = {
                 type: "element",
                 tagName: "div",
-                properties: { className: ["max-w-3/4", " mx-auto", "not-prose", "my-4", "p-4", "bg-white", "shadow-sm", "rounded-md"] },
-                children: [
-                    {
-                        type: "element",
-                        tagName: "img",
-                        properties: {
-                            ...node.properties,
-                            className: ["mb-0"]
-                        },
-                        children: []
-                    },
-                    altData[altIndex]
-                ]
-            }
+                properties: {
+                    className: ["max-w-3/4", "mx-auto", "not-prose", "my-4", "p-4", "bg-white", "shadow-sm", "rounded-md"],
+                },
+                children,
+            };
+
             parent.children[index] = wrapper;
-            altIndex++;
-        })
-    }
-}
-let sectionIndex = 0;
+
+            // 重要：captionが存在する時だけインデックスを進める
+            if (caption) altIndex++;
+        });
+    };
+};
+
 
 const rehypeSectionize: Plugin<[], Root> = () => {
+    let sectionIndex = 0;
     return (tree) => {
         const newChildren: RootContent[] = [];
         let currentSectionChildren: ElementContent[] = [];
