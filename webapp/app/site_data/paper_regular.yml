@@ -23,7 +23,7 @@
 - title: "Spin-Depairing-Induced Exceptional Fermionic Superfluidity"
   authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga
   note: >
-    [press release](https://www.isct.ac.jp/en/news/eryh7s2mh3vv)
+    [Press Release](https://www.isct.ac.jp/en/news/eryh7s2mh3vv)
   arXiv: 2504.19525
   year: 2025
   journal:
@@ -113,7 +113,8 @@
     url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.045110
 - title: "Universal properties of dissipative Tomonaga-Luttinger liquids: Case study of a non-Hermitian XXZ spin chain"
   authors: Kazuki Yamamoto, Masaya Nakagawa, Masaki Tezuka, Masahito Ueda, and Norio Kawakami
-  note: null
+  note: >
+    [Youtube](https://www.youtube.com/watch?v=4kMetRPztq0)
   arXiv: 2112.12467
   year: 2022
   journal:
@@ -121,7 +122,7 @@
     url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.205125
 - title: "Collective Excitations and Nonequilibrium Excitations in Dissipative Fermionic Superfluids"
   authors: Kazuki Yamamoto, Masaya Nakagawa, Naoto Tsuji, Masahito Ueda, and Norio Kawakami
-  note: null
+  note: Open Access
   arXiv: 2006.06169
   year: 2021
   journal:
@@ -129,7 +130,7 @@
     url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.055301
 - title: "Rectification in nonequilibrium steady states of open many-body systems"
   authors: Kazuki Yamamoto, Yuto Ashida, and Norio Kawakami
-  note: null
+  note: Open Access
   arXiv: 2009.00838
   year: 2020
   journal:
@@ -137,7 +138,7 @@
     url: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.043343
 - title: "Theory of Non-Hermitian Fermionic Superfluidity with a Complex-Valued Interaction"
   authors: Kazuki Yamamoto, Masaya Nakagawa, Kyosuke Adachi, Kazuaki Takasan, Masahito Ueda, and Norio Kawakami
-  note: null
+  note: Open Access, Highly Cited Paper in Web of Science (2021-2025)
   arXiv: 1903.04720
   year: 2019
   journal:
