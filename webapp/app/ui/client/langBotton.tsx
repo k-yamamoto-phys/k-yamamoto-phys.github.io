@@ -3,7 +3,7 @@
 import { useAtom } from "jotai";
 import { EngAtom } from "@/app/lib/atom"
 import { redirect, usePathname, useRouter } from 'next/navigation';
-import { siteMetadata } from "@/app/site_data/_metadata";
+import { siteMetadata } from "@/personal/_metadata";
 import { useEffect } from "react";
 
 export const LangButton = () => {

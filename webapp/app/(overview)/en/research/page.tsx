@@ -1,6 +1,6 @@
 import type { ResolvingMetadata, Metadata } from "next";
 import { MetadataGenerator } from "@/app/lib/metadata";
-import research_en from "@/app/site_data/research_en.md"
+import research_en from "@/personal/research_en.md"
 import { convertMarkdownToHtmlWithSectionize } from "@/app/lib/markdown";
 export async function generateMetadata(): Promise<Metadata> {   
     return MetadataGenerator(`Research`, `Research interests and projects of Dr. Kazuki Yamamoto`); 

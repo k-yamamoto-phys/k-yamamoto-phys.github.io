@@ -1,6 +1,6 @@
 import type { ResolvingMetadata, Metadata } from "next";
 import { MetadataGenerator } from "@/app/lib/metadata";
-import amuse from "@/app/site_data/amuse.md"
+import amuse from "@/personal/amuse.md"
 import { convertMarkdownToHtml } from "@/app/lib/markdown";
 export async function generateMetadata(): Promise<Metadata> {
     return MetadataGenerator(`徒然なるままに`, `徒然なるままに`);

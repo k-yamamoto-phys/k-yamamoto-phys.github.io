@@ -5,7 +5,7 @@ import clsx from "clsx";
 import { usePathname } from 'next/navigation';
 import React, { use, useEffect, useRef, useState } from 'react';
 import Image from 'next/image'
-import { siteMetadata } from "@/app/site_data/_metadata.js"
+import { siteMetadata } from "@/personal/_metadata.js"
 import { LangButton } from './langBotton';
 import { EngAtom } from '@/app/lib/atom';
 import { useAtom } from "jotai";

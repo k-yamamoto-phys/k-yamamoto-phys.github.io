@@ -1,13 +1,12 @@
 import type { ResolvingMetadata, Metadata } from "next";
-import Link from "next/link"
-import { FaHome, FaSearch, FaBook } from 'react-icons/fa';
 import { MetadataGenerator } from "@/app/lib/metadata";
 import { convertMarkdownToHtml } from "@/app/lib/markdown"
-import conference_data from "@/app/site_data/presentation.yml"
+import conference_data from "@/personal/presentation.yml"
 import dayjs from "dayjs";
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import styles from "./presentations.module.css";
+import { siteMetadata } from "@/personal/_metadata";
 type Presentation = {
     title: string;
     presenter: string;
@@ -91,7 +90,7 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
                 "{p.title}"
             </p>
 
-            <p><UnderlinedText text={p.presenter} targets={[`Kazuki Yamamoto`, `山本 和樹`, `山本和樹`, `山本　和樹`]} /></p>
+            <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en,siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
         </li>
     );

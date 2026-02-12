@@ -1,5 +1,5 @@
 import { convertMarkdownToHtml } from "@/app/lib/markdown"
-import activity_data from "@/app/site_data/activity.yml"
+import activity_data from "@/personal/activity.yml"
 import React from "react";
 import dayjs from "dayjs";
 export type activityEntry = {
