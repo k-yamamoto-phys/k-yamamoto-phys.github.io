@@ -46,11 +46,11 @@ export const siteMetadata = {
         en: [
             {
                 name: "Home",
-                href: "/en/",
+                href: "/",
             },
             {
                 name: "Research",
-                href: "/en/research",
+                href: "/research",
             },
             {
                 name: "Publications",
@@ -62,7 +62,7 @@ export const siteMetadata = {
             },
             {
                 name: "CV",
-                href: "/en/cv",
+                href: "/cv",
             }
         ],
         ja: [
@@ -76,11 +76,11 @@ export const siteMetadata = {
             },
             {
                 name: "出版物",
-                href: "/publications",
+                href: "/ja/publications",
             },
             {
                 name: "発表",
-                href: "/presentations",
+                href: "/ja/presentations",
             },
             {
                 name: "CV",
