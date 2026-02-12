@@ -29,9 +29,8 @@ export default function RootLayout({
       <ClientHead/>
       <body>
         <NavBar />
-        <main className="max-w-4xl mx-auto " >
+
         {children}
-        </main>
         <footer className="mt-5 font-light text-sm flex justify-center">
           <p className="">
           ©{year} {siteMetadata.name.en}. All Right Reserved.
