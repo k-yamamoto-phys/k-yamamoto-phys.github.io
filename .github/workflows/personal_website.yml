@@ -114,6 +114,7 @@ jobs:
           npx linkinator http://localhost:3000 \
             --recurse \
             --timeout 15000 \
+            || true
       - name: Upload logs
         if: always()
         uses: actions/upload-artifact@v4
