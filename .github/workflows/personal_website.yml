@@ -93,29 +93,6 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: personal_website/out   
-  link-check: # サイトの中のすべてのリンクが正常に機能しているかの確認
-    runs-on: ubuntu-latest
-    needs: build
-    defaults: 
-      run: 
-        working-directory: ./personal_website
-    steps:
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-
-      - name: Download Pages artifact (out)
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: personal_website/out
-
       - name: Start static server (serve out/)
         run: |
           npx serve out -l 3000 > server.log 2>&1 &
@@ -144,13 +121,18 @@ jobs:
           name: link-check-logs
           path: personal_website/server.log
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: personal_website/out   
+
   # Deployment job
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: [build, link-check]
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
