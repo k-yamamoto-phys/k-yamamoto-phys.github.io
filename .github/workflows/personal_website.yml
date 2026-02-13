@@ -136,24 +136,7 @@ jobs:
         run: |
           npx linkinator http://localhost:3000 \
             --recurse \
-            --check-externals false \
             --timeout 15000 \
-            --retry 1 \
-            --fail-on 404 \
-            --skip "^(file:|mailto:|tel:|data:|javascript:)"
-
-      # 外部リンクも一応チェック：落とさず warning 扱い（bot block / timeout 対策）
-      - name: Check external links (warnings only)
-        run: |
-          npx linkinator http://localhost:3000 \
-            --recurse \
-            --check-externals true \
-            --timeout 20000 \
-            --retry 2 \
-            --fail-on 404 \
-            --skip "^(file:|mailto:|tel:|data:|javascript:)" \
-          || true
-
       - name: Upload logs
         if: always()
         uses: actions/upload-artifact@v4
