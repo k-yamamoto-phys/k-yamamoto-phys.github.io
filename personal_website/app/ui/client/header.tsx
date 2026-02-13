@@ -61,7 +61,7 @@ export default function Navbar() {
                         </ul>
                     </div>
                     <Link
-                        href={isEnglish ? "/en" : "/ja"}
+                        href={isEnglish ? "/" : "/ja"}
                         className="btn btn-ghost font-bold text-xl flex items-center gap-2"
                     >
                         {/* ロゴ部分 */}

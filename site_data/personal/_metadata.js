@@ -12,7 +12,7 @@ export const siteMetadata = {
         en: "Kazuki Yamamoto",
         ja: "山本 和樹"
     },
-    homeCrousel: [// 画像は、webapp/public以下に置くことで変えることができます。
+    homeCrousel: [// 画像は、personal_website/public以下に置くことで変えることができます。
         { 
             image: "/images/cj1.jpg",
             caption: {

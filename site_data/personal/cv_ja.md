@@ -88,7 +88,7 @@
   *(Phys. Rev. Lett. 123, 123601 (2019))*
 
 - **2019年12月**  
-  [ポスター賞銀賞](http://topo-mat-sci.jp/meetings/topomat2019/index.html), *International Conference on Topological Materials Science 2019*  
+  ポスター賞銀賞, *International Conference on Topological Materials Science 2019*  
   *(発表題目: Theory of non-Hermitian fermionic superfluidity with dissipation)*
 
 - **2019年9月**  
@@ -106,13 +106,13 @@
 - **2025 (4Q)**　[量子力学II演習](https://syllabus.s.isct.ac.jp/courses/2025/1/0-901-311200-0-0/202529626) (週2コマ)
 - **2025 (2Q)**　[解析力学演習](https://syllabus.s.isct.ac.jp/courses/-/-/-/202529622)  
 - **2025 (2Q)**　[電磁気学III演習](https://syllabus.s.isct.ac.jp/courses/2025/1/0-901-311200-0-0/202529631)  
-- **2024 (4Q)**　[量子力学II演習](https://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202429626&Nendo=2024&lang=JA&vid=03) (週2コマ, [令和6年度理学院教員教育賞](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science)受賞)  
-- **2024 (3Q)**　[量子力学入門演習](https://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202429624&Nendo=2024&lang=JA&vid=03) — *[授業評価アンケート](https://drive.google.com/file/d/18QMjFRldLcBE8qgqCyBT7nsH9e6ccgR4/view?usp=sharing)*  
-- **2024 (2Q)**　[解析力学演習](https://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202429622&Nendo=2024&lang=JA&vid=03)  
-- **2024 (2Q)**　[電磁気学III演習](https://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202429631&Nendo=2024&lang=JA&vid=03)  
-- **2023 (3Q)**　[電磁気学II演習](http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202328949&Nendo=2023&lang=JA&vid=03)  
-- **2023 (2Q)**　[統計力学II演習](http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202328955&Nendo=2023&lang=JA&vid=03)  
-- **2023 (2Q)**　[電磁気学III演習](http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202328949&Nendo=2023&lang=JA&vid=03)  
+- **2024 (4Q)**　量子力学II演習 (週2コマ, [令和6年度理学院教員教育賞](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science)受賞)  
+- **2024 (3Q)**　量子力学入門演習 — *[授業評価アンケート](https://drive.google.com/file/d/18QMjFRldLcBE8qgqCyBT7nsH9e6ccgR4/view?usp=sharing)*  
+- **2024 (2Q)**　解析力学演習  
+- **2024 (2Q)**　電磁気学III演習 
+- **2023 (3Q)**　電磁気学II演習
+- **2023 (2Q)**　統計力学II演習 
+- **2023 (2Q)**　電磁気学III演習
 
 ---
 
