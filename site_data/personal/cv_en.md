@@ -108,13 +108,13 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo
 - **2025 (4Q)** [Quantum Mechanics II (Exercise)](https://syllabus.s.isct.ac.jp/courses/2025/1/0-901-311200-0-0/202529626)
 - **2025 (2Q)** [Exercises in Classical Mechanics](https://syllabus.s.isct.ac.jp/courses/-/-/-/202529622)
 - **2025 (2Q)** [Electromagnetism III (Exercise)](https://syllabus.s.isct.ac.jp/courses/2025/1/0-901-311200-0-0/202529631)
-- **2024 (4Q)** [Quantum Mechanics II (Exercise)](https://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202429626&Nendo=2024&lang=JA&vid=03) *([Best Teacher Award](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science) in the Department of Physics)*
-- **2024 (3Q)** [Introduction to Quantum Mechanics (Exercise)](https://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202429624&Nendo=2024&lang=JA&vid=03) ([Survey](https://drive.google.com/file/d/18QMjFRldLcBE8qgqCyBT7nsH9e6ccgR4/view?usp=sharing))
-- **2024 (2Q)** [Exercises in Classical Mechanics](https://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202429622&Nendo=2024&lang=JA&vid=03)
-- **2024 (2Q)** [Electromagnetism III (Exercise)](https://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202429631&Nendo=2024&lang=JA&vid=03)
-- **2023 (3Q)** [Electromagnetism II (Exercise)](http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202328949&Nendo=2023&lang=JA&vid=03)
-- **2023 (2Q)** [Statistical Mechanics II (Exercise)](http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202328955&Nendo=2023&lang=JA&vid=03)
-- **2023 (2Q)** [Electromagnetism III (Exercise)](http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=1&GakkaCD=311200&KeiCD=12&KougiCD=202328949&Nendo=2023&lang=JA&vid=03)
+- **2024 (4Q)** Quantum Mechanics II (Exercise) *([Best Teacher Award](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science) in the Department of Physics)*
+- **2024 (3Q)** Introduction to Quantum Mechanics (Exercise) ([Survey](https://drive.google.com/file/d/18QMjFRldLcBE8qgqCyBT7nsH9e6ccgR4/view?usp=sharing))
+- **2024 (2Q)** Exercises in Classical Mechanics
+- **2024 (2Q)** Electromagnetism III (Exercise)
+- **2023 (3Q)** Electromagnetism II (Exercise)
+- **2023 (2Q)** Statistical Mechanics II (Exercise)
+- **2023 (2Q)** Electromagnetism III (Exercise)
 
 ---
 

@@ -44,14 +44,14 @@ export default async function Page() {
                             <h2 className="card-title mt-6 block"><div className="badge badge-info relative -top-0.5">Recent Research</div>&nbsp;<span className="inline">Novel Many-Body Measurement-Induced Universality</span></h2>
                             <p>Recently, quantum measurement has attracted great attention as it causes drastic nonequilibrium quantum phenomena such as in condensed matter physics and quantum information sciences. We have revealed that subsystem fluctuations in many-body systems can exhibit novel measurement-induced universality and are accessed in experiments without postselection.</p>
                             <div className="card-actions justify-end">
-                                <Link href="/en/research" className="btn btn-primary  text-white">Details<FaArrowRight /></Link>
+                                <Link href="/research" className="btn btn-primary  text-white">Details<FaArrowRight /></Link>
                             </div>
                         </div>
                     </div>
 
                     <h2>What's New</h2>
                     <Acctivity lang={"en"} limit={5} />
-                    <Link href="/en/news" className="btn btn-primary text-white">More news<FaArrowRight /></Link>
+                    <Link href="/news" className="btn btn-primary text-white">More news<FaArrowRight /></Link>
                     {/* <h2>Links</h2>
                     <ul>
                         <li><a href="http://www.stat.phys.titech.ac.jp/koga/" >Tokyo Institute of Technology Koga Laboratory</a></li>
