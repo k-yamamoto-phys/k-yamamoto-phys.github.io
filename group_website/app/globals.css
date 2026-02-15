@@ -1,0 +1,52 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+@config "./tailwind.config.js";
+@plugin "daisyui";
+/* カラーデザインは以下のサイトからコピーすることで変更可能: 
+https://daisyui.com/theme-generator/ */
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  prefersdark: true;
+  color-scheme: "light";
+  --color-base-100: oklch(98% 0 0);
+  --color-base-200: oklch(96% 0.001 286.375);
+  --color-base-300: oklch(92% 0.004 286.32);
+  --color-base-content: oklch(21% 0.006 285.885);
+  --color-primary: #1c3177;
+  --color-primary-content: oklch(97% 0.014 254.604);
+  --color-secondary: #7f96c2;
+  --color-secondary-content: oklch(100% 0 0);
+  --color-accent: #6f23d0;
+  --color-accent-content: oklch(98% 0.001 106.423);
+  --color-neutral: #b5ab8b;
+  --color-neutral-content: oklch(98% 0 0);
+  --color-info: #00a3bf;
+  --color-info-content: oklch(98% 0.019 200.873);
+  --color-success: #2c9a4a;
+  --color-success-content: oklch(97% 0.021 166.113);
+  --color-warning: #fb5b01;
+  --color-warning-content: oklch(98% 0.026 102.212);
+  --color-error: #f02b2b;
+  --color-error-content: oklch(97% 0.013 17.38);
+  --radius-selector: 0.5rem;
+  --radius-field: 1rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.28125rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+.katex {
+  font-size: 1em !important;
+  ;
+}
+.katex .katex-mathml {
+    user-select: none !important; /* 数式の重複したコピーを禁止し、コピペがうまくいくようにする */
+}
