@@ -1,5 +1,5 @@
 "use client";
-import { FaHome, FaSearch, FaBook, FaExternalLinkAlt } from 'react-icons/fa';
+import { GoLinkExternal } from "react-icons/go";
 import Link from "next/link";
 import clsx from "clsx";
 import { usePathname } from 'next/navigation';
@@ -51,7 +51,7 @@ export default function Navbar() {
                                     {
                                         externalLinks.map((link) => (
                                             <li key={link.href}>
-                                                <Link href={link.href} target="_blank" rel="noopener noreferrer" onClick={closeMenu} >{link.name} <FaExternalLinkAlt /></Link>
+                                                <Link href={link.href} target="_blank" rel="noopener noreferrer" onClick={closeMenu} >{link.name} <GoLinkExternal /></Link>
 
                                             </li>
                                         ))
@@ -121,7 +121,7 @@ export default function Navbar() {
                                     {
                                         externalLinks.map((link) => (
                                             <li key={link.href}>
-                                                <Link href={link.href} target="_blank" rel="noopener noreferrer">{link.name} <FaExternalLinkAlt /></Link>
+                                                <Link href={link.href} target="_blank" rel="noopener noreferrer">{link.name} <GoLinkExternal /></Link>
                                             </li>
                                         ))
                                     }

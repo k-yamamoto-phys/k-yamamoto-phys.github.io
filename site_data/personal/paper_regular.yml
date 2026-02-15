@@ -1,0 +1,146 @@
+- title: "Complex nonlinear sigma model"
+  authors: Kazuki Yamamoto and Kohei Kawabata
+  note: null
+  arXiv: 2601.20166
+  year: null
+  journal: null
+- title: "Dimensionality effect on exceptional fermionic superfluidity with spin-dependent asymmetric hopping"
+  authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga
+  note: Open Access
+  arXiv: 2509.17414
+  year: 2026
+  journal:
+    name: J. Low Temp. Phys. 222, 37 (2026).
+    url: https://link.springer.com/article/10.1007/s10909-026-03372-0
+- title: "Elliptical-rod geometries enhance photonic band gaps in disordered stealthy hyperuniform photonic crystals"
+  authors: Kota Asakura, Kazuki Yamamoto, and Akihisa Koga
+  note: null
+  arXiv: 2510.20374
+  year: 2026
+  journal:
+    name: J. Phys. Soc. Jpn. 95, 024711 (2026)
+    url: https://journals.jps.jp/doi/full/10.7566/JPSJ.95.024711
+- title: "Spin-Depairing-Induced Exceptional Fermionic Superfluidity"
+  authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga
+  note: >
+    [Press Release](https://www.isct.ac.jp/en/news/eryh7s2mh3vv)
+  arXiv: 2504.19525
+  year: 2025
+  journal:
+    name: Phys. Rev. Lett. 135, 266002 (2025)
+    url: https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v
+- title: "Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU(N) Fermi-Hubbard model"
+  authors: Jutaro Fujii, Kazuki Yamamoto, and Akihisa Koga
+  note: null
+  arXiv: 2512.01264
+  year: null
+  journal: null
+- title: "Kondo breakdown induced by the non-Hermitian complex hybridization"
+  authors: Kazuki Yamamoto, Masaya Nakagawa, and Norio Kawakami
+  note: null
+  arXiv: 2510.20186
+  year: null
+  journal: null
+- title: "Itinerant ferromagnetism in an SU(3) Fermi-Hubbard model at finite temperatures: A dynamical mean-field theory study"
+  authors: Juntaro Fujii, Kazuki Yamamoto, and Akihisa Koga
+  note: null
+  arXiv: 2505.12704
+  year: 2025
+  journal:
+    name: Phys. Rev. B 112, 115136 (2025)
+    url: https://journals.aps.org/prb/abstract/10.1103/vpb4-4d54
+- title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
+  authors: Kazuki Yamamoto and Ryusuke Hamazaki
+  note: null
+  arXiv: 2503.02418
+  year: null
+  journal: null
+- title: "Measurement-induced phase transitions for free fermions in a quasiperiodic potential"
+  authors: Toranosuke Matsubara, Kazuki Yamamoto, and Akihisa Koga
+  note: null
+  arXiv: 2503.23807
+  year: 2025
+  journal:
+    name: "Phys. Rev. B 112, 054309 (2025)"
+    url: https://journals.aps.org/prb/abstract/10.1103/3zfd-3hqt
+- title: "Correlation versus dissipation in a non-Hermitian Anderson impurity model"
+  authors: Kazuki Yamamoto, Masaya Nakagawa, and Norio Kawakami
+  note: null
+  arXiv: 2408.03494
+  year: 2025
+  journal:
+    name: "Phys. Rev. B 111, 125157 (2025)"
+    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.125157
+- title: "Phase diagram of non-Hermitian BCS superfluids in a dissipative asymmetric Hubbard model"
+  authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga
+  note: null
+  arXiv: 2406.16482
+  year: 2024
+  journal:
+    name: "Phys. Rev. B 110, 184518 (2024)"
+    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.184518
+- title: "Theory of non-Hermitian fermionic superfluidity on a honeycomb lattice: Interplay between exceptional m anifolds and Van Hove singularity"
+  authors: Soma Takemori, Kazuki Yamamoto, and Akihisa Koga
+  note: null
+  arXiv: 2309.16191
+  year: 2024
+  journal:
+    name: "Phys. Rev. B 109, L060501 (2024)"
+    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.L060501
+- title: "Interaction-induced Liouvillian skin effect in a fermionic chain with a two-body loss"
+  authors: Shu Hamanaka, Kazuki Yamamoto, and Tsuneya Yoshida
+  note: null
+  arXiv: 2305.19697
+  year: 2023
+  journal:
+    name: "Phys. Rev. B 108, 155114 (2023)"
+    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.155114
+- title: "Localization properties in disordered quantum many-body dynamics under continuous measurement"
+  authors: Kazuki Yamamoto and Ryusuke Hamazaki
+  note: null
+  arXiv: 2301.07290
+  year: 2023
+  journal:
+    name: "Phys. Rev. B 107, L220201 (2023)"
+    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.L220201
+- title: "Universal description of dissipative Tomonaga-Luttinger liquids with SU($N$) spin symmetry: Exact spectrum and critical exponents"
+  authors: Kazuki Yamamoto and Norio Kawakami
+  note: null
+  arXiv: 2207.04395
+  year: 2023
+  journal:
+    name: "Phys. Rev. B 107, 045110 (2023)"
+    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.045110
+- title: "Universal properties of dissipative Tomonaga-Luttinger liquids: Case study of a non-Hermitian XXZ spin chain"
+  authors: Kazuki Yamamoto, Masaya Nakagawa, Masaki Tezuka, Masahito Ueda, and Norio Kawakami
+  note: >
+    [Youtube](https://www.youtube.com/watch?v=4kMetRPztq0)
+  arXiv: 2112.12467
+  year: 2022
+  journal:
+    name: "Phys. Rev. B 105, 205125 (2022)"
+    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.205125
+- title: "Collective Excitations and Nonequilibrium Excitations in Dissipative Fermionic Superfluids"
+  authors: Kazuki Yamamoto, Masaya Nakagawa, Naoto Tsuji, Masahito Ueda, and Norio Kawakami
+  note: Open Access
+  arXiv: 2006.06169
+  year: 2021
+  journal:
+    name: "Phys. Rev. Lett. 127, 055301 (2021)"
+    url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.055301
+- title: "Rectification in nonequilibrium steady states of open many-body systems"
+  authors: Kazuki Yamamoto, Yuto Ashida, and Norio Kawakami
+  note: Open Access
+  arXiv: 2009.00838
+  year: 2020
+  journal:
+    name: "Phys. Rev. Research 2, 043343 (2020)"
+    url: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.043343
+- title: "Theory of Non-Hermitian Fermionic Superfluidity with a Complex-Valued Interaction"
+  authors: Kazuki Yamamoto, Masaya Nakagawa, Kyosuke Adachi, Kazuaki Takasan, Masahito Ueda, and Norio Kawakami
+  note: Open Access, Highly Cited Paper in Web of Science (2021-2025)
+  arXiv: 1903.04720
+  year: 2019
+  journal:
+    name: "Phys. Rev. Lett. 123, 123601 (2019)"
+    url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.123601

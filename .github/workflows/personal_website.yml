@@ -114,6 +114,7 @@ jobs:
           npx linkinator http://localhost:3000 \
             --recurse \
             --timeout 15000 \
+            --verbosity error \
             || true
       - name: Upload logs
         if: always()
