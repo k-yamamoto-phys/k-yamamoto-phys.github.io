@@ -1,7 +1,7 @@
 import type { ResolvingMetadata, Metadata } from "next";
 import { MetadataGenerator } from "@/app/lib/metadata";
-import paper_data from "@/paper_regular.yml"
-import conference_data from "@/paper_conference.yml"
+import paper_data from "@/personal/paper_regular.yml"
+import conference_data from "@/personal/paper_conference.yml"
 import { convertMarkdownToHtml } from "@/app/lib/markdown"
 import React from "react";
 type Paper = {
