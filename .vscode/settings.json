@@ -1,4 +1,7 @@
 {
     "python-envs.pythonProjects": [],
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    }
 }
