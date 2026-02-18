@@ -1,4 +1,11 @@
 # 新規追加は、上から順に行うことで順番に整合が取れます。sort_presentation.pyを実行することでsortできます。
+- title: "連続測定下の多体系における量子ジャンプの異常揺らぎ"
+  presenter: 山本 和樹
+  date: '2026-03-26'
+  category: domestic
+  type: oral
+  detail: >
+    [日本物理学会2026年春季大会](https://onsite.gakkai-web.net/jps/jps_search/2026sp/index.html) @ オンライン, 2026年3月
 - title: "SU(N)強相関量子系における理論手法の進展: 動的平均場理論とベーテ仮設、及び共形場理論"
   presenter: 山本 和樹
   date: '2026-02-17'
