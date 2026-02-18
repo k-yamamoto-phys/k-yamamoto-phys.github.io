@@ -3,7 +3,8 @@
     en: Kazuki Yamamoto
   position:
     ja: 講師
-    en: Lecturer
+    en: Assistant Professor
+  type: leader # leader, member, alumni, colabrator から選択 # 未実装
   photo: https://img.daisyui.com/images/profile/demo/yellingwoman@192.webp
   message: #　連絡先/居室/研究分野/趣味など (markdown 記法可)
     ja: | # 改行は、行末にスペース2つを入れる or 空行を入れる

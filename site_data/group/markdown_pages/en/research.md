@@ -1,3 +1,7 @@
+---
+title: Research
+description: researches in Yamamoto group
+---
 # Research 
 
 ## Research Interests
@@ -6,11 +10,11 @@
 * **AMO(Atomic Morecular, and Optical) Physics**: Ultracold atoms, Open quantum systems, Non-Hermitian systems
 * **Quantum Many-Body Physics/Quantum information**: Continuously monitored systems
 
-## Keywords
+### Keywords
 
 Fermionic superfluids, Tomonaga-Luttinger liquids, Kondo effect, (Itinerant) ferromagnetism, SU($N$) symmetry, Nonequilibrium steady states, Lindblad master equation, Quantum measurement, Full counting statistics
 
-## Tools
+### Tools
 
 Effective field theory, Conformal field theory, Bethe ansatz, (Non-Hermitian) density-matrix renormalization group, Dynamical mean-field theory, (Time-dependent) generalized Gibbs ensemble, Quantum trajectory method
 
