@@ -1,3 +1,11 @@
+- title: "Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU(N) Fermi-Hubbard model"
+  authors: Jutaro Fujii, Kazuki Yamamoto, and Akihisa Koga
+  note: null
+  arXiv: 2512.01264
+  year: 2026
+  journal:
+    name: To appear in Physical Review B
+    url: https://doi.org/10.1103/kx3p-phyq
 - title: "Complex nonlinear sigma model"
   authors: Kazuki Yamamoto and Kohei Kawabata
   note: null
@@ -29,12 +37,6 @@
   journal:
     name: Phys. Rev. Lett. 135, 266002 (2025)
     url: https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v
-- title: "Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU(N) Fermi-Hubbard model"
-  authors: Jutaro Fujii, Kazuki Yamamoto, and Akihisa Koga
-  note: null
-  arXiv: 2512.01264
-  year: null
-  journal: null
 - title: "Kondo breakdown induced by the non-Hermitian complex hybridization"
   authors: Kazuki Yamamoto, Masaya Nakagawa, and Norio Kawakami
   note: null
