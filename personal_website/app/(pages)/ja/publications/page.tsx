@@ -53,7 +53,7 @@ export default async function Page() {
                     ))
                 }
             </ul>
-            <h2>査読付き論文</h2>
+            <h2>査読付き原著論文</h2>
             {
                 published_papers_by_year.map(({ year, data }, index) => (
                     <React.Fragment key={index}>
@@ -67,7 +67,7 @@ export default async function Page() {
                     </ul>
                     </React.Fragment>))
             }
-            <h2>学会発表論文集</h2>
+            <h2>国際会議会議録</h2>
             <ul className="list-none">
                 {
                     conference_paper.map((paper, index, array) => (

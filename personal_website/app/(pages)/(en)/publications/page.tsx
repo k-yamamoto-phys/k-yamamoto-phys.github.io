@@ -53,7 +53,7 @@ export default async function Page() {
                     ))
                 }
             </ul>
-            <h2>Original Paper</h2>
+            <h2>Original Papers</h2>
             {
                 published_papers_by_year.map(({ year, data }, index) => (
                     <React.Fragment key={index}>
