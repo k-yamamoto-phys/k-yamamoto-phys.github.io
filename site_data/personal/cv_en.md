@@ -85,7 +85,7 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo
   *[Best Poster Award](https://sces2020.org/program-2/), International Conference on Strongly Correlated Electron Systems 2020*  
   *(Title: Theory of collective excitations and nonequilibrium phase transition in dissipative fermionic superfluids)*
 
-- **Mar. 2021 – Oct. 2023, Mar. 2024 – Jun. 2025**  
+- **Mar. 2021 – Oct. 2023, Mar. 2024 – Oct. 2025**  
   *[Highly Cited Paper](https://www.webofscience.com/wos/woscc/full-record/WOS:000486654900003), Web of Science Core Collection*  
   *(Phys. Rev. Lett. 123, 123601 (2019))*
 

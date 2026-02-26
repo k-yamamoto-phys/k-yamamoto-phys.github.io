@@ -83,7 +83,7 @@
   [最優秀ポスター賞](https://sces2020.org/program-2/), *International Conference on Strongly Correlated Electron Systems 2020*  
   *(発表題目: Theory of collective excitations and nonequilibrium phase transition in dissipative fermionic superfluids)*
 
-- **2021年3月–2023年10月, 2024年3月–2025年6月**  
+- **2021年3月–2023年10月, 2024年3月–2025年10月**  
   [高被引用文献](https://www.webofscience.com/wos/woscc/full-record/WOS:000486654900003), Web of Science Core Collection  
   *(Phys. Rev. Lett. 123, 123601 (2019))*
 
