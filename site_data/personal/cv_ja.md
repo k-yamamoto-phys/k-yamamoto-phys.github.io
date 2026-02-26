@@ -56,12 +56,12 @@
   (対象研究: 散逸の存在する冷却原子系におけるフェルミ超流動と臨界現象の理論)
 
 - **2025年3月5日**  
-  [令和6年度 理学院教員教育賞](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science), 東京科学大学 ([物理学系ニュース](https://www.phys.sci.isct.ac.jp/category/award/))   
-  (対象教育活動: 理論演習の出席率の飛躍的向上に向けたインタラクティブな授業)
+  [令和6年度 理学院教員教育賞](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science), 東京科学大学 ([物理学系ニュース](https://www.phys.sci.isct.ac.jp/category/award/))  
+(対象教育活動: 理論演習の出席率の飛躍的向上に向けたインタラクティブな授業)
 
 - **2024年9月13日**  
-  [令和6年度 東工大挑戦的研究賞](https://www.rdc.isct.ac.jp/sci-eng/research-funding/challenging-research-award/), 東京工業大学 ([東工大ニュース](https://www.titech.ac.jp/news/2024/069643))   
-  (受賞題目: 観測誘起相転移の冷却原子系での実現に向けた理論構築)
+  [令和6年度 東工大挑戦的研究賞](https://www.rdc.isct.ac.jp/sci-eng/research-funding/challenging-research-award/), 東京工業大学 ([東工大ニュース](https://www.titech.ac.jp/news/2024/069643))  
+(受賞題目: 観測誘起相転移の冷却原子系での実現に向けた理論構築)
 
 - **2024年5月18日**  
   [第23回 船井研究奨励賞](https://funaifoundation.jp/grantees/awardees_up_to_now.html), 船井情報科学振興財団 ([東工大ニュース](https://www.titech.ac.jp/news/2024/069453)、[物理学系ニュース](https://educ.titech.ac.jp/phys/news/2024_05/066041.html))   
