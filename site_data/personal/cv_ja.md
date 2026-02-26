@@ -23,7 +23,7 @@
 ## 職歴
 
 - **2024年10月 - 現在**  
-  東京科学大学 理学院物理学系 助教 <br>
+  東京科学大学 理学院物理学系 助教   
   （[東京工業大学](https://www.titech.ac.jp/)と[東京医科歯科大学](https://www.tmd.ac.jp/)は合併して、[東京科学大学](https://www.isct.ac.jp/ja)となりました）
 
 - **2023年4月 - 2024年9月**  
@@ -50,51 +50,51 @@
 ## 受賞
 
 - **2025年3月19日**  
-  [第19回 (2025年) 日本物理学会若手奨励賞](https://www.jps.or.jp/activities/awards/wakate.php) ([領域1](http://www.r1.div.jps.or.jp/)), 日本物理学会 ([物理学系ニュース](https://educ.titech.ac.jp/phys/news/2024_10/066722.html)) <br>
+  [第19回 (2025年) 日本物理学会若手奨励賞](https://www.jps.or.jp/activities/awards/wakate.php) ([領域1](http://www.r1.div.jps.or.jp/)), 日本物理学会 ([物理学系ニュース](https://educ.titech.ac.jp/phys/news/2024_10/066722.html))   
   (対象研究: 散逸の存在する冷却原子系におけるフェルミ超流動と臨界現象の理論)
 
 - **2025年3月5日**  
-  [令和6年度 理学院教員教育賞](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science), 東京科学大学 ([物理学系ニュース](https://www.phys.sci.isct.ac.jp/category/award/)) <br>
+  [令和6年度 理学院教員教育賞](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science), 東京科学大学 ([物理学系ニュース](https://www.phys.sci.isct.ac.jp/category/award/))   
   (対象教育活動: 理論演習の出席率の飛躍的向上に向けたインタラクティブな授業)
 
 - **2024年9月13日**  
-  [令和6年度 東工大挑戦的研究賞](https://www.rdc.isct.ac.jp/sci-eng/research-funding/challenging-research-award/), 東京工業大学 ([東工大ニュース](https://www.titech.ac.jp/news/2024/069643)) <br>
+  [令和6年度 東工大挑戦的研究賞](https://www.rdc.isct.ac.jp/sci-eng/research-funding/challenging-research-award/), 東京工業大学 ([東工大ニュース](https://www.titech.ac.jp/news/2024/069643))   
   (受賞題目: 観測誘起相転移の冷却原子系での実現に向けた理論構築)
 
 - **2024年5月18日**  
-  [第23回 船井研究奨励賞](https://funaifoundation.jp/grantees/awardees_up_to_now.html), 船井情報科学振興財団 ([東工大ニュース](https://www.titech.ac.jp/news/2024/069453)、[物理学系ニュース](https://educ.titech.ac.jp/phys/news/2024_05/066041.html)) <br>
+  [第23回 船井研究奨励賞](https://funaifoundation.jp/grantees/awardees_up_to_now.html), 船井情報科学振興財団 ([東工大ニュース](https://www.titech.ac.jp/news/2024/069453)、[物理学系ニュース](https://educ.titech.ac.jp/phys/news/2024_05/066041.html))   
   (受賞題目: 開放量子多体系における超伝導と観測誘起相転移の開拓)
 
 - **2024年2月2日**  
-  [第40回 井上研究奨励賞](https://www.inoue-zaidan.or.jp/), 井上科学振興財団 ([東工大ニュース](https://www.titech.ac.jp/news/2024/068398)、[物理学系ニュース](https://educ.titech.ac.jp/phys/news/2023_12/065227.html)) <br>
+  [第40回 井上研究奨励賞](https://www.inoue-zaidan.or.jp/), 井上科学振興財団 ([東工大ニュース](https://www.titech.ac.jp/news/2024/068398)、[物理学系ニュース](https://educ.titech.ac.jp/phys/news/2023_12/065227.html))   
   (受賞題目: 冷却原子系における散逸を伴う非平衡量子多体物理)
 
 - **2023年12月20日**  
-  [令和5年度 理学院若手研究奨励賞](https://educ.titech.ac.jp/phys/news/2023_12/065226.html), 東京工業大学 <br>
+  [令和5年度 理学院若手研究奨励賞](https://educ.titech.ac.jp/phys/news/2023_12/065226.html), 東京工業大学   
   (受賞題目: 強相関量子開放系における散逸誘起超伝導の理論構築)
 
 - **2022年10月24日**  
-  [日本物理学会 学生優秀発表賞 (領域1)](https://www.jps.or.jp/activities/awards/gakusei/2022_student_presentation_award.php), 日本物理学会 <br>
+  [日本物理学会 学生優秀発表賞 (領域1)](https://www.jps.or.jp/activities/awards/gakusei/2022_student_presentation_award.php), 日本物理学会   
   (発表題目: SU(N)対称性を持つ散逸下の朝永Luttinger液体における普遍的性質：非エルミート可解模型によるアプローチ)
 
 - **2021年9月**  
-  [最優秀ポスター賞](https://sces2020.org/program-2/), International Conference on Strongly Correlated Electron Systems 2020 <br>
+  [最優秀ポスター賞](https://sces2020.org/program-2/), International Conference on Strongly Correlated Electron Systems 2020   
   (発表題目: Theory of collective excitations and nonequilibrium phase transition in dissipative fermionic superfluids)
 
 - **2021年3月–2023年10月, 2024年3月–2025年10月**  
-  [高被引用文献](https://www.webofscience.com/wos/woscc/full-record/WOS:000486654900003), Web of Science Core Collection <br>
+  [高被引用文献](https://www.webofscience.com/wos/woscc/full-record/WOS:000486654900003), Web of Science Core Collection   
   (Phys. Rev. Lett. 123, 123601 (2019))
 
 - **2019年12月**  
-  ポスター賞銀賞, International Conference on Topological Materials Science 2019 <br>
+  ポスター賞銀賞, International Conference on Topological Materials Science 2019   
   (発表題目: Theory of non-Hermitian fermionic superfluidity with dissipation)
 
 - **2019年9月**  
-  [最優秀ポスター賞](http://sces2019.org/), International Conference on Strongly Correlated Electron Systems 2019 <br>
+  [最優秀ポスター賞](http://sces2019.org/), International Conference on Strongly Correlated Electron Systems 2019   
   (発表題目: Phase transitions in fermionic superfluidity with dissipation)
 
 - **2019年2月**  
-  [最優秀ポスター賞](http://tpfc.issp.u-tokyo.ac.jp/), Topological Phases and Functionality of Correlated Electron Systems 2019 <br>
+  [最優秀ポスター賞](http://tpfc.issp.u-tokyo.ac.jp/), Topological Phases and Functionality of Correlated Electron Systems 2019   
   (発表題目: Fate of loss-induced superconductivity studied by non-Hermitian mean field theory)
 
 ---
