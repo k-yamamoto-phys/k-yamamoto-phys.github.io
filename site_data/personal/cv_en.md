@@ -25,7 +25,10 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo
 
 ## Employments
 
-- **Oct. 2024 – Present**  
+- **Apr. 2026 – Present**  
+  Assistant Professor, Department of Physics, Osaka Metropolitan University
+
+- **Oct. 2024 – Mar. 2026**  
   Assistant Professor, Department of Physics, Institute of Science Tokyo  
   *([Tokyo Institute of Technology](https://www.titech.ac.jp/) and [Tokyo Medical and Dental University](https://www.tmd.ac.jp/) merged to form the [Institute of Science Tokyo](https://www.isct.ac.jp/ja).)*
 

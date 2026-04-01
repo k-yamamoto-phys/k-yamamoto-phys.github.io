@@ -18,10 +18,10 @@ export default async function Page() {
                     <div className="prose">
                         <h1>山本和樹</h1>
                         <p>博士 (理学)</p>
-                        <p>助教</p>
-                        <p>東京科学大学(旧東京工業大学)理学院物理学系(古賀研究室)</p>
+                        <p>講師</p>
+                        <p>大阪公立大学理学研究科</p>
                         <img src="/images/science_tokyo_logo.jpg" alt="Science Tokyo Logo" className="w-48 md:w-64 my-3" />
-                        <p>Email: yamamoto + アットマーク + phys.sci.isct.ac.jp</p>
+                        <p>Email: kazuki-yamamoto + アットマーク + omu.ac.jp</p>
                     </div>
                     <div className="md:w-1/3 w-2/3 mt-3">
                         <Crousel crousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.ja }))} />

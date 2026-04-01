@@ -23,9 +23,9 @@ export default async function Page() {
                         <h1>Dr. Kazuki Yamamoto</h1>
                         <p>Ph.D. (Science)</p>
                         <p>Assistant Professor</p>
-                        <p>Department of Physics, Institute of Science Tokyo (Formerly Tokyo Institute of Technology)</p>
+                        <p>Department of Physics, Osaka Metropolitan University</p>
                         <img src="/images/science_tokyo_logo.jpg" alt="Science Tokyo Logo" className="w-48 md:w-64 my-3" />
-                        <p>Email: yamamoto + [atmark] + phys.sci.isct.ac.jp</p>
+                        <p>Email: kazuki-yamamoto + [atmark] + omu.ac.jp</p>
                     </div>
                     <div className="md:w-1/3 w-2/3 mt-3">
                         <Crousel crousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.en }))} />
