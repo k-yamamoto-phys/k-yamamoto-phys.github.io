@@ -24,7 +24,7 @@ export default async function Page() {
                         <p>Ph.D. (Science)</p>
                         <p>Assistant Professor</p>
                         <p>Department of Physics, Osaka Metropolitan University</p>
-                        <img src="/images/science_tokyo_logo.jpg" alt="Science Tokyo Logo" className="w-48 md:w-64 my-3" />
+                        <img src="/images/OMU_logo_en.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
                         <p>Email: kazuki-yamamoto + [atmark] + omu.ac.jp</p>
                     </div>
                     <div className="md:w-1/3 w-2/3 mt-3">
