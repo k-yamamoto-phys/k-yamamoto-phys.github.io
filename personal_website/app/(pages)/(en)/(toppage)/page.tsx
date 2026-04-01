@@ -32,7 +32,7 @@ export default async function Page() {
                     </div>
                 </div>
                 <div className="prose ">
-                    <h2>Research Interests: Theory of Nonequilibrium Quantum Many-Body Physics through the Fusion of Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
+                    <h2>Research Interests: Theory of Nonequilibrium Quantum Many-Body Physics at the Interface between Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
                     <p>I am interested in strongly correlated phenomena in condensed matter physics, particularly in open quantum systems with ultracold atoms. Recently, I am working on many-body physics by using both analytical and numerical methods, such as Bethe ansatz, conformal field theory, and (non-Hermitian generalization of) density-matrix renormalization group analysis.</p>
                     <div className="card sm:card-side bg-white shadow-sm  ">
                         <img
