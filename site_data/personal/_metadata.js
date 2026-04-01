@@ -5,8 +5,8 @@ export const siteMetadata = {
         ja: "山本 和樹"
     },
     organization: {
-        ja: "東京科学大学　理学院　物理学系　古賀研究室",
-        en: "Department of physics, Institute of Science Tokyo"
+        ja: "大阪公立大学理学研究科",
+        en: "Department of physics, Osaka Metropolitan University"
     },
     SiteTitle: {
         en: "Kazuki Yamamoto",
@@ -16,8 +16,8 @@ export const siteMetadata = {
         { 
             image: "/images/cj1.jpg",
             caption: {
-                ja: "Prof. Werner, Mithilesh, Dr. Nayak, Dr. Rayとのpizzeriaでの夕食",
-                en: "Dinner at a pizzeria with Prof. Werner, Mithilesh, Dr. Nayak, and Dr. Ray"
+                ja: "Prof. Werner, Dr. Mithilesh, Dr. Rayとのpizzeriaでの夕食",
+                en: "Dinner at a pizzeria with Prof. Werner, Dr. Mithilesh, and Dr. Ray"
             }
         },
         { 
@@ -95,11 +95,19 @@ export const siteMetadata = {
     ExternalLinks: {
         en: [
             {
+                name: "Dep. Phys., OMU",
+                href: "https://www.omu.ac.jp/sci/phys_en/research/condensedmatter.html",
+            },
+            {
+                name: "OMU",
+                href: "https://www.omu.ac.jp/en/",
+            },
+            {
                 name: "Science Tokyo",
                 href: "https://www.isct.ac.jp/en",
             },
             {
-                name: "Dept. of Phys.",
+                name: "Dep. Phys., Science Tokyo",
                 href: "https://educ.titech.ac.jp/phys/eng/"
             },
             {
@@ -107,17 +115,25 @@ export const siteMetadata = {
                 href: "http://www.stat.phys.titech.ac.jp/koga/index-e.html"
             },
             {
-                name: "Cond. Theo. Kyoto Univ.",
+                name: "CMT group, Kyoto Univ.",
                 href: "https://cond.scphys.kyoto-u.ac.jp/e_index.html"
             }
         ],
         ja: [
             {
+                name: "大阪公立大学理学研究科",
+                href: "https://www.omu.ac.jp/sci/phys/kouza/condensedmatter.html",
+            },
+            {
+                name: "大阪公立大学",
+                href: "https://www.omu.ac.jp/",
+            },
+            {
                 name: "Science Tokyo",
                 href: "https://www.isct.ac.jp/ja",
             },
             {
-                name: "物理学系",
+                name: "東京科学大学物理学系",
                 href: "https://educ.titech.ac.jp/phys/"
             },
             {
@@ -125,7 +141,7 @@ export const siteMetadata = {
                 href: "http://www.stat.phys.titech.ac.jp/koga/"
             },
             {
-                name: "京大凝縮系理論",
+                name: "京都大学凝縮系理論グループ",
                 href: "http://cond.scphys.kyoto-u.ac.jp/"
             }
         ]
