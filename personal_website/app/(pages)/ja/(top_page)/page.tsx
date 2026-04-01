@@ -20,7 +20,7 @@ export default async function Page() {
                         <p>博士 (理学)</p>
                         <p>講師</p>
                         <p>大阪公立大学理学研究科</p>
-                        <img src="/images/OMU_logo_en.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
+                        <img src="/images/OMU_logo_jp.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
                         <p>Email: kazuki-yamamoto + アットマーク + omu.ac.jp</p>
                     </div>
                     <div className="md:w-1/3 w-2/3 mt-3">
@@ -56,7 +56,7 @@ export default async function Page() {
                     <h2>最近の活動</h2>
                     <Acctivity lang={"ja"} limit={5} /> <br />
                     <Link href="/ja/news" className="btn btn-primary  text-white">一覧へ<FaArrowRight /></Link>
-                    {/* <h2>リンク</h2>
+    {/* <h2>リンク</h2>
                 <ul>
                     <li><a href="http://www.stat.phys.titech.ac.jp/koga/" >東京工業大学古賀研究室</a></li>
                     <li><Link href="http://cond.scphys.kyoto-u.ac.jp/">京都大学凝縮系理論グループ</Link></li>
@@ -64,8 +64,8 @@ export default async function Page() {
                     <h2>韓国のAPCTPにおける講演のYoutube 動画
                     </h2>
                     <iframe className="aspect-video w-full" src="https://www.youtube.com/embed/4kMetRPztq0?si=zW0-CWha9fEJ7BoW" title="YouTube video player"    ></iframe>
-                </div>
-            </div>
+                </div >
+            </div >
         </>
     );
 }
