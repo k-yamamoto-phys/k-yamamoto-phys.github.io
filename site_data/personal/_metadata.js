@@ -122,7 +122,7 @@ export const siteMetadata = {
         ja: [
             {
                 name: "大阪公立大学理学研究科",
-                href: "https://www.omu.ac.jp/sci/phys/edure/staff.html",
+                href: "https://www.omu.ac.jp/sci/phys/kouza/condensedmatter.html",
             },
             {
                 name: "大阪公立大学",
