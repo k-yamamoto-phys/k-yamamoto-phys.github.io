@@ -32,7 +32,6 @@ export default async function Page() {
                     </div>
                 </div>
                 <div className="prose ">
-<<<<<<< HEAD
                     <h2>Research Interests: Theory of Nonequilibrium Quantum Many-Body Physics through the Fusion of Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
                     <p>I am interested in strongly correlated phenomena in condensed matter physics, particularly in open quantum systems with ultracold atoms. Recently, I am working on many-body physics by using both analytical and numerical methods, such as Bethe ansatz, conformal field theory, and (non-Hermitian generalization of) density-matrix renormalization group analysis.
                         We are always looking for motivated students and postdocs who belong to Department of Physics, Osaka Metropolitan University. If you are interested, please contact me for further information.
@@ -55,7 +54,7 @@ export default async function Page() {
                     <h2>What's New</h2>
                     <Acctivity lang={"en"} limit={5} />
                     <Link href="/news" className="btn btn-primary text-white">More news<FaArrowRight /></Link>
-    {/* <h2>Links</h2>
+                    {/* <h2>Links</h2>
                     <ul>
                         <li><a href="http://www.stat.phys.titech.ac.jp/koga/" >Tokyo Institute of Technology Koga Laboratory</a></li>
                         <li><Link href="http://cond.scphys.kyoto-u.ac.jp/">Kyoto University Condensed Matter Theory Group</Link></li>
