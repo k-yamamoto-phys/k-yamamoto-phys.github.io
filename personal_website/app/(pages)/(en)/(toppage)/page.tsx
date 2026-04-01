@@ -37,10 +37,6 @@ export default async function Page() {
                     <p>I am interested in strongly correlated phenomena in condensed matter physics, particularly in open quantum systems with ultracold atoms. Recently, I am working on many-body physics by using both analytical and numerical methods, such as Bethe ansatz, conformal field theory, and (non-Hermitian generalization of) density-matrix renormalization group analysis.
                         We are always looking for motivated students and postdocs who belong to Department of Physics, Osaka Metropolitan University. If you are interested, please contact me for further information.
                     </p>
-=======
-                    <h2>Research Interests: Theory of Nonequilibrium Quantum Many-Body Physics at the Interface between Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
-                    <p>I am interested in strongly correlated phenomena in condensed matter physics, particularly in open quantum systems with ultracold atoms. Recently, I am working on many-body physics by using both analytical and numerical methods, such as Bethe ansatz, conformal field theory, and (non-Hermitian generalization of) density-matrix renormalization group analysis.</p>
->>>>>>> b470349f18b2340460cd184f8affeda69e3cd603
                     <div className="card sm:card-side bg-white shadow-sm  ">
                         <img
                             src="/images/top_page/measurement.png"
@@ -59,15 +55,15 @@ export default async function Page() {
                     <h2>What's New</h2>
                     <Acctivity lang={"en"} limit={5} />
                     <Link href="/news" className="btn btn-primary text-white">More news<FaArrowRight /></Link>
-                    {/* <h2>Links</h2>
+    {/* <h2>Links</h2>
                     <ul>
                         <li><a href="http://www.stat.phys.titech.ac.jp/koga/" >Tokyo Institute of Technology Koga Laboratory</a></li>
                         <li><Link href="http://cond.scphys.kyoto-u.ac.jp/">Kyoto University Condensed Matter Theory Group</Link></li>
                     </ul> */}
                     <h2>Talk in APCTP (Click the Youtube button on the right side)</h2>
                     <iframe className="aspect-video w-full" src="https://www.youtube.com/embed/4kMetRPztq0?si=zW0-CWha9fEJ7BoW" title="YouTube video player"    ></iframe>
-                </div>
-            </div>
+                </div >
+            </div >
         </>
     );
 }
