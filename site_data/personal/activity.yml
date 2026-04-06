@@ -1,10 +1,26 @@
+- date: "2026-04-02"
+  label: publication
+  content:
+    ja: >
+      原著論文 "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions" を [arXiv](https://arxiv.org/abs/2604.00574)
+      に投稿しました 。
+    en: >
+      Original paper "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions" has appeared on [arXiv](https://arxiv.org/abs/2604.00574)
+- date: "2026-04-02"
+  label: publication
+  content:
+    ja: >
+      原著論文 "Anomalous waiting-time distributions in postselection-free quantum many-body dynamics under continuous monitoring" を [arXiv](https://arxiv.org/abs/2604.00358)
+      に投稿しました 。
+    en: >
+      Original paper "Anomalous waiting-time distributions in postselection-free quantum many-body dynamics under continuous monitoring" has appeared on [arXiv](https://arxiv.org/abs/2604.00358)
 - date: "2026-04-01"
   label: other
   content:
     ja: >
-      大阪公立大学理学研究科に赴任して研究室(非平衡量子多体物性理論)を立ち上げました。
+      大阪公立大学理学研究科に着任して研究室([非平衡量子多体物性理論](https://www.omu.ac.jp/sci/phys/kouza/condensedmatter.html))を立ち上げました。
     en: >
-      I have started a new group in [Osaka Metropolitan University](https://www.omu.ac.jp/en/).
+      I have started a new group in [Osaka Metropolitan University](https://www.omu.ac.jp/sci/phys_en/research/condensedmatter.html).
 - date: "2026-03-16"
   label: publication
   content:
