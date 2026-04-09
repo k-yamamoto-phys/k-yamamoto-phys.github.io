@@ -1,7 +1,7 @@
 # 新規追加は、上から順に行うことで順番に整合が取れます。sort_presentation.pyを実行することでsortできます。
 - title: "TBA"
   presenter: 山本 和樹
-  date: '2026-09-04'
+  date: '2026-08-31'
   category: domestic
   type: invited
   detail: >
