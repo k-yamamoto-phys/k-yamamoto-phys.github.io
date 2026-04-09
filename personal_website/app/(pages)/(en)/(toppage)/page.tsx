@@ -24,6 +24,7 @@ export default async function Page() {
                         <p>Ph.D. (Science)</p>
                         <p>Assistant Professor</p>
                         <p>Department of Physics, Osaka Metropolitan University</p>
+                        <p>Nonequilibrium Many-Body Quantum Matter Theory Group</p>
                         <img src="/images/OMU_logo_en.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
                         <p>Email: kazuki-yamamoto + [atmark] + omu.ac.jp</p>
                     </div>

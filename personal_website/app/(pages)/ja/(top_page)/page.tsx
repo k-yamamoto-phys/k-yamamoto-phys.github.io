@@ -20,6 +20,7 @@ export default async function Page() {
                         <p>博士 (理学)</p>
                         <p>講師</p>
                         <p>大阪公立大学理学研究科</p>
+                        <p>非平衡量子多体物性理論研究室</p>
                         <img src="/images/OMU_logo_jp.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
                         <p>Email: kazuki-yamamoto + アットマーク + omu.ac.jp</p>
                     </div>
