@@ -16,10 +16,10 @@ export default async function Page() {
             <div className="m-2 p-2">
                 <div className="flex flex-col md:flex-row justify-between  mb-6">
                     <div className="prose">
-                        <h1>山本和樹</h1>
+                        <h1>山本 和樹</h1>
                         <p>博士 (理学)</p>
                         <p>講師</p>
-                        <p>大阪公立大学理学研究科</p>
+                        <p>大阪公立大学大学院理学研究科物理学専攻</p>
                         <p>非平衡量子多体物性理論研究室</p>
                         <img src="/images/OMU_logo_jp.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
                         <p>Email: kazuki-yamamoto + アットマーク + omu.ac.jp</p>
