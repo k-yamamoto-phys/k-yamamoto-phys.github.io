@@ -12,11 +12,11 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 
 - **Apr. 2020 – Mar. 2023**  
   Doctor Course, Department of Physics, Kyoto University  
-  *[Supervisor: Prof. Norio Kawakami](http://cond.scphys.kyoto-u.ac.jp/~norio/)*
+  [Supervisor: Prof. Norio Kawakami](http://cond.scphys.kyoto-u.ac.jp/~norio/)
 
 - **Apr. 2018 – Mar. 2020**  
   Master Course, Department of Physics, Kyoto University  
-  *Supervisor: Prof. Norio Kawakami*
+  Supervisor: Prof. Norio Kawakami
 
 - **Apr. 2014 – Mar. 2018**  
   Bachelor, Department of Physics, Kyoto University
@@ -30,7 +30,7 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 
 - **Oct. 2024 – Mar. 2026**  
   Assistant Professor, Department of Physics, Institute of Science Tokyo  
-  *([Tokyo Institute of Technology](https://www.titech.ac.jp/) and [Tokyo Medical and Dental University](https://www.tmd.ac.jp/) merged to form the [Institute of Science Tokyo](https://www.isct.ac.jp/ja).)*
+  ([Tokyo Institute of Technology](https://www.titech.ac.jp/) and [Tokyo Medical and Dental University](https://www.tmd.ac.jp/) merged to form the [Institute of Science Tokyo](https://www.isct.ac.jp/ja).)
 
 - **Apr. 2023 – Sep. 2024**  
   Assistant Professor, Department of Physics, Tokyo Institute of Technology
@@ -128,16 +128,16 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 ## Conference Organizing and External Programs
 
 - **Jul. 2024 –**  
-  Organizing Committee, *[Workshop on Ultracold Atoms](https://www.omu.ac.jp/sci/laserQ/atomnokai/)*
+  Organizing Committee, [Workshop on Ultracold Atoms](https://www.omu.ac.jp/sci/laserQ/atomnokai/)
 
 - **Sep. 2023**  
-  Chair (Division 11), *[78th Annual Meeting of the Physical Society of Japan](https://onsite.gakkai-web.net/jps/jps_search/2023au/index.html)*
+  Chair (Division 11), [78th Annual Meeting of the Physical Society of Japan](https://onsite.gakkai-web.net/jps/jps_search/2023au/index.html)
 
 - **2023 – 2025**  
-  Research Collaborator, *[Grant-in-Aid for Transformative Research Area (A): “Exploring the Fundamental Laws of the Extreme Universe”](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/)*, Group B02
+  Research Collaborator, [Grant-in-Aid for Transformative Research Area (A): “Exploring the Fundamental Laws of the Extreme Universe”](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/), Group B02
 
 - **2023 – 2024**  
-  Organizing Committee, *[2nd Young Researchers Workshop of the Extreme Universe Collaboration](https://sites.google.com/view/workshopofexuforyr2)*
+  Organizing Committee, [2nd Young Researchers Workshop of the Extreme Universe Collaboration](https://sites.google.com/view/workshopofexuforyr2)
 
 ---
 
@@ -149,12 +149,12 @@ Phys. Rev. Lett., Phys. Rev. X, PRX Quantum, Phys. Rev. A, Phys. Rev. B, Phys. R
 
 ## Long-term Research Stays
 
-- **[Kawabata Group](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/kawabata_group.html)**, Institute for Solid State Physics (ISSP), University of Tokyo — *(Oct. 2024, Feb.–Apr. 2025)*
-- **[Computational Physics Group](https://www.unifr.ch/phys/en/research/groups/werner/)** (PI: Prof. Philipp Werner), University of Fribourg, Switzerland — *(Mar. 2024)*
-- **[Katsura Group](https://park.itc.u-tokyo.ac.jp/hkatsura-lab/)**, University of Tokyo — *(Dec. 2022, by [Young Researcher Visiting Program](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/))*
-- **[Hamazaki RIKEN Hakubi Team](https://sites.google.com/view/noneqquantstatmech/home)**, RIKEN — *(Apr. 2021–Mar. 2022 by [MACS Program](https://www.sci.kyoto-u.ac.jp/ja/academics/programs/macs/sg/sg2021/sg2021-kobayashi) (Online), Sep. 2022)*
-- **[Morimoto Group](http://morimoto-lab.t.u-tokyo.ac.jp/)**, University of Tokyo — *(Dec. 2019, by [Young Researcher Visiting Program](https://ss.scphys.kyoto-u.ac.jp/TMS/index.html))*
-- **[Ueda Group](http://cat.phys.s.u-tokyo.ac.jp/)**, University of Tokyo — *(Dec. 2018, May 2019, Feb. 2020, by [Young Researcher Visiting Program](https://ss.scphys.kyoto-u.ac.jp/TMS/index.html))*
+- **[Kawabata Group](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/kawabata_group.html)**, Institute for Solid State Physics (ISSP), University of Tokyo — (Oct. 2024, Feb.–Apr. 2025)
+- **[Computational Physics Group](https://www.unifr.ch/phys/en/research/groups/werner/)** (PI: Prof. Philipp Werner), University of Fribourg, Switzerland — (Mar. 2024)
+- **[Katsura Group](https://park.itc.u-tokyo.ac.jp/hkatsura-lab/)**, University of Tokyo — (Dec. 2022, by [Young Researcher Visiting Program](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/))
+- **[Hamazaki RIKEN Hakubi Team](https://sites.google.com/view/noneqquantstatmech/home)**, RIKEN — (Apr. 2021–Mar. 2022 by [MACS Program](https://www.sci.kyoto-u.ac.jp/ja/academics/programs/macs/sg/sg2021/sg2021-kobayashi) (Online), Sep. 2022)
+- **[Morimoto Group](http://morimoto-lab.t.u-tokyo.ac.jp/)**, University of Tokyo — (Dec. 2019, by [Young Researcher Visiting Program](https://ss.scphys.kyoto-u.ac.jp/TMS/index.html))
+- **[Ueda Group](http://cat.phys.s.u-tokyo.ac.jp/)**, University of Tokyo — (Dec. 2018, May 2019, Feb. 2020, by [Young Researcher Visiting Program](https://ss.scphys.kyoto-u.ac.jp/TMS/index.html))
 
 ---
 

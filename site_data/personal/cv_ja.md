@@ -114,7 +114,7 @@
 - **2025 (2Q)**　[解析力学演習](https://syllabus.s.isct.ac.jp/courses/-/-/-/202529622)  
 - **2025 (2Q)**　[電磁気学III演習](https://syllabus.s.isct.ac.jp/courses/2025/1/0-901-311200-0-0/202529631)  
 - **2024 (4Q)**　量子力学II演習 (週2コマ, [令和6年度理学院教員教育賞](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science)受賞)  
-- **2024 (3Q)**　量子力学入門演習 — *[授業評価アンケート](https://drive.google.com/file/d/18QMjFRldLcBE8qgqCyBT7nsH9e6ccgR4/view?usp=sharing)*  
+- **2024 (3Q)**　量子力学入門演習 — [授業評価アンケート](https://drive.google.com/file/d/18QMjFRldLcBE8qgqCyBT7nsH9e6ccgR4/view?usp=sharing)  
 - **2024 (2Q)**　解析力学演習  
 - **2024 (2Q)**　電磁気学III演習 
 - **2023 (3Q)**　電磁気学II演習
