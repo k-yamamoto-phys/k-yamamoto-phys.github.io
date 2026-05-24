@@ -16,13 +16,9 @@ type Presentation = {
     type: "invited" | "oral" | "poster";
 }
 const BadgeMap = {
-    award: "badge-warning",
-    publication: "badge-success",
-    seminar: "badge-info",
-    "invited seminar": "badge-info",
-    talk: "badge-accent",
-    "invited talk": "badge-accent",
-    poster: "badge-natural",
+    "invited": "badge-info",
+    "oral": "badge-accent",
+    "poster": "badge-accent",
 }
 export async function generateMetadata(): Promise<Metadata> {
     return MetadataGenerator(`Presentations`, `presentations by Dr. Kazuki Yamamoto`, '/presentations');
@@ -41,7 +37,7 @@ export default async function Page() {
                     <ul className="list-none">
                         {
                             upcoming.map((p, index, array) => (
-                                <ConferenceItem key={index} p={p} number={index+1} />
+                                <ConferenceItem_for_futures key={index} p={p} number={index+1} />
                             ))
                         }
                     </ul></>
@@ -95,6 +91,24 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
         </li>
     );
 }
+
+async function ConferenceItem_for_futures({ p, number }: { p: Presentation, number: number }) {
+    const markdownContent = await convertMarkdownToHtml(p.detail);
+    let budgeObject;
+    const badgeType = BadgeMap[p.type];
+    budgeObject = <span className={`badge  badge-soft ${badgeType}`}>{p.type}</span>
+    return (
+        <li>
+            <p>
+                {number}.&nbsp;
+                "{p.title}"&nbsp;{budgeObject}
+            </p>
+            <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en, siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
+            <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+        </li >
+    );
+}
+
 
 function UnderlinedText({
     text,
