@@ -57,7 +57,7 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 ## Awards
 
 - **Jun. 27, 2026**  
-  [39th Ando Incentive Prize for the Study of Electronics](https://www.ando-lab.or.jp/index.html), The Foundation of Ando Laboratory　([News 1](https://www.omu.ac.jp/sci/phys/info/news1/entry-112018.html))
+  [39th Ando Incentive Prize for the Study of Electronics](https://www.ando-lab.or.jp/index.html), The Foundation of Ando Laboratory　([News](https://www.omu.ac.jp/sci/phys/info/news1/entry-112018.html))
   (Title: Exploring superconductivity in nonequilibrium open systems)
 
 - **Mar. 19, 2025**  
