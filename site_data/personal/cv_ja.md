@@ -55,7 +55,7 @@
 ## 受賞
 
 - **2026年6月27日**  
-  [第39回 安藤博記念学術奨励賞](https://www.ando-lab.or.jp/index.html), 一般財団法人安藤研究所  
+  [第39回 安藤博記念学術奨励賞](https://www.ando-lab.or.jp/index.html), 一般財団法人安藤研究所 ([物理学専攻ニュース](https://www.omu.ac.jp/sci/phys/info/news1/entry-112018.html))  
 (受賞題目: 非平衡開放系における超伝導の開拓)
 
 - **2025年3月19日**  
