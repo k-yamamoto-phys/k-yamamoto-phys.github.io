@@ -30,7 +30,6 @@ export default function Acctivity({lang, limit}: {lang: string, limit?: number})
         }, {} as Record<number, activityEntry[]>)
     ).sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
         .map(([year, data]) => ({ year, data }));
-    // console.log(activity_by_year);
     return (
         <>
             {

@@ -10,6 +10,7 @@ import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
 // import type { ContainerNode } from "./container-node";
 import remarkParse from "remark-parse";
+import { withBasePath } from "./site-paths";
 
 export async function convertMarkdownToHtml(markdownString: string): Promise<string> {
     const altParts = await extractAlts(markdownString); // 画像のalt部分を事前に抽出（remarkmathがparse前に動作して、alt内の数式ノーテーションを削除してしまうため）
@@ -23,6 +24,7 @@ export async function convertMarkdownToHtml(markdownString: string): Promise<str
         .use(rehypeKatex) // 数式対応
         .use(rehyperImageWithCaption, { altData: altParts }) // 画像にキャプションを追加
         .use(rehyperh3Decorate) // h3をデコレート
+        .use(rehypeBasePathAssets)
         .use(rehypeStringify) // HTML AST → HTML文字列に変換
         .process(markdownString);
 
@@ -41,6 +43,7 @@ export async function convertMarkdownToHtmlWithSectionize(markdownString: string
         .use(rehyperImageWithCaption, { altData: altParts }) // 画像にキャプションを追加
         .use(rehyperh3Decorate) // h3をデコレート
         .use(rehypeSectionize) // セクション分割
+        .use(rehypeBasePathAssets)
         .use(rehypeStringify) // HTML AST → HTML文字列に変換
         .process(markdownString);
 
@@ -59,6 +62,20 @@ const rehyperh3Decorate: Plugin<[], Root> = () => {
                 ...(node.properties ?? {}),
                 className: ["my-2", "p-1", "border-l-4", "border-primary", "pl-2"],
             };
+        });
+    };
+};
+
+const rehypeBasePathAssets: Plugin<[], Root> = () => {
+    return (tree: Root) => {
+        visit(tree, "element", (node: Element) => {
+            if (!node.properties) return;
+            if (node.tagName === "img" && typeof node.properties.src === "string") {
+                node.properties.src = withBasePath(node.properties.src);
+            }
+            if (node.tagName === "a" && typeof node.properties.href === "string") {
+                node.properties.href = withBasePath(node.properties.href);
+            }
         });
     };
 };
@@ -92,7 +109,6 @@ async function extractAlts(markdownText: string) {
 //         visit(tree, "image", (node, index, parent) => {
 //             if (!parent || typeof index !== 'number') return;
 //             const alt = node.alt || "";
-//             console.log(alt);
 //             const caption: Paragraph = {
 //                 type: "paragraph",
 //                 children: [

@@ -4,7 +4,7 @@ import { FaHome, FaSearch, FaBook, FaArrowRight } from 'react-icons/fa';
 import { MetadataGenerator } from "@/app/lib/metadata";
 import Acctivity from "@/app/ui/server/acctivity";
 import { Crousel, Hero } from "@/app/ui/client/crousel";
-import { siteMetadata } from "@/group/_metadata";
+import { withBasePath } from "@/app/lib/site-paths";
 
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -30,7 +30,7 @@ export default async function Page() {
                     <p>I am interested in strongly correlated phenomena in condensed matter physics, particularly in open quantum systems with ultracold atoms. Recently, I am working on many-body physics by using both analytical and numerical methods, such as Bethe ansatz, conformal field theory, and (non-Hermitian generalization of) density-matrix renormalization group analysis.</p>
                     <div className="card sm:card-side bg-white shadow-sm  ">
                         <img
-                            src="/images/top_page/measurement.png"
+                            src={withBasePath("/images/top_page/measurement.png")}
                             className="w-64 object-contain mx-auto pl-2"
                             style={{ marginTop: "1em", marginBottom: "1em" }}
                             alt="Measurement" />

@@ -4,6 +4,7 @@ import md_content from "@/group/members_other.md";
 import { convertMarkdownToHtml } from "@/app/lib/markdown";
 import { Hero } from "@/app/ui/client/crousel";
 import { siteMetadata } from "@/group/_metadata";
+import { withBasePath } from "@/app/lib/site-paths";
 import members from "@/group/members.yml";
 export type memberEntry = {
     name: {
@@ -40,7 +41,7 @@ export default async function Page() {
             <div className="m-2 p-2 prose">
                 <h1>メンバー</h1>
                 <div className="md:w-1/2 w-full mx-auto">
-                    <img src={siteMetadata.all_member_img} alt="メンバー集合写真" className="w-full object-contain" />
+                    <img src={withBasePath(siteMetadata.all_member_img)} alt="メンバー集合写真" className="w-full object-contain" />
                 </div>
             </div>
             <h2 className="ml-4 text-2xl font-bold">メンバーの紹介</h2>
@@ -67,7 +68,7 @@ const MemberCard = async ({ member, lang }: { member: memberEntry, lang: "ja" | 
                 <div className="flex flex-col justify-center">
                     <div className="avatar">
                         <div className="w-24 rounded-xl">
-                            <img src={member.photo} alt={member.name[lang]} />
+                            <img src={withBasePath(member.photo)} alt={member.name[lang]} />
                         </div>
                     </div>
                 </div>

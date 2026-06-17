@@ -1,5 +1,24 @@
+const DEFAULT_BASE_PATH = "/group";
+const DEFAULT_PUBLIC_URL = "https://kazuki-yamamoto.github.io/group";
+
+function normalizeBasePath(value) {
+    const trimmed = (value ?? "").trim();
+    if (!trimmed || trimmed === "/") return "";
+    const prefixed = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+    return prefixed.replace(/\/+$/, "");
+}
+
+function normalizePublicURL(value) {
+    const trimmed = (value ?? "").trim().replace(/\/+$/, "");
+    return trimmed || DEFAULT_PUBLIC_URL;
+}
+
+const basePath = normalizeBasePath(process.env.NEXT_PUBLIC_GROUP_BASE_PATH ?? DEFAULT_BASE_PATH);
+const publicURL = normalizePublicURL(process.env.NEXT_PUBLIC_GROUP_PUBLIC_URL ?? DEFAULT_PUBLIC_URL);
+
 export const siteMetadata = {
-    publicURL: "https://www.omu.ac.jp/sci/phys/yamamoto",
+    basePath,
+    publicURL,
     name: {
         en: "Kazuki Yamamoto",
         ja: "山本 和樹"

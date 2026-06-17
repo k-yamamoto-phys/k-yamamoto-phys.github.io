@@ -89,7 +89,6 @@
 //             }
 //         }
 //     } catch (e) {
-//         console.log(e, "adafd");
 //         alert("通信に問題が生じています。");
 //         return {
 //             data: {
@@ -145,4 +144,3 @@
 //         </form>
 //     </>
 // }
-

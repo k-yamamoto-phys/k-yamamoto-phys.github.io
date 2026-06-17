@@ -14,7 +14,7 @@ export default async function Page() {
         <div className="m-2 p-2 prose">
             <h1>Recent Activities</h1>
             <Acctivity lang="en" />
-            <Link href="/en" className="btn btn-primary  text-white"><FaHome />Back to Home</Link>
+            <Link href="/" className="btn btn-primary  text-white"><FaHome />Back to Home</Link>
         </div>
     );
 }
