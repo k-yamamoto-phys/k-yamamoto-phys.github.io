@@ -16,7 +16,7 @@ export default async function Page() {
                 <div className="max-w-4xl mx-auto">
                     <h1 className="text-4xl font-bold md:text-6xl">非平衡量子多体研究室</h1>
                     <p className="text-sm md:text-lg mt-5">
-                        大阪公立大学理学部物理学科/大学院理学研究科物理学専攻 物性物理学講座 非平衡量子多体研究室のホームページへようこそ。（適当に変える）
+                        大阪公立大学 理学部物理学科・大学院理学研究科物理学専攻 物性物理学講座において、非平衡量子多体系の理論研究に取り組んでいます。
                     </p>
                 </div>
             </Hero>

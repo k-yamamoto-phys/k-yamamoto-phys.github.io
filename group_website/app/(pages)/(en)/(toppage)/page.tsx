@@ -19,7 +19,7 @@ export default async function Page() {
                 <div className="max-w-4xl mx-auto">
                     <h1 className="text-4xl font-bold md:text-6xl">Yamamoto group</h1>
                     <p className="text-sm md:text-lg mt-5">
-                        Welcome to the homepage of the Yamamoto Group, Department of Physics, Osaka Metropolitan University / Graduate School of Science, Department of Physics, Condensed Matter Physics Laboratory. (適当に変える)
+                        We study the theory of non-equilibrium quantum many-body systems in the Condensed Matter Physics Group, Department of Physics, Osaka Metropolitan University.
                     </p>
                 </div>
             </Hero>
