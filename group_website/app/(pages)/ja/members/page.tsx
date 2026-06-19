@@ -45,7 +45,7 @@ export default async function Page() {
                 </div>
             </div>
             <h2 className="ml-4 text-2xl font-bold">メンバーの紹介</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 p-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 p-4 gap-4">
                 {
                     member_data.map((member, index) => (
                         <MemberCard key={index} member={member} lang="ja" />
@@ -64,18 +64,18 @@ const MemberCard = async ({ member, lang }: { member: memberEntry, lang: "ja" | 
     const message = await convertMarkdownToHtml(member.message[lang] || "");
     return (
         <div className="card bg-base-100 card-md shadow-sm border border-gray-400">
-            <div className="card-body flex-row">
-                <div className="flex flex-col justify-center">
+            <div className="card-body flex flex-col gap-4">
+                <div className="flex flex-col">
                     <div className="avatar">
-                        <div className="w-24 rounded-xl">
-                            <img src={withBasePath(member.photo)} alt={member.name[lang]} />
+                        <div className="w-24 aspect-square rounded-xl">
+                            <img src={withBasePath(member.photo)} alt={member.name[lang]} className="h-full w-full object-cover" />
                         </div>
                     </div>
                 </div>
-                <div className="ml-6 w-full min-w-0">
-                    <h2 className="card-title">{member.name[lang]}</h2>
+                <div className="w-full min-w-0">
+                    <h2 className="card-title text-lg">{member.name[lang]}</h2>
                     <p>{member.position[lang]}</p>
-                    <div className="min-w-0 break-all" dangerouslySetInnerHTML={{ __html: message || "" }}></div>
+                    <div className="min-w-0 break-words text-sm" dangerouslySetInnerHTML={{ __html: message || "" }}></div>
                 </div>
             </div>
         </div>

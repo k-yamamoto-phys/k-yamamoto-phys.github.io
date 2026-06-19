@@ -1,113 +1,44 @@
-- name: 
+# member画像は、650x650pxの正方形で作成してください。
+- name:
     ja: 山本和樹
     en: Kazuki Yamamoto
   position:
     ja: 講師
     en: Assistant Professor
-  type: leader # leader, member, alumni, colabrator から選択 # 未実装
-  photo: https://img.daisyui.com/images/profile/demo/yellingwoman@192.webp
-  message: #　連絡先/居室/研究分野/趣味など (markdown 記法可)
-    ja: | # 改行は、行末にスペース2つを入れる or 空行を入れる
-      **email**: yamamoto.kazuki[at]omu.ac.jp  
-      website: [https://kazukiyamamoto.github.io/](https://kazukiyamamoto.github.io/)  
-      room: 理学部棟3階 307号室
-    en: >
-      **email**: yamamoto.kazuki[at]omu.ac.jp  
-      website: https://kazukiyamamoto.github.io/  
-      room: Science Building 3F, Room 30
-- name: 
-    ja: 山本和樹
-    en: Kazuki Yamamoto
-  position:
-    ja: 講師
-    en: Lecturer
-  photo: https://img.daisyui.com/images/profile/demo/yellingwoman@192.webp
-  message: #　連絡先/居室/研究分野/趣味など (markdown 記法可)
+  type: leader # leader, member, alumni, colabrator から選択
+  photo: /images/members/profile/yamamoto-kazuki.jpg
+  message:
     ja: |
-      email: yamamoto.kazuki[at]omu.ac.jp  
-      website: https://kazukiyamamoto.github.io/  
-      room: 理学部棟3階 307号室
-    en: >
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: Science Building 3F, Room 30
-- name: 
-    ja: 山本和樹
-    en: Kazuki Yamamoto
+      **email**: kazuki-yamamoto + [atmark] + omu.ac.jp  
+      **居室**: 理学研究科B棟 B307  
+      **電話**: 0666053069
+    en: |
+      **email**: kazuki-yamamoto + [atmark] + omu.ac.jp  
+      **Room**: Graduate School of Science Building B, B307  
+      **Phone**: 0666053069
+- name:
+    ja: 小森麟太郎
+    en: Rintaro Komori
   position:
-    ja: 講師
-    en: Lecturer
-  photo: https://img.daisyui.com/images/profile/demo/yellingwoman@192.webp
-  message: #　連絡先/居室/研究分野/趣味など (markdown 記法可)
-    ja: > 
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: 理学部棟3階 307号室
-    en: >
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: Science Building 3F, Room 30
-- name: 
-    ja: 山本和樹
-    en: Kazuki Yamamoto
+    ja: B4
+    en: B4
+  type: member
+  photo: /images/members/profile/komori-rintaro.jpg
+  message:
+    ja: |
+      **居室**: 理学研究科D棟
+    en: |
+      **Room**: Graduate School of Science Building D
+- name:
+    ja: 辻利将
+    en: Toshimasa Tsuji
   position:
-    ja: 講師
-    en: Lecturer
-  photo: https://img.daisyui.com/images/profile/demo/yellingwoman@192.webp
-  message: #　連絡先/居室/研究分野/趣味など (markdown 記法可)
-    ja: > 
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: 理学部棟3階 307号室
-    en: >
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: Science Building 3F, Room 30
-- name: 
-    ja: 山本和樹
-    en: Kazuki Yamamoto
-  position:
-    ja: 講師
-    en: Lecturer
-  photo: https://img.daisyui.com/images/profile/demo/yellingwoman@192.webp
-  message: #　連絡先/居室/研究分野/趣味など (markdown 記法可)
-    ja: > 
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: 理学部棟3階 307号室
-    en: >
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: Science Building 3F, Room 30
-- name: 
-    ja: 山本和樹
-    en: Kazuki Yamamoto
-  position:
-    ja: 講師
-    en: Lecturer
-  photo: https://img.daisyui.com/images/profile/demo/yellingwoman@192.webp
-  message: #　連絡先/居室/研究分野/趣味など (markdown 記法可)
-    ja: > 
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: 理学部棟3階 307号室
-    en: >
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: Science Building 3F, Room 30
-- name: 
-    ja: 山本和樹
-    en: Kazuki Yamamoto
-  position:
-    ja: 講師
-    en: Lecturer
-  photo: https://img.daisyui.com/images/profile/demo/yellingwoman@192.webp
-  message: #　連絡先/居室/研究分野/趣味など (markdown 記法可)
-    ja: > 
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: 理学部棟3階 307号室
-    en: >
-      email: yamamoto.kazuki[at]omu.ac.jp
-      website: https://kazukiyamamoto.github.io/
-      room: Science Building 3F, Room 30
+    ja: B4
+    en: B4
+  type: member
+  photo: /images/members/profile/tsuji-toshimasa.jpg
+  message:
+    ja: |
+      **居室**: 理学研究科D棟
+    en: |
+      **Room**: Graduate School of Science Building D
