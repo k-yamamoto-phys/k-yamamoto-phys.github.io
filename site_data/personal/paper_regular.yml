@@ -3,10 +3,7 @@
   note: To appear in Physical Review Letters
   arXiv: 2503.02418
   year: 2026
-  journal:
-    name: null
-    url: https://journals.aps.org/prl/accepted/10.1103/wv5b-r6sb
-  journal: 
+  journal: null
 - title: "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions"
   authors: Soma Takemori and Kazuki Yamamoto
   note: null
