@@ -1,3 +1,12 @@
+- title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
+  authors: Kazuki Yamamoto and Ryusuke Hamazaki
+  note: null
+  arXiv: 2503.02418
+  year: 2026
+  journal:
+    name: To appear in Physical Review Letters
+    url: https://journals.aps.org/prl/accepted/10.1103/wv5b-r6sb
+  journal: 
 - title: "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions"
   authors: Soma Takemori and Kazuki Yamamoto
   note: null
@@ -69,12 +78,6 @@
   journal:
     name: Phys. Rev. B 112, 115136 (2025)
     url: https://journals.aps.org/prb/abstract/10.1103/vpb4-4d54
-- title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
-  authors: Kazuki Yamamoto and Ryusuke Hamazaki
-  note: null
-  arXiv: 2503.02418
-  year: null
-  journal: null
 - title: "Measurement-induced phase transitions for free fermions in a quasiperiodic potential"
   authors: Toranosuke Matsubara, Kazuki Yamamoto, and Akihisa Koga
   note: null

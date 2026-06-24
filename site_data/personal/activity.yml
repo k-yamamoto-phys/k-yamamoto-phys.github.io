@@ -1,3 +1,13 @@
+- date: "2026-06-24"
+  label: publication
+  content:
+    ja: >
+      原著論文" [Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free
+      Many-Body Dynamics](https://arxiv.org/abs/2503.02418) "が [Physical Review Letters 誌](https://journals.aps.org/prl/accepted/10.1103/wv5b-r6sb)に受理されました。
+    en: >
+      Original paper " [Measurement-Induced Crossover of Quantum Jump Statistics
+      in Postselection-Free Many-Body Dynamics](https://arxiv.org/abs/2503.02418)
+      " has been accepted for publication in [Physical Review Letters](https://journals.aps.org/prl/accepted/10.1103/wv5b-r6sb)
 - date: "2026-05-13"
   label: award
   content:
@@ -207,16 +217,6 @@
       で招待講演(若手奨励賞受賞記念講演)を行いました。
     en: >
       I have given an invited talk in [the Physical Society of Japan 2025 Spring Meeting](https://www.jps.or.jp/english/meetings-and-awards/spring/spring-meeting.html)
-- date: "2025-03-05"
-  label: publication
-  content:
-    ja: >
-      原著論文" [Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free
-      Many-Body Dynamics](https://arxiv.org/abs/2503.02418) "がarXivに公開されました。
-    en: >
-      New original paper " [Measurement-Induced Crossover of Quantum Jump Statistics
-      in Postselection-Free Many-Body Dynamics](https://arxiv.org/abs/2503.02418)
-      " has appeared on arXiv
 - date: "2025-03-05"
   label: award
   content:
