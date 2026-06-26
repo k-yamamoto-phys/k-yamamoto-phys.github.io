@@ -14,6 +14,14 @@
   journal:
     name: Phys. Rev. Lett.
     url: https://doi.org/10.1103/wv5b-r6sb
+- title: "Impact of stealthy hyperuniform magnetic impurity configurations on bulk magnetism in a two-dimensional Heisenberg model"
+  authors: Kota Asakura, Kazuki Yamamoto, and Akihisa Koga
+  note: To be published
+  arXiv: 2602.22484
+  year: 2026
+  journal:
+    name: Phys. Rev. B
+    url: https://doi.org/10.1103/w96y-wgvs
 - title: "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions"
   authors: Soma Takemori and Kazuki Yamamoto
   note: null
@@ -25,12 +33,6 @@
   note: null
   arXiv: 2604.00358
   year: 2026
-  journal: null
-- title: "Impact of stealthy hyperuniform magnetic impurity configurations on bulk magnetism in a two-dimensional Heisenberg model"
-  authors: Kota Asakura, Kazuki Yamamoto, and Akihisa Koga
-  note: null
-  arXiv: 2602.22484
-  year: null
   journal: null
 - title: "Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU($N$) Fermi-Hubbard model"
   authors: Jutaro Fujii, Kazuki Yamamoto, and Akihisa Koga
