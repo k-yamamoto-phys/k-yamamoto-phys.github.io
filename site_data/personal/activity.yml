@@ -1,13 +1,20 @@
+- date: "2026-06-25"
+  label: publication
+  content:
+    ja: >
+      原著論文"Kondo breakdown induced by non-Hermitian complex hybridization"が[Physical Review B 誌](https://doi.org/10.1103/w6zs-kb6m)に受理されました。
+    en: >
+      The original paper "Kondo breakdown induced by non-Hermitian complex hybridization" has been accepted for publication in [Physical Review B](https://doi.org/10.1103/w6zs-kb6m)
 - date: "2026-06-24"
   label: publication
   content:
     ja: >
       原著論文" [Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free
-      Many-Body Dynamics](https://arxiv.org/abs/2503.02418) "が [Physical Review Letters 誌](https://journals.aps.org/prl/accepted/10.1103/wv5b-r6sb)に受理されました。
+      Many-Body Dynamics](https://arxiv.org/abs/2503.02418) "が [Physical Review Letters 誌](https://doi.org/10.1103/wv5b-r6sb)に受理されました。
     en: >
       Original paper " [Measurement-Induced Crossover of Quantum Jump Statistics
       in Postselection-Free Many-Body Dynamics](https://arxiv.org/abs/2503.02418)
-      " has been accepted for publication in [Physical Review Letters](https://journals.aps.org/prl/accepted/10.1103/wv5b-r6sb)
+      " has been accepted for publication in [Physical Review Letters](https://doi.org/10.1103/wv5b-r6sb)
 - date: "2026-05-13"
   label: award
   content:
@@ -119,14 +126,6 @@
     en: >
       I have given a [Seminar](https://www.yukawa.kyoto-u.ac.jp/seminar/s53541)
       at Yukawa Institute for Theoretical Physics (YITP), Kyoto University.
-- date: "2025-10-24"
-  label: publication
-  content:
-    ja: >
-      原著論文"[Kondo breakdown induced by the non-Hermitian complex hybridization](https://arxiv.org/abs/2510.20186)"がarXivに公開されました。
-    en: >
-      The original paper "[Kondo breakdown induced by the non-Hermitian complex hybridization](https://arxiv.org/abs/2510.20186)"
-      has appeard on arXiv
 - date: 2025-10-05
   label: invited talk
   content:

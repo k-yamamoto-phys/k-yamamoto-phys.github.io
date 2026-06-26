@@ -1,9 +1,19 @@
+- title: "Kondo breakdown induced by non-Hermitian complex hybridization"
+  authors: Kazuki Yamamoto, Masaya Nakagawa, and Norio Kawakami
+  note: To be published
+  arXiv: 2510.20186
+  year: 2026
+  journal:
+    name: Phys. Rev. B
+    url: https://doi.org/10.1103/w6zs-kb6m
 - title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
   authors: Kazuki Yamamoto and Ryusuke Hamazaki
-  note: To appear in Physical Review Letters
+  note: To be published
   arXiv: 2503.02418
   year: 2026
-  journal: null
+  journal:
+    name: Phys. Rev. Lett.
+    url: https://doi.org/10.1103/wv5b-r6sb
 - title: "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions"
   authors: Soma Takemori and Kazuki Yamamoto
   note: null
@@ -61,12 +71,6 @@
   journal:
     name: Phys. Rev. Lett. 135, 266002 (2025)
     url: https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v
-- title: "Kondo breakdown induced by the non-Hermitian complex hybridization"
-  authors: Kazuki Yamamoto, Masaya Nakagawa, and Norio Kawakami
-  note: null
-  arXiv: 2510.20186
-  year: null
-  journal: null
 - title: "Itinerant ferromagnetism in an SU(3) Fermi-Hubbard model at finite temperatures: A dynamical mean-field theory study"
   authors: Juntaro Fujii, Kazuki Yamamoto, and Akihisa Koga
   note: null
