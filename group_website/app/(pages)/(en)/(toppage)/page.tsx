@@ -43,6 +43,18 @@ export default async function Page() {
                         </div>
                     </div>
 
+                    <section className="not-prose my-10 border-l-4 border-primary bg-primary/10 px-5 py-5 shadow-sm md:px-7">
+                        <p className="text-sm font-semibold uppercase tracking-wide text-primary">Students and Postdocs</p>
+                        <h2 className="mt-2 text-2xl font-bold leading-snug text-gray-900">We welcome motivated students and postdocs</h2>
+                        <p className="mt-3 leading-relaxed text-gray-800">
+                            We are always looking for motivated students and postdocs who belong to Department of Physics, Osaka Metropolitan University.
+                            If you are interested, please contact me for further information.
+                        </p>
+                        <div className="mt-5">
+                            <Link href="/contact" className="btn btn-primary text-white">Contact us<FaArrowRight /></Link>
+                        </div>
+                    </section>
+
                     <h2>Recent Activities</h2>
                     <Acctivity lang={"en"} limit={5} /> <br />
                     <Link href="/activities" className="btn btn-primary  text-white">More activities<FaArrowRight /></Link>

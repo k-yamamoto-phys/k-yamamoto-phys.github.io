@@ -40,6 +40,18 @@ export default async function Page() {
                         </div>
                     </div>
 
+                    <section className="not-prose my-10 border-l-4 border-primary bg-primary/10 px-5 py-5 shadow-sm md:px-7">
+                        <p className="text-sm font-semibold uppercase tracking-wide text-primary">Students and Postdocs</p>
+                        <h2 className="mt-2 text-2xl font-bold leading-snug text-gray-900">卒研生・大学院生・学振PDを募集しています</h2>
+                        <p className="mt-3 leading-relaxed text-gray-800">
+                            大阪公立大学理学研究科・非平衡量子多体物性理論研究室にて卒研生・大学院生を募集しています。
+                            ご興味のある方はお気軽にご連絡ください。学振PDも受け入れ可能です。
+                        </p>
+                        <div className="mt-5">
+                            <Link href="/ja/contact" className="btn btn-primary text-white">連絡先を見る<FaArrowRight /></Link>
+                        </div>
+                    </section>
+
                     <h2>最近の活動</h2>
                     <Acctivity lang={"ja"} limit={5} /> <br />
                     <Link href="/ja/activities" className="btn btn-primary  text-white">一覧へ<FaArrowRight /></Link>
