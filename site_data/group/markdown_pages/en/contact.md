@@ -5,6 +5,8 @@ description: Contact information for Yamamoto Group
 
 # Contact
 
+**email**: kazuki-yamamoto + [atmark] + omu.ac.jp  
+
 ## Lab Location
 
 Graduate School of Science, Osaka Metropolitan University  

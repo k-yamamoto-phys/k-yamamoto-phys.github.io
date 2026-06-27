@@ -5,6 +5,8 @@ description: 山本研究室の連絡先について
 
 # 連絡先
 
+**email**: kazuki-yamamoto + [atmark] + omu.ac.jp  
+
 ## 研究室所在地
 
 〒558-8585  
