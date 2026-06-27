@@ -1,23 +1,13 @@
-const DEFAULT_BASE_PATH = "/group";
 const DEFAULT_PUBLIC_URL = "https://kazuki-yamamoto.github.io/group";
-
-function normalizeBasePath(value) {
-    const trimmed = (value ?? "").trim();
-    if (!trimmed || trimmed === "/") return "";
-    const prefixed = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
-    return prefixed.replace(/\/+$/, "");
-}
 
 function normalizePublicURL(value) {
     const trimmed = (value ?? "").trim().replace(/\/+$/, "");
     return trimmed || DEFAULT_PUBLIC_URL;
 }
 
-const basePath = normalizeBasePath(process.env.NEXT_PUBLIC_GROUP_BASE_PATH ?? DEFAULT_BASE_PATH);
 const publicURL = normalizePublicURL(process.env.NEXT_PUBLIC_GROUP_PUBLIC_URL ?? DEFAULT_PUBLIC_URL);
 
 export const siteMetadata = {
-    basePath,
     publicURL,
     name: {
         en: "Kazuki Yamamoto",
@@ -31,7 +21,7 @@ export const siteMetadata = {
         en: "Yamamoto group",
         ja: "大阪公立大学・非平衡量子多体研究室"
     },
-    all_member_img: "/images/members/all/2025.jpg",
+    all_member_img: "/images/members/all/2026.jpg",
     Navigation: {
         en: [
             {
@@ -89,7 +79,7 @@ export const siteMetadata = {
                 href: "/ja/presentations",
             },
             {
-                name: "連絡",
+                name: "連絡先",
                 href: "/ja/contact",
             }
         ]
