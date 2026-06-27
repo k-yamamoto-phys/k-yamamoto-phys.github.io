@@ -13,9 +13,12 @@ export default async function Page() {
     return (
         <>
             <Hero figure_path="/images/top.jpg" isFullScreen>
-                <div className="max-w-4xl mx-auto">
-                    <h1 className="text-4xl font-bold md:text-6xl">非平衡量子多体研究室</h1>
-                    <p className="text-sm md:text-lg mt-5">
+                <div className="max-w-4xl mx-auto px-4">
+                    <h1 className="text-3xl font-extrabold leading-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] sm:text-4xl md:text-6xl">
+                        <span className="inline-block">非平衡量子多体</span>
+                        <span className="inline-block">研究室</span>
+                    </h1>
+                    <p className="mt-5 text-sm font-medium leading-relaxed text-white/95 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] md:text-lg">
                         大阪公立大学 理学部物理学科・大学院理学研究科物理学専攻 物性物理学講座において、非平衡量子多体系の理論研究に取り組んでいます。
                     </p>
                 </div>

@@ -16,9 +16,9 @@ export default async function Page() {
     return (
         <>
             <Hero figure_path="/images/top.jpg" isFullScreen>
-                <div className="max-w-4xl mx-auto">
-                    <h1 className="text-4xl font-bold md:text-6xl">Yamamoto group</h1>
-                    <p className="text-sm md:text-lg mt-5">
+                <div className="max-w-4xl mx-auto px-4">
+                    <h1 className="text-4xl font-extrabold leading-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] md:text-6xl">Yamamoto group</h1>
+                    <p className="mt-5 text-sm font-medium leading-relaxed text-white/95 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] md:text-lg">
                         We study the theory of non-equilibrium quantum many-body systems in the Condensed Matter Physics Group, Department of Physics, Osaka Metropolitan University.
                     </p>
                 </div>
