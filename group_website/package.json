@@ -8,7 +8,8 @@
     "start": "npx serve@latest out",
     "lint": "eslint",
     "test": "vitest",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:visual": "playwright test"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@playwright/test": "^1.61.0",
     "@tailwindcss/postcss": "^4",
     "@tailwindcss/typography": "^0.5.19",
     "@types/js-yaml": "^4.0.9",
@@ -53,8 +55,8 @@
     "@types/react-dom": "^19",
     "concurrently": "^9.2.1",
     "daisyui": "^5.2.3",
-    "eslint": "^10.0.0",
-    "eslint-config-next": "^0.2.4",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^15.5.12",
     "raw-loader": "^0.5.1",
     "tailwindcss": "^4",
     "text-loader": "^0.0.1",
