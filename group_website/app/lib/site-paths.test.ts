@@ -6,15 +6,17 @@ describe("site path helpers", () => {
         vi.unstubAllEnvs();
     });
 
-    it("uses group as the default export path prefix", () => {
-        expect(withBasePath("/members")).toBe("/group/members");
-        expect(withoutBasePath("/group/members")).toBe("/members");
+    it("keeps app paths rooted at slash by default", () => {
+        expect(withBasePath("/members")).toBe("/members");
+        expect(withBasePath("members")).toBe("/members");
+        expect(withoutBasePath("/group/members")).toBe("/group/members");
     });
 
-    it("normalizes custom export path prefixes", () => {
-        vi.stubEnv("NEXT_PUBLIC_GROUP_EXPORT_PATH_PREFIX", "/lab/");
-        expect(withBasePath("members")).toBe("/lab/members");
+    it("strips the configured Next.js base path when one is provided", () => {
+        vi.stubEnv("NEXT_PUBLIC_GROUP_BASE_PATH", "/lab/");
+        expect(withBasePath("members")).toBe("/members");
         expect(withoutBasePath("/lab/members")).toBe("/members");
+        expect(withoutBasePath("/lab")).toBe("/");
     });
 
     it("leaves external URLs and anchors untouched", () => {
@@ -22,8 +24,8 @@ describe("site path helpers", () => {
         expect(withBasePath("#section")).toBe("#section");
     });
 
-    it("keeps public URLs independent from the export path prefix", () => {
-        expect(siteUrl("/group/members")).toMatch(/\/members$/);
-        expect(siteUrl("/group/members")).not.toContain("/group/group/members");
+    it("builds public URLs from logical app paths", () => {
+        expect(siteUrl("/members")).toMatch(/\/members$/);
+        expect(siteUrl("/members")).not.toContain("/group/group/members");
     });
 });

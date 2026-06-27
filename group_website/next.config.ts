@@ -1,20 +1,18 @@
 import type { NextConfig } from "next";
 
-const DEFAULT_BASE_PATH = "/group";
-
 function normalizeBasePath(value: string | undefined) {
   const trimmed = (value ?? "").trim();
   if (!trimmed || trimmed === "/") return "";
-  const prefixed = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
-  return prefixed.replace(/\/+$/, "");
+  const prefix = trimmed.replace(/^\/+|\/+$/g, "");
+  return prefix ? `/${prefix}` : "";
 }
 
-const basePath = normalizeBasePath(process.env.NEXT_PUBLIC_GROUP_BASE_PATH ?? DEFAULT_BASE_PATH);
+const basePath = normalizeBasePath(process.env.NEXT_PUBLIC_GROUP_BASE_PATH);
 
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  ...(basePath ? { basePath } : {}),
+  ...(basePath ? { basePath, assetPrefix: basePath } : {}),
   // Turbopackの設定を削除し、webpackの設定を追加
   webpack: (config) => {
     config.module.rules.push({

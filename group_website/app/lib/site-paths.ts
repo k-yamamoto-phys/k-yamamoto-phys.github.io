@@ -2,6 +2,13 @@ import { siteMetadata } from "../../../site_data/group/_metadata.js";
 
 const SCHEME_RE = /^[a-z][a-z\d+\-.]*:/i;
 
+function configuredBasePath() {
+    const trimmed = (process.env.NEXT_PUBLIC_GROUP_BASE_PATH ?? "").trim();
+    if (!trimmed || trimmed === "/") return "";
+    const prefix = trimmed.replace(/^\/+|\/+$/g, "");
+    return prefix ? `/${prefix}` : "";
+}
+
 function isUntouchedPath(path: string) {
     return (
         !path ||
@@ -16,7 +23,7 @@ function normalizePath(path: string) {
 }
 
 export function withoutBasePath(path: string) {
-    const basePath = siteMetadata.basePath;
+    const basePath = configuredBasePath();
     if (!basePath || isUntouchedPath(path)) return path;
     if (path === basePath) return "/";
     if (path.startsWith(`${basePath}/`)) {
@@ -27,11 +34,8 @@ export function withoutBasePath(path: string) {
 }
 
 export function withBasePath(path: string) {
-    const basePath = siteMetadata.basePath;
-    if (!basePath || isUntouchedPath(path)) return path;
-    const normalized = normalizePath(path);
-    if (normalized === basePath || normalized.startsWith(`${basePath}/`)) return normalized;
-    return `${basePath}${normalized}`;
+    if (isUntouchedPath(path)) return path;
+    return normalizePath(path);
 }
 
 export function siteUrl(path = "/") {

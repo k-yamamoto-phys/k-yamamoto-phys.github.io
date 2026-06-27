@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
 const port = Number(process.env.PORT ?? 3000);
-const basePath = process.env.NEXT_PUBLIC_GROUP_EXPORT_PATH_PREFIX ?? "group";
+const basePath = process.env.NEXT_PUBLIC_GROUP_BASE_PATH ?? "";
 const normalizedBasePath = basePath.trim().replace(/^\/+|\/+$/g, "");
 const baseURL = process.env.PLAYWRIGHT_BASE_URL
   ?? `http://127.0.0.1:${port}${normalizedBasePath ? `/${normalizedBasePath}/` : "/"}`;
