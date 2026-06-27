@@ -1,10 +1,49 @@
+- date: "2026-05-13"
+  label: award
+  content:
+    ja: >
+      山本が[第39回 安藤博記念学術奨励賞](https://www.ando-lab.or.jp/index.html)を受賞しました。
+    en: >
+      Kazuki Yamamoto has received [39th Ando Incentive Prize for the Study of Electronics](https://www.ando-lab.or.jp/index.html)
+- date: "2026-04-02"
+  label: publication
+  content:
+    ja: >
+      原著論文 "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions" を [arXiv](https://arxiv.org/abs/2604.00574)
+      に投稿しました 。
+    en: >
+      Original paper "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions" has appeared on [arXiv](https://arxiv.org/abs/2604.00574)
+- date: "2026-04-02"
+  label: publication
+  content:
+    ja: >
+      原著論文 "Anomalous waiting-time distributions in postselection-free quantum many-body dynamics under continuous monitoring" を [arXiv](https://arxiv.org/abs/2604.00358)
+      に投稿しました 。
+    en: >
+      Original paper "Anomalous waiting-time distributions in postselection-free quantum many-body dynamics under continuous monitoring" has appeared on [arXiv](https://arxiv.org/abs/2604.00358)
+- date: "2026-04-01"
+  label: other
+  content:
+    ja: >
+      山本が大阪公立大学理学研究科に着任して研究室([非平衡量子多体物性理論](https://www.omu.ac.jp/sci/phys/kouza/condensedmatter.html))を立ち上げました。
+    en: >
+      Kazuki Yamamoto has started a new group in [Osaka Metropolitan University](https://www.omu.ac.jp/sci/phys_en/research/condensedmatter.html).
+- date: "2026-03-16"
+  label: publication
+  content:
+    ja: >
+      共著論文 Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU⁡($N$) Fermi-Hubbard model が [Physical Review B](https://journals.aps.org/prb/abstract/10.1103/kx3p-phyq)
+      誌に出版されました 。
+    en: >
+      Joint paper "Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU⁡($N$) Fermi-Hubbard model" has been published in [Physical
+      Review B](https://journals.aps.org/prb/abstract/10.1103/kx3p-phyq)
 - date: [2026-02-17, 2026-02-19]
   label: invited talk
   content:
     ja: >
-      研究会 [第10回「凝縮系理論の最前線」](https://sites.google.com/view/10th-cmworkshop/) - 湯河原 で招待講演を行います。
+      山本が研究会 [第10回「凝縮系理論の最前線」](https://sites.google.com/view/10th-cmworkshop/) - 湯河原 で招待講演を行います。
     en: >
-      I am going to give an invited talk in [Frontiers in Condensed Matter Physics](https://sites.google.com/view/10th-cmworkshop/) - Yugawara, Japan
+      Kazuki Yamamoto is going to give an invited talk in [Frontiers in Condensed Matter Physics](https://sites.google.com/view/10th-cmworkshop/) - Yugawara, Japan
 - date: "2026-02-03"
   label: publication
   content:
@@ -17,9 +56,9 @@
   label: seminar
   content:
     ja: >
-      スイスのフリーブール大学とETHチューリッヒに滞在し、共同研究とセミナーを行います。
+      山本がスイスのフリーブール大学とETHチューリッヒに滞在し、共同研究とセミナーを行いました。
     en: >
-      I am visiting Univ. of Fribourg and ETH Zürich to have a seminar.
+      Kazuki Yamamoto has visited Univ. of Fribourg and ETH Zürich to have a seminar.
 - date: "2026-01-30"
   label: publication
   content:
@@ -40,17 +79,17 @@
   label: publication
   content:
     ja: >
-      共著論文" Spin-Depairing-Induced Exceptional Fermionic Superfluidity "が [Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v) 誌に出版されました。[プレスリリース](https://www.isct.ac.jp/ja/news/2cc77j8aqtxa)を出しました。
+      共著論文" Spin-Depairing-Induced Exceptional Fermionic Superfluidity "が [Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v) 誌に出版されました。[プレスリリース](https://www.isct.ac.jp/ja/news/2cc77j8aqtxa)が出されました。
     en: >
       Joint paper " Spin-Depairing-Induced Exceptional Fermionic Superfluidity "
-      has been published in [Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v). We have issued a [press release](https://www.isct.ac.jp/en/news/eryh7s2mh3vv).
+      has been published in [Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/ntjf-zb2v). A [press release](https://www.isct.ac.jp/en/news/eryh7s2mh3vv) has been issued.
 - date: [2025-12-14, 2025-12-18]
   label: talk
   content:
     ja: >
-      国際会議 [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italyで口頭発表を行いました。
+      山本が国際会議 [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italyで口頭発表を行いました。
     en: >
-      I have given a talk in [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italy
+      Kazuki Yamamoto has given a talk in [Beyond Linearlity: Frontiers in Non-Hermitian Many-Body Physics](https://blinh2025.univie.ac.at/) - Erice, Sicily, Italy
 - date: "2025-12-02"
   label: publication
   content:
@@ -65,18 +104,18 @@
     ja: >
       京都大学基礎物理学研究所より [下村顕士さん(D2)](https://scholar.google.co.jp/citations?user=lsldsIcAAAAJ&hl=ja&oi=sra)
       が滞在しにいらっしゃいました。 [量子物理学ナノサイエンスセミナー](https://www.phys.sci.isct.ac.jp/wp/wp-content/uploads/2025/11/427.pdf)
-      を企画し、活発な議論ができました。
+      を山本グループで企画し、活発な議論ができました。
     en: >
       [Mr. Kenji Shimomura (D2)](https://scholar.google.co.jp/citations?user=lsldsIcAAAAJ&hl=ja&oi=sra) 
-      has visited our laboratory. We have organized [Quantum Physics and Nanoscience Seminar](https://www.phys.sci.isct.ac.jp/wp/wp-content/uploads/2025/11/427.pdf).
+      has visited Yamamoto group. Yamamoto group has organized [Quantum Physics and Nanoscience Seminar](https://www.phys.sci.isct.ac.jp/wp/wp-content/uploads/2025/11/427.pdf).
 - date: [2025-11-10, 2025-11-11]
   label: seminar
   content:
     ja: >
-      京都大学基礎物理学研究所に滞在して [セミナー](https://www.yukawa.kyoto-u.ac.jp/seminar/s53541)
+      山本が京都大学基礎物理学研究所に滞在して [セミナー](https://www.yukawa.kyoto-u.ac.jp/seminar/s53541)
       を行いました。質問などたくさんいただき活発な議論ができました。
     en: >
-      I have given a [Seminar](https://www.yukawa.kyoto-u.ac.jp/seminar/s53541)
+      Kazuki Yamamoto has given a [Seminar](https://www.yukawa.kyoto-u.ac.jp/seminar/s53541)
       at Yukawa Institute for Theoretical Physics (YITP), Kyoto University.
 - date: "2025-10-24"
   label: publication
@@ -90,9 +129,9 @@
   label: invited talk
   content:
     ja: >
-      国際会議 [2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi) - Tohoku Univ.で招待講演を行いました。
+      山本が国際会議 [2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi) - Tohoku Univ.で招待講演を行いました。
     en: >
-      I have given an invited talk in [2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi)
+      Kazuki Yamamoto has given an invited talk in [2025 Tokyo-Beijing-Sendai Joint Workshop on Quantum Matter](https://tomokiozawa.com/conference/tbs2025/#gi)
 - date: "2025-09-16"
   label: publication
   content:
@@ -108,19 +147,19 @@
   label: talk
   content:
     ja: >
-      研究会「 [熱場の量子論とその応用](https://www.riise.hiroshima-u.ac.jp/TQFT/html2025/tqft2025.html)
+      山本が研究会「 [熱場の量子論とその応用](https://www.riise.hiroshima-u.ac.jp/TQFT/html2025/tqft2025.html)
       」で口頭発表を行いました。
     en: >
-      I have given an oral presentation in the workshop " [Thermal Quantum Field Theory and Its Applications](https://www.riise.hiroshima-u.ac.jp/TQFT/html2025/tqft2025.html) ".
+      Kazuki Yamamoto has given an oral presentation in the workshop " [Thermal Quantum Field Theory and Its Applications](https://www.riise.hiroshima-u.ac.jp/TQFT/html2025/tqft2025.html) ".
 - date: "2025-08-21"
   label: other
   content:
     ja: >
       今年も [冷却原子研究会「アトムの会」](https://www.omu.ac.jp/sci/laserQ/atomnokai/index.html)
-      が行われ、世話人として参加しました。
+      が行われ、山本が世話人として参加しました。
     en: >
       The [Ultracold Atom Research Meeting "Atom no Kai"](https://www.omu.ac.jp/sci/laserQ/atomnokai/index.html)
-      was held, and I participated as an organizer.
+      was held, and Kazuki Yamamoto participated as an organizer.
 - date: "2025-08-13"
   label: publication
   content:
@@ -135,10 +174,10 @@
   label: talk
   content:
     ja: >
-      国際会議 [International Conference on Strongly Correlated Electron Systems 2025](https://sces2025.org/en)
+      山本が国際会議 [International Conference on Strongly Correlated Electron Systems 2025](https://sces2025.org/en)
       - Montréal, Canada にて口頭発表を行いま した 。
     en: >
-      I am going to give a talk in [International Conference on Strongly Correlated
+      Kazuki Yamamoto is going to give a talk in [International Conference on Strongly Correlated
       Electron Systems 2025](https://sces2025.org/en) - Montréal, Canada
 - date: "2025-04-29"
   label: publication
@@ -163,19 +202,19 @@
   label: talk
   content:
     ja: >
-      [APS Joint March & April Meeting: Global Physics Summit 2025](https://www.aps.org/events/2025/joint-meeting)
+      山本が[APS Joint March & April Meeting: Global Physics Summit 2025](https://www.aps.org/events/2025/joint-meeting)
       で口頭発表を行いました。
     en: >
-      I have given a talk in [APS Joint March & April Meeting: Global Physics Summit
+      Kazuki Yamamoto has given a talk in [APS Joint March & April Meeting: Global Physics Summit
       2025](https://www.aps.org/events/2025/joint-meeting)
 - date: "2025-03-19"
   label: invited talk
   content:
     ja: >
-      [日本物理学会 2025年春季大会](https://www.jps.or.jp/activities/meetings/spring/spring_index.php)
+      山本が[日本物理学会 2025年春季大会](https://www.jps.or.jp/activities/meetings/spring/spring_index.php)
       で招待講演(若手奨励賞受賞記念講演)を行いました。
     en: >
-      I have given an invited talk in [the Physical Society of Japan 2025 Spring Meeting](https://www.jps.or.jp/english/meetings-and-awards/spring/spring-meeting.html)
+      Kazuki Yamamoto has given an invited talk in [the Physical Society of Japan 2025 Spring Meeting](https://www.jps.or.jp/english/meetings-and-awards/spring/spring-meeting.html)
 - date: "2025-03-05"
   label: publication
   content:
@@ -190,19 +229,19 @@
   label: award
   content:
     ja: >
-      [令和６年度理学院教員教育賞](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science)
+      山本が[令和６年度理学院教員教育賞](https://www.isct.ac.jp/ja/001/about/organizations/school-of-science)
       ( [物理学系ニュース](https://www.phys.sci.isct.ac.jp/category/award/) ) を受賞しました。
     en: >
-      I have received [Best Teacher Award in the Department of Physics](https://www.isct.ac.jp/en/001/about/organizations/school-of-science)
+      Kazuki Yamamoto has received [Best Teacher Award in the Department of Physics](https://www.isct.ac.jp/en/001/about/organizations/school-of-science)
       from Institute of Science Tokyo
 - date: "2025-03-20"
   label: talk
   content:
     ja: >
-      [APS Joint March & April Meeting: Global Physics Summit 2025](https://www.aps.org/events/2025/joint-meeting)
+      山本が[APS Joint March & April Meeting: Global Physics Summit 2025](https://www.aps.org/events/2025/joint-meeting)
       で口頭発表を行いました。
     en: >
-      I have given a talk in [APS Joint March & April Meeting: Global Physics Summit
+      Kazuki Yamamoto has given a talk in [APS Joint March & April Meeting: Global Physics Summit
       2025](https://www.aps.org/events/2025/joint-meeting)
 - date: "2024-11-25"
   label: publication
@@ -218,130 +257,129 @@
   label: talk
   content:
     ja: >
-      国際会議 [ISSP Theory mini-Workshop "Correlated Quantum Materials + beyond" (CQM+b2024)](https://sites.google.com/g.ecc.u-tokyo.ac.jp/cqmb2024/home)
+      山本が国際会議 [ISSP Theory mini-Workshop "Correlated Quantum Materials + beyond" (CQM+b2024)](https://sites.google.com/g.ecc.u-tokyo.ac.jp/cqmb2024/home)
       にて、"Non-Hermitian Kondo effect and valence fluctuations in dissipative Anderson
       impurity models"というタイトルで口頭発表を行いました。
     en: >
-      I have given a talk in [ISSP Theory mini-Workshop "Correlated Quantum Materials
+      Kazuki Yamamoto has given a talk in [ISSP Theory mini-Workshop "Correlated Quantum Materials
       + beyond" (CQM+b2024)](https://sites.google.com/g.ecc.u-tokyo.ac.jp/cqmb2024/home)
 - date: "2024-10-17"
   label: award
   content:
     ja: >
-      [第19回(2025年)日本物理学会若手奨励賞](https://www.jps.or.jp/activities/awards/wakate.php)
+      山本が[第19回(2025年)日本物理学会若手奨励賞](https://www.jps.or.jp/activities/awards/wakate.php)
       ( [領域1](http://www.r1.div.jps.or.jp/) )を受賞しました。
     en: >
-      I have received [Young Scientist Award of the Physical Society of Japan, 2025
+      Kazuki Yamamoto has received [Young Scientist Award of the Physical Society of Japan, 2025
       (Division 1, Atomic and Molecular physics, Quantum Electronics, Radiation)](https://www.jps.or.jp/english/meetings-and-awards/award.html)
 - date: "2024-09-06"
   label: invited seminar
   content:
     ja: >
-      東京大学物性研究所にて [理論セミナー](https://www.issp.u-tokyo.ac.jp/maincontents/seminar/filtered.html?filter=86)
+      山本が東京大学物性研究所にて [理論セミナー](https://www.issp.u-tokyo.ac.jp/maincontents/seminar/filtered.html?filter=86)
       を行いました。
     en: >
-      I have given a [Theory Seminar](https://www.issp.u-tokyo.ac.jp/maincontents/seminar/filtered.html?filter=86)
+      Kazuki Yamamoto has given a [Theory Seminar](https://www.issp.u-tokyo.ac.jp/maincontents/seminar/filtered.html?filter=86)
       at the Institute for Solid State Physics (ISSP), University of Tokyo.
 - date: "2024-09-02"
   label: seminar
   content:
     ja: >
-      京都大学理学研究科物理学第一教室にて [量子光学セミナー](https://drive.google.com/file/d/1oY6ZhlZqe7zXY78Q7mslfJqzbbjs_L_k/view?usp=drive_link)
+      山本が京都大学理学研究科物理学第一教室にて [量子光学セミナー](https://drive.google.com/file/d/1oY6ZhlZqe7zXY78Q7mslfJqzbbjs_L_k/view?usp=drive_link)
       を行いました。
     en: >
-      I have given a [Quantum Optics Seminar](https://drive.google.com/file/d/1oY6ZhlZqe7zXY78Q7mslfJqzbbjs_L_k/view?usp=drive_link)
+      Kazuki Yamamoto has given a [Quantum Optics Seminar](https://drive.google.com/file/d/1oY6ZhlZqe7zXY78Q7mslfJqzbbjs_L_k/view?usp=drive_link)
       at the Department of Physics, Kyoto University.
 - date: "2024-07-30"
   label: invited seminar
   content:
     ja: >
-      [船井情報科学振興財団夏の交流会](https://funaifoundation.jp/scholarship/column-scholarship_koryukai2024.htm#id_h4_clmn_det_article_129_2)
+      山本が[船井情報科学振興財団夏の交流会](https://funaifoundation.jp/scholarship/column-scholarship_koryukai2024.htm#id_h4_clmn_det_article_129_2)
       - University of Cambridge St. John's College, United Kingdomにて、招待講演を行いま した。
     en: >
-      I have given an invited talk in [The Funai Foundation Summer Exchange Meeting](https://funaifoundation.jp/scholarship/column-scholarship_koryukai2024.htm#id_h4_clmn_det_article_129_2)
+      Kazuki Yamamoto has given an invited talk in [The Funai Foundation Summer Exchange Meeting](https://funaifoundation.jp/scholarship/column-scholarship_koryukai2024.htm#id_h4_clmn_det_article_129_2)
       - University of Cambridge St. John's College, United Kingdom.
 - date: "2024-07-15"
   label: poster
   content:
     ja: >
-      [The 28th International Conference on Atomic Physics](https://icap28.com/) -
+      山本が[The 28th International Conference on Atomic Physics](https://icap28.com/) -
       Imperial College, London, UKにて、ポスター発表を行いま した 。
     en: >
-      I have given a poster presentation in [The 28th International Conference on
+      Kazuki Yamamoto has given a poster presentation in [The 28th International Conference on
       Atomic Physics](https://icap28.com/) - Imperial College, London, UK
 - date: "2024-06-24"
   label: award
   content:
     ja: >
-      [令和6年度東工大挑戦的研究賞](https://www.ori.titech.ac.jp/activity-support/awards/1/) を受賞しました。
+      山本が[令和6年度東工大挑戦的研究賞](https://www.ori.titech.ac.jp/activity-support/awards/1/) を受賞しました。
     en: >
-      I have received the [23rd Tokyo Tech Challenging Research Awards](https://www.ori.titech.ac.jp/en/activity-support/awards/1/)
+      Kazuki Yamamoto has received the [23rd Tokyo Tech Challenging Research Awards](https://www.ori.titech.ac.jp/en/activity-support/awards/1/)
 - date: "2024-06-18"
   label: poster
   content:
     ja: >
-      [Trends in Theory ofQuantumMaterials 2024](https://events.unifr.ch/ttqm2024/en/)
+      山本が[Trends in Theory ofQuantumMaterials 2024](https://events.unifr.ch/ttqm2024/en/)
       - Switzerland にてポスター発表を行いました。
     en: >
-      I have given a poster presentation in [Trends in Theory ofQuantumMaterials
+      Kazuki Yamamoto has given a poster presentation in [Trends in Theory ofQuantumMaterials
       2024](https://events.unifr.ch/ttqm2024/en/) - Switzerland
 - date: "2024-05-18"
   label: award
   content:
     ja: >
-      [第23回船井研究奨励賞](https://funaifoundation.jp/grantees/awardees_up_to_now.html) を受賞しました。
+      山本が[第23回船井研究奨励賞](https://funaifoundation.jp/grantees/awardees_up_to_now.html) を受賞しました。
     en: >
-      I have received [23th Funai Information Research Award for Young Researchers](https://funaifoundation.jp/grantees/awardees_up_to_now.html)
+      Kazuki Yamamoto has received [23th Funai Information Research Award for Young Researchers](https://funaifoundation.jp/grantees/awardees_up_to_now.html)
 - date: "2024-04-22"
   label: talk
   content:
     ja: >
-      [Quantum Simulation of Novel Phenomena with Ultracold Atoms and Molecules](https://www2.yukawa.kyoto-u.ac.jp/~ultracold2023/index.php)
+      山本が[Quantum Simulation of Novel Phenomena with Ultracold Atoms and Molecules](https://www2.yukawa.kyoto-u.ac.jp/~ultracold2023/index.php)
       - Kyotoにて、"Dynamics and steady-state properties in monitored many-body localized
       systems"というタイトルで口頭発表を行いました。
     en: >
-      I have given a talk in [Quantum Simulation of Novel Phenomena with Ultracold
+      Kazuki Yamamoto has given a talk in [Quantum Simulation of Novel Phenomena with Ultracold
       Atoms and Molecules](https://www2.yukawa.kyoto-u.ac.jp/~ultracold2023/index.php)
       - Kyoto
 - date: "2024-03-21"
   label: seminar
   content:
     ja: >
-      チューリッヒ大学でセミナーを行いました(主催 [Theory of Quantum Matter Laboratory (PI: Prof. Titus
+      山本がチューリッヒ大学でセミナーを行いました(主催 [Theory of Quantum Matter Laboratory (PI: Prof. Titus
       Neupert)](https://www.physik.uzh.ch/en/groups/neupert.html) 。初めての黒板を使ったセミナーでしたが、とても楽しく行うことができました。また、Neupert准教授にお昼ご飯をご馳走になりました。ありがとうございます！
     en: >
-      I have given a seminar in the University of Zurich (Held by [Theory of Quantum
+      Kazuki Yamamoto has given a seminar in the University of Zurich (Held by [Theory of Quantum
       Matter Laboratory (PI: Prof. Titus Neupert)](https://www.physik.uzh.ch/en/groups/neupert.html)
-      ). I especially thank to Prof. Neupert for the discussion and the nice lunch!
+      ). He especially thanks Prof. Neupert for the discussion and the nice lunch!
 - date: "2024-03-15"
   label: invited seminar
   content:
     ja: >
-      フリーブール大学でセミナーを行いました(主催: [計算物理研究グループ(PI: Prof. Philipp Werner)](https://www.unifr.ch/phys/en/research/groups/werner/)
+      山本がフリーブール大学でセミナーを行いました(主催: [計算物理研究グループ(PI: Prof. Philipp Werner)](https://www.unifr.ch/phys/en/research/groups/werner/)
       )
     en: >
-      I have given a seminar in the University of Fribourg (Held by [Computational
+      Kazuki Yamamoto has given a seminar in the University of Fribourg (Held by [Computational
       Physics Laboratory (PI: Prof. Philipp Werner)](https://www.unifr.ch/phys/en/research/groups/werner/)
       )
 - date: "2024-03-14"
   label: seminar
   content:
     ja: >
-      ジュネーブ大学でセミナーを行いました(主催: [Theory of Quantum Matter Laboratory (PI: Prof. Thierry
+      山本がジュネーブ大学でセミナーを行いました(主催: [Theory of Quantum Matter Laboratory (PI: Prof. Thierry
       Giamarchi)](https://giamarchi.unige.ch/) )。カフェとお昼ご飯をGiamarchi教授にご馳走になりました。ありがとうございます!
     en: >
-      I have given a seminar in the University of Geneva (Held by [Theory of Quantum
+      Kazuki Yamamoto has given a seminar in the University of Geneva (Held by [Theory of Quantum
       Matter Laboratory (PI: Prof. Thierry Giamarchi)](https://giamarchi.unige.ch/)
-      ). Prof. Giamarchi and a lot of researchers have welcomed me. Especially, I
-      thank Prof. Giamarchi for the nice lunch and all of his hospitality!
+      ). Prof. Giamarchi and many researchers welcomed him. He especially thanks Prof. Giamarchi for the nice lunch and all of his hospitality!
 - date: [2024-03-11, 2024-03-27]
   label: other
   content:
     ja: >
-      スイスのフリーブール大学の [計算物理研究グループ(PI: Philipp Werner教授)](https://www.unifr.ch/phys/en/research/groups/werner/)
+      山本がスイスのフリーブール大学の [計算物理研究グループ(PI: Philipp Werner教授)](https://www.unifr.ch/phys/en/research/groups/werner/)
       に滞在しました 。
     en: >
-      I have stayed at the [Computational Physics Laboratory (PI: Prof. Philipp Werner)](https://www.unifr.ch/phys/en/research/groups/werner/)
+      Kazuki Yamamoto has stayed at the [Computational Physics Laboratory (PI: Prof. Philipp Werner)](https://www.unifr.ch/phys/en/research/groups/werner/)
       in the University of Fribourg, Switzerland.
 - date: "2024-02-07"
   label: publication
@@ -359,26 +397,26 @@
   label: award
   content:
     ja: >
-      東京工業大学 [令和5年度理学院若手研究奨励賞](https://educ.titech.ac.jp/phys/news/2023_12/065226.html)
+      山本が東京工業大学 [令和5年度理学院若手研究奨励賞](https://educ.titech.ac.jp/phys/news/2023_12/065226.html)
       を受賞しました。
     en: >
-      I have received the [Young Scientist Research Award](https://educ.titech.ac.jp/phys/news/2023_12/065226.html)
+      Kazuki Yamamoto has received the [Young Scientist Research Award](https://educ.titech.ac.jp/phys/news/2023_12/065226.html)
       of the Department of Physics, Tokyo Institute of Technology
 - date: "2023-12-14"
   label: award
   content:
-    ja: "[第40回井上研究奨励賞](https://www.inoue-zaidan.or.jp/) を受賞しました。"
+    ja: "山本が[第40回井上研究奨励賞](https://www.inoue-zaidan.or.jp/) を受賞しました。"
     en: >
-      I have received [40th Inoue Research Award for Young Scientists](https://www.inoue-zaidan.or.jp/)
+      Kazuki Yamamoto has received [40th Inoue Research Award for Young Scientists](https://www.inoue-zaidan.or.jp/)
 - date: "2023-12-12"
   label: talk
   content:
     ja: >
-      [12th Nonequibilrium Quantum Workshop](https://nqw.ijs.si/) - Kravavec, Sloveniaにて、"
+      山本が[12th Nonequibilrium Quantum Workshop](https://nqw.ijs.si/) - Kravavec, Sloveniaにて、"
       Entanglement phase transition under continuously monitored dynamics in many-body
       localized systems "というタイトルで口頭発表を行いました。
     en: >
-      I have given a talk in [12th Nonequibilrium Quantum Workshop](https://nqw.ijs.si/)
+      Kazuki Yamamoto has given a talk in [12th Nonequibilrium Quantum Workshop](https://nqw.ijs.si/)
       - Kravavec, Slovenia
 - date: "2023-10-09"
   label: publication
@@ -394,41 +432,41 @@
   label: talk
   content:
     ja: >
-      [Workshop on Criticality, Dynamics, and Nonequilibrium Behavior in Quantum Systems](https://www.cdnbqs.uevora.pt/Web-2023/webpage/index.php)
+      山本が[Workshop on Criticality, Dynamics, and Nonequilibrium Behavior in Quantum Systems](https://www.cdnbqs.uevora.pt/Web-2023/webpage/index.php)
       - Évora, Portugalにて、"Entanglement phase transitions in many-body localized systems
       under continuous measurement"というタイトルで口頭発表を行いました。
     en: >
-      I have given a talk in [Workshop on Criticality, Dynamics, and Nonequilibrium
+      Kazuki Yamamoto has given a talk in [Workshop on Criticality, Dynamics, and Nonequilibrium
       Behavior in Quantum Systems](https://www.cdnbqs.uevora.pt/Web-2023/webpage/index.php)
       - Évora, Portugal
 - date: "2023-08-21"
   label: talk
   content:
     ja: >
-      [Workshop on Dynamics of Monitored Quantum Many-Body Systems](https://indico.ictp.it/event/10202)
+      山本が[Workshop on Dynamics of Monitored Quantum Many-Body Systems](https://indico.ictp.it/event/10202)
       - Trieste, Italyにて、 " Measurement-induced phase transitions in disordered quantum
       many-body dynamics under continuous monitoring "というタイトルで口頭発表を行いました。
     en: >
-      I have given an oral presentation in [Workshop on Dynamics of Monitored Quantum
+      Kazuki Yamamoto has given an oral presentation in [Workshop on Dynamics of Monitored Quantum
       Many-Body Systems](https://indico.ictp.it/event/10202) - Trieste, Italy
 - date: "2023-08-09"
   label: talk
   content:
     ja: >
-      [28th International Conference on Statistical Physics](https://statphys28.org/)
+      山本が[28th International Conference on Statistical Physics](https://statphys28.org/)
       にて、 "Localization properties in disordered quantum many-body dynamics under
       continuous measurement "というタイトルで口頭発表を行いました。
     en: >
-      I have given an oral presentation in [28th International Conference on Statistical
+      Kazuki Yamamoto has given an oral presentation in [28th International Conference on Statistical
       Physics](https://statphys28.org/) - Tokyo
 - date: "2023-06-26"
   label: invited seminar
   content:
     ja: >
-      [学術変革領域研究A「極限宇宙の物理法則を創る」](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/)
+      山本が[学術変革領域研究A「極限宇宙の物理法則を創る」](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/)
       の循環ミーティングでセミナーを行いました。
     en: >
-      I have given a seminar in [Extreme Universe](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/)
+      Kazuki Yamamoto has given a seminar in [Extreme Universe](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/)
       Circular Meeting
 - date: "2023-06-07"
   label: publication
@@ -445,45 +483,45 @@
   label: invited seminar
   content:
     ja: >
-      "非平衡開放系における強相関物理"というタイトルで、 [量子物理学・ナノサイエンスセミナー](https://educ.titech.ac.jp/phys/event_information/2023/064133.html)
+      山本が"非平衡開放系における強相関物理"というタイトルで、 [量子物理学・ナノサイエンスセミナー](https://educ.titech.ac.jp/phys/event_information/2023/064133.html)
       を東京工業大学で行いました。
     en: >
-      I have given a [seminar](https://educ.titech.ac.jp/phys/event_information/2023/064133.html)
+      Kazuki Yamamoto has given a [seminar](https://educ.titech.ac.jp/phys/event_information/2023/064133.html)
       entitled "Nonequilibrium quantum many-body physics in open systems" in Tokyo
       Institute of Technology
 - date: "2023-04-01"
   label: other
   content:
-    ja: 東京工業大学理学院物理学系( [古賀研究室](http://www.stat.phys.titech.ac.jp/koga/) )に助教として着任しました。
+    ja: 山本が東京工業大学理学院物理学系( [古賀研究室](http://www.stat.phys.titech.ac.jp/koga/) )に助教として着任しました。
     en: >
-      I have moved to [Tokyo Institute of Technology](http://www.stat.phys.titech.ac.jp/koga/)
+      Kazuki Yamamoto has moved to [Tokyo Institute of Technology](http://www.stat.phys.titech.ac.jp/koga/)
       as an assistant professor
 - date: "2023-03-07"
   label: talk
   content:
     ja: >
-      アメリカのラスベガスにて行われる、 [American Physical Society March Meeting 2023](https://meetings.aps.org/Meeting/MAR23/Session/G66.13)
+      山本がアメリカのラスベガスにて行われる、 [American Physical Society March Meeting 2023](https://meetings.aps.org/Meeting/MAR23/Session/G66.13)
       にて口頭発表を行いました。
     en: >
-      I have given a talk in [American Physical Society March Meeting 2023](https://meetings.aps.org/Meeting/MAR23/Session/G66.13)
+      Kazuki Yamamoto has given a talk in [American Physical Society March Meeting 2023](https://meetings.aps.org/Meeting/MAR23/Session/G66.13)
       - Las Vegas
 - date: "2023-01-03"
   label: talk
   content:
     ja: >
-      スイスの国際会議 [Trends in the Theory of Quantum Materials 2022 (Swiss-Japan workshop
+      山本がスイスの国際会議 [Trends in the Theory of Quantum Materials 2022 (Swiss-Japan workshop
       2022)](https://ttqm2022.ethz.ch/) にて口頭発表を行いました。
     en: >
-      I have given a talk in [Trends in the Theory of Quantum Materials 2022 (Swiss-Japan
+      Kazuki Yamamoto has given a talk in [Trends in the Theory of Quantum Materials 2022 (Swiss-Japan
       workshop 2022)](https://ttqm2022.ethz.ch/) - Switzerland
 - date: "2022-10-24"
   label: award
   content:
     ja: >
-      日本物理学会秋季大会において [学生優秀発表賞(領域１)](https://www.jps.or.jp/activities/awards/gakusei/2022_student_presentation_award.php)
+      山本が日本物理学会秋季大会において [学生優秀発表賞(領域１)](https://www.jps.or.jp/activities/awards/gakusei/2022_student_presentation_award.php)
       を受賞しました。
     en: >
-      I've been awarded the [Student Presentation Award of the Physical Society of
+      Kazuki Yamamoto was awarded the [Student Presentation Award of the Physical Society of
       Japan (Division 1)](https://www.jps.or.jp/activities/awards/gakusei/2022_student_presentation_award.php)
       in Japan Physical Society Autumn Meeting 2022 (release from [Kyoto University](https://sci.kyoto-u.ac.jp/ja/research/award/2022/202210?auHash=rmQkXamushHSdOp6KKi2E5Kfs-ZGUrWb83mkumqRqJE)
       )
@@ -491,16 +529,16 @@
   label: talk
   content:
     ja: >
-      北海道にて行われた国際会議 [29th International Conference on Low Temperature Physics](https://www.lt29.jp/index.html)
+      山本が北海道にて行われた国際会議 [29th International Conference on Low Temperature Physics](https://www.lt29.jp/index.html)
       にて口頭発表を行いました。
     en: >
-      I have given a talk in [29th International Conference on Low Temperature Physics](https://www.lt29.jp/index.html)
+      Kazuki Yamamoto has given a talk in [29th International Conference on Low Temperature Physics](https://www.lt29.jp/index.html)
 - date: "2022-07-26"
   label: poster
   content:
-    ja: オランダのアムステルダムにて行われた国際会議 [SCES2022](https://www.sces2022.org/) にてポスター発表を行いました。
+    ja: 山本がオランダのアムステルダムにて行われた国際会議 [SCES2022](https://www.sces2022.org/) にてポスター発表を行いました。
     en: >
-      I have given a poster presentation in [SCES2022](https://www.sces2022.org/)
+      Kazuki Yamamoto has given a poster presentation in [SCES2022](https://www.sces2022.org/)
       - Amsterdam, Netherlands
 - date: "2022-05-20"
   label: publication
@@ -517,16 +555,16 @@
   label: invited talk
   content:
     ja: >
-      韓国で行われた国際会議 [APCTP workshop "Numerical Methods in Theoretical Physics"](https://sites.google.com/view/nmtp2022/)
+      山本が韓国で行われた国際会議 [APCTP workshop "Numerical Methods in Theoretical Physics"](https://sites.google.com/view/nmtp2022/)
       ( [Youtube](https://www.youtube.com/watch?v=4kMetRPztq0) )にて招待講演を行いました。
     en: >
-      I have given an invited talk in [APCTP workshop "Numerical Methods in Theoretical
+      Kazuki Yamamoto has given an invited talk in [APCTP workshop "Numerical Methods in Theoretical
       Physics"](https://sites.google.com/view/nmtp2022/) ( [Youtube](https://www.youtube.com/watch?v=4kMetRPztq0)
       )
 - date: "2022-04-12"
   label: talk
   content:
     ja: >
-      沖縄で行われた国際会議 [Ultracold Atoms Japan 2022](https://groups.oist.jp/ultracoldjapan/program)
+      山本が沖縄で行われた国際会議 [Ultracold Atoms Japan 2022](https://groups.oist.jp/ultracoldjapan/program)
       にて口頭発表を行いました。
-    en: "I have given a talk in [Ultracold Atoms Japan 2022](https://groups.oist.jp/ultracoldjapan/program)"
+    en: "Kazuki Yamamoto has given a talk in [Ultracold Atoms Japan 2022](https://groups.oist.jp/ultracoldjapan/program)"
