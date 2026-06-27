@@ -29,16 +29,16 @@ export const siteMetadata = {
                 href: "/",
             },
             {
+                name: "Research",
+                href: "/research",
+            },
+            {
                 name: "Members",
                 href: "/members",
             },
             {
                 name: "activities",
                 href: "/activities",
-            },
-            {
-                name: "Research",
-                href: "/research",
             },
             {
                 name: "Publications",
@@ -59,16 +59,16 @@ export const siteMetadata = {
                 href: "/ja/",
             },
             {
+                name: "研究",
+                href: "/ja/research",
+            },
+            {
                 name: "メンバー",
                 href: "/ja/members",
             },
             {
                 name: "最近の活動",
                 href: "/ja/activities",
-            },
-            {
-                name: "研究",
-                href: "/ja/research",
             },
             {
                 name: "出版物",
