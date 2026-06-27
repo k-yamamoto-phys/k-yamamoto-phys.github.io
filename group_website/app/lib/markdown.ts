@@ -2,6 +2,7 @@ import { remark } from "remark";
 import { visit } from "unist-util-visit";
 import { unified, type Plugin } from "unified";
 import type { Root, Element, RootContent, ElementContent } from "hast";
+import type { Image } from "mdast";
 // import type { Root as mdRt, RootContent as mdRtC, Paragraph, Parent } from "mdast";
 import remarkRehype from "remark-rehype";
 import rehypeExternalLinks from "rehype-external-links";
@@ -53,8 +54,7 @@ export async function convertMarkdownToHtmlWithSectionize(markdownString: string
 const rehyperh3Decorate: Plugin<[], Root> = () => {
     return (tree: Root) => {
         // guard: treeがRootでない/壊れている場合は何もしない
-        if (!tree || typeof (tree as any).type !== "string" || (tree as any).type !== "root") return;
-        if (!Array.isArray((tree as any).children)) return;
+        if (!isRoot(tree)) return;
 
         visit(tree, "element", (node: Element) => {
             if (node.tagName !== "h3") return;
@@ -81,14 +81,22 @@ const rehypeBasePathAssets: Plugin<[], Root> = () => {
 };
 
 
+function isRecord(node: unknown): node is Record<string, unknown> {
+    return !!node && typeof node === "object";
+}
+
+function isRoot(node: unknown): node is Root {
+    return isRecord(node) && node.type === "root" && Array.isArray(node.children);
+}
+
 function isElement(node: unknown): node is Element {
-    return !!node && typeof node === "object" && (node as any).type === "element";
+    return isRecord(node) && node.type === "element";
 }
 
 async function extractAlts(markdownText: string) {
     const tree = unified().use(remarkParse).parse(markdownText);
     const alts: Element[] = [];
-    visit(tree, "image", (node: any) => {
+    visit(tree, "image", (node: Image) => {
         const processor = unified()
             .use(remarkParse)
             .use(remarkMath)
