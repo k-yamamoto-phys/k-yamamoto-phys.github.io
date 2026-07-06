@@ -42,3 +42,36 @@
       **居室**: 理学研究科D棟
     en: |
       **Room**: Graduate School of Science Building D
+- name:
+    ja: 松原虎之介
+    en: Toranosuke Matsubara
+  position:
+    ja: D3（東京科学大学所属）
+    en: D3, Institute of Science Tokyo
+  type: colabrator
+  photo: null
+  message:
+    ja: ""
+    en: ""
+- name:
+    ja: 竹森颯真
+    en: Soma Takemori
+  position:
+    ja: D2（東京科学大学所属）
+    en: D2, Institute of Science Tokyo
+  type: colabrator
+  photo: null
+  message:
+    ja: ""
+    en: ""
+- name:
+    ja: 藤井淳太朗
+    en: Juntaro Fujii
+  position:
+    ja: D1（東京科学大学所属）
+    en: D1, Institute of Science Tokyo
+  type: colabrator
+  photo: null
+  message:
+    ja: ""
+    en: ""

@@ -1,8 +1,7 @@
-import type { ResolvingMetadata, Metadata } from "next";
+import type { Metadata } from "next";
 import { MetadataGenerator } from "@/app/lib/metadata";
 import md_content from "@/group/members_other.md";
 import { convertMarkdownToHtml } from "@/app/lib/markdown";
-import { Hero } from "@/app/ui/client/crousel";
 import { siteMetadata } from "@/group/_metadata";
 import { withBasePath } from "@/app/lib/site-paths";
 import members from "@/group/members.yml";
@@ -15,7 +14,8 @@ export type memberEntry = {
         ja: string;
         en: string;
     }
-    photo: string;
+    type: "leader" | "member" | "alumni" | "colabrator";
+    photo: string | null;
     message: {
         ja: string;
         en: string;
@@ -29,6 +29,8 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const htmlContent = await convertMarkdownToHtml(md_content as string);
     const member_data = members as memberEntry[];
+    const internalMembers = member_data.filter((member) => member.type !== "colabrator");
+    const collaborators = member_data.filter((member) => member.type === "colabrator");
 
     return (
         <>
@@ -47,11 +49,23 @@ export default async function Page() {
             <h2 className="ml-4 text-2xl font-bold">メンバーの紹介</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 p-4 gap-4">
                 {
-                    member_data.map((member, index) => (
+                    internalMembers.map((member, index) => (
                         <MemberCard key={index} member={member} lang="ja" />
                     ))
                 }
             </div>
+            {collaborators.length > 0 && (
+                <>
+                    <h2 className="ml-4 text-2xl font-bold">共同研究者</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 p-4 gap-4">
+                        {
+                            collaborators.map((member, index) => (
+                                <MemberCard key={index} member={member} lang="ja" />
+                            ))
+                        }
+                    </div>
+                </>
+            )}
 
             <div className="m-2 p-2 prose">
                 <div dangerouslySetInnerHTML={{ __html: htmlContent || "" }} />
@@ -65,17 +79,21 @@ const MemberCard = async ({ member, lang }: { member: memberEntry, lang: "ja" | 
     return (
         <div className="card bg-base-100 card-md shadow-sm border border-gray-400">
             <div className="card-body flex flex-col gap-4">
-                <div className="flex flex-col">
-                    <div className="avatar">
-                        <div className="w-24 aspect-square rounded-xl">
-                            <img src={withBasePath(member.photo)} alt={member.name[lang]} className="h-full w-full object-cover" />
+                {member.photo && (
+                    <div className="flex flex-col">
+                        <div className="avatar">
+                            <div className="w-24 aspect-square rounded-xl">
+                                <img src={withBasePath(member.photo)} alt={member.name[lang]} className="h-full w-full object-cover" />
+                            </div>
                         </div>
                     </div>
-                </div>
+                )}
                 <div className="w-full min-w-0">
                     <h2 className="card-title text-lg">{member.name[lang]}</h2>
                     <p>{member.position[lang]}</p>
-                    <div className="min-w-0 break-words text-sm" dangerouslySetInnerHTML={{ __html: message || "" }}></div>
+                    {message && (
+                        <div className="min-w-0 break-words text-sm" dangerouslySetInnerHTML={{ __html: message }}></div>
+                    )}
                 </div>
             </div>
         </div>
