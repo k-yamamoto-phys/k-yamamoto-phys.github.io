@@ -52,6 +52,10 @@ export const siteMetadata = {
                 name: "Contact",
                 href: "/contact",
             },
+            {
+                name: "Personal page",
+                href: "https://k-yamamoto-phys.github.io",
+            }
         ],
         ja: [
             {
@@ -81,6 +85,10 @@ export const siteMetadata = {
             {
                 name: "連絡先",
                 href: "/ja/contact",
+            },
+            {
+                name: "個人ページ",
+                href: "https://k-yamamoto-phys.github.io/ja",
             }
         ]
     },

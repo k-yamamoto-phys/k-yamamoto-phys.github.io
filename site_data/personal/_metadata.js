@@ -13,14 +13,14 @@ export const siteMetadata = {
         ja: "山本 和樹"
     },
     homeCrousel: [// 画像は、personal_website/public以下に置くことで変えることができます。
-        { 
+        {
             image: "/images/cj1.jpg",
             caption: {
                 ja: "Prof. Werner, Dr. Mithilesh, Dr. Rayとのpizzeriaでの夕食",
                 en: "Dinner at a pizzeria with Prof. Werner, Dr. Mithilesh, and Dr. Ray"
             }
         },
-        { 
+        {
             image: "/images/cj2.jpg",
             caption: {
                 ja: "Évora, PortugalにてProf. Tomaz Prosenと",
@@ -63,6 +63,10 @@ export const siteMetadata = {
             {
                 name: "CV",
                 href: "/cv",
+            },
+            {
+                name: "Group site",
+                href: "/group"
             }
         ],
         ja: [
@@ -89,7 +93,12 @@ export const siteMetadata = {
             {
                 name: "徒然なるままに",
                 href: "/ja/amuse",
+            },
+            {
+                name: "グループサイト",
+                href: "/group"
             }
+
         ]
     },
     ExternalLinks: {
