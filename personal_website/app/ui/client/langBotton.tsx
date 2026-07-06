@@ -11,7 +11,7 @@ export function LangSetting() {
     const [isEnglish, setIsEnglish] = useAtom(EngAtom);
     const currentPath = usePathname();
     const locale = currentPath.split("/")[1] === "ja" ? "ja" : "en";
-    console.log("Current locale:", locale, currentPath);
+    // console.log("Current locale:", locale, currentPath);
     useEffect(() => {
         if (locale === "ja") {
             // console.log("Language set to Japanese");
