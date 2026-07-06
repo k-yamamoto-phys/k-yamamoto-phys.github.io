@@ -17,12 +17,20 @@ https://daisyui.com/theme-generator/ */
   --color-base-200: oklch(96% 0.001 286.375);
   --color-base-300: oklch(92% 0.004 286.32);
   --color-base-content: oklch(21% 0.006 285.885);
+  --color-primary: #be9b39;
+  --color-primary-content: oklch(21% 0.006 285.885);
+  --color-secondary: #006a63;
+  --color-secondary-content: oklch(98% 0 0);
+  --color-accent: #4f4634;
+  --color-accent-content: oklch(98% 0 0);
+  /* Previous Science Tokyo colors:
   --color-primary: #1c3177;
   --color-primary-content: oklch(97% 0.014 254.604);
   --color-secondary: #7f96c2;
   --color-secondary-content: oklch(100% 0 0);
   --color-accent: #6f23d0;
   --color-accent-content: oklch(98% 0.001 106.423);
+  */
   --color-neutral: #b5ab8b;
   --color-neutral-content: oklch(98% 0 0);
   --color-info: #00a3bf;
