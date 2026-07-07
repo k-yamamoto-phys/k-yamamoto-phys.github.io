@@ -19,7 +19,7 @@ export const siteMetadata = {
     },
     SiteTitle: {
         en: "Yamamoto group",
-        ja: "大阪公立大学・非平衡量子多体研究室"
+        ja: "山本グループ"
     },
     all_member_img: "/images/members/all/2026.jpg",
     Navigation: {
@@ -49,12 +49,12 @@ export const siteMetadata = {
                 href: "/presentations",
             },
             {
-                name: "Contact",
+                name: "Access",
                 href: "/contact",
-            },
-            {
-                name: "Personal page",
-                href: "https://k-yamamoto-phys.github.io",
+            // },
+            // {
+            //     name: "Personal page",
+            //     href: "https://k-yamamoto-phys.github.io",
             }
         ],
         ja: [
@@ -75,7 +75,7 @@ export const siteMetadata = {
                 href: "/ja/activities",
             },
             {
-                name: "出版物",
+                name: "研究成果",
                 href: "/ja/publications",
             },
             {
@@ -83,12 +83,12 @@ export const siteMetadata = {
                 href: "/ja/presentations",
             },
             {
-                name: "連絡先",
+                name: "アクセス",
                 href: "/ja/contact",
-            },
-            {
-                name: "個人ページ",
-                href: "https://k-yamamoto-phys.github.io/ja",
+            // },
+            // {
+            //     name: "個人ページ",
+            //     href: "https://k-yamamoto-phys.github.io/ja",
             }
         ]
     },
