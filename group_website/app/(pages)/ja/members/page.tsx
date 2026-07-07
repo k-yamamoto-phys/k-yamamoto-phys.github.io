@@ -56,7 +56,7 @@ export default async function Page() {
             </div>
             {collaborators.length > 0 && (
                 <>
-                    <h2 className="ml-4 text-2xl font-bold">共同研究者</h2>
+                    <h2 className="ml-4 text-2xl font-bold">研究協力者（リサーチアシスタント）</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 p-4 gap-4">
                         {
                             collaborators.map((member, index) => (

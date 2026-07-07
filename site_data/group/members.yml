@@ -10,12 +10,10 @@
   message:
     ja: |
       **email**: kazuki-yamamoto + [atmark] + omu.ac.jp  
-      **居室**: 理学研究科B棟 B307  
-      **電話**: 0666053069
+      [個人ページ](https://k-yamamoto-phys.github.io/)  
     en: |
       **email**: kazuki-yamamoto + [atmark] + omu.ac.jp  
-      **Room**: Graduate School of Science Building B, B307  
-      **Phone**: 0666053069
+      [personal page](https://k-yamamoto-phys.github.io/)  
 - name:
     ja: 小森麟太郎
     en: Rintaro Komori
@@ -26,9 +24,9 @@
   photo: /images/members/profile/komori-rintaro.jpg
   message:
     ja: |
-      **居室**: 理学研究科D棟
+      
     en: |
-      **Room**: Graduate School of Science Building D
+      
 - name:
     ja: 辻利将
     en: Toshimasa Tsuji
@@ -39,9 +37,9 @@
   photo: /images/members/profile/tsuji-toshimasa.jpg
   message:
     ja: |
-      **居室**: 理学研究科D棟
+      
     en: |
-      **Room**: Graduate School of Science Building D
+      
 - name:
     ja: 松原虎之介
     en: Toranosuke Matsubara
