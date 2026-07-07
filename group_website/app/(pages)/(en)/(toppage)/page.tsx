@@ -19,7 +19,7 @@ export default async function Page() {
                 <div className="max-w-4xl mx-auto px-4">
                     <h1 className="text-4xl font-extrabold leading-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] md:text-6xl">Nonequilibrium Many-Body Quantum Matter Theory Group</h1>
                     <p className="mt-5 text-sm font-medium leading-relaxed text-white/95 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] md:text-lg">
-                        We study the theory of nonequilibrium quantum many-body systems in the Condensed Matter Physics Group, Department of Physics, Osaka Metropolitan University.
+                        We study the theory of nonequilibrium quantum many-body systems at Department of Physics, Osaka Metropolitan University.
                     </p>
                 </div>
             </Hero>
@@ -27,7 +27,7 @@ export default async function Page() {
             <div className="m-2 p-2">
                 <div className="prose mt-6">
                     <h2>Research Interests: Theory of Nonequilibrium Quantum Many-Body Physics through the Fusion of Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
-                    <p>I am interested in strongly correlated phenomena in condensed matter physics, particularly in open quantum systems with ultracold atoms. Recently, I am working on many-body physics by using both analytical and numerical methods, such as Bethe ansatz, conformal field theory, and (non-Hermitian generalization of) density-matrix renormalization group analysis.</p>
+                    <p>Our research group conducts theoretical studies in quantum many-body systems, focusing on nonequilibrium physics, statistical mechanics, and quantum information. Recent advances in ultracold atoms have enabled the realization of open quantum systems, where controllable parameters allow access to novel quantum states and nonequilibrium phase transitions. Despite these developments, the role of strong correlation effects under dissipation remains far from fully understood. In collaboration with experimental groups, we investigate nonequilibrium quantum many-body phenomena arising from the interplay between dissipation and strong correlations.</p>
                     <div className="card sm:card-side bg-white shadow-sm  ">
                         <img
                             src={withBasePath("/images/top_page/measurement.png")}
@@ -48,7 +48,7 @@ export default async function Page() {
                         <h2 className="mt-2 text-2xl font-bold leading-snug text-gray-900">We welcome motivated students and postdocs</h2>
                         <p className="mt-3 leading-relaxed text-gray-800">
                             We are always looking for motivated students and postdocs who belong to Department of Physics, Osaka Metropolitan University.
-                            If you are interested, please contact me for further information.
+                            If you are interested, please contact us for further information.
                         </p>
                         <div className="mt-5">
                             <Link href="/contact" className="btn btn-primary text-white">Contact us<FaArrowRight /></Link>
