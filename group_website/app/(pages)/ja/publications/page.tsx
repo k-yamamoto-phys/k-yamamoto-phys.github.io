@@ -67,19 +67,16 @@ export default async function Page() {
                     </ul>
                     </React.Fragment>))
             }
-            <h2>学会発表論文集</h2>
+            <h2>会議録</h2>
             <ul className="list-none">
-                {
-                    conference_paper.map((paper, index, array) => (
-                        <PaperItem key={index} paper={paper} number={array.length - index} />
-                    ))
-                }
-            </ul>
-            <h2>その他</h2>
-            <ul className="list-none">
-                <li><a href="https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/283521" rel="noopener noreferrer" target="_blank">博士論文</a></li>
-                <li>修士論文 (リンクはリクエスト可能)</li>
-            </ul>
+    {(conference_paper ?? []).map((paper, index, array) => (
+        <PaperItem
+            key={index}
+            paper={paper}
+            number={array.length - index}
+        />
+    ))}
+</ul>
         </div>
     );
 }
