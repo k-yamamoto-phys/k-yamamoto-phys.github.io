@@ -75,7 +75,7 @@ export const siteMetadata = {
                 href: "/ja/activities",
             },
             {
-                name: "研究成果",
+                name: "出版物",
                 href: "/ja/publications",
             },
             {
