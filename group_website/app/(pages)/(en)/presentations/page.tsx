@@ -54,7 +54,7 @@ export default async function Page() {
             <CollapsibleSection title="Invited talks" info={conference.filter(p => p.category === "domestic" && p.type === "invited" && dayjs(p.date).isBefore(current))} />
             <CollapsibleSection title="Oral Presentations" info={conference.filter(p => p.category === "domestic" && p.type === "oral" && dayjs(p.date).isBefore(current))} />
             <CollapsibleSection title="Poster Presentations" info={conference.filter(p => p.category === "domestic" && p.type === "poster" && dayjs(p.date).isBefore(current))} />
-            <h2>Seminars and External activities</h2>
+            <h2>Seminars and External Activities</h2>
             <CollapsibleSection title="Invited talks" info={conference.filter(p => p.category === "seminar" && p.type === "invited" && dayjs(p.date).isBefore(current))} />
             <CollapsibleSection title="Seminars" info={conference.filter(p => p.category === "seminar" && p.type === "oral" && dayjs(p.date).isBefore(current))} />
         </div>

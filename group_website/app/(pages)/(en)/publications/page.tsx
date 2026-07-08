@@ -37,14 +37,6 @@ export default async function Page() {
     return (
         <div className="m-2 p-2 prose">
             <h1>Publications</h1>
-            <ul className="list-none">
-                <li>
-                    <a href="https://scholar.google.com/citations?user=qF3OqP0AAAAJ&hl=ja&oi=sra" target="_blank" rel="noopener noreferrer" >Google Scholar</a>
-                </li>
-                <li>
-                    <a href="https://www.webofscience.com/wos/author/record/ACR-5130-2022" target="_blank" rel="noopener noreferrer" >Web of Science</a>
-                </li>
-            </ul>
             <h2>Preprints</h2>
             <ul className="list-none">
                 {
@@ -53,7 +45,7 @@ export default async function Page() {
                     ))
                 }
             </ul>
-            <h2>Original Paper</h2>
+            <h2>Original Papers</h2>
             {
                 published_papers_by_year.map(({ year, data }, index) => (
                     <React.Fragment key={index}>
