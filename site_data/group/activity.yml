@@ -1,12 +1,28 @@
+# - date: "2026-07-09"
+#   label: presentation
+#   content:
+#     ja: >
+#       hogehoge san presentation
+#     en: >
+#       hogehoge san presentation
+
+# - date: "2026-07-09"
+#   label: "invited talk"
+#   content:
+#     ja: >
+#       hogehoge san invited talk
+#     en: >
+#       hogehoge san invited talk
+
 - date: "2026-07-09"
-  label: other
+  label: event
   content:
     ja: >
       共同研究者の鄭 従真さん（大阪大D3）が研究室に来訪しました。
     en: >
       Our collaborator, Jushin tei, visited in our laboratory.
 - date: [2026-07-06, 2026-7-17]
-  label: other
+  label: event
   content:
     ja: >
       研究協力者の松原虎之介さん、竹森颯真さん、藤井淳太朗さん（東京科学大）が研究室に滞在しました。
@@ -28,7 +44,7 @@
     en: >
       Prof. Kazuki Yamamoto has received [39th Ando Incentive Prize for the Study of Electronics](https://www.ando-lab.or.jp/index.html)
 - date: [2026-05-25, 2026-06-05]
-  label: other
+  label: event
   content:
     ja: >
       研究協力者の松原虎之介さん、竹森颯真さん、藤井淳太朗さん（東京科学大）が研究室に滞在しました。
@@ -51,7 +67,7 @@
     en: >
       Original paper "Anomalous waiting-time distributions in postselection-free quantum many-body dynamics under continuous monitoring" has appeared on [arXiv](https://arxiv.org/abs/2604.00358)
 - date: "2026-04-01"
-  label: other
+  label: event
   content:
     ja: >
       新4回生の小森麟太郎さん、辻利将さんがメンバーに加わりました。
