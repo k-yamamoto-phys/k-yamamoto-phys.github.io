@@ -85,7 +85,8 @@ async function PaperItem({ paper, number }: { paper: Paper, number: number }) {
     return (
         <li>
              <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
-            <p><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p>
+            {/* <p><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p> */}
+            <p>{paper.authors}</p>
             <p>
                 {paper.journal === null ?
                     (<a href={`https://arxiv.org/abs/${paper.arXiv}`} target="_blank" rel="noopener noreferrer">arXiv:{paper.arXiv}</a>) :

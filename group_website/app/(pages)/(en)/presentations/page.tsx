@@ -81,8 +81,23 @@ async function CollapsibleSection({ title, info }: { title: string; info: Presen
         </>
     );
 }
+// async function ConferenceItem({ p, number }: { p: Presentation, number: number }) {
+//     const markdownContent = await convertMarkdownToHtml(p.detail);
+//     return (
+//         <li>
+//             <p>
+//                 {number}.&nbsp;
+//                 {`"${p.title}"`}
+//             </p>
+
+//             <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en,siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
+//             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+//         </li>
+//     );
+// }
 async function ConferenceItem({ p, number }: { p: Presentation, number: number }) {
     const markdownContent = await convertMarkdownToHtml(p.detail);
+
     return (
         <li>
             <p>
@@ -90,7 +105,8 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
                 {`"${p.title}"`}
             </p>
 
-            <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en,siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
+            <p>{p.presenter}</p>
+
             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
         </li>
     );

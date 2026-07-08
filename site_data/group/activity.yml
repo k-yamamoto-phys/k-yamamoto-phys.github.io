@@ -1,11 +1,3 @@
-- date: "2026-07-04"
-  label: publication
-  content:
-    ja: >
-      原著論文 "Measurement-induced spatially nonuniform fluctuations of the local particle number and their crossover in a quasiperiodic free-fermion chain" を [arXiv](https://arxiv.org/abs/2607.03799)
-      に投稿しました 。
-    en: >
-      Original paper "Measurement-induced spatially nonuniform fluctuations of the local particle number and their crossover in a quasiperiodic free-fermion chain" has appeared on [arXiv](https://arxiv.org/abs/2607.03799)
 - date: "2026-07-09"
   label: other
   content:
@@ -20,6 +12,14 @@
       研究協力者の松原虎之介さん、竹森颯真さん、藤井淳太朗さん（東京科学大）が研究室に滞在しました。
     en: >
       Our research collaborator, Toranosuke Matsubara, Soma Takemori, and Juntaro Fujii stayed in our laboratory.
+- date: "2026-07-04"
+  label: publication
+  content:
+    ja: >
+      原著論文 "Measurement-induced spatially nonuniform fluctuations of the local particle number and their crossover in a quasiperiodic free-fermion chain" を [arXiv](https://arxiv.org/abs/2607.03799)
+      に投稿しました 。
+    en: >
+      Original paper "Measurement-induced spatially nonuniform fluctuations of the local particle number and their crossover in a quasiperiodic free-fermion chain" has appeared on [arXiv](https://arxiv.org/abs/2607.03799)
 - date: "2026-05-13"
   label: award
   content:
