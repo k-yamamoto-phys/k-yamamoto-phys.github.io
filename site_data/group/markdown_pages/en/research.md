@@ -2,13 +2,12 @@
 title: Research
 description: researches in Yamamoto group
 ---
-# Research 
 
-## Research Interests
+# Research
 
-* **Condensed Matter Physics**: Strongly correlated quantum (electron) systems
-* **AMO(Atomic Morecular, and Optical) Physics**: Ultracold atoms, Open quantum systems, Non-Hermitian systems
-* **Quantum Many-Body Physics/Quantum information**: Continuously monitored systems
+- **Condensed Matter Physics**: Strongly correlated quantum (electron) systems
+- **AMO(Atomic Morecular, and Optical) Physics**: Ultracold atoms, Open quantum systems, Non-Hermitian systems
+- **Quantum Many-Body Physics/Quantum information**: Continuously monitored systems
 
 ### Keywords
 
@@ -74,7 +73,7 @@ Motivated by recent **experimental realizations of SU($N$) Hubbard models**, we 
 
 - **Measurement-Induced phase transition in quasiperiodic systems** ([Phys. Rev. B **112**, 054309 (2025)](https://journals.aps.org/prb/abstract/10.1103/3zfd-3hqt))
   In recent years, quasiperiodic systems, which lack translational periodicity while exhibiting regular spatial order, have been extensively studied. For instance, in one-dimensional systems, the Fibonacci sequence is a prototypical example, and in two dimensions, the Penrose tiling is well known. We have numerically analyzed the steady-state entanglement entropy in quasiperiodic systems and demonstrated that a measurement-induced phase transition occur induced by the interplay between measurements and quasiperiodicity.
-![penrose tiling](/images/penrose.png)
+  ![penrose tiling](/images/penrose.png)
 
 ### Nonequilibrium steady states
 

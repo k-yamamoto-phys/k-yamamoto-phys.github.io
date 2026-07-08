@@ -37,7 +37,7 @@ export const siteMetadata = {
                 href: "/members",
             },
             {
-                name: "activities",
+                name: "Activities",
                 href: "/activities",
             },
             {

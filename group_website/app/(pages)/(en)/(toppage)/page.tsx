@@ -26,7 +26,7 @@ export default async function Page() {
 
             <div className="m-2 p-2">
                 <div className="prose mt-6">
-                    <h2>Research Interests: Theory of Nonequilibrium Quantum Many-Body Physics through the Fusion of Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
+                    <h2>Theory of Nonequilibrium Quantum Many-Body Physics at the Interface between Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
                     <p>Our research group conducts theoretical studies in quantum many-body systems, focusing on nonequilibrium physics, statistical mechanics, and quantum information. Recent advances in ultracold atoms have enabled the realization of open quantum systems, where controllable parameters allow access to novel quantum states and nonequilibrium phase transitions. Despite these developments, the role of strong correlation effects under dissipation remains far from fully understood. In collaboration with experimental groups, we investigate nonequilibrium quantum many-body phenomena arising from the interplay between dissipation and strong correlations.</p>
                     <div className="card sm:card-side bg-white shadow-sm  ">
                         <img
