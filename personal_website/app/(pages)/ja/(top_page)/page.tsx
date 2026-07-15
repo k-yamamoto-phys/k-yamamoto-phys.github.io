@@ -1,8 +1,9 @@
-import type { ResolvingMetadata, Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link"
-import { FaHome, FaSearch, FaBook, FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 import { MetadataGenerator } from "@/app/lib/metadata";
 import Acctivity from "@/app/ui/server/acctivity";
+import GroupLinkCard from "@/app/ui/server/groupLinkCard";
 import { Crousel } from "@/app/ui/client/crousel";
 import { siteMetadata } from "@/personal/_metadata";
 export async function generateMetadata(): Promise<Metadata> {
@@ -14,17 +15,17 @@ export default async function Page() {
         <>
             <Crousel crousels={[{ image: "/images/top.jpg", caption: "Varenna, Lake Como" }]} />
             <div className="m-2 p-2">
-                <div className="flex flex-col md:flex-row justify-between  mb-6">
-                    <div className="prose">
+                <div className="mb-6 flex flex-col justify-between gap-6 md:flex-row md:gap-8">
+                    <div className="prose min-w-0 flex-1">
                         <h1>山本 和樹</h1>
                         <p>博士 (理学)</p>
                         <p>講師</p>
                         <p>大阪公立大学大学院理学研究科物理学専攻</p>
-                        <p>非平衡量子多体物性理論研究室</p>
                         <img src="/images/OMU_logo_jp.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
                         <p>Email: kazuki-yamamoto + アットマーク + omu.ac.jp</p>
+                        <GroupLinkCard lang="ja" />
                     </div>
-                    <div className="md:w-1/3 w-2/3 mt-3">
+                    <div className="mt-3 w-2/3 shrink-0 md:w-1/3">
                         <Crousel crousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.ja }))} />
                     </div>
                 </div>

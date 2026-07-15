@@ -1,13 +1,9 @@
 ---
-title: Contact
-description: Contact information for Yamamoto Group
+title: Access
+description: access information for Yamamoto Group
 ---
 
-# Contact
-
-**email**: kazuki-yamamoto + [atmark] + omu.ac.jp
-
-## Lab Location
+# Lab Location
 
 Graduate School of Science, Osaka Metropolitan University  
 3-3-138 Sugimoto, Sumiyoshi-ku, Osaka 558-8585, Japan

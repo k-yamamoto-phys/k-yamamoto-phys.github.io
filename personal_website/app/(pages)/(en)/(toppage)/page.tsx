@@ -1,7 +1,8 @@
-import type { ResolvingMetadata, Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { MetadataGenerator } from "@/app/lib/metadata";
 import Acctivity from "@/app/ui/server/acctivity";
+import GroupLinkCard from "@/app/ui/server/groupLinkCard";
 import { FaArrowRight } from "react-icons/fa";
 import { Crousel } from "@/app/ui/client/crousel";
 import { siteMetadata } from "@/personal/_metadata";
@@ -18,17 +19,17 @@ export default async function Page() {
         <>
             <Crousel crousels={[{ image: "/images/top.jpg", caption: "Varenna, Lake Como" }]} />
             <div className="m-2 p-2">
-                <div className="flex flex-col md:flex-row justify-between  mb-6">
-                    <div className="prose">
+                <div className="mb-6 flex flex-col justify-between gap-6 md:flex-row md:gap-8">
+                    <div className="prose min-w-0 flex-1">
                         <h1>Dr. Kazuki Yamamoto</h1>
                         <p>Ph.D. (Science)</p>
                         <p>Assistant Professor</p>
                         <p>Department of Physics, Osaka Metropolitan University</p>
-                        <p>Nonequilibrium Many-Body Quantum Matter Theory Group</p>
                         <img src="/images/OMU_logo_en.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
                         <p>Email: kazuki-yamamoto + [atmark] + omu.ac.jp</p>
+                        <GroupLinkCard lang="en" />
                     </div>
-                    <div className="md:w-1/3 w-2/3 mt-3">
+                    <div className="mt-3 w-2/3 shrink-0 md:w-1/3">
                         <Crousel crousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.en }))} />
                     </div>
                 </div>
