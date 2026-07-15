@@ -15,6 +15,7 @@ const BadgeMap = {
     publication: "badge-success",
     presentation: "badge-info",
     "invited talk": "badge-primary",
+    talk: "badge-accent",
     event: "badge-accent",
 }
 export default function Acctivity({lang, limit}: {lang: string, limit?: number}) {
