@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     return (
         <>
-            <Hero figure_path="/images/top.jpg" isFullScreen>
+            <Hero figure_path="/images/OMU_photo.png" isFullScreen>
                 <div className="max-w-4xl mx-auto px-4">
                     <h1 className="text-3xl font-extrabold leading-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] sm:text-4xl md:text-6xl">
                         <span className="inline-block">非平衡量子多体物性理論</span>

@@ -13,6 +13,15 @@
 #       hogehoge san invited talk
 #     en: >
 #       hogehoge san invited talk
+- date: "2026-07-14"
+  label: publication
+  content:
+    ja: >
+      原著論文 Kondo breakdown induced by non-Hermitian complex hybridization が [Physical Review B](https://journals.aps.org/prb/abstract/10.1103/w6zs-kb6m)
+      誌に出版されました 。
+    en: >
+      Original paper "Kondo breakdown induced by non-Hermitian complex hybridization" has been published in [Physical
+      Review B](https://journals.aps.org/prb/abstract/10.1103/w6zs-kb6m)
 
 - date: "2026-07-09"
   label: event

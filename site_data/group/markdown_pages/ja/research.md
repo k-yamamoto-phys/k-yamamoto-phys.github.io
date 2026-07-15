@@ -73,6 +73,7 @@ description: 研究の興味:情報科学と物質科学の融合による非平
 https://www.isct.ac.jp/ja/news/2cc77j8aqtxa
 2025-12-25
 
-| x   | x   |
-| --- | --- |
-| y   | y   |
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| a        | B        | C        |
+| D        | E        | F        |

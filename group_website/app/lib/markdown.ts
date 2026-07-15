@@ -12,11 +12,12 @@ import remarkMath from "remark-math";
 // import type { ContainerNode } from "./container-node";
 import remarkParse from "remark-parse";
 import { withBasePath } from "./site-paths";
-
+import remarkGfm from "remark-gfm";
 export async function convertMarkdownToHtml(markdownString: string): Promise<string> {
     const altParts = await extractAlts(markdownString); // 画像のalt部分を事前に抽出（remarkmathがparse前に動作して、alt内の数式ノーテーションを削除してしまうため）
     const processedContent = await remark()
         .use(remarkMath)
+         .use(remarkGfm)  
         .use(remarkRehype) // Markdown → HTML AST に変換
         .use(rehypeExternalLinks, {
             target: "_blank",
