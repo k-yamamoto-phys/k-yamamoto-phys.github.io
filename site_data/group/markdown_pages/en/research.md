@@ -1,19 +1,16 @@
----
-title: Research
-description: researches in Yamamoto group
----
-
 # Research
+
+## Theory of Nonequilibrium Quantum Many-Body Physics at the Interface between Condensed Matter Physics, AMO Physics, and Quantum Information
 
 - **Condensed Matter Physics**: Strongly correlated quantum (electron) systems
 - **AMO(Atomic Morecular, and Optical) Physics**: Ultracold atoms, Open quantum systems, Non-Hermitian systems
 - **Quantum Many-Body Physics/Quantum information**: Continuously monitored systems
 
-### Keywords
+## Keywords
 
 Fermionic superfluids, Tomonaga-Luttinger liquids, Kondo effect, (Itinerant) ferromagnetism, SU($N$) symmetry, Nonequilibrium steady states, Lindblad master equation, Quantum measurement, Full counting statistics
 
-### Tools
+## Tools
 
 Effective field theory, Conformal field theory, Bethe ansatz, (Non-Hermitian) density-matrix renormalization group, Dynamical mean-field theory, (Time-dependent) generalized Gibbs ensemble, Quantum trajectory method
 
@@ -84,3 +81,10 @@ Motivated by recent **experimental realizations of SU($N$) Hubbard models**, we 
 Nonreciprocal phenomena, exemplified by rectification, have attracted considerable attention across a wide range of fields, including condensed matter physics and nonequilibrium statistical physics. We have proposed a minimal model to realize a unidirectional particle current in a nonequilibrium steady state. Specifically, we have considered a one-dimensional fermionic system coupled to two heat baths, one in a nonequilibrium state and the other in equilibrium. First, we have derived the conditions under which a unidirectional particle current can emerge when the dissipation is nonreciprocal. Furthermore, we have demonstrated that even when the dissipation is reciprocal, a unidirectional particle current can arise if both nversion symmetry and time-reversal symmetry are broken.
 
 ![Schematic image of a unidirectional particle current induced by coupling to baths](/images/unidirectional_transport.jpg)
+
+### Press Releases
+
+| Title                                                                                                               | Date           |
+| ------------------------------------------------------------------------------------------------------------------- | -------------- |
+| [Discovery of a new superfluid phase in non-Hermitian quantum systems](https://www.isct.ac.jp/en/news/eryh7s2mh3vv) | 2025年12月25日 |
+| [TBA]                                                                                                               | xxxx年yy月zz日 |
