@@ -15,10 +15,10 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     return (
         <>
-            <Hero figure_path="/images/OMU_photo.png" isFullScreen>
+            <Hero figure_path="/images/OMU_photo.png" backgroundPosition="center 70%" isFullScreen>
                 <div className="max-w-4xl mx-auto px-4">
                     <h1 className="text-4xl font-extrabold leading-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] md:text-6xl">Nonequilibrium Many-Body Quantum Matter Theory Group</h1>
-                    <p className="mt-5 text-sm font-medium leading-relaxed text-white/95 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] md:text-lg">
+                    <p className="mt-8 text-sm font-medium leading-relaxed text-white/95 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] md:mt-10 md:text-lg">
                         We are studying the theory of nonequilibrium quantum many-body systems at Department of Physics, Osaka Metropolitan University.
                     </p>
                 </div>
@@ -50,9 +50,9 @@ export default async function Page() {
                             We are always looking for motivated students and postdocs who belong to Department of Physics, Osaka Metropolitan University.
                             If you are interested, please contact us for further information.
                         </p>
-                        <div className="mt-5">
+                        {/* <div className="mt-5">
                             <Link href="/contact" className="btn btn-primary text-white">Contact us<FaArrowRight /></Link>
-                        </div>
+                        </div> */}
                     </section>
 
                     <h2>Recent Activities</h2>
