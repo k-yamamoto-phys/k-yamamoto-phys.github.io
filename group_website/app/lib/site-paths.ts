@@ -35,7 +35,13 @@ export function withoutBasePath(path: string) {
 
 export function withBasePath(path: string) {
     if (isUntouchedPath(path)) return path;
-    return normalizePath(path);
+    const normalized = normalizePath(path);
+    const basePath = configuredBasePath();
+    if (!basePath) return normalized;
+    if (normalized === basePath || normalized.startsWith(`${basePath}/`)) {
+        return normalized;
+    }
+    return normalized === "/" ? basePath : `${basePath}${normalized}`;
 }
 
 export function siteUrl(path = "/") {
