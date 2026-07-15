@@ -12,11 +12,16 @@ describe("site path helpers", () => {
         expect(withoutBasePath("/group/members")).toBe("/group/members");
     });
 
-    it("strips the configured Next.js base path when one is provided", () => {
-        vi.stubEnv("NEXT_PUBLIC_GROUP_BASE_PATH", "/lab/");
-        expect(withBasePath("members")).toBe("/members");
-        expect(withoutBasePath("/lab/members")).toBe("/members");
-        expect(withoutBasePath("/lab")).toBe("/");
+    it("adds and strips the deployed /group base path", () => {
+        vi.stubEnv("NEXT_PUBLIC_GROUP_BASE_PATH", "/group");
+        expect(withBasePath("/members")).toBe("/group/members");
+        expect(withBasePath("members")).toBe("/group/members");
+        expect(withBasePath("/group/members")).toBe("/group/members");
+        expect(withBasePath("/")).toBe("/group");
+        expect(withoutBasePath("/group/members")).toBe("/members");
+        expect(withoutBasePath("/group")).toBe("/");
+        expect(siteUrl("/group/members")).toMatch(/\/group\/members$/);
+        expect(siteUrl("/group/members")).not.toContain("/group/group/members");
     });
 
     it("leaves external URLs and anchors untouched", () => {
