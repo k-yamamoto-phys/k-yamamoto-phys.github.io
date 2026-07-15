@@ -4,14 +4,6 @@
   arXiv: 2607.03799
   year: 2026
   journal: null
-- title: "Kondo breakdown induced by non-Hermitian complex hybridization"
-  authors: Kazuki Yamamoto, Masaya Nakagawa, and Norio Kawakami
-  note: To be published
-  arXiv: 2510.20186
-  year: 2026
-  journal:
-    name: Phys. Rev. B
-    url: https://doi.org/10.1103/w6zs-kb6m
 - title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
   authors: Kazuki Yamamoto and Ryusuke Hamazaki
   note: To be published
@@ -20,6 +12,14 @@
   journal:
     name: Phys. Rev. Lett.
     url: https://doi.org/10.1103/wv5b-r6sb
+- title: "Kondo breakdown induced by non-Hermitian complex hybridization"
+  authors: Kazuki Yamamoto, Masaya Nakagawa, and Norio Kawakami
+  note: null
+  arXiv: 2510.20186
+  year: 2026
+  journal:
+    name: Phys. Rev. B 114, 065118 (2026)
+    url: https://doi.org/10.1103/w6zs-kb6m
 - title: "Impact of stealthy hyperuniform magnetic impurity configurations on bulk magnetism in a two-dimensional Heisenberg model"
   authors: Kota Asakura, Kazuki Yamamoto, and Akihisa Koga
   note: null
