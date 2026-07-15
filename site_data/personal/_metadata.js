@@ -96,7 +96,7 @@ export const siteMetadata = {
             },
             {
                 name: "グループサイト",
-                href: "/group"
+                href: "/group/ja"
             }
 
         ]
