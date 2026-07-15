@@ -36,6 +36,22 @@
 
 ## 開発
 
+devcontainer を利用する場合は、ホストに Git が必要です。初回起動時に
+`~/.gitconfig` の `user.name` と `user.email` を確認します。未設定の場合は、
+ホストのターミナルで次を実行すると、その場で設定できます。
+
+```sh
+sh .devcontainer/initialize-gitconfig.sh
+```
+
+非対話で設定する場合は、次のように値を渡してください。
+
+```sh
+DEVCONTAINER_GIT_USER_NAME="Your Name" \
+DEVCONTAINER_GIT_USER_EMAIL="you@example.com" \
+sh .devcontainer/initialize-gitconfig.sh
+```
+
 ```
 cd webapp
 npm install
