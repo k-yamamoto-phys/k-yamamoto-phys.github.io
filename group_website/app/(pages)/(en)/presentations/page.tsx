@@ -54,7 +54,7 @@ export default async function Page() {
             <CollapsibleSection title="Invited talks" info={conference.filter(p => p.category === "domestic" && p.type === "invited" && dayjs(p.date).isBefore(current))} />
             <CollapsibleSection title="Oral Presentations" info={conference.filter(p => p.category === "domestic" && p.type === "oral" && dayjs(p.date).isBefore(current))} />
             <CollapsibleSection title="Poster Presentations" info={conference.filter(p => p.category === "domestic" && p.type === "poster" && dayjs(p.date).isBefore(current))} />
-            <h2>Seminars and External activities</h2>
+            <h2>Seminars and External Activities</h2>
             <CollapsibleSection title="Invited talks" info={conference.filter(p => p.category === "seminar" && p.type === "invited" && dayjs(p.date).isBefore(current))} />
             <CollapsibleSection title="Seminars" info={conference.filter(p => p.category === "seminar" && p.type === "oral" && dayjs(p.date).isBefore(current))} />
         </div>
@@ -81,16 +81,32 @@ async function CollapsibleSection({ title, info }: { title: string; info: Presen
         </>
     );
 }
+// async function ConferenceItem({ p, number }: { p: Presentation, number: number }) {
+//     const markdownContent = await convertMarkdownToHtml(p.detail);
+//     return (
+//         <li>
+//             <p>
+//                 {number}.&nbsp;
+//                 {`"${p.title}"`}
+//             </p>
+
+//             <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en,siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
+//             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+//         </li>
+//     );
+// }
 async function ConferenceItem({ p, number }: { p: Presentation, number: number }) {
     const markdownContent = await convertMarkdownToHtml(p.detail);
+
     return (
         <li>
             <p>
                 {number}.&nbsp;
-                "{p.title}"
+                {`"${p.title}"`}
             </p>
 
-            <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en,siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
+            <p>{p.presenter}</p>
+
             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
         </li>
     );

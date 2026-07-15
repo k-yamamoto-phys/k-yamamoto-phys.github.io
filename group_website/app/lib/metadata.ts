@@ -1,16 +1,28 @@
 import type { Metadata } from "next";
 // import { OGPheight, OGPwidth } from "./ogp_utility/createOGP" // 将来OGPを自動生成できるようにする。
 import {siteMetadata} from "@/group/_metadata.js";
+import { siteUrl, withoutBasePath } from "./site-paths";
+
+function removeJaPrefix(path: string) {
+    if (path === "/ja" || path === "/ja/") return "/";
+    if (path.startsWith("/ja/")) return path.slice(3);
+    return path;
+}
+
+function addJaPrefix(path: string) {
+    return path === "/" ? "/ja" : `/ja${path}`;
+}
+
 export const MetadataGenerator: (title: string, description: string, page_path: string, lang: "ja" | "en") => Metadata 
 = (title, description, page_path, lang) =>  {
-    const ogp_path = `${siteMetadata.publicURL}/ogp/other_page.png`;
-    // console.log(title, description, page_path)
-    const eng_path = lang === "en" ? page_path : page_path.replace('/ja', '');
-    const ja_path = lang === "ja" ? page_path : `/ja${page_path}`;
-    const languages = siteMetadata.noEnglish.includes(page_path) ? {
+    const pagePath = withoutBasePath(page_path);
+    const ogp_path = siteUrl("/ogp/other_page.png");
+    const eng_path = lang === "en" ? pagePath : removeJaPrefix(pagePath);
+    const ja_path = lang === "ja" ? pagePath : addJaPrefix(pagePath);
+    const languages = siteMetadata.noEnglish.includes(pagePath) ? {
     } : {
-        en: eng_path,
-        ja: ja_path,
+        en: siteUrl(eng_path),
+        ja: siteUrl(ja_path),
         };
     const OGPwidth = 1200;
     const OGPheight = 630;
@@ -19,7 +31,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
     title: {
         absolute: fullTitle,
     },
-        metadataBase: new URL(siteMetadata.publicURL), 
+        metadataBase: new URL(siteMetadata.publicURL),
     description: description,
     robots: {
         index: true,
@@ -49,7 +61,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
     openGraph: {
         title: fullTitle,
         description: description,
-        url: page_path,
+        url: siteUrl(pagePath),
         images: [
             {
                 url: ogp_path, // Must be an absolute URL
@@ -60,7 +72,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
         type: 'website',
     },
     alternates: {
-        canonical: page_path, 
+        canonical: siteUrl(pagePath),
         languages
     }
 

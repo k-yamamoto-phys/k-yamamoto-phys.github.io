@@ -37,14 +37,6 @@ export default async function Page() {
     return (
         <div className="m-2 p-2 prose">
             <h1>出版物</h1>
-            <ul className="list-none">
-                <li>
-                    <a href="https://scholar.google.com/citations?user=qF3OqP0AAAAJ&hl=ja&oi=sra" target="_blank" rel="noopener noreferrer" >Google Scholar</a>
-                </li>
-                <li>
-                    <a href="https://www.webofscience.com/wos/author/record/ACR-5130-2022" target="_blank" rel="noopener noreferrer" >Web of Science</a>
-                </li>
-            </ul>
             <h2>プレプリント</h2>
             <ul className="list-none">
                 {
@@ -67,19 +59,16 @@ export default async function Page() {
                     </ul>
                     </React.Fragment>))
             }
-            <h2>学会発表論文集</h2>
+            <h2>会議録</h2>
             <ul className="list-none">
-                {
-                    conference_paper.map((paper, index, array) => (
-                        <PaperItem key={index} paper={paper} number={array.length - index} />
-                    ))
-                }
-            </ul>
-            <h2>その他</h2>
-            <ul className="list-none">
-                <li><a href="https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/283521" rel="noopener noreferrer" target="_blank">博士論文</a></li>
-                <li>修士論文 (リンクはリクエスト可能)</li>
-            </ul>
+    {(conference_paper ?? []).map((paper, index, array) => (
+        <PaperItem
+            key={index}
+            paper={paper}
+            number={array.length - index}
+        />
+    ))}
+</ul>
         </div>
     );
 }
@@ -89,7 +78,8 @@ async function PaperItem({ paper, number }: { paper: Paper, number: number }) {
     return (
         <li>
              <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
-            <p><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p>
+            {/* <p><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p> */}
+            <p>{paper.authors}</p>
             <p>
                 {paper.journal === null ?
                     (<a href={`https://arxiv.org/abs/${paper.arXiv}`} target="_blank" rel="noopener noreferrer">arXiv:{paper.arXiv}</a>) :

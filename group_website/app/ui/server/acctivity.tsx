@@ -4,7 +4,7 @@ import React from "react";
 import dayjs from "dayjs";
 export type activityEntry = {
     date: Date[] | Date; // 単一の日付の場合は文字列、複数の日付の場合は文字列の配列
-    label: "award" | "publication" | "seminar" | "invited seminar" | "talk" | "invited talk" | "poster" | "other"     ;
+    label: "award" | "publication" | "event" | "talk" | "invited talk" | "presentation" | "other"     ;
     content: {
         ja?: string;
         en?: string;
@@ -13,11 +13,10 @@ export type activityEntry = {
 const BadgeMap = {
     award: "badge-warning",
     publication: "badge-success",
-    seminar: "badge-info",
-    "invited seminar": "badge-info",
+    presentation: "badge-info",
+    "invited talk": "badge-primary",
     talk: "badge-accent",
-    "invited talk": "badge-accent",
-    poster: "badge-natural",
+    event: "badge-accent",
 }
 export default function Acctivity({lang, limit}: {lang: string, limit?: number}) {
     const activityData = activity_data as activityEntry[];
@@ -30,7 +29,6 @@ export default function Acctivity({lang, limit}: {lang: string, limit?: number})
         }, {} as Record<number, activityEntry[]>)
     ).sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
         .map(([year, data]) => ({ year, data }));
-    // console.log(activity_by_year);
     return (
         <>
             {

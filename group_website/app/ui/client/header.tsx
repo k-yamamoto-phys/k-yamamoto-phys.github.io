@@ -2,27 +2,39 @@
 
 import { GoLinkExternal } from "react-icons/go";
 import Link from "next/link";
-import clsx from "clsx";
 import { usePathname } from 'next/navigation';
-import React, { use, useEffect, useRef, useState } from 'react';
-import Image from 'next/image'
+import React, { useEffect, useRef } from 'react';
 import { siteMetadata } from "@/group/_metadata.js"
 import { LangButton } from './langBotton';
 import { EngAtom } from '@/app/lib/atom';
 import { useAtom } from "jotai";
 export default function Navbar() {
-    const [isEnglish, setIsEnglish] = useAtom(EngAtom);
+    const [isEnglish] = useAtom(EngAtom);
     const pathname = usePathname();
     const links = isEnglish ? siteMetadata.Navigation.en : siteMetadata.Navigation.ja;
     const siteTitle = isEnglish ? siteMetadata.SiteTitle.en : siteMetadata.SiteTitle.ja;
     const externalLinks = isEnglish ? siteMetadata.ExternalLinks.en : siteMetadata.ExternalLinks.ja;
     const dialogRef = useRef<HTMLDialogElement>(null);
+    const externalDetailsRef = useRef<HTMLDetailsElement>(null);
     const openModal = () => {
         dialogRef.current?.showModal();
     }
     const closeModal = () => {
         dialogRef.current?.close();
     };
+    const closeExternalDropdown = () => {
+        externalDetailsRef.current?.removeAttribute("open");
+    };
+    const closeExternalLinks = () => {
+        closeExternalDropdown();
+        closeModal();
+    };
+
+    useEffect(() => {
+        closeExternalDropdown();
+        closeModal();
+    }, [pathname]);
+
     return (
         <>
             <header className="navbar pb-0 bg-base-100 shadow-sm" >
@@ -54,13 +66,13 @@ export default function Navbar() {
                                 ))
                             }
                             <li>
-                                <details style={{ zIndex: 9999 }}>
+                                <details ref={externalDetailsRef} style={{ zIndex: 9999 }}>
                                     <summary>{isEnglish ? "External" : "外部リンク"}</summary>
                                     <ul className="p-2 w-80 max-w-[min(90vw,28rem)] whitespace-normal" style={{ marginTop: ".8rem" }}>
                                         {
                                             externalLinks.map((link) => (
                                                 <li key={link.href}>
-                                                    <Link href={link.href} target="_blank" rel="noopener noreferrer">{link.name} <GoLinkExternal /></Link>
+                                                    <Link href={link.href} target="_blank" rel="noopener noreferrer" onClick={closeExternalLinks}>{link.name} <GoLinkExternal /></Link>
                                                 </li>
                                             ))
                                         }
@@ -116,7 +128,7 @@ export default function Navbar() {
                                     {
                                         externalLinks.map((link) => (
                                             <li key={link.href}>
-                                                <Link href={link.href} target="_blank" rel="noopener noreferrer" onClick={closeModal} >{link.name} <GoLinkExternal /></Link>
+                                                <Link href={link.href} target="_blank" rel="noopener noreferrer" onClick={closeExternalLinks} >{link.name} <GoLinkExternal /></Link>
 
                                             </li>
                                         ))

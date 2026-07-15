@@ -87,10 +87,11 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
         <li>
             <p>
                 {number}.&nbsp;
-                "{p.title}"
+                {`"${p.title}"`}
             </p>
 
-            <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en,siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
+            {/* <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en,siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p> */}
+            <p>{p.presenter}</p>
             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
         </li>
     );

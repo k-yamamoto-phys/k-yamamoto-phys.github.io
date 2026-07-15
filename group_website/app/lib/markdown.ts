@@ -2,6 +2,7 @@ import { remark } from "remark";
 import { visit } from "unist-util-visit";
 import { unified, type Plugin } from "unified";
 import type { Root, Element, RootContent, ElementContent } from "hast";
+import type { Image } from "mdast";
 // import type { Root as mdRt, RootContent as mdRtC, Paragraph, Parent } from "mdast";
 import remarkRehype from "remark-rehype";
 import rehypeExternalLinks from "rehype-external-links";
@@ -10,11 +11,13 @@ import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
 // import type { ContainerNode } from "./container-node";
 import remarkParse from "remark-parse";
-
+import { withBasePath } from "./site-paths";
+import remarkGfm from "remark-gfm";
 export async function convertMarkdownToHtml(markdownString: string): Promise<string> {
     const altParts = await extractAlts(markdownString); // 画像のalt部分を事前に抽出（remarkmathがparse前に動作して、alt内の数式ノーテーションを削除してしまうため）
     const processedContent = await remark()
         .use(remarkMath)
+         .use(remarkGfm)  
         .use(remarkRehype) // Markdown → HTML AST に変換
         .use(rehypeExternalLinks, {
             target: "_blank",
@@ -23,6 +26,7 @@ export async function convertMarkdownToHtml(markdownString: string): Promise<str
         .use(rehypeKatex) // 数式対応
         .use(rehyperImageWithCaption, { altData: altParts }) // 画像にキャプションを追加
         .use(rehyperh3Decorate) // h3をデコレート
+        .use(rehypeBasePathAssets)
         .use(rehypeStringify) // HTML AST → HTML文字列に変換
         .process(markdownString);
 
@@ -41,6 +45,7 @@ export async function convertMarkdownToHtmlWithSectionize(markdownString: string
         .use(rehyperImageWithCaption, { altData: altParts }) // 画像にキャプションを追加
         .use(rehyperh3Decorate) // h3をデコレート
         .use(rehypeSectionize) // セクション分割
+        .use(rehypeBasePathAssets)
         .use(rehypeStringify) // HTML AST → HTML文字列に変換
         .process(markdownString);
 
@@ -50,8 +55,7 @@ export async function convertMarkdownToHtmlWithSectionize(markdownString: string
 const rehyperh3Decorate: Plugin<[], Root> = () => {
     return (tree: Root) => {
         // guard: treeがRootでない/壊れている場合は何もしない
-        if (!tree || typeof (tree as any).type !== "string" || (tree as any).type !== "root") return;
-        if (!Array.isArray((tree as any).children)) return;
+        if (!isRoot(tree)) return;
 
         visit(tree, "element", (node: Element) => {
             if (node.tagName !== "h3") return;
@@ -63,15 +67,37 @@ const rehyperh3Decorate: Plugin<[], Root> = () => {
     };
 };
 
+const rehypeBasePathAssets: Plugin<[], Root> = () => {
+    return (tree: Root) => {
+        visit(tree, "element", (node: Element) => {
+            if (!node.properties) return;
+            if (node.tagName === "img" && typeof node.properties.src === "string") {
+                node.properties.src = withBasePath(node.properties.src);
+            }
+            if (node.tagName === "a" && typeof node.properties.href === "string") {
+                node.properties.href = withBasePath(node.properties.href);
+            }
+        });
+    };
+};
+
+
+function isRecord(node: unknown): node is Record<string, unknown> {
+    return !!node && typeof node === "object";
+}
+
+function isRoot(node: unknown): node is Root {
+    return isRecord(node) && node.type === "root" && Array.isArray(node.children);
+}
 
 function isElement(node: unknown): node is Element {
-    return !!node && typeof node === "object" && (node as any).type === "element";
+    return isRecord(node) && node.type === "element";
 }
 
 async function extractAlts(markdownText: string) {
     const tree = unified().use(remarkParse).parse(markdownText);
     const alts: Element[] = [];
-    visit(tree, "image", (node: any) => {
+    visit(tree, "image", (node: Image) => {
         const processor = unified()
             .use(remarkParse)
             .use(remarkMath)
@@ -92,7 +118,6 @@ async function extractAlts(markdownText: string) {
 //         visit(tree, "image", (node, index, parent) => {
 //             if (!parent || typeof index !== 'number') return;
 //             const alt = node.alt || "";
-//             console.log(alt);
 //             const caption: Paragraph = {
 //                 type: "paragraph",
 //                 children: [

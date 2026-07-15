@@ -13,6 +13,9 @@
 # testing
 /coverage
 .vitest.log
+/playwright-report/
+/test-results/
+/visual-screenshots/
 
 # next.js
 /.next/

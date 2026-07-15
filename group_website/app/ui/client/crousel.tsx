@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from "react";
+import { withBasePath } from "@/app/lib/site-paths";
 
 
 export type CrouselProps = {
@@ -155,11 +156,11 @@ export function Hero({
                 : "w-full"
                 }`}
             style={{
-                backgroundImage: `url(${figure_path})`,
+                backgroundImage: `url(${withBasePath(figure_path)})`,
             }}
         >
-        <div className="hero-overlay"/>
-        <div className="hero-content text-neutral-content text-center">{children}</div>
+        <div className="hero-overlay bg-gradient-to-b from-black/65 via-black/35 to-black/65"/>
+        <div className="hero-content relative text-neutral-content text-center">{children}</div>
         </div>
     );
 }

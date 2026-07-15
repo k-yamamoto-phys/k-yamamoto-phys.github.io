@@ -1,5 +1,14 @@
+const DEFAULT_PUBLIC_URL = "https://kazuki-yamamoto.github.io/group";
+
+function normalizePublicURL(value) {
+    const trimmed = (value ?? "").trim().replace(/\/+$/, "");
+    return trimmed || DEFAULT_PUBLIC_URL;
+}
+
+const publicURL = normalizePublicURL(process.env.NEXT_PUBLIC_GROUP_PUBLIC_URL ?? DEFAULT_PUBLIC_URL);
+
 export const siteMetadata = {
-    publicURL: "https://www.omu.ac.jp/sci/phys/yamamoto",
+    publicURL,
     name: {
         en: "Kazuki Yamamoto",
         ja: "山本 和樹"
@@ -10,9 +19,9 @@ export const siteMetadata = {
     },
     SiteTitle: {
         en: "Yamamoto group",
-        ja: "大阪公立大学・非平衡量子多体研究室"
+        ja: "山本グループ"
     },
-    all_member_img: "/images/members/all/2025.jpg",
+    all_member_img: "/images/members/all/2026.jpg",
     Navigation: {
         en: [
             {
@@ -20,16 +29,16 @@ export const siteMetadata = {
                 href: "/",
             },
             {
+                name: "Research",
+                href: "/research",
+            },
+            {
                 name: "Members",
                 href: "/members",
             },
             {
-                name: "activities",
+                name: "Activities",
                 href: "/activities",
-            },
-            {
-                name: "Research",
-                href: "/research",
             },
             {
                 name: "Publications",
@@ -40,14 +49,22 @@ export const siteMetadata = {
                 href: "/presentations",
             },
             {
-                name: "Contact",
+                name: "Access",
                 href: "/contact",
-            },
+            // },
+            // {
+            //     name: "Personal page",
+            //     href: "https://k-yamamoto-phys.github.io",
+            }
         ],
         ja: [
             {
                 name: "ホーム",
                 href: "/ja/",
+            },
+            {
+                name: "研究",
+                href: "/ja/research",
             },
             {
                 name: "メンバー",
@@ -58,10 +75,6 @@ export const siteMetadata = {
                 href: "/ja/activities",
             },
             {
-                name: "研究",
-                href: "/ja/research",
-            },
-            {
                 name: "出版物",
                 href: "/ja/publications",
             },
@@ -70,8 +83,12 @@ export const siteMetadata = {
                 href: "/ja/presentations",
             },
             {
-                name: "連絡",
+                name: "アクセス",
                 href: "/ja/contact",
+            // },
+            // {
+            //     name: "個人ページ",
+            //     href: "https://k-yamamoto-phys.github.io/ja",
             }
         ]
     },
