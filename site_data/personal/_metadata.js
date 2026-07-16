@@ -1,3 +1,20 @@
+const groupSite = {
+    en: {
+        href: "https://k-yamamoto-phys.github.io/group",
+        eyebrow: "Research group website",
+        name: "Nonequilibrium Many-Body Quantum Matter Theory Group",
+        action: "Visit group site",
+        footerLabel: "Visit Yamamoto group"
+    },
+    ja: {
+        href: "https://k-yamamoto-phys.github.io/group/ja",
+        eyebrow: "Research group website",
+        name: "非平衡量子多体物性理論研究室",
+        action: "研究室サイトへ",
+        footerLabel: "山本グループを見る"
+    }
+};
+
 export const siteMetadata = {
     publicURL: "https://k-yamamoto-phys.github.io",
     name: {
@@ -11,6 +28,28 @@ export const siteMetadata = {
     SiteTitle: {
         en: "Kazuki Yamamoto",
         ja: "山本 和樹"
+    },
+    GroupSite: groupSite,
+    Footer: {
+        copyrightName: "Kazuki Yamamoto",
+        en: {
+            description: "Theoretical physicist working on nonequilibrium quantum many-body systems.",
+            navigationLabel: "Explore",
+            navigationAriaLabel: "Footer navigation",
+            featuredNavigation: ["/", "/research", "/publications", "/cv"],
+            affiliationLabel: "Affiliation",
+            affiliationHref: "https://www.omu.ac.jp/en/",
+            universityName: "Osaka Metropolitan University"
+        },
+        ja: {
+            description: "非平衡量子多体系を研究する理論物理学者です。",
+            navigationLabel: "サイト案内",
+            navigationAriaLabel: "フッターナビゲーション",
+            featuredNavigation: ["/ja/", "/ja/research", "/ja/publications", "/ja/cv"],
+            affiliationLabel: "所属",
+            affiliationHref: "https://www.omu.ac.jp/",
+            universityName: "大阪公立大学"
+        }
     },
     homeCrousel: [// 画像は、personal_website/public以下に置くことで変えることができます。
         {
@@ -66,7 +105,7 @@ export const siteMetadata = {
             },
             {
                 name: "Group site",
-                href: "/group"
+                href: groupSite.en.href
             }
         ],
         ja: [
@@ -96,7 +135,7 @@ export const siteMetadata = {
             },
             {
                 name: "グループサイト",
-                href: "/group/ja"
+                href: groupSite.ja.href
             }
 
         ]
