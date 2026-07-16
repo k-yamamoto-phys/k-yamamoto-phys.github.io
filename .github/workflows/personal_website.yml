@@ -38,15 +38,24 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Restore Next.js build cache
+      # site_data は各 Next.js アプリの外にあるため、変更前のデータ用キャッシュを
+      # 復元すると静的 HTML が古いまま再利用されることがあります。データのハッシュを
+      # restore-keys に含め、同じデータに対するアプリ変更時だけキャッシュを再利用します。
+      - name: Restore personal website Next.js build cache
         uses: actions/cache@v4
         with:
-          path: |
-            personal_website/.next/cache
-            group_website/.next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('personal_website/package-lock.json', 'group_website/package-lock.json') }}-${{ hashFiles('personal_website/**', 'group_website/**', 'site_data/**') }}
+          path: personal_website/.next/cache
+          key: ${{ runner.os }}-personal-nextjs-${{ hashFiles('personal_website/package-lock.json') }}-${{ hashFiles('site_data/personal/**') }}-${{ hashFiles('personal_website/**') }}
           restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('personal_website/package-lock.json', 'group_website/package-lock.json') }}-
+            ${{ runner.os }}-personal-nextjs-${{ hashFiles('personal_website/package-lock.json') }}-${{ hashFiles('site_data/personal/**') }}-
+
+      - name: Restore group website Next.js build cache
+        uses: actions/cache@v4
+        with:
+          path: group_website/.next/cache
+          key: ${{ runner.os }}-group-nextjs-${{ hashFiles('group_website/package-lock.json') }}-${{ hashFiles('site_data/group/**') }}-${{ hashFiles('group_website/**') }}
+          restore-keys: |
+            ${{ runner.os }}-group-nextjs-${{ hashFiles('group_website/package-lock.json') }}-${{ hashFiles('site_data/group/**') }}-
 
       - name: Install personal website dependencies
         working-directory: ./personal_website
@@ -67,17 +76,25 @@ jobs:
           NEXT_PUBLIC_GROUP_PUBLIC_URL: https://k-yamamoto-phys.github.io/group
         run: npx --no-install next build
 
+      - name: Generate sitemap including group pages
+        working-directory: ./personal_website
+        run: npx --no-install next-sitemap
+
       - name: Compose GitHub Pages artifact
         run: |
           rm -rf pages-artifact
           mkdir -p pages-artifact/group
           cp -a personal_website/out/. pages-artifact/
           cp -a group_website/out/. pages-artifact/group/
+          cp personal_website/public/sitemap.xml pages-artifact/sitemap.xml
+          cp personal_website/public/robots.txt pages-artifact/robots.txt
           touch pages-artifact/.nojekyll
 
           test -f pages-artifact/index.html
           test -f pages-artifact/group/index.html
           test -d pages-artifact/group/_next
+          grep -q '<loc>https://k-yamamoto-phys.github.io/group</loc>' pages-artifact/sitemap.xml
+          grep -q '<loc>https://k-yamamoto-phys.github.io/group/ja/research</loc>' pages-artifact/sitemap.xml
 
       - name: Check composed site
         run: |

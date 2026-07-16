@@ -50,7 +50,7 @@ export const siteMetadata = {
             },
             {
                 name: "Access",
-                href: "/contact",
+                href: "/access",
             // },
             // {
             //     name: "Personal page",
@@ -84,7 +84,7 @@ export const siteMetadata = {
             },
             {
                 name: "アクセス",
-                href: "/ja/contact",
+                href: "/ja/access",
             // },
             // {
             //     name: "個人ページ",

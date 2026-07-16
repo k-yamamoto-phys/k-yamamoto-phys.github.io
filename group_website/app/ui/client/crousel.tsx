@@ -143,20 +143,23 @@ export function Hero({
     figure_path,
     children,
     isFullScreen = false,
+    backgroundPosition = "center",
 }: {
     figure_path: string;
     children: React.ReactNode;
     isFullScreen?: boolean;
+    backgroundPosition?: string;
 }) {
 
     return (
         <div
-            className={`hero relative not-prose overflow-hidden min-h-[30vh] md:min-h-[40vh] ${isFullScreen
+            className={`hero relative not-prose overflow-hidden min-h-[40vh] md:min-h-[60vh] ${isFullScreen
                 ? "w-screen left-1/2 right-1/2 -mx-[50vw]"
                 : "w-full"
                 }`}
             style={{
                 backgroundImage: `url(${withBasePath(figure_path)})`,
+                backgroundPosition,
             }}
         >
         <div className="hero-overlay bg-gradient-to-b from-black/65 via-black/35 to-black/65"/>

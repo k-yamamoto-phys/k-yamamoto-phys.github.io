@@ -49,8 +49,10 @@
   type: colabrator
   photo: null
   message:
-    ja: ""
-    en: ""
+    ja: |
+      [個人ページ](https://sites.google.com/view/tmatsubara/)  
+    en: |
+      [personal page](https://sites.google.com/view/tmatsubara/)  
 - name:
     ja: 竹森颯真
     en: Soma Takemori

@@ -12,13 +12,13 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     return (
         <>
-            <Hero figure_path="/images/OMU_photo.png" isFullScreen>
+            <Hero figure_path="/images/OMU_photo.png" backgroundPosition="center 70%" isFullScreen>
                 <div className="max-w-4xl mx-auto px-4">
                     <h1 className="text-3xl font-extrabold leading-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] sm:text-4xl md:text-6xl">
                         <span className="inline-block">非平衡量子多体物性理論</span>
                         <span className="inline-block">研究室</span>
                     </h1>
-                    <p className="mt-5 text-sm font-medium leading-relaxed text-white/95 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] md:text-lg">
+                    <p className="mt-8 text-sm font-medium leading-relaxed text-white/95 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] md:mt-10 md:text-lg">
                         大阪公立大学 大学院理学研究科物理学専攻 物性物理学講座において、非平衡量子多体系の理論研究に取り組んでいます。
                     </p>
                 </div>
@@ -50,9 +50,9 @@ export default async function Page() {
                             大阪公立大学大学院理学研究科・非平衡量子多体物性理論研究室にて卒研生・大学院生を募集しています。
                             ご興味のある方はお気軽にメールでご連絡ください。学振PDも受け入れ可能です。
                         </p>
-                        <div className="mt-5">
+                        {/* <div className="mt-5">
                             <Link href="/ja/contact" className="btn btn-primary text-white">連絡先を見る<FaArrowRight /></Link>
-                        </div>
+                        </div> */}
                     </section>
 
                     <h2>最近の活動</h2>
