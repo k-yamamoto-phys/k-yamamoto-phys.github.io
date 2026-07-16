@@ -16,13 +16,14 @@ export default async function Pages() {
     return (
         <div className="mt-3">
             <div className="prose mx-2 px-2"><h1>Research</h1></div>
-            <nav className="not-prose mx-4 mb-8 flex flex-wrap gap-3" aria-label="Research page sections">
+            <nav className="not-prose mx-4 mb-8 flex flex-wrap gap-3" aria-label="Research page sections"><a href="#research-details" className="btn btn-outline btn-primary">
+                    Research
+                </a>
+
                 <a href="#press-releases" className="btn btn-outline btn-primary">
                     Press releases
                 </a>
-                <a href="#research-details" className="btn btn-outline btn-primary">
-                    Research
-                </a>
+                
             </nav>
             <section id="research" className="scroll-mt-28">
                 <div className="prose m-2 p-2" dangerouslySetInnerHTML={{ __html: htmlContent || "" }} />
