@@ -19,7 +19,7 @@ export const siteMetadata = {
     },
     SiteTitle: {
         en: "Yamamoto group",
-        ja: "山本グループ"
+        ja: "山本研究室"
     },
     all_member_img: "/images/members/all/2026.jpg",
     Navigation: {

@@ -1,0 +1,32 @@
+- title: 
+    ja: 量子測定が誘起する多体物理の新たな普遍性の解明
+    en: Novel Many-Body Measurement-Induced Universality
+  date: TBA # TBAの場合は表示されないようになる。
+  from:
+    ja: 大阪公立大 / 理化学研究所
+    en: Osaka Metropolitan Univ. / Riken
+  url:
+    ja: https://www.isct.ac.jp/ja/news/2cc77j8aqtxa
+    en: https://www.isct.ac.jp/en/news/eryh7s2mh3vv
+  figure: /images/press_releases/measurement.png
+  introduction: 
+    ja: |
+      近年、測定の反作用によって引き起こされる孤立系には存在しない新しい物理現象が次々と報告され、凝縮系物理・統計力学・原子物理・量子情報などの幅広い分野から注目を集めています。我々は量子多体系における測定の反作用がもたらす部分系の揺らぎのダイナミクスを理論的に解析することで、実験的にも低コストで実現可能な、新たな普遍性をもつ測定誘起多体効果が現れることを明らかにしました。
+    en: |
+      Recently, quantum measurement has attracted great attention as it causes drastic nonequilibrium quantum phenomena such as in condensed matter physics and quantum information sciences. We have revealed that subsystem fluctuations in many-body systems can exhibit novel measurement-induced universality and are accessed in experiments without postselection.
+- title: 
+    ja: 非エルミート系での例外点と強相関物理の融合
+    en: Discovery of a new superfluid phase in non-Hermitian quantum systems
+  date: 2026-12-25
+  from:
+    ja: 東京科学大学
+    en: Institute of Science Tokyo
+  url:
+    ja: https://www.isct.ac.jp/ja/news/2cc77j8aqtxa
+    en: https://www.isct.ac.jp/en/news/eryh7s2mh3vv
+  figure: /images/press_releases/measurement.png
+  introduction: 
+    ja: |
+      近年、粒子の損失や非対称な移動を伴う系を記述する非エルミート系において、例外点と呼ばれる領域で起きる、特異な物理現象に注目が集っています。我々は、フェルミ粒子の持つスピンの種類によって移動する向きが異なる「スピン対破壊効果」と呼ばれる散逸に着目し、この散逸を導入した超流動を理論的に調べた結果、散逸が例外点を誘起し、従来とは全く異なる性質を持つ超流動が形成されることを明らかにしました。
+    en: |
+      In recent years, unusual physical phenomena occurring near exceptional points in non-Hermitian systems—systems characterized by particle loss or asymmetric transport—have attracted increasing attention. We theoretically investigated a superfluid subject to a dissipative process known as the "spin-pair-breaking effect," in which the direction of motion of fermions depends on their spin state. Our results reveal that this dissipation induces exceptional points and gives rise to a fundamentally new type of superfluid with properties entirely distinct from those of conventional superfluids.

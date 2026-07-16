@@ -124,9 +124,9 @@ export function Crousel({
             )}
             </div>
             {/* ✅ 幅が狭いときは画像の下に表示 */}
-            {isNarrow && crousels[index]?.caption && (
-                <div className="mt-2 text-center text-sm md:text-base text-gray-700">
-                    {crousels[index].caption}
+            {isNarrow && (
+                <div className="mt-2 flex min-h-10 items-start justify-center text-center text-sm leading-5 text-gray-700 md:min-h-12 md:text-base md:leading-6">
+                    {crousels[index]?.caption ?? ""}
                 </div>
             )}
         </div>

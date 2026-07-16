@@ -37,50 +37,55 @@ export default function Navbar() {
 
     return (
         <>
-            <header className="navbar pb-0 bg-base-100 shadow-sm" >
-                <div className="flex flex-col items-stretch w-full">
-                    <div className="flex items-center justify-between pl-2">
-                        <div className="flex items-center gap-2">
-                            <div role="button" onClick={openModal} className="btn  btn-ghost p-2 md:hidden" >
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                            </div>
-                            <Link
-                                href={isEnglish ? "/" : "/ja"}
-                                className="flex gap-2 items-center"
-                            >
-                                {/* ロゴ部分 */}
-                                <Logo />
-                                {/* テキスト部分 */}
-                                <div className="font-bold text-xl ">{siteTitle}</div>
-                            </Link>
+            <header className="lab-header">
+                <div className="lab-header__inner">
+                    <Link
+                        href={isEnglish ? "/" : "/ja"}
+                        className="lab-brand"
+                    >
+                        <Logo />
+                        <span className="lab-brand__type">
+                            {/* <span className="lab-brand__eyebrow">QUANTUM MANY-BODY THEORY</span> */}
+                            <span className="lab-brand__title">{siteTitle}</span>
+                        </span>
+                    </Link>
+
+                    <nav className="lab-nav" aria-label={isEnglish ? "Main navigation" : "メインナビゲーション"}>
+                        {
+                            links.map((link) => (
+                                <Link href={link.href} className="lab-nav__link" key={link.href}>
+                                    {link.name}
+                                </Link>
+                            ))
+                        }
+                        <details ref={externalDetailsRef} className="lab-nav__external">
+                            <summary>{isEnglish ? "External" : "外部リンク"}</summary>
+                            <ul>
+                                {
+                                    externalLinks.map((link) => (
+                                        <li key={link.href}>
+                                            <Link href={link.href} target="_blank" rel="noopener noreferrer" onClick={closeExternalLinks}>{link.name} <GoLinkExternal /></Link>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                        </details>
+                    </nav>
+
+                    <div className="lab-header__actions">
+                        <div className="lab-language">
+                            <LangButton />
                         </div>
-                        <LangButton />
-                    </div>
-                    <div className="hidden md:flex">
-                        <ul className="menu menu-horizontal px-1">
-                            {
-                                links.map((link) => (
-                                    <li key={link.href}>
-                                        <Link href={link.href} className="">{link.name}</Link>
-                                    </li>
-                                ))
-                            }
-                            <li>
-                                <details ref={externalDetailsRef} style={{ zIndex: 9999 }}>
-                                    <summary>{isEnglish ? "External" : "外部リンク"}</summary>
-                                    <ul className="p-2 w-80 max-w-[min(90vw,28rem)] whitespace-normal" style={{ marginTop: ".8rem" }}>
-                                        {
-                                            externalLinks.map((link) => (
-                                                <li key={link.href}>
-                                                    <Link href={link.href} target="_blank" rel="noopener noreferrer" onClick={closeExternalLinks}>{link.name} <GoLinkExternal /></Link>
-                                                </li>
-                                            ))
-                                        }
-                                    </ul>
-                                </details>
-                            </li>
-                          
-                        </ul>
+                        <button
+                            type="button"
+                            onClick={openModal}
+                            className="lab-menu-button"
+                            aria-label={isEnglish ? "Open menu" : "メニューを開く"}
+                        >
+                            <span />
+                            <span />
+                            <span />
+                        </button>
                     </div>
                 </div>
                 <dialog ref={dialogRef} className="modal">

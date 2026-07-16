@@ -3,8 +3,8 @@ import ClientHead from "@/app/ui/client/clientHead"
 import "katex/dist/katex.min.css";
 import "@/app/globals.css";
 import  NavBar from "./ui/client/header";
+import Footer from "./ui/client/footer";
 import { Provider } from 'jotai'
-import { siteMetadata } from "@/group/_metadata";
 // import { Noto_Sans_JP, Hind} from 'next/font/google'
 // const note_sans_jp = Noto_Sans_JP({
 //   weight: ['100', '300', '400', '500', '700', '900'],
@@ -22,7 +22,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const year = new Date().getFullYear();
   return (
     <html lang="ja" >
       <Provider>
@@ -30,10 +29,7 @@ export default function RootLayout({
       <body className="flex flex-col items-stretch min-h-screen justify-start">
         <NavBar />
         {children}
-        <footer className="mt-5 font-light text-sm flex justify-center">
-          <p className="">
-          ©{year} {siteMetadata.name.en}. All Right Reserved.
-            </p></footer>
+        <Footer />
       </body>
       </Provider>
     </html>

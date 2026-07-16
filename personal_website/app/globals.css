@@ -58,3 +58,70 @@ https://daisyui.com/theme-generator/ */
 .katex .katex-mathml {
     user-select: none !important; /* 数式の重複したコピーを禁止し、コピペがうまくいくようにする */
 }
+
+/* 下層ページのタイトル。トップページの固有ヒーローには適用しない。 */
+.prose > h1:first-child,
+.prose > :first-child:not(.not-prose) > h1:first-child {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-block: 0 2rem;
+  padding: clamp(0.8rem, 1.8vw, 1.15rem) clamp(1rem, 3vw, 1.75rem);
+  border-left: 0.25rem solid var(--color-primary);
+  border-radius: 0 0.75rem 0.75rem 0;
+  background-color: color-mix(in oklab, var(--color-primary) 10%, var(--color-base-100));
+  color: var(--color-base-content);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+.prose > h1:first-child::before,
+.prose > :first-child:not(.not-prose) > h1:first-child::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: min(8rem, 32%);
+  height: 0.22rem;
+  background: var(--color-secondary);
+}
+
+/* 見出し階層: h1はページタイトル、h2は章、h3は章内の小見出し。 */
+.prose > h2 {
+  margin-block: clamp(2.75rem, 6vw, 3.75rem) 1.25rem;
+  padding: 0 0 0.55rem;
+  border-bottom: 3px solid var(--color-secondary);
+  color: var(--color-base-content);
+  font-size: clamp(1.35rem, 2.6vw, 1.6rem);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.prose > h2:first-child {
+  margin-top: 0;
+}
+
+.prose > h3 {
+  margin-block: clamp(2rem, 4vw, 2.75rem) 0.9rem;
+  padding-left: 0.7rem;
+  border-left: 0.2rem solid var(--color-primary);
+  color: color-mix(in oklab, var(--color-base-content) 82%, var(--color-secondary));
+  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.prose > h3:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 40rem) {
+  .prose > h1:first-child,
+  .prose > :first-child:not(.not-prose) > h1:first-child {
+    margin-bottom: 1.5rem;
+    border-left-width: 0.22rem;
+    border-radius: 0 0.6rem 0.6rem 0;
+  }
+}

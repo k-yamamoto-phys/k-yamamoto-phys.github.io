@@ -15,25 +15,34 @@ export default async function Page() {
         <>
             <Crousel crousels={[{ image: "/images/top.jpg", caption: "Varenna, Lake Como" }]} />
             <div className="m-2 p-2">
-                <div className="mb-6 flex flex-col justify-between gap-6 md:flex-row md:gap-8">
+                <div className="mb-6 flex flex-col justify-between gap-6 md:flex-row md:items-center md:gap-8">
                     <div className="prose min-w-0 flex-1">
-                        <h1>山本 和樹</h1>
-                        <p>博士 (理学)</p>
-                        <p>講師</p>
-                        <p>大阪公立大学大学院理学研究科物理学専攻</p>
-                        <img src="/images/OMU_logo_jp.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
-                        <p>Email: kazuki-yamamoto + アットマーク + omu.ac.jp</p>
-                        <GroupLinkCard lang="ja" />
+                        <div className="not-prose max-w-xl">
+                            <h1 className="text-4xl font-bold tracking-tight text-base-content sm:text-5xl">山本 和樹</h1>
+                            <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-lg text-base-content">
+                                <span>博士（理学）</span>
+                                <span className="text-base-content/35" aria-hidden="true">/</span>
+                                <span>講師</span>
+                            </div>
+                            <p className="mt-2 text-lg leading-relaxed text-base-content">
+                                大阪公立大学大学院理学研究科物理学専攻
+                            </p>
+                            <p className="break-words text-base leading-relaxed text-base-content">
+                                <span className="font-semibold">Email:</span> kazuki-yamamoto + アットマーク + omu.ac.jp
+                            </p>
+                            <img src="/images/OMU_logo_jp.png" alt="大阪公立大学" className="my-4 w-48 md:w-64" />
+                        </div>
                     </div>
-                    <div className="mt-3 w-2/3 shrink-0 md:w-1/3">
+                    <div className="mx-auto mt-3 w-2/3 shrink-0 md:mx-0 md:w-1/3">
                         <Crousel crousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.ja }))} />
                     </div>
                 </div>
+                <GroupLinkCard lang="ja" />
                 <div className="prose ">
                     <h2>研究の興味: 情報科学と物質科学の境界領域における非平衡開放系の強相関物理の理論</h2>
                     <p>私は強い相互作用を持つ量子系である強相関系に興味を持って研究を行っています。特にその中でも、極低温に冷却された原子集団である冷却原子系などを対象として、散逸の存在する量子開放系の物理を扱った研究を行っています。冷却原子系における実験技術の発展は目覚ましく、系のパラメータの自在な制御に加え、散逸の制御や１原子レベルでの観測をも可能にしました。近年、こうした観測の反作用・粒子ロスなどの散逸を利用して、開放系特有の量子状態や、量子力学的な情報量の非平衡相転移などを実現できることがわかってきています。その一方で、物理に多様性をもたらす強相関効果が、散逸の下でどのような豊かな非平衡現象を誘起するのかといった問題は系統的理解からは程遠いのが現状です。私はこのような背景の下、散逸と強相関効果の協奏で発現する非平衡現象を探究することを目的としています。</p>
-                    <p>大阪公立大学大学院理学研究科・非平衡量子多体物性理論研究室にて卒研生・大学院生を募集しています。現在のメンバーはB4が2名、研究協力者(東工大)D1,D2,D3が各1名です。ご興味のある方はお気軽にご連絡ください。学振PDも受け入れ可能です。
-                    </p>
+                    {/* <p>大阪公立大学大学院理学研究科・非平衡量子多体物性理論研究室にて卒研生・大学院生を募集しています。現在のメンバーはB4が2名、研究協力者(東工大)D1,D2,D3が各1名です。ご興味のある方はお気軽にご連絡ください。学振PDも受け入れ可能です。
+                    </p> */}
                     <div className="card sm:card-side bg-white shadow-sm  ">
                         <img
                             src="/images/top_page/measurement.png"

@@ -19,25 +19,37 @@ export default async function Page() {
         <>
             <Crousel crousels={[{ image: "/images/top.jpg", caption: "Varenna, Lake Como" }]} />
             <div className="m-2 p-2">
-                <div className="mb-6 flex flex-col justify-between gap-6 md:flex-row md:gap-8">
+                <div className="mb-6 flex flex-col justify-between gap-6 md:flex-row md:items-center md:gap-8">
                     <div className="prose min-w-0 flex-1">
-                        <h1>Dr. Kazuki Yamamoto</h1>
-                        <p>Ph.D. (Science)</p>
-                        <p>Assistant Professor</p>
-                        <p>Department of Physics, Osaka Metropolitan University</p>
-                        <img src="/images/OMU_logo_en.png" alt="Osaka Metropolitan University Logo" className="w-48 md:w-64 my-3" />
-                        <p>Email: kazuki-yamamoto + [atmark] + omu.ac.jp</p>
-                        <GroupLinkCard lang="en" />
+                        <div className="not-prose max-w-xl">
+                            <h1 className="text-4xl font-bold tracking-tight text-base-content sm:text-5xl">Dr. Kazuki Yamamoto</h1>
+                            <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-lg text-base-content">
+                                <span>Ph.D. (Science)</span>
+                                <span className="text-base-content/35" aria-hidden="true">/</span>
+                                <span>Assistant Professor</span>
+                            </div>
+                            <p className="mt-2 text-lg leading-relaxed text-base-content">
+                                Department of Physics, Osaka Metropolitan University
+                            </p>
+                            <p className="break-words text-base leading-relaxed text-base-content">
+                                <span className="font-semibold">Email:</span> kazuki-yamamoto + [atmark] + omu.ac.jp
+                            </p>
+                            <img src="/images/OMU_logo_en.png" alt="Osaka Metropolitan University" className="my-4 w-48 md:w-64" />
+                        </div>
+
                     </div>
-                    <div className="mt-3 w-2/3 shrink-0 md:w-1/3">
+                    <div className="mx-auto mt-3 w-2/3 shrink-0 md:mx-0 md:w-1/3">
                         <Crousel crousels={siteMetadata.homeCrousel.map(c => ({ image: c.image, caption: c.caption.en }))} />
                     </div>
                 </div>
+                <GroupLinkCard lang="en" />
                 <div className="prose ">
                     <h2>Research Interests: Theory of Nonequilibrium Quantum Many-Body Physics at the Interface between Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
                     <p>I am interested in strongly correlated phenomena in condensed matter physics, particularly in open quantum systems with ultracold atoms. Recently, I am working on many-body physics by using both analytical and numerical methods, such as Bethe ansatz, conformal field theory, and (non-Hermitian generalization of) density-matrix renormalization group analysis.
-                        We are always looking for motivated students and postdocs who belong to Department of Physics, Osaka Metropolitan University. If you are interested, please contact me for further information.
                     </p>
+                    {/* <p>
+                        We are always looking for motivated students and postdocs who belong to Department of Physics, Osaka Metropolitan University. If you are interested, please contact me for further information.
+                    </p> */}
                     <div className="card sm:card-side bg-white shadow-sm  ">
                         <img
                             src="/images/top_page/measurement.png"

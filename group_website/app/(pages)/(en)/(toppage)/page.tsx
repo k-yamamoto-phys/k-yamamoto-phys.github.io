@@ -5,6 +5,7 @@ import { MetadataGenerator } from "@/app/lib/metadata";
 import Acctivity from "@/app/ui/server/acctivity";
 import { Crousel, Hero } from "@/app/ui/client/crousel";
 import { withBasePath } from "@/app/lib/site-paths";
+import { TopPageRelease } from "@/app/ui/server/press_release";
 
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -28,27 +29,13 @@ export default async function Page() {
                 <div className="prose mt-6">
                     <h2>Theory of Nonequilibrium Quantum Many-Body Physics at the Interface between Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
                     <p>Our research group conducts theoretical studies in quantum many-body systems, focusing on nonequilibrium physics, statistical mechanics, and quantum information. Recent advances in ultracold atoms have enabled the realization of open quantum systems, where controllable parameters allow access to novel quantum states and nonequilibrium phase transitions. Despite these developments, the role of strong correlation effects under dissipation remains far from fully understood. In collaboration with experimental groups, we investigate nonequilibrium quantum many-body phenomena arising from the interplay between dissipation and strong correlations.</p>
-                    <div className="card sm:card-side bg-white shadow-sm  ">
-                        <img
-                            src={withBasePath("/images/top_page/measurement.png")}
-                            className="w-64 object-contain mx-auto pl-2"
-                            style={{ marginTop: "1em", marginBottom: "1em" }}
-                            alt="Measurement" />
-                        <div className="card-body pt-0 sm:pt-4">
-                            <h2 className="card-title mt-6 block"><div className="badge badge-info relative -top-0.5">Recent Research</div>&nbsp;<span className="inline">Novel Many-Body Measurement-Induced Universality</span></h2>
-                            <p>Recently, quantum measurement has attracted great attention as it causes drastic nonequilibrium quantum phenomena such as in condensed matter physics and quantum information sciences. We have revealed that subsystem fluctuations in many-body systems can exhibit novel measurement-induced universality and are accessed in experiments without postselection.</p>
-                            <div className="card-actions justify-end">
-                                <Link href="/research" className="btn btn-primary  text-white">Details<FaArrowRight /></Link>
-                            </div>
-                        </div>
-                    </div>
-
+                    <TopPageRelease lang={`en`} />
                     <section className="not-prose my-10 border-l-4 border-primary bg-primary/10 px-5 py-5 shadow-sm md:px-7">
                         <p className="text-sm font-semibold uppercase tracking-wide text-primary">Students and Postdocs</p>
                         <h2 className="mt-2 text-2xl font-bold leading-snug text-gray-900">We welcome motivated students and postdocs</h2>
                         <p className="mt-3 leading-relaxed text-gray-800">
-                            We are always looking for motivated students and postdocs who belong to Department of Physics, Osaka Metropolitan University.
-                            If you are interested, please contact us for further information.
+                            We are always looking for motivated students and postdocs. To join our group as a student, you need to apply for <a href={`https://www.omu.ac.jp/sci/en/international_course/`} className="text-secondary underline" target="_blank" rel="noopener noreferrer">admission to Department of Physics, Osaka Metropolitan University</a>.
+                            We also support a postdoc application for <a href={`https://www.jsps.go.jp/english/e-ippan/index.html`} className="text-secondary underline" target="_blank" rel="noopener noreferrer">JSPS fellowship</a>. 
                         </p>
                         {/* <div className="mt-5">
                             <Link href="/contact" className="btn btn-primary text-white">Contact us<FaArrowRight /></Link>

@@ -20,6 +20,7 @@
 # next.js
 /.next/
 /out/
+/public/ogp/generated/
 
 # production
 /build

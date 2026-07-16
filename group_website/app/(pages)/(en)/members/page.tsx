@@ -75,9 +75,9 @@ const MemberCard = async ({ member, lang }: { member: memberEntry, lang: "ja" | 
     const message = await convertMarkdownToHtml(member.message[lang] || "");
     return (
         <div className="card bg-base-100 card-md shadow-sm border border-gray-400">
-            <div className="card-body flex flex-col gap-4">
+            <div className="card-body flex flex-row items-start gap-4 md:flex-col">
                 {member.photo && (
-                    <div className="flex flex-col">
+                    <div className="flex shrink-0 flex-col">
                         <div className="avatar">
                             <div className="w-24 aspect-square rounded-xl">
                                 <img src={withBasePath(member.photo)} alt={member.name[lang]} className="h-full w-full object-cover" />
@@ -85,11 +85,11 @@ const MemberCard = async ({ member, lang }: { member: memberEntry, lang: "ja" | 
                         </div>
                     </div>
                 )}
-                <div className="w-full min-w-0">
+                <div className="min-w-0 flex-1">
                     <h2 className="card-title text-lg">{member.name[lang]}</h2>
                     <p>{member.position[lang]}</p>
                     {message && (
-                        <div className="min-w-0 break-words text-sm" dangerouslySetInnerHTML={{ __html: message }}></div>
+                        <div className="member-message min-w-0 break-words text-sm" dangerouslySetInnerHTML={{ __html: message }}></div>
                     )}
                 </div>
             </div>

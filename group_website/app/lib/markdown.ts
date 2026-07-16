@@ -159,7 +159,7 @@ const rehyperImageWithCaption: Plugin<[{ altData: Element[] }], Root> = (options
                     tagName: "img",
                     properties: {
                         ...node.properties,
-                        className: ["mb-0"],
+                        className: ["w-full", "h-auto", "mb-0"],
                     },
                     children: [],
                 },
@@ -172,7 +172,7 @@ const rehyperImageWithCaption: Plugin<[{ altData: Element[] }], Root> = (options
                 type: "element",
                 tagName: "div",
                 properties: {
-                    className: ["max-w-3/4", "mx-auto", "not-prose", "my-4", "p-4", "bg-white", "shadow-sm", "rounded-md"],
+                    className: ["w-full", "sm:max-w-3/4", "mx-auto", "not-prose", "my-4", "p-2", "sm:p-4", "bg-white", "shadow-sm", "rounded-md"],
                 },
                 children,
             };

@@ -16,8 +16,9 @@ describe("convertMarkdownToHtml", () => {
     it("wraps images with a caption container and renders the alt text", async () => {
         const html = await convertMarkdownToHtml("![Caption](image.png)");
         expect(html).toContain(
-            'class="max-w-3/4 mx-auto not-prose my-4 p-4 bg-white shadow-sm rounded-md"'
+            'class="w-full sm:max-w-3/4 mx-auto not-prose my-4 p-2 sm:p-4 bg-white shadow-sm rounded-md"'
         );
+        expect(html).toContain('class="w-full h-auto mb-0"');
         expect(html).toMatch(/<p>Caption<\/p>/);
     });
 

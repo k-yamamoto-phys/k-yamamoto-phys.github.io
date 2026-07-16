@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-// import { OGPheight, OGPwidth } from "./ogp_utility/createOGP" // 将来OGPを自動生成できるようにする。
 import {siteMetadata} from "@/group/_metadata.js";
 import { siteUrl, withoutBasePath } from "./site-paths";
+import { createOGP, OGPheight, OGPwidth, resolvePageTitle } from "./ogp_utility/createOGP";
 
 function removeJaPrefix(path: string) {
     if (path === "/ja" || path === "/ja/") return "/";
@@ -16,7 +16,8 @@ function addJaPrefix(path: string) {
 export const MetadataGenerator: (title: string, description: string, page_path: string, lang: "ja" | "en") => Metadata 
 = (title, description, page_path, lang) =>  {
     const pagePath = withoutBasePath(page_path);
-    const ogp_path = siteUrl("/ogp/other_page.png");
+    const pageTitle = resolvePageTitle(title, pagePath, lang);
+    const ogp_path = siteUrl(createOGP(pageTitle, pagePath, lang));
     const eng_path = lang === "en" ? pagePath : removeJaPrefix(pagePath);
     const ja_path = lang === "ja" ? pagePath : addJaPrefix(pagePath);
     const languages = siteMetadata.noEnglish.includes(pagePath) ? {
@@ -24,9 +25,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
         en: siteUrl(eng_path),
         ja: siteUrl(ja_path),
         };
-    const OGPwidth = 1200;
-    const OGPheight = 630;
-    const fullTitle = lang === "ja" ? `${title} | ${siteMetadata.SiteTitle.ja}` : `${title} | ${siteMetadata.SiteTitle.en}`;
+    const fullTitle = lang === "ja" ? `${pageTitle} | ${siteMetadata.SiteTitle.ja}` : `${pageTitle} | ${siteMetadata.SiteTitle.en}`;
     return {
     title: {
         absolute: fullTitle,
