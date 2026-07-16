@@ -8,7 +8,7 @@
   url:
     ja: https://www.isct.ac.jp/ja/news/2cc77j8aqtxa
     en: https://www.isct.ac.jp/en/news/eryh7s2mh3vv
-  figure: /images/press_releases/sd_image.png
+  figure: /images/press_releases/measurement.png
   introduction: 
     ja: |
       近年、測定の反作用によって引き起こされる孤立系には存在しない新しい物理現象が次々と報告され、凝縮系物理・統計力学・原子物理・量子情報などの幅広い分野から注目を集めています。我々は量子多体系における測定の反作用がもたらす部分系の揺らぎのダイナミクスを理論的に解析することで、実験的にも低コストで実現可能な、新たな普遍性をもつ測定誘起多体効果が現れることを明らかにしました。
@@ -24,7 +24,7 @@
   url:
     ja: https://www.isct.ac.jp/ja/news/2cc77j8aqtxa
     en: https://www.isct.ac.jp/en/news/eryh7s2mh3vv
-  figure: /images/press_releases/measurement.png
+  figure: /images/press_releases/sd_image.png
   introduction: 
     ja: |
       近年、粒子の損失や非対称な移動を伴う系を記述する非エルミート系において、例外点と呼ばれる領域で起きる、特異な物理現象に注目が集っています。我々は、フェルミ粒子の持つスピンの種類によって移動する向きが異なる「スピン対破壊効果」と呼ばれる散逸に着目し、この散逸を導入した超流動を理論的に調べた結果、散逸が例外点を誘起し、従来とは全く異なる性質を持つ超流動が形成されることを明らかにしました。
