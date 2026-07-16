@@ -4,6 +4,7 @@ import "katex/dist/katex.min.css";
 import "@/app/globals.css";
 import  NavBar from "./ui/client/header";
 import Footer from "./ui/client/footer";
+import BackToTopButton from "./ui/client/backToTopButton";
 import { Provider } from 'jotai'
 // import { Noto_Sans_JP, Hind} from 'next/font/google'
 // const note_sans_jp = Noto_Sans_JP({
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body className="flex flex-col items-stretch min-h-screen justify-start">
         <NavBar />
         {children}
+        <BackToTopButton />
         <Footer />
       </body>
       </Provider>
