@@ -17,7 +17,6 @@
 ## 研究の詳細
 
 
-
 ### 量子開放系における超伝導(フェルミ超流動)
 
 - **非エルミート超伝導の理論** [Phys. Rev. Lett. **123**, 123601 (2019)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.123601) (Highly Cited Paper in Web of Science)
