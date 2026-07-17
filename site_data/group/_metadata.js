@@ -14,12 +14,12 @@ export const siteMetadata = {
         ja: "山本 和樹"
     },
     organization: {
-        ja: "大阪公立大学　理学部　物理学専攻　非平衡量子多体物性理論研究室",
+        ja: "大阪公立大学　大学院理学研究科物理学専攻",
         en: "Department of physics, Osaka Metropolitan University"
     },
     SiteTitle: {
         en: "Yamamoto group",
-        ja: "山本研究室"
+        ja: "山本グループ"
     },
     all_member_img: "/images/members/all/2026.jpg",
     Navigation: {

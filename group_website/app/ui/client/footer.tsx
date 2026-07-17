@@ -30,8 +30,8 @@ export default function Footer() {
           </p>
           <p className="mt-3 max-w-md text-sm leading-7 text-base-content/70">
             {isEnglish
-              ? "Nonequilibrium Many-Body Quantum Matter Theory"
-              : "非平衡量子多体物性理論"}
+              ? "Nonequilibrium Many-Body Quantum Matter Theory Group"
+              : "非平衡量子多体物性理論研究室"}
           </p>
         </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
           </p>
           <a
             className="group inline-flex items-start gap-1.5 text-sm leading-6 text-base-content/75 transition-colors hover:text-primary"
-            href={isEnglish ? "https://www.omu.ac.jp/en/" : "https://www.omu.ac.jp/"}
+            href={isEnglish ? "https://www.omu.ac.jp/sci/phys_en/research/condensedmatter.html" : "https://www.omu.ac.jp/sci/phys/kouza/condensedmatter.html"}
             target="_blank"
             rel="noopener noreferrer"
           >

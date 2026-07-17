@@ -16,13 +16,13 @@ export default async function Pages() {
     return (
         <div className="mt-3">
             <div className="prose mx-2 px-2"><h1>研究</h1></div>
-            <nav className="not-prose mx-4 mb-8 flex flex-wrap gap-3" aria-label="研究ページ内メニュー">
+            <nav className="not-prose mx-4 mb-8 flex flex-wrap gap-3" aria-label="研究ページ内メニュー"><a href="#research-details" className="btn btn-outline btn-primary">
+                    研究
+                </a>
                 <a href="#press-releases" className="btn btn-outline btn-primary">
                     プレスリリース
                 </a>
-                <a href="#research-details" className="btn btn-outline btn-primary">
-                    研究
-                </a>
+                
             </nav>
             <section id="research" className="scroll-mt-28">
                 <div className="prose m-2 p-2" dangerouslySetInnerHTML={{ __html: htmlContent || "" }} />
