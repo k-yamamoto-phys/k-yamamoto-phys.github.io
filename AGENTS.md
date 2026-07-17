@@ -1,5 +1,7 @@
 # AGENTS.md
 
+`npm run build`等のビルドコマンドを絶対に実行してはいけない。
+
 You **must not** run `npm run build`
 
 Use Japanese for all human-facing reports and notes.
@@ -25,18 +27,6 @@ Keep raw technical outputs in their original language:
 This repository contains two websites. One is the personal website for Prof. Kazuki yamamoto, and the other is the group website of which Prof. yamamoto organizes. 
 
 The goal is to create the readable code of websites by using the Next.js and several web technologies. 
-
-## Visual QA and Development Server Workflow
-
-After editing the website, do not stop at a successful build. Always verify the actual rendered page in a browser-like environment.
-
-The development server is managed by the user in the VS Code terminal and should remain running on port `3000`. Codex should not start a separate dev server with `npm run dev` unless the user explicitly asks for it. Use the existing server for visual checks.
-
-Default URLs:
-
-- Japanese pages: `http://localhost:3000/group/ja/...`
-- English pages: `http://localhost:3000/group/...`
-
 
 
 Important notes:
