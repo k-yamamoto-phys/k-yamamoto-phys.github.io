@@ -1,4 +1,4 @@
-import type { ResolvingMetadata, Metadata } from "next";
+import type { Metadata } from "next";
 import { MetadataGenerator } from "@/app/lib/metadata";
 import { convertMarkdownToHtml } from "@/app/lib/markdown"
 import conference_data from "@/personal/presentation.yml"
@@ -16,9 +16,9 @@ type Presentation = {
     type: "invited" | "oral" | "poster";
 }
 const BadgeMap = {
-    "invited": "badge-info",
-    "oral": "badge-accent",
-    "poster": "badge-accent",
+    invited: "presentation-badge--invited",
+    oral: "presentation-badge--oral",
+    poster: "presentation-badge--poster",
 }
 export async function generateMetadata(): Promise<Metadata> {
     return MetadataGenerator(`発表`, `山本和樹の発表一覧`, '/ja/presentations');
@@ -36,7 +36,7 @@ export default async function Page() {
                 upcoming.length > 0 && <>  <h2>今後の発表</h2>
                     <ul className="list-none">
                         {
-                            upcoming.map((p, index, array) => (
+                            upcoming.map((p, index) => (
                                 <ConferenceItem_for_futures key={index} p={p} number={index + 1} />
                             ))
                         }
@@ -83,7 +83,7 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
         <li>
             <p>
                 {number}.&nbsp;
-                "{p.title}"
+                {`"${p.title}"`}
             </p>
 
             <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en,siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
@@ -94,14 +94,13 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
 
 async function ConferenceItem_for_futures({ p, number }: { p: Presentation, number: number }) {
     const markdownContent = await convertMarkdownToHtml(p.detail);
-    let budgeObject;
     const badgeType = BadgeMap[p.type];
-    budgeObject = <span className={`badge  badge-soft ${badgeType}`}>{p.type}</span>
+    const badgeObject = <span className={`badge presentation-badge ${badgeType}`}>{p.type}</span>
     return (
         <li>
             <p>
                 {number}.&nbsp;
-                "{p.title}"&nbsp;{budgeObject}
+                {`"${p.title}"`}&nbsp;{badgeObject}
             </p>
             <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en, siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />

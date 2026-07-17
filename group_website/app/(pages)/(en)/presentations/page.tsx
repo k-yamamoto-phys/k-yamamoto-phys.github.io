@@ -1,4 +1,4 @@
-import type { ResolvingMetadata, Metadata } from "next";
+import type { Metadata } from "next";
 import { MetadataGenerator } from "@/app/lib/metadata";
 import { convertMarkdownToHtml } from "@/app/lib/markdown"
 import conference_data from "@/group/presentation.yml"
@@ -6,7 +6,6 @@ import dayjs from "dayjs";
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import styles from "./presentations.module.css";
-import { siteMetadata } from "@/group/_metadata";
 type Presentation = {
     title: string;
     presenter: string;
@@ -16,17 +15,14 @@ type Presentation = {
     type: "invited" | "oral" | "poster";
 }
 const BadgeMap = {
-    award: "badge-warning",
-    publication: "badge-success",
-    seminar: "badge-info",
-    "invited seminar": "badge-info",
-    talk: "badge-accent",
-    "invited talk": "badge-accent",
-    poster: "badge-natural",
+    invited: "presentation-badge--invited",
+    oral: "presentation-badge--oral",
+    poster: "presentation-badge--poster",
 }
 export async function generateMetadata(): Promise<Metadata> {
     return MetadataGenerator(`Presentations`, `presentations by Dr. Kazuki Yamamoto`, '/presentations', "en");
 }
+
 
 export default async function Page() {
     const conference_unsorted = conference_data as Presentation[];
@@ -40,8 +36,8 @@ export default async function Page() {
                 upcoming.length > 0 && <>  <h2>Upcoming</h2>
                     <ul className="list-none">
                         {
-                            upcoming.map((p, index, array) => (
-                                <ConferenceItem key={index} p={p} number={index+1} />
+                            upcoming.map((p, index) => (
+                                <ConferenceItem_for_futures key={index} p={p} number={index + 1} />
                             ))
                         }
                     </ul></>
@@ -81,20 +77,7 @@ async function CollapsibleSection({ title, info }: { title: string; info: Presen
         </>
     );
 }
-// async function ConferenceItem({ p, number }: { p: Presentation, number: number }) {
-//     const markdownContent = await convertMarkdownToHtml(p.detail);
-//     return (
-//         <li>
-//             <p>
-//                 {number}.&nbsp;
-//                 {`"${p.title}"`}
-//             </p>
 
-//             <p><UnderlinedText text={p.presenter} targets={[siteMetadata.name.en,siteMetadata.name.ja, `山本和樹`, `山本　和樹`]} /></p>
-//             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
-//         </li>
-//     );
-// }
 async function ConferenceItem({ p, number }: { p: Presentation, number: number }) {
     const markdownContent = await convertMarkdownToHtml(p.detail);
 
@@ -111,28 +94,19 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
         </li>
     );
 }
-
-function UnderlinedText({
-    text,
-    targets,
-}: {
-    text: string;
-    targets: string[];
-}) {
-    // 正規表現を動的に作る（大文字小文字区別あり）
-    const regex = new RegExp(`(${targets.join("|")})`, "g");
-
-    const parts = text.split(regex);
-
+async function ConferenceItem_for_futures({ p, number }: { p: Presentation, number: number }) {
+    const markdownContent = await convertMarkdownToHtml(p.detail);
+    const badgeType = BadgeMap[p.type];
+    const badgeObject = <span className={`badge presentation-badge ${badgeType}`}>{p.type}</span>
     return (
-        <>
-            {parts.map((part, i) =>
-                targets.includes(part) ? (
-                    <u key={i}>{part}</u>
-                ) : (
-                    <React.Fragment key={i}>{part}</React.Fragment>
-                )
-            )}
-        </>
+        <li>
+            <p>
+                {number}.&nbsp;
+                {`"${p.title}"`}&nbsp;{badgeObject}
+            </p>
+            <p>{p.presenter}</p>
+
+            <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+        </li >
     );
 }

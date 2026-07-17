@@ -11,13 +11,13 @@ export type activityEntry = {
     };
 }
 const BadgeMap = {
-    award: "badge-warning",
-    publication: "badge-success",
-    seminar: "badge-info",
-    "invited seminar": "badge-info",
-    talk: "badge-accent",
-    "invited talk": "badge-accent",
-    poster: "badge-natural",
+    award: "activity-badge--award",
+    publication: "activity-badge--publication",
+    seminar: "activity-badge--presentation",
+    "invited seminar": "activity-badge--invited",
+    talk: "activity-badge--talk",
+    "invited talk": "activity-badge--invited",
+    poster: "activity-badge--poster",
 }
 export default function Acctivity({lang, limit}: {lang: string, limit?: number}) {
     const activityData = activity_data as activityEntry[];
@@ -39,7 +39,7 @@ export default function Acctivity({lang, limit}: {lang: string, limit?: number})
                         <h3 >{year}</h3>
                         <ul className="list-none pl-0">
                             {
-                                data.map((activity, index, array) => (
+                                data.map((activity, index) => (
                                     <li key={index} className="list-none">
                                         <ActivityItem activity={activity} lang={lang} />
                                     </li>
@@ -64,12 +64,12 @@ export default function Acctivity({lang, limit}: {lang: string, limit?: number})
 
 async function ActivityItem({ activity, lang }: { activity: activityEntry, lang: string }) {
     let dateString: string;
-    let budgeObject; 
+    let badgeObject;
     if (activity.label !== "other") {
         const badgeType = BadgeMap[activity.label];
-        budgeObject = <span className={`badge  badge-soft ${badgeType}`}>{activity.label}</span>
+        badgeObject = <span className={`badge activity-badge ${badgeType}`}>{activity.label}</span>
     } else {
-        budgeObject = <></>
+        badgeObject = <></>
     }
     const compileString = lang === "ja" ? "YYYY年M月D日" : "MMM. D, YYYY";
     const compileString2 = lang === "ja" ? "M月D日" : "MMM. D";
@@ -89,7 +89,10 @@ async function ActivityItem({ activity, lang }: { activity: activityEntry, lang:
     const html_content = await convertMarkdownToHtml(markdown_content);
     return (
         <div>
-            <strong>{dateString}</strong> {budgeObject}
+            <div className="activity-meta">
+                <strong>{dateString}</strong>
+                {badgeObject}
+            </div>
             <div className="prose" dangerouslySetInnerHTML={{ __html: html_content }} />
         </div>
     );

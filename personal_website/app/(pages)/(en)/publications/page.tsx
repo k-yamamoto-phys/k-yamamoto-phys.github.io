@@ -84,13 +84,15 @@ export default async function Page() {
     );
 }
 async function PaperItem({ paper, number }: { paper: Paper, number: number }) {
-    const markdownContent = await convertMarkdownToHtml(`${number}. ${paper.title}`);
+    const markdownContent = await convertMarkdownToHtml(paper.title);
     const noteContent = paper.note ? await convertMarkdownToHtml(paper.note) : null;
     return (
-        <li>
-             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
-            <p><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p>
-            <p>
+        <li className="publication-item">
+            <span className="publication-number">{number}.</span>
+            <div className="publication-body">
+                <div className="publication-title" dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+                <p className="publication-authors"><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p>
+                <p className="publication-links">
                 {paper.journal === null ?
                     (<a href={`https://arxiv.org/abs/${paper.arXiv}`} target="_blank" rel="noopener noreferrer">arXiv:{paper.arXiv}</a>) :
                     (<><a href={paper.journal?.url} target="_blank" rel="noopener noreferrer">{paper.journal?.name}</a>{
@@ -98,8 +100,9 @@ async function PaperItem({ paper, number }: { paper: Paper, number: number }) {
                     }
                     </>)
                 }
-            </p>
-            <p dangerouslySetInnerHTML={{ __html: noteContent || "" }} />
+                </p>
+                {noteContent && <div className="publication-note" dangerouslySetInnerHTML={{ __html: noteContent }} />}
+            </div>
         </li>
     );
 }
