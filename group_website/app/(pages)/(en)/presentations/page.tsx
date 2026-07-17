@@ -30,7 +30,7 @@ export default async function Page() {
     const current = new Date();
     const upcoming = conference.filter(p => dayjs(p.date).isAfter(current)).sort((a, b) => (a.date < b.date ? -1 : 1));
     return (
-        <div className="m-2 p-2 prose">
+        <div className="presentations-page m-2 p-2 prose">
             <h1>Presentations</h1>
             {
                 upcoming.length > 0 && <>  <h2>Upcoming</h2>
@@ -62,7 +62,7 @@ async function CollapsibleSection({ title, info }: { title: string; info: Presen
             {info.length > 0 && (
                 <details className="collapse bg-base-100">
                     <summary className="collapse-title p-0"><h3 className="border-b border-base-600 flex justify-between content-center"><div>{title}</div><IoIosArrowDown className={`inline-block my-auto ${styles.arrow}`} /></h3></summary>
-                    <div className="collapse-content text-sm">
+                    <div className="collapse-content text-base">
                         <ul className="list-none">
                             {
                                 info.map((p, index, array) => (
@@ -82,15 +82,13 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
     const markdownContent = await convertMarkdownToHtml(p.detail);
 
     return (
-        <li>
-            <p>
-                {number}.&nbsp;
-                {`"${p.title}"`}
-            </p>
-
-            <p>{p.presenter}</p>
-
-            <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+        <li className="presentation-item">
+            <span className="presentation-number">{number}.</span>
+            <div className="presentation-body">
+                <p className="presentation-title">{`"${p.title}"`}</p>
+                <p className="presentation-presenter">{p.presenter}</p>
+                <div className="presentation-detail" dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+            </div>
         </li>
     );
 }
@@ -99,14 +97,13 @@ async function ConferenceItem_for_futures({ p, number }: { p: Presentation, numb
     const badgeType = BadgeMap[p.type];
     const badgeObject = <span className={`badge presentation-badge ${badgeType}`}>{p.type}</span>
     return (
-        <li>
-            <p>
-                {number}.&nbsp;
-                {`"${p.title}"`}&nbsp;{badgeObject}
-            </p>
-            <p>{p.presenter}</p>
-
-            <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+        <li className="presentation-item">
+            <span className="presentation-number">{number}.</span>
+            <div className="presentation-body">
+                <p className="presentation-title">{`"${p.title}"`}&nbsp;{badgeObject}</p>
+                <p className="presentation-presenter">{p.presenter}</p>
+                <div className="presentation-detail" dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+            </div>
         </li >
     );
 }

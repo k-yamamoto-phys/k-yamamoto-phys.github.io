@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { convertMarkdownToHtml } from "@/app/lib/markdown";
 import md_content from "@/group/research_en.md";
 import { PressReleases } from "@/app/ui/server/press_release";
+import { IoIosArrowDown } from "react-icons/io";
 export async function generateMetadata(): Promise<Metadata> {
     return MetadataGenerator(`Research`, `introductions of the research  in Yamamoto group`, '/research', "en");
 }
@@ -17,11 +18,13 @@ export default async function Pages() {
         <div className="mt-3">
             <div className="prose mx-2 px-2"><h1>Research</h1></div>
             <nav className="not-prose mx-4 mb-8 flex flex-wrap gap-3" aria-label="Research page sections"><a href="#research-details" className="btn btn-outline btn-primary">
-                    Research
+                    Research details
+                    <IoIosArrowDown aria-hidden="true" />
                 </a>
 
                 <a href="#press-releases" className="btn btn-outline btn-primary">
                     Press releases
+                    <IoIosArrowDown aria-hidden="true" />
                 </a>
                 
             </nav>

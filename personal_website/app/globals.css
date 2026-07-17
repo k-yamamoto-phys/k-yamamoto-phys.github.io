@@ -138,6 +138,103 @@ https://daisyui.com/theme-generator/ */
   margin-top: 0.28rem;
 }
 
+.presentation-item {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 0.5rem;
+  margin-block: 0 1.35rem;
+}
+
+.presentation-number {
+  grid-column: 1;
+}
+
+.presentation-body {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.presentation-title,
+.presentation-presenter,
+.presentation-detail > :first-child,
+.presentation-detail > :last-child {
+  margin-block: 0;
+}
+
+.presentation-presenter {
+  margin-top: 0.04rem;
+}
+
+.presentation-detail {
+  margin-top: 0;
+}
+
+/* Keep the presentations layout stable regardless of collapse state. */
+.prose.presentations-page {
+  width: auto;
+  max-width: none;
+}
+
+.presentations-page .collapse {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+/* Publications page: links to external author profiles. */
+.publication-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.publication-profile-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.publication-profile-links a {
+  display: inline-flex;
+  min-height: 2.8rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-width: 11.5rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid color-mix(in oklab, var(--color-secondary) 68%, white);
+  border-radius: var(--radius-field);
+  background: color-mix(in oklab, var(--color-secondary) 7%, var(--color-base-100));
+  color: var(--color-secondary);
+  font-weight: 650;
+  line-height: 1.25;
+  text-decoration: none;
+  box-shadow: 0 1px 2px color-mix(in oklab, var(--color-secondary) 12%, transparent);
+  transition: background-color 160ms ease, border-color 160ms ease,
+    color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.publication-profile-links a:hover {
+  border-color: var(--color-secondary);
+  background: var(--color-secondary);
+  color: var(--color-secondary-content);
+  box-shadow: 0 5px 14px color-mix(in oklab, var(--color-secondary) 22%, transparent);
+  transform: translateY(-1px);
+}
+
+.publication-profile-links a:focus-visible {
+  outline: 3px solid color-mix(in oklab, var(--color-primary) 55%, transparent);
+  outline-offset: 3px;
+}
+
+.publication-profile-links svg {
+  flex: 0 0 auto;
+  width: 1rem;
+  height: 1rem;
+}
+
 .katex {
   font-size: 1em !important;
   ;
@@ -198,5 +295,19 @@ https://daisyui.com/theme-generator/ */
     margin-bottom: 1.5rem;
     border-left-width: 0.22rem;
     border-radius: 0 0.6rem 0.6rem 0;
+  }
+
+  .publication-profile-links {
+    display: grid;
+  }
+
+  .publication-profile-links a {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .publication-profile-links a {
+    transition: none;
   }
 }

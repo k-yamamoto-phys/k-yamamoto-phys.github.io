@@ -16,8 +16,6 @@ Effective field theory, Conformal field theory, Bethe ansatz, (Non-Hermitian) de
 
 ## Research details
 
----
-
 ### Fermionic superfluids in open quantum systems
 
 - **Theory of Non-Hermitian superconductivity (fermionic superfluids)** [Phys. Rev. Lett. **123**, 123601 (2019)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.123601) (Highly Cited Paper in Web of Science)
@@ -44,7 +42,7 @@ Motivated by recent experimental advances in ultracold atoms, we have analyzed a
 ([Phys. Rev. Lett. 127, 055301 (2021)](https://doi.org/10.1103/PhysRevLett.127.055301))
 We have predicted a new mechanism to induce collective excitations and a nonequilibrium phase transition of fermionic superfluids via a sudden switch-on of two-body loss, for which we have first **extended the BCS theory to the dynamics under Lindblad equations**. We have demonstrated that when dissipation is introduced to one of the two superfluids coupled via a Josephson junction, it gives rise to a **nonequilibrium dynamical phase transition** characterized by the vanishing dc Josephson current.
 
----
+
 
 ### Dissipative Tomonaga-Luttinger liquids
 
@@ -59,7 +57,7 @@ We have demonstrated the universal properties of dissipative Tomonaga-Luttinger 
 ([Phys. Rev. B 107, 045110 (2023)](https://doi.org/10.1103/PhysRevB.107.045110))
 Motivated by recent **experimental realizations of SU($N$) Hubbard models**, we have obtained universal scaling relations for dissipative TL liquids with SU($N$) spin symmetry for both fermions and bosons, by using asymptotic BA solutions and CFT in 1D NH quantum many-body systems with SU($N$) symmetry. We have uncovered that the spectrum of dissipative TL liquids with SU($N$) spin symmetry is described by the sum of one charge mode characterized by a complex generalization of **$c=1$ U(1) Gaussian CFT**, and $N-1$ spin modes characterized by **level-1 SU($N$) Kac-Moody algebra with the conformal anomaly $c=N-1$**, and thereby dissipation only affects the charge mode as a result of **spin-charge separation in 1D NH quantum systems**.
 
----
+
 
 ### Phase transitions and universality in continuously monitored systems:
 
