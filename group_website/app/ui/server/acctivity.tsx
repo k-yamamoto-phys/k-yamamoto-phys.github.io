@@ -34,7 +34,7 @@ export default function Acctivity({lang, limit}: {lang: string, limit?: number})
             {
                 activity_by_year.map(({ year, data },index) => (
                     <React.Fragment key={index}>
-                        <h2 className="mt-2" >{year}</h2>
+                        <h3 className="mt-2" >{year}</h3>
                         <ul className="list-none pl-0">
                             {
                                 data.map((activity, index, array) => (
