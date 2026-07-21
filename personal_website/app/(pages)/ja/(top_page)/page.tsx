@@ -27,8 +27,8 @@ export default async function Page() {
                             <p className="mt-2 text-lg leading-relaxed text-base-content">
                                 大阪公立大学大学院理学研究科物理学専攻
                             </p>
-                            <p className="break-words text-base leading-relaxed text-base-content">
-                                <span className="font-semibold">Email:</span> kazuki-yamamoto + アットマーク + omu.ac.jp
+                            <p className="break-words text-lg leading-relaxed text-base-content" style={{ marginTop: "8px" }}>
+                                <span className="font-semibold">Email:</span> kazuki-yamamoto + [アットマーク] + omu.ac.jp
                             </p>
                             <img src="/images/OMU_logo_jp.png" alt="大阪公立大学" className="my-4 w-48 md:w-64" />
                         </div>
