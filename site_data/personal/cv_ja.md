@@ -1,9 +1,4 @@
-# プロフィール
-
 大阪府池田市出身。その後ドイツ→岡山→北海道→京都→東京と進学・就職と共に移動し、現在大阪に至る。
-
-[researchmap](https://researchmap.jp/k-yamamoto-physics)  
-[KAKEN](https://nrid.nii.ac.jp/ja/nrid/1000000981028/)
 
 ---
 
