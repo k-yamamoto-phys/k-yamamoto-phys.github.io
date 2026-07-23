@@ -1,10 +1,5 @@
-# Profile
-
 Born in Ikeda, Osaka, Japan.  
 Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
-
-[researchmap](https://researchmap.jp/k-yamamoto-physics)  
-[KAKEN](https://nrid.nii.ac.jp/ja/nrid/1000000981028/)
 
 ---
 
