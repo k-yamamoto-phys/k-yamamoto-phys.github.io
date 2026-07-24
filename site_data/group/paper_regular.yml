@@ -15,7 +15,9 @@
   note: null
   arXiv: 2604.00358
   year: 2026
-  journal: null
+  journal:
+    name: To be published in Quantum Science and Technology
+    url: null
 - title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
   authors: Kazuki Yamamoto and Ryusuke Hamazaki
   note: null

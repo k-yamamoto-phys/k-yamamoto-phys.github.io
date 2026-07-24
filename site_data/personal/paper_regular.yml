@@ -39,7 +39,9 @@
   note: null
   arXiv: 2604.00358
   year: 2026
-  journal: null
+  journal:
+    name: To be published in Quantum Science and Technology
+    url: null
 - title: "Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU($N$) Fermi-Hubbard model"
   authors: Jutaro Fujii, Kazuki Yamamoto, and Akihisa Koga
   note: null
