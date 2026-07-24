@@ -13,6 +13,15 @@
 #       hogehoge san invited talk
 #     en: >
 #       hogehoge san invited talk
+- date: "2026-07-23"
+  label: publication
+  content:
+    ja: >
+      原著論文 Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free
+      Many-Body Dynamics が [Physical Review Letters 誌](https://doi.org/10.1103/wv5b-r6sb)に出版されました。
+    en: >
+      Original paper "Measurement-Induced Crossover of Quantum Jump Statistics
+      in Postselection-Free Many-Body Dynamics" has been published in [Physical Review Letters](https://doi.org/10.1103/wv5b-r6sb)
 - date: "2026-07-14"
   label: publication
   content:

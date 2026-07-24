@@ -1,3 +1,12 @@
+- date: "2026-07-23"
+  label: publication
+  content:
+    ja: >
+      原著論文 Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free
+      Many-Body Dynamics が [Physical Review Letters 誌](https://doi.org/10.1103/wv5b-r6sb)に出版されました。
+    en: >
+      Original paper "Measurement-Induced Crossover of Quantum Jump Statistics
+      in Postselection-Free Many-Body Dynamics" has been published in [Physical Review Letters](https://doi.org/10.1103/wv5b-r6sb)
 - date: "2026-07-14"
   label: publication
   content:
@@ -7,16 +16,6 @@
     en: >
       Original paper "Kondo breakdown induced by non-Hermitian complex hybridization" has been published in [Physical
       Review B](https://journals.aps.org/prb/abstract/10.1103/w6zs-kb6m)
-- date: "2026-06-24"
-  label: publication
-  content:
-    ja: >
-      原著論文" [Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free
-      Many-Body Dynamics](https://arxiv.org/abs/2503.02418) "が [Physical Review Letters 誌](https://doi.org/10.1103/wv5b-r6sb)に受理されました。
-    en: >
-      Original paper " [Measurement-Induced Crossover of Quantum Jump Statistics
-      in Postselection-Free Many-Body Dynamics](https://arxiv.org/abs/2503.02418)
-      " has been accepted for publication in [Physical Review Letters](https://doi.org/10.1103/wv5b-r6sb)
 - date: "2026-05-13"
   label: award
   content:

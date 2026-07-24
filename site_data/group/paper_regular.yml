@@ -18,12 +18,12 @@
   journal: null
 - title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
   authors: Kazuki Yamamoto and Ryusuke Hamazaki
-  note:  null
+  note: To be published
   arXiv: 2503.02418
   year: 2026
-  journal: 
-    name: To be published in Phys. Rev. Lett.
-    url: https://journals.aps.org/prl/accepted/10.1103/wv5b-r6sb
+  journal:
+    name: Phys. Rev. Lett. 137, 040402 (2026)
+    url: https://doi.org/10.1103/wv5b-r6sb
 - title: "Kondo breakdown induced by the non-Hermitian complex hybridization"
   authors: Kazuki Yamamoto, Masaya Nakagawa, and Norio Kawakami
   note: null
