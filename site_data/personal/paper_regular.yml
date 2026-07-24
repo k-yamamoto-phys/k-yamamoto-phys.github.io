@@ -4,6 +4,14 @@
   arXiv: 2607.03799
   year: 2026
   journal: null
+- title: "Anomalous waiting-time distributions in postselection-free quantum many-body dynamics under continuous monitoring"
+  authors: Kazuki Yamamoto and Ryusuke Hamazaki
+  note: null
+  arXiv: 2604.00358
+  year: 2026
+  journal:
+    name: To be published in Quantum Science and Technology
+    url: null
 - title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
   authors: Kazuki Yamamoto and Ryusuke Hamazaki
   note: Open Access
@@ -34,14 +42,6 @@
   arXiv: 2604.00574
   year: 2026
   journal: null
-- title: "Anomalous waiting-time distributions in postselection-free quantum many-body dynamics under continuous monitoring"
-  authors: Kazuki Yamamoto and Ryusuke Hamazaki
-  note: null
-  arXiv: 2604.00358
-  year: 2026
-  journal:
-    name: To be published in Quantum Science and Technology
-    url: null
 - title: "Generalized Nagaoka ferromagnetism accompanied by flavor-selective Mott states in an SU($N$) Fermi-Hubbard model"
   authors: Jutaro Fujii, Kazuki Yamamoto, and Akihisa Koga
   note: null
