@@ -13,6 +13,13 @@
 #       hogehoge san invited talk
 #     en: >
 #       hogehoge san invited talk
+- date: "2026-08-31"
+  label: invited talk
+  content:
+    ja: >
+      山本講師が[非エルミート重力物理学ワークショップ](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - 東京都立大学 で招待講演を行います。
+    en: >
+      Prof. Yamamoto is going to give an invited talk in [Workshop on non-Hermitian gravitational physics](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - Tokyo Metropolitan University, Japan
 - date: "2026-07-23"
   label: publication
   content:
