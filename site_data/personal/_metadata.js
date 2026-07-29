@@ -151,19 +151,19 @@ export const siteMetadata = {
                 href: "https://www.omu.ac.jp/en/",
             },
             {
-                name: "Science Tokyo",
-                href: "https://www.isct.ac.jp/en",
-            },
-            {
                 name: "Dep. Phys., Science Tokyo",
                 href: "https://educ.titech.ac.jp/phys/eng/"
+            },
+            {
+                name: "Science Tokyo",
+                href: "https://www.isct.ac.jp/en",
             },
             {
                 name: "Koga Lab.",
                 href: "http://www.stat.phys.titech.ac.jp/koga/index-e.html"
             },
             {
-                name: "CMT group, Kyoto Univ.",
+                name: "CMT group, Kyoto U",
                 href: "https://cond.scphys.kyoto-u.ac.jp/e_index.html"
             }
         ],
@@ -177,12 +177,12 @@ export const siteMetadata = {
                 href: "https://www.omu.ac.jp/",
             },
             {
-                name: "Science Tokyo",
-                href: "https://www.isct.ac.jp/ja",
-            },
-            {
                 name: "東京科学大学物理学系",
                 href: "https://educ.titech.ac.jp/phys/"
+            },
+            {
+                name: "Science Tokyo",
+                href: "https://www.isct.ac.jp/ja",
             },
             {
                 name: "古賀研究室",
