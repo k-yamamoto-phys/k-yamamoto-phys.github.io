@@ -43,7 +43,7 @@ export default async function Page() {
                     <img src={withBasePath(siteMetadata.all_member_img)} alt="Group Members" className="w-full object-contain" />
                 </div>
             </div>
-            <h2 className="ml-4 text-2xl font-bold">Introduction of Members</h2>
+            <h2 className="ml-4 text-2xl font-bold">Group Members</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 p-4 gap-4">
                 {
                     internalMembers.map((member, index) => (
@@ -53,7 +53,7 @@ export default async function Page() {
             </div>
             {collaborators.length > 0 && (
                 <>
-                    <h2 className="ml-4 text-2xl font-bold">Collaborators</h2>
+                    <h2 className="ml-4 text-2xl font-bold">Collaborators (Research Assistant)</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 p-4 gap-4">
                         {
                             collaborators.map((member, index) => (
