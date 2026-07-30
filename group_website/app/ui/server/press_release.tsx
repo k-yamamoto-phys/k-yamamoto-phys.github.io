@@ -2,6 +2,7 @@ import { convertMarkdownToHtml } from "@/app/lib/markdown";
 import { withBasePath } from "@/app/lib/site-paths";
 import pressReleaseData from "@/group/press_releases.yml";
 import dayjs from "dayjs";
+import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight, FaExternalLinkAlt } from "react-icons/fa";
 
@@ -19,10 +20,12 @@ export type PressReleaseEntry = {
         ja: string;
         en: string;
     };
-    figure: {
-        ja: string;
-        en: string;
-    };
+    figure:
+        | string
+        | {
+              ja: string;
+              en: string;
+          };
     introduction: {
         ja: string;
         en: string;
@@ -34,12 +37,12 @@ const publishedPressReleases = pressReleases.filter(
     (item) => item.date.trim().toUpperCase() !== "TBA",
 );
 
-// function localizedValue(value: { ja: string; en: string }, lang: string) {
-//     return lang === "ja" ? value.ja : value.en;
-// }
-
 function localizedValue<T>(value: { ja: T; en: T }, lang: string): T {
     return lang === "ja" ? value.ja : value.en;
+}
+
+function localizedFigure(figure: PressReleaseEntry["figure"], lang: string): string {
+    return typeof figure === "string" ? figure : localizedValue(figure, lang);
 }
 
 function formatDate(date: string, lang: string) {
@@ -63,11 +66,17 @@ export function TopPageRelease({ lang }: { lang: string }) {
 
     return (
         <div className="card bg-white shadow-sm sm:card-side">
-            <img
-                src={withBasePath(localizedValue(latestRelease.figure, lang))}
-                className="mx-auto w-64 object-contain p-4"
-                alt={localizedValue(latestRelease.title, lang)}
-            />
+            <div className="relative mx-auto h-56 w-64 shrink-0">
+                <Image
+                    src={withBasePath(localizedFigure(latestRelease.figure, lang))}
+                    alt={localizedValue(latestRelease.title, lang)}
+                    fill
+                    priority
+                    sizes="256px"
+                    className="object-contain p-4"
+                    unoptimized
+                />
+            </div>
             <div className="card-body pt-0 sm:pt-4">
                 <h2 className="card-title mt-4 mb-2 block">
                     <span className="badge badge-info relative -top-0.5">
@@ -111,12 +120,15 @@ async function PressReleaseItem({ item, lang }: { item: PressReleaseEntry; lang:
 
     return (
         <article className="card overflow-hidden border border-base-300 bg-white shadow-sm lg:card-side">
-            <figure className="bg-base-200 lg:w-72 lg:shrink-0">
-                <img
-                    src={withBasePath(localizedValue(item.figure, lang))}
+            <figure className="relative h-52 bg-base-200 lg:h-auto lg:min-h-52 lg:w-72 lg:shrink-0">
+                <Image
+                    src={withBasePath(localizedFigure(item.figure, lang))}
                     alt={title}
-                    className="h-52 w-full object-contain p-4 lg:h-full"
+                    fill
+                    sizes="(min-width: 1024px) 288px, 100vw"
+                    className="object-contain p-4"
                     loading="lazy"
+                    unoptimized
                 />
             </figure>
             <div className="card-body gap-3 p-5 sm:p-7">

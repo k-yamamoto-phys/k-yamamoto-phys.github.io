@@ -4,6 +4,7 @@ import paper_data from "@/personal/paper_regular.yml"
 import conference_data from "@/personal/paper_conference.yml"
 import { convertMarkdownToHtml } from "@/app/lib/markdown"
 import React from "react";
+import { FiExternalLink } from "react-icons/fi";
 type Paper = {
     title: string;
     authors: string;
@@ -37,12 +38,18 @@ export default async function Page() {
     return (
         <div className="m-2 p-2 prose">
             <h1>出版物</h1>
-            <ul className="list-none">
+            <ul className="publication-profile-links not-prose" aria-label="外部の論文プロフィール">
                 <li>
-                    <a href="https://scholar.google.com/citations?user=qF3OqP0AAAAJ&hl=ja&oi=sra" target="_blank" rel="noopener noreferrer" >Google Scholar</a>
+                    <a href="https://scholar.google.com/citations?user=qF3OqP0AAAAJ&hl=ja&oi=sra" target="_blank" rel="noopener noreferrer">
+                        <span>Google Scholar</span>
+                        <FiExternalLink aria-hidden="true" />
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.webofscience.com/wos/author/record/ACR-5130-2022" target="_blank" rel="noopener noreferrer" >Web of Science</a>
+                    <a href="https://www.webofscience.com/wos/author/record/ACR-5130-2022" target="_blank" rel="noopener noreferrer">
+                        <span>Web of Science</span>
+                        <FiExternalLink aria-hidden="true" />
+                    </a>
                 </li>
             </ul>
             <h2>プレプリント</h2>
@@ -84,13 +91,15 @@ export default async function Page() {
     );
 }
 async function PaperItem({ paper, number }: { paper: Paper, number: number }) {
-    const markdownContent = await convertMarkdownToHtml(`${number}. ${paper.title}`);
+    const markdownContent = await convertMarkdownToHtml(paper.title);
     const noteContent = paper.note ? await convertMarkdownToHtml(paper.note) : null;
     return (
-        <li>
-             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
-            <p><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p>
-            <p>
+        <li className="publication-item">
+            <span className="publication-number">{number}.</span>
+            <div className="publication-body">
+                <div className="publication-title" dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+                <p className="publication-authors"><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p>
+                <p className="publication-links">
                 {paper.journal === null ?
                     (<a href={`https://arxiv.org/abs/${paper.arXiv}`} target="_blank" rel="noopener noreferrer">arXiv:{paper.arXiv}</a>) :
                     (<><a href={paper.journal?.url} target="_blank" rel="noopener noreferrer">{paper.journal?.name}</a>{
@@ -98,8 +107,9 @@ async function PaperItem({ paper, number }: { paper: Paper, number: number }) {
                     }
                     </>)
                 }
-            </p>
-            <p dangerouslySetInnerHTML={{ __html: noteContent || "" }} />
+                </p>
+                {noteContent && <div className="publication-note" dangerouslySetInnerHTML={{ __html: noteContent }} />}
+            </div>
         </li>
     );
 }

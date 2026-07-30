@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { convertMarkdownToHtml } from "@/app/lib/markdown";
 import md_content from "@/group/research_ja.md";
 import { PressReleases } from "@/app/ui/server/press_release";
+import { IoIosArrowDown } from "react-icons/io";
 
 export async function generateMetadata(): Promise<Metadata> {
     return MetadataGenerator(`研究内容`, `山本研究室の研究紹介`, '/research', "en");
@@ -17,10 +18,12 @@ export default async function Pages() {
         <div className="mt-3">
             <div className="prose mx-2 px-2"><h1>研究</h1></div>
             <nav className="not-prose mx-4 mb-8 flex flex-wrap gap-3" aria-label="研究ページ内メニュー"><a href="#research-details" className="btn btn-outline btn-primary">
-                    研究
+                    研究の詳細
+                    <IoIosArrowDown aria-hidden="true" />
                 </a>
                 <a href="#press-releases" className="btn btn-outline btn-primary">
                     プレスリリース
+                    <IoIosArrowDown aria-hidden="true" />
                 </a>
                 
             </nav>

@@ -37,81 +37,63 @@ export default async function Page() {
     return (
         <div className="m-2 p-2 prose">
             <h1>Publications</h1>
-            <h2>Preprints</h2>
+            {preprints?.length && <h2>Preprints</h2>}
             <ul className="list-none">
                 {
-                    preprints.map((paper, index, array) => (
+                    (preprints ?? []).map((paper, index, array) => (
                         <PaperItem key={index} paper={paper} number={array.length - index + total_published_count} />
                     ))
                 }
             </ul>
-            <h2>Original Papers</h2>
+            {published_papers_by_year?.length && <h2>Original Papers</h2>}
             {
-                published_papers_by_year.map(({ year, data }, index) => (
+                (published_papers_by_year ?? []).map(({ year, data }, index) => (
                     <React.Fragment key={index}>
-                    <h3>{year}</h3>
-                    <ul className="list-none">
-                        {
-                            data.map((paper, index, array) => (
-                                <PaperItem key={index} paper={paper} number={total_published_count - (published_papers.indexOf(paper))} />
-                            ))
-                        }
-                    </ul>
+                        <h3>{year}</h3>
+                        <ul className="list-none">
+                            {
+                                data.map((paper, index) => (
+                                    <PaperItem key={index} paper={paper} number={total_published_count - (published_papers.indexOf(paper))} />
+                                ))
+                            }
+                        </ul>
                     </React.Fragment>))
             }
-            <h2>Conference Proceedings</h2>
-            {/* <ul className="list-none">
-                {
-                    conference_paper.map((paper, index, array) => (
-                        <PaperItem key={index} paper={paper} number={array.length - index} />
-                    ))
-                }
-            </ul> */}
+
+            {conference_paper?.length  && <h2>Conference Proceedings</h2>}
             <ul className="list-none">
-    {(conference_paper ?? []).map((paper, index, array) => (
-        <PaperItem
-            key={index}
-            paper={paper}
-            number={array.length - index}
-        />
-    ))}
-</ul>
+                {(conference_paper ?? []).map((paper, index, array) => (
+                    <PaperItem
+                        key={index}
+                        paper={paper}
+                        number={array.length - index}
+                    />
+                ))}
+            </ul>
         </div>
     );
 }
 async function PaperItem({ paper, number }: { paper: Paper, number: number }) {
-    const markdownContent = await convertMarkdownToHtml(`${number}. ${paper.title}`);
+    const markdownContent = await convertMarkdownToHtml(paper.title);
     const noteContent = paper.note ? await convertMarkdownToHtml(paper.note) : null;
     return (
-        <li>
-             <p dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
-            {/* <p><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p> */}
-            <p>{paper.authors}</p>
-            <p>
-                {paper.journal === null ?
-                    (<a href={`https://arxiv.org/abs/${paper.arXiv}`} target="_blank" rel="noopener noreferrer">arXiv:{paper.arXiv}</a>) :
-                    (<><a href={paper.journal?.url} target="_blank" rel="noopener noreferrer">{paper.journal?.name}</a>{
-                        paper.arXiv && <>{` (`}<a href={`https://arxiv.org/abs/${paper.arXiv}`} target="_blank" rel="noopener noreferrer">arXiv:{paper.arXiv}</a>{`)`}</>
+        <li className="publication-item">
+            <span className="publication-number">{number}.</span>
+            <div className="publication-body">
+                <div className="publication-title" dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
+                {/* <p><UnderlinedText text={paper.authors} target={`Kazuki Yamamoto`} /></p> */}
+                <p className="publication-authors">{paper.authors}</p>
+                <p className="publication-links">
+                    {paper.journal === null ?
+                        (<a href={`https://arxiv.org/abs/${paper.arXiv}`} target="_blank" rel="noopener noreferrer">arXiv:{paper.arXiv}</a>) :
+                        (<><a href={paper.journal?.url} target="_blank" rel="noopener noreferrer">{paper.journal?.name}</a>{
+                            paper.arXiv && <>{` (`}<a href={`https://arxiv.org/abs/${paper.arXiv}`} target="_blank" rel="noopener noreferrer">arXiv:{paper.arXiv}</a>{`)`}</>
+                        }
+                        </>)
                     }
-                    </>)
-                }
-            </p>
-            <p dangerouslySetInnerHTML={{ __html: noteContent || "" }} />
+                </p>
+                {noteContent && <div className="publication-note" dangerouslySetInnerHTML={{ __html: noteContent }} />}
+            </div>
         </li>
-    );
-}
-
-function UnderlinedText({ text, target }: { text: string, target: string }) {
-    const parts = text.split(target); // ターゲット文字で分割
-
-    return (
-        <>
-            {parts.map((part, i) => (
-                <React.Fragment key={i}>
-                    {part}
-                    {i < parts.length - 1 && <u>{target}</u>}
-                </React.Fragment>
-            ))}
-        </>
     );
 }

@@ -99,16 +99,8 @@ export const siteMetadata = {
                 href: "https://www.omu.ac.jp/en",
             },
             {
-                name: "Dept. of Cond. Mat. (japanese)",
-                href: "https://www.omu.ac.jp/sci/phys/kouza/condensedmatter.html"
-            },
-            {
-                name: "Koga Lab.",
-                href: "http://www.stat.phys.titech.ac.jp/koga/index-e.html"
-            },
-            {
-                name: "Cond. Theo. Kyoto Univ.",
-                href: "https://cond.scphys.kyoto-u.ac.jp/e_index.html"
+                name: "Condensed Matter Devision",
+                href: "https://www.omu.ac.jp/sci/phys_en/research/condensedmatter.html"
             }
         ],
         ja: [
@@ -117,16 +109,8 @@ export const siteMetadata = {
                 href: "https://www.omu.ac.jp/",
             },
             {
-                name: "物性物理学講座｜物理学専攻/物理学科ホームページ",
+                name: "物性物理学講座",
                 href: "https://www.omu.ac.jp/sci/phys/kouza/condensedmatter.html"
-            },
-            {
-                name: "古賀研究室",
-                href: "http://www.stat.phys.titech.ac.jp/koga/"
-            },
-            {
-                name: "京大凝縮系理論",
-                href: "http://cond.scphys.kyoto-u.ac.jp/"
             }
         ]
     },

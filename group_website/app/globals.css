@@ -51,6 +51,140 @@ https://daisyui.com/theme-generator/ */
   --noise: 0;
 }
 
+/* Upcoming presentation labels: vivid enough to scan, soft enough for body copy. */
+.presentation-badge,
+.activity-badge {
+  --badge-color: var(--color-primary);
+  height: 1.55rem;
+  padding-inline: 0.6rem;
+  border: 1px solid color-mix(in oklab, var(--badge-color) 48%, white);
+  background: color-mix(in oklab, var(--badge-color) 14%, white);
+  color: color-mix(in oklab, var(--badge-color) 78%, black);
+  font-size: 0.7rem;
+  font-weight: 750;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  box-shadow: 0 1px 2px color-mix(in oklab, var(--badge-color) 14%, transparent);
+}
+
+.presentation-badge--invited,
+.activity-badge--award { --badge-color: #b77900; }
+.presentation-badge--oral,
+.activity-badge--talk { --badge-color: #007c72; }
+.presentation-badge--poster,
+.activity-badge--poster { --badge-color: #7451b9; }
+.activity-badge--publication { --badge-color: #288447; }
+.activity-badge--presentation { --badge-color: #007f9a; }
+.activity-badge--invited { --badge-color: #a24b00; }
+.activity-badge--event { --badge-color: #a94f72; }
+
+.activity-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 1.25rem;
+}
+
+.activity-meta > strong {
+  line-height: 1.25rem;
+}
+
+.activity-badge {
+  height: 1.25rem;
+  min-height: 1.25rem;
+  padding-inline: 0.42rem;
+  font-size: 0.6rem;
+  line-height: 1;
+}
+
+.publication-item {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 0.5rem;
+  margin-block: 0 1.35rem;
+}
+
+.publication-number {
+  grid-column: 1;
+}
+
+.publication-body {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.publication-title {
+  font-style: italic;
+}
+
+.publication-title > :first-child,
+.publication-title > :last-child,
+.publication-authors,
+.publication-links,
+.publication-note > :first-child,
+.publication-note > :last-child {
+  margin-block: 0;
+}
+
+.publication-authors {
+  margin-top: 0.04rem;
+}
+
+.publication-links {
+  margin-top: 0;
+}
+
+.publication-note {
+  margin-top: 0.28rem;
+}
+
+.presentation-item {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 0.5rem;
+  margin-block: 0 1.35rem;
+}
+
+.presentation-number {
+  grid-column: 1;
+}
+
+.presentation-body {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.presentation-title,
+.presentation-presenter,
+.presentation-detail > :first-child,
+.presentation-detail > :last-child {
+  margin-block: 0;
+}
+
+.presentation-presenter {
+  margin-top: 0.04rem;
+}
+
+.presentation-detail {
+  margin-top: 0;
+}
+
+/* Keep the presentations layout stable regardless of collapse state. */
+.prose.presentations-page {
+  width: auto;
+  max-width: none;
+}
+
+.presentations-page .collapse {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+.presentations-page .collapse-content {
+  padding-inline: 0;
+}
+
 .katex {
   font-size: 1em !important;
   ;
@@ -444,6 +578,10 @@ https://daisyui.com/theme-generator/ */
     margin-left: auto;
   }
 
+  .lab-header__actions > .lab-language {
+    display: none;
+  }
+
   .lab-menu-button {
     display: grid;
   }
@@ -494,18 +632,6 @@ https://daisyui.com/theme-generator/ */
   font-size: clamp(1.4rem, 3vw, 2rem);
   line-height: 1.25;
   letter-spacing: -0.015em;
-}
-
-.prose > h1:first-child::before,
-.prose > :first-child:not(.not-prose) > h1:first-child::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: min(8rem, 32%);
-  height: 0.22rem;
-  background: var(--color-secondary);
 }
 
 /* 見出し階層: h1はページタイトル、h2は章、h3は章内の小見出し。 */
