@@ -19,7 +19,10 @@ export type PressReleaseEntry = {
         ja: string;
         en: string;
     };
-    figure: string;
+    figure: {
+        ja: string;
+        en: string;
+    };
     introduction: {
         ja: string;
         en: string;
@@ -31,7 +34,11 @@ const publishedPressReleases = pressReleases.filter(
     (item) => item.date.trim().toUpperCase() !== "TBA",
 );
 
-function localizedValue(value: { ja: string; en: string }, lang: string) {
+// function localizedValue(value: { ja: string; en: string }, lang: string) {
+//     return lang === "ja" ? value.ja : value.en;
+// }
+
+function localizedValue<T>(value: { ja: T; en: T }, lang: string): T {
     return lang === "ja" ? value.ja : value.en;
 }
 
@@ -57,7 +64,7 @@ export function TopPageRelease({ lang }: { lang: string }) {
     return (
         <div className="card bg-white shadow-sm sm:card-side">
             <img
-                src={withBasePath(latestRelease.figure)}
+                src={withBasePath(localizedValue(latestRelease.figure, lang))}
                 className="mx-auto w-64 object-contain p-4"
                 alt={localizedValue(latestRelease.title, lang)}
             />
@@ -106,7 +113,7 @@ async function PressReleaseItem({ item, lang }: { item: PressReleaseEntry; lang:
         <article className="card overflow-hidden border border-base-300 bg-white shadow-sm lg:card-side">
             <figure className="bg-base-200 lg:w-72 lg:shrink-0">
                 <img
-                    src={withBasePath(item.figure)}
+                    src={withBasePath(localizedValue(item.figure, lang))}
                     alt={title}
                     className="h-52 w-full object-contain p-4 lg:h-full"
                     loading="lazy"
