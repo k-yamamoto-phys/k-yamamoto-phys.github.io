@@ -1,39 +1,55 @@
 # # 新規追加は、上から順に行うことで順番に整合が取れます。sort_presentation.pyを実行することでsortできます。
 - title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
   presenter: Kazuki Yamamoto and Ryusuke Hamazaki
-  date: '2026-07-14'
+  date: "2026-07-14"
   category: international
   type: invited
   detail: >
     [META 2026](https://metaconferences.org/META26/index.php/META) @ DUBLIN, Ireland, 14-17 July 2026
 
+- title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
+  presenter: Kazuki Yamamoto and Ryusuke Hamazaki
+  date: "2026-09-07"
+  category: international
+  type: poster
+  detail: >
+    [Atomic Quantum Matter](https://atomic-quantum-matter2026.pages.ist.ac.at/) @ ISTA, Austria, September 2026
+
+- title: "Collective excitation and nonequilibrium dynamical phase transitions in dissipative fermionic superfluids in multi-terminal Josephson junctions"
+  presenter: Soma Takemori and Kazuki Yamamoto
+  date: "2026-09-07"
+  category: international
+  type: poster
+  detail: >
+    [Atomic Quantum Matter](https://atomic-quantum-matter2026.pages.ist.ac.at/) @ ISTA, Austria, September 2026
+
 - title: "非エルミート量子多体系における有限サイズスケーリング"
   presenter: 山本 和樹
-  date: '2026-08-31'
+  date: "2026-08-31"
   category: domestic
   type: invited
   detail: >
     [非エルミート重力物理学ワークショップ](https://indico.rcnp.osaka-u.ac.jp/event/2883/) @ 東京都立大学, 2026年8月
-  
+
 - title: "Effects of complex interaction between polarons and localization phenomena"
   presenter: Kyoka Tsunoda, Kazuki Yamamoto and Shimpei Endo
-  date: '2026-09-01'
-  category: international 
+  date: "2026-09-01"
+  category: international
   type: poster
   detail: >
     [Localisation 2026](https://www.2026.localisation.cloud/) @ Kyoto Univ., September 2026
 
 - title: "Fluctuation of local particle numbers in quasiperiodic systems under continuous measurement"
   presenter: Toranosuke Matsubara and Kazuki Yamamoto
-  date: '2026-09-01'
-  category: international 
+  date: "2026-09-01"
+  category: international
   type: poster
   detail: >
     [Localisation 2026](https://www.2026.localisation.cloud/) @ Kyoto Univ., September 2026
 
 - title: "周期駆動下の超伝導体の量子マスター方程式による解析"
   presenter: 重冨友汰，中川大也，山本和樹，白石航暉，吉田恒也
-  date: '2026-09-14'
+  date: "2026-09-14"
   category: domestic
   type: oral
   detail: >
@@ -41,7 +57,7 @@
 
 - title: "連続測定下の多体系における異常待機時間分布"
   presenter: 山本 和樹、濱崎立資
-  date: '2026-09-14'
+  date: "2026-09-14"
   category: domestic
   type: oral
   detail: >
@@ -49,47 +65,55 @@
 
 - title: "準周期系における測定誘起の⾮⼀様空間分布とクロスオーバー"
   presenter: 松原 ⻁之介、⼭本和樹
-  date: '2026-09-14'
+  date: "2026-09-14"
   category: domestic
   type: oral
   detail: >
     [日本物理学会第81回年次大会](https://www.jps.or.jp/activities/meetings/annual/annual-index.php) @ 東京大学, 2026年9月
 
+- title: "Nonequilibrium dynamical phase transitions of dissipative fermionic superfluids in Josephson junctions"
+  presenter: Soma Takemori and Kazuki Yamamoto
+  date: "2026-09-30"
+  category: international
+  type: poster
+  detail: >
+    [SCES 2026](https://smartconf.jp/content/sces2026) @ Toyama International Conference Center, September 2026
+
 - title: "Quantum Master Equations for Driven-Dissipative Superconductors"
   presenter: Yuta Shigedomi, Masaya Nakagawa, Kazuki Yamamoto, Koki Shiraishi and Tsuneya Yoshida
-  date: '2026-09-28'
-  category: international 
+  date: "2026-09-28"
+  category: international
   type: poster
   detail: >
     [SCES 2026](https://smartconf.jp/content/sces2026) @ Toyama International Conference Center, September 2026
 
 - title: "Fluctuation of local particle numbers in quasiperiodic systems under continuous measurement"
   presenter: Toranosuke Matsubara and Kazuki Yamamoto
-  date: '2026-09-28'
-  category: international 
+  date: "2026-09-28"
+  category: international
   type: poster
   detail: >
     [SCES 2026](https://smartconf.jp/content/sces2026) @ Toyama International Conference Center, September 2026
 
 - title: "Exceptional fermionic superfluidity with spin-dependent asymmetric hopping"
   presenter: Soma Takemori, Kazuki Yamamoto and Akihisa Koga
-  date: '2026-09-28'
-  category: international 
+  date: "2026-09-29"
+  category: international
   type: poster
   detail: >
     [SCES 2026](https://smartconf.jp/content/sces2026) @ Toyama International Conference Center, September 2026
 
 - title: "Itinerant ferromagnetism in an SU(N) Fermi-Hubbard model"
   presenter: Juntaro Fujii, Kazuki Yamamoto and Akihisa Koga
-  date: '2026-09-28'
-  category: international 
+  date: "2026-09-28"
+  category: international
   type: poster
   detail: >
     [SCES 2026](https://smartconf.jp/content/sces2026) @ Toyama International Conference Center, September 2026
 
 - title: "TBA"
   presenter: 山本 和樹
-  date: '2026-11-16'
+  date: "2026-11-16"
   category: domestic
   type: invited
   detail: >
