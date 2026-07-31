@@ -33,7 +33,7 @@ export const siteMetadata = {
     Footer: {
         copyrightName: "Kazuki Yamamoto",
         en: {
-            description: "Theoretical physicist working on nonequilibrium quantum many-body systems.",
+            description: "Theoretical physicist working on nonequilibrium quantum many-body systems",
             navigationLabel: "Explore",
             navigationAriaLabel: "Footer navigation",
             featuredNavigation: ["/", "/research", "/publications", "/cv"],
@@ -42,7 +42,7 @@ export const siteMetadata = {
             universityName: "Osaka Metropolitan University"
         },
         ja: {
-            description: "非平衡量子多体系を研究する理論物理学者です。",
+            description: "非平衡量子多体系を理論的に研究しています",
             navigationLabel: "サイト案内",
             navigationAriaLabel: "フッターナビゲーション",
             featuredNavigation: ["/ja/", "/ja/research", "/ja/publications", "/ja/cv"],

@@ -3,8 +3,8 @@
     en: Novel Many-Body Measurement-Induced Universality
   date: 2026-07-27 # TBAの場合は表示されないようになる。
   from:
-    ja: 大阪公立大 / 理化学研究所
-    en: Osaka Metropolitan Univ. / Riken
+    ja: 大阪公立大学 / 理化学研究所
+    en: Osaka Metropolitan University / RIKEN
   url:
     ja: https://www.omu.ac.jp/info/research_news/entry-25211.html
     en: https://www.omu.ac.jp/info/research_news/entry-25211.html
@@ -13,9 +13,9 @@
     en: /images/press_releases/PressReleasePicture_en.png
   introduction: 
     ja: |
-      近年、量子情報や AMO 物理、統計物理などの幅広い分野において、観測の反作用によって誘起されたダイナミクスの研究が盛んに行われており、観測誘起エンタングルメント相転移などの新奇な相転移が報告されています。我々は、量子スピン系で測定結果の揺らぎのダイナミクスを理論的に追いかけることで、全系のダイナミクスは自明であるにもかかわらず、内部系の揺らぎには、測定に誘起された非自明な多体効果が現れることを明らかにしました。また、これが典型的な量子多体スピン模型においてパラメータによらず現れることを示し、新たな普遍性の存在を示唆する結果を得ました。特に、測定結果の揺らぎはポストセレクションが不要であり、実験的に極めて低コストで実現可能なことも示しました。（Image: Issei Takahashi）
+      近年、量子情報や AMO 物理、統計物理などの幅広い分野において、観測の反作用によって誘起されたダイナミクスの研究が盛んに行われており、観測誘起エンタングルメント相転移などの新奇な現象が報告されています。我々は、量子スピン系で測定結果の揺らぎのダイナミクスを理論的に追いかけることで、全系のダイナミクスは自明であるにもかかわらず、内部系の揺らぎには、測定に誘起された非自明な多体効果が現れることを明らかにしました。また、これが典型的な量子多体スピン模型においてパラメータによらず現れることを示し、新たな普遍性の存在を示唆する結果を得ました。特に、測定結果の揺らぎはポストセレクションが不要であり、実験的に低コストで実現可能なことも示しました。
     en: |
-      In recent years, quantum dynamics induced by the backaction of measurements has attracted growing interest across several fields, including quantum information, AMO physics, and statistical physics. In particular, novel phase transitions such as measurement-induced entanglement phase transitions have been actively explored. We demonstrated that, although the fluctuation for the whole system are trivial, nontrivial measurement-induced many-body effects emerge in subsystem fluctuations. We further show that this behavior appears independently of model parameters in typical quantum many-body spin models, suggesting the existence of a new universality. Notably, fluctuations of measurement outcomes do not require postselection, making them experimentally accessible at very low cost. （Image: Issei Takahashi）
+      In recent years, quantum phenomena induced by measurements such as entanglement transitions have attracted growing interest across several fields, including quantum information science, AMO physics, and statistical physics. We have demonstrated that, although the fluctuation for the whole system are trivial, nontrivial measurement-induced many-body effects emerge in subsystem fluctuations. We have further shown that this behavior appears independently of model parameters in typical quantum many-body spin models, suggesting the existence of a novel universality. Notably, fluctuations of measurement outcomes do not require postselection, making them experimentally accessible at very low cost.
 - title: 
     ja: 非エルミート系での例外点と強相関物理の融合
     en: Discovery of a new superfluid phase in non-Hermitian quantum systems
