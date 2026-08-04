@@ -17,14 +17,29 @@
   label: invited talk
   content:
     ja: >
-      山本講師が[非エルミート重力物理学ワークショップ](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - 東京都立大学 で招待講演を行います。
+      山本講師が[非エルミート重力物理学ワークショップ](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - 東京都立大学 で招待講演を行います
     en: >
       Prof. Yamamoto is going to give an invited talk in [Workshop on non-Hermitian gravitational physics](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - Tokyo Metropolitan University, Japan
+- date: "2026-08-01"
+  label: event
+  content:
+    ja: >
+      山本講師が [Communications Physics 誌](https://www.nature.com/commsphys/) の Editorial Board Member に加わりました
+    en: >
+      Prof. Yamamoto has joined the Editorial Board Member in [Communications Physics](https://www.nature.com/commsphys/)
+- date: "2026-07-30"
+  label: publication
+  content:
+    ja: >
+      原著論文 "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions" が [Physical Review B 誌](https://doi.org/10.1103/r9gx-gy1s)
+      に受理されました
+    en: >
+      Original paper "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions" has been accepted for publication in [Physical Review B](https://doi.org/10.1103/r9gx-gy1s)
 - date: "2026-07-29"
   label: publication
   content:
     ja: >
-      原著論文 "Complex nonlinear sigma model" が [Physical Review B 誌](https://doi.org/10.1103/dmvx-zg1v) に受理されました。
+      原著論文 "Complex nonlinear sigma model" が [Physical Review B 誌](https://doi.org/10.1103/dmvx-zg1v) に受理されました
     en: >
       Original paper "Complex nonlinear sigma model" has been accepted for publication in [Physical Review B](https://doi.org/10.1103/dmvx-zg1v)
 - date: "2026-07-28"
@@ -40,7 +55,7 @@
   content:
     ja: >
       原著論文 Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free
-      Many-Body Dynamics が [Physical Review Letters 誌](https://doi.org/10.1103/wv5b-r6sb)に出版されました。
+      Many-Body Dynamics が [Physical Review Letters 誌](https://doi.org/10.1103/wv5b-r6sb)に出版されました
     en: >
       Original paper "Measurement-Induced Crossover of Quantum Jump Statistics
       in Postselection-Free Many-Body Dynamics" has been published in [Physical Review Letters](https://doi.org/10.1103/wv5b-r6sb)
@@ -53,62 +68,53 @@
     en: >
       Original paper "Kondo breakdown induced by non-Hermitian complex hybridization" has been published in [Physical
       Review B](https://journals.aps.org/prb/abstract/10.1103/w6zs-kb6m)
-
 - date: "2026-07-09"
   label: event
   content:
     ja: >
-      共同研究者の鄭 従真さん（大阪大D3）が研究室に来訪しました。
+      共同研究者の鄭 従真さん（大阪大D3）が研究室に来訪しました
     en: >
-      Our collaborator, Jushin tei, visited in our laboratory.
+      Our collaborator, Jushin tei, visited in our laboratory
 - date: [2026-07-06, 2026-7-17]
   label: event
   content:
     ja: >
-      研究協力者の松原虎之介さん、竹森颯真さん、藤井淳太朗さん（東京科学大）が研究室に滞在しました。
+      研究協力者の松原虎之介さん、竹森颯真さん、藤井淳太朗さん（東京科学大）が研究室に滞在しました
     en: >
-      Our research collaborator, Toranosuke Matsubara, Soma Takemori, and Juntaro Fujii stayed in our laboratory.
+      Our research collaborator, Toranosuke Matsubara, Soma Takemori, and Juntaro Fujii stayed in our laboratory
 - date: "2026-07-04"
   label: publication
   content:
     ja: >
       原著論文 "Measurement-induced spatially nonuniform fluctuations of the local particle number and their crossover in a quasiperiodic free-fermion chain" を [arXiv](https://arxiv.org/abs/2607.03799)
-      に投稿しました 。
+      に投稿しました
     en: >
       Original paper "Measurement-induced spatially nonuniform fluctuations of the local particle number and their crossover in a quasiperiodic free-fermion chain" has appeared on [arXiv](https://arxiv.org/abs/2607.03799)
 - date: "2026-05-13"
   label: award
   content:
     ja: >
-      山本講師が[第39回 安藤博記念学術奨励賞](https://www.ando-lab.or.jp/index.html)を受賞しました。
+      山本講師が[第39回 安藤博記念学術奨励賞](https://www.ando-lab.or.jp/index.html)を受賞しました
     en: >
       Prof. Kazuki Yamamoto has received [39th Ando Incentive Prize for the Study of Electronics](https://www.ando-lab.or.jp/index.html)
 - date: [2026-05-25, 2026-06-05]
   label: event
   content:
     ja: >
-      研究協力者の松原虎之介さん、竹森颯真さん、藤井淳太朗さん（東京科学大）が研究室に滞在しました。
+      研究協力者の松原虎之介さん、竹森颯真さん、藤井淳太朗さん（東京科学大）が研究室に滞在しました
     en: >
-      Our research collaborator, Toranosuke Matsubara, Soma Takemori, and Juntaro Fujii stayed in our laboratory.
-- date: "2026-04-02"
-  label: publication
-  content:
-    ja: >
-      原著論文 "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions" を [arXiv](https://arxiv.org/abs/2604.00574)
-      に投稿しました 。
-    en: >
-      Original paper "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions" has appeared on [arXiv](https://arxiv.org/abs/2604.00574)
+      Our research collaborator, Toranosuke Matsubara, Soma Takemori, and Juntaro Fujii stayed in our laboratory
 - date: "2026-04-01"
   label: event
   content:
     ja: >
-      新4回生の小森麟太郎さん、辻利将さんがメンバーに加わりました。
+      新4回生の小森麟太郎さん、辻利将さんがメンバーに加わりました
     en: >
-      Rintaro Komori and Toshimasa Tsuji have joined as an undergraduate student.
+      Rintaro Komori and Toshimasa Tsuji have joined as an undergraduate student
 - date: "2026-04-01"
   label: other
   content:
     ja: >
-      山本講師が大阪公立大学理学研究科に着任して研究室([非平衡量子多体物性理論](https://www.omu.ac.jp/sci/phys/kouza/condensedmatter.html))を立ち上げました。
+      山本講師が大阪公立大学理学研究科に着任して研究室([非平衡量子多体物性理論](https://www.omu.ac.jp/sci/phys/kouza/condensedmatter.html))を立ち上げました
     en: >
-      Prof. Kazuki Yamamoto has started a new group in [Osaka Metropolitan University](https://www.omu.ac.jp/sci/phys_en/research/condensedmatter.html).
+      Prof. Kazuki Yamamoto has started a new group in [Osaka Metropolitan University](https://www.omu.ac.jp/sci/phys_en/research/condensedmatter.html)
