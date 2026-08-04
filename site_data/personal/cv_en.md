@@ -120,7 +120,10 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 
 ---
 
-## Conference Organizing and External Programs
+## Conference Organizing and External Activities
+
+- **Aug. 2026 –**  
+  Editorial Board Member, [Communications Physics](https://www.nature.com/commsphys/)
 
 - **Jul. 2024 –**  
   Organizing Committee, [Workshop on Ultracold Atoms](https://www.omu.ac.jp/sci/laserQ/atomnokai/)

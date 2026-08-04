@@ -120,6 +120,7 @@
 
 ## 外部活動・参画プログラム・会議世話人
 
+- **Aug. 2026 -**　[Communications Physics 誌](https://www.nature.com/commsphys/) Editorial Board Member 
 - **Jul. 2024 -**　[冷却原子研究会「アトムの会」](https://www.omu.ac.jp/sci/laserQ/atomnokai/)世話人  
 - **Sep. 2023**　[第78回日本物理学会年次大会](https://onsite.gakkai-web.net/jps/jps_search/2023au/index.html) 座長 (領域11)  
 - **2023 - 2025**　[学術変革領域研究A「極限宇宙の法則を創る」](https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/) B02班 研究協力者  
