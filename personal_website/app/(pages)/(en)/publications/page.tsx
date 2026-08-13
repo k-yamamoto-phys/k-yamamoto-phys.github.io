@@ -85,7 +85,7 @@ export default async function Page() {
             <h2>Others</h2>
             <ul className="list-none">
                 <li><a href="https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/283521" rel="noopener noreferrer" target="_blank">Doctoral dissertation</a></li>
-                <li>Master thesis (links can be requested)</li>
+                <li>Master thesis</li>
             </ul>
         </div>
     );

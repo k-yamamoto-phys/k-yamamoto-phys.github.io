@@ -85,7 +85,7 @@ export default async function Page() {
             <h2>その他</h2>
             <ul className="list-none">
                 <li><a href="https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/283521" rel="noopener noreferrer" target="_blank">博士論文</a></li>
-                <li>修士論文 (リンクはリクエスト可能)</li>
+                <li>修士論文</li>
             </ul>
         </div>
     );
