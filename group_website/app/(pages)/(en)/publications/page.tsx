@@ -60,16 +60,25 @@ export default async function Page() {
                     </React.Fragment>))
             }
 
-            {conference_paper?.length  && <h2>Conference Proceedings</h2>}
-            <ul className="list-none">
-                {(conference_paper ?? []).map((paper, index, array) => (
-                    <PaperItem
-                        key={index}
-                        paper={paper}
-                        number={array.length - index}
-                    />
-                ))}
-            </ul>
+            {conference_paper.length > 0 && (
+                <>
+                    <h2>Conference Proceedings</h2>
+                    <ul className="list-none">
+                        {conference_paper.map((paper, index, array) => (
+                            <PaperItem
+                                key={index}
+                                paper={paper}
+                                number={array.length - index}
+                            />
+                        ))}
+                    </ul>
+                </>
+            )}
+            <p>
+                <a href="https://k-yamamoto-phys.github.io/publications">
+                    Publications from FY2025 and earlier
+                </a>
+            </p>
         </div>
     );
 }

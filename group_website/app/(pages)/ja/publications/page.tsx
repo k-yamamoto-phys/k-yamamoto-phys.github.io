@@ -59,16 +59,20 @@ export default async function Page() {
                     </ul>
                     </React.Fragment>))
             }
-            <h2>会議録</h2>
-            <ul className="list-none">
-    {(conference_paper ?? []).map((paper, index, array) => (
-        <PaperItem
-            key={index}
-            paper={paper}
-            number={array.length - index}
-        />
-    ))}
-</ul>
+            {conference_paper.length > 0 && (
+                <>
+                    <h2>会議録</h2>
+                    <ul className="list-none">
+                        {conference_paper.map((paper, index, array) => (
+                            <PaperItem
+                                key={index}
+                                paper={paper}
+                                number={array.length - index}
+                            />
+                        ))}
+                    </ul>
+                </>
+            )}
             <p>
                 <a href="https://k-yamamoto-phys.github.io/ja/publications">
                     2025年度以前の出版物はこちら
