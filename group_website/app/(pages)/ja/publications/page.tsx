@@ -69,6 +69,11 @@ export default async function Page() {
         />
     ))}
 </ul>
+            <p>
+                <a href="https://k-yamamoto-phys.github.io/ja/publications">
+                    2025年度以前の出版物はこちら
+                </a>
+            </p>
         </div>
     );
 }
