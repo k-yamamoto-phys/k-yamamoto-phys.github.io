@@ -4,14 +4,6 @@
   arXiv: 2607.03799
   year: 2026
   journal: null
-- title: "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions"
-  authors: Soma Takemori and Kazuki Yamamoto
-  note: null
-  arXiv: 2604.00574
-  year: 2026
-  journal:
-    name: Phys. Rev. B 114, 084508 (2026)
-    url: https://doi.org/10.1103/r9gx-gy1s
 - title: "Complex nonlinear sigma model"
   authors: Kazuki Yamamoto and Kohei Kawabata
   note: Editor's Suggestion
@@ -20,6 +12,14 @@
   journal: 
     name: Phys. Rev. B 114, 115112 (2026)
     url: https://doi.org/10.1103/dmvx-zg1v
+- title: "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions"
+  authors: Soma Takemori and Kazuki Yamamoto
+  note: null
+  arXiv: 2604.00574
+  year: 2026
+  journal:
+    name: Phys. Rev. B 114, 084508 (2026)
+    url: https://doi.org/10.1103/r9gx-gy1s
 - title: "Anomalous waiting-time distributions in postselection-free quantum many-body dynamics under continuous monitoring"
   authors: Kazuki Yamamoto and Ryusuke Hamazaki
   note: Open Access
