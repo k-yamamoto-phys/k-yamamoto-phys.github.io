@@ -33,7 +33,7 @@ export default async function Page() {
         }, {} as Record<string | number, Paper[]>)
     ).sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
         .map(([year, data]) => ({ year, data }));
-    const conference_paper = conference_data as Paper[];
+    const conference_paper = (conference_data ?? []) as Paper[];
     return (
         <div className="m-2 p-2 prose">
             <h1>出版物</h1>
