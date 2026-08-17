@@ -5,6 +5,13 @@
       [非エルミート重力物理学ワークショップ](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - 東京都立大学 で招待講演を行います。
     en: >
       I am going to give an invited talk in [Workshop on non-Hermitian gravitational physics](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - Tokyo Metropolitan University, Japan
+- date: "2026-08-17"
+  label: publication
+  content:
+    ja: >
+      原著論文 "Complex nonlinear sigma model" が [Physical Review B 誌](https://doi.org/10.1103/dmvx-zg1v) に出版され，[Editor's Suggestion](https://journals.aps.org/prb/highlights) に選ばれました
+    en: >
+      Original paper "Complex nonlinear sigma model" has been published in [Physical Review B](https://doi.org/10.1103/dmvx-zg1v) and selected for [Edtitor's Suggestion](https://journals.aps.org/prb/highlights)
 - date: "2026-08-01"
   label: event
   content:
@@ -20,13 +27,6 @@
       に受理されました
     en: >
       Original paper "Nonequilibrium phase transition of dissipative fermionic superfluids: Case study of multi-terminal Josephson junctions" has been accepted for publication in [Physical Review B](https://doi.org/10.1103/r9gx-gy1s)
-- date: "2026-07-29"
-  label: publication
-  content:
-    ja: >
-      原著論文 "Complex nonlinear sigma model" が [Physical Review B 誌](https://doi.org/10.1103/dmvx-zg1v) に受理されました。
-    en: >
-      Original paper "Complex nonlinear sigma model" has been accepted for publication in [Physical Review B](https://doi.org/10.1103/dmvx-zg1v)
 - date: "2026-07-28"
   label: publication
   content:
