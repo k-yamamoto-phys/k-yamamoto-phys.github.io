@@ -75,7 +75,7 @@ export default async function Page() {
             )}
             <p>
                 <a href="https://k-yamamoto-phys.github.io/ja/publications">
-                    2025年度以前の出版物はこちら
+                    2026年度より前の出版物はこちら
                 </a>
             </p>
         </div>
