@@ -50,7 +50,7 @@
 ## 受賞
 
 - **2026年9月3日**  
-  [2026年度大阪公立大学若手研究者奨励賞(基礎科学部門)並びに南部陽一郎記念若手奨励賞](https://www.omu.ac.jp/research/promotion/measures/award-y/), 大阪公立大学  
+  [2026年度大阪公立大学若手研究者奨励賞(基礎科学部門)・南部陽一郎記念若手奨励賞](https://www.omu.ac.jp/research/promotion/measures/award-y/), 大阪公立大学  
 (受賞題目: 非平衡開放系における超伝導基礎理論の構築)
 
 - **2026年6月27日**  
