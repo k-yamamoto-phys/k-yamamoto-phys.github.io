@@ -52,7 +52,7 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 ## Awards
 
 - **Sep. 3, 2026**  
-  [Osaka Metropolitan University Young Researcher Encouragement Award and Yoichiro Nambu Memorial Young Researcher Encouragement Award](https://www.omu.ac.jp/research/promotion/measures/award-y/), Osaka Metropolitan University
+  [Osaka Metropolitan University Young Researcher Encouragement Award and Yoichiro Nambu Memorial Young Researcher Encouragement Award](https://www.omu.ac.jp/research/promotion/measures/award-y/), Osaka Metropolitan University  
   (Title: Theoretical study on superconductivity in nonequilibrium open systems)
 
 - **Jun. 27, 2026**  
