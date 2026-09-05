@@ -51,6 +51,10 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 
 ## Awards
 
+- **Sep. 3, 2026**  
+  [Osaka Metropolitan University Young Researcher Encouragement Award and Yoichiro Nambu Memorial Young Researcher Encouragement Award](https://www.omu.ac.jp/research/promotion/measures/award-y/), Osaka Metropolitan University
+  (Title: Theoretical study on superconductivity in nonequilibrium open systems)
+
 - **Jun. 27, 2026**  
   [39th Ando Incentive Prize for the Study of Electronics](https://www.ando-lab.or.jp/index.html), The Foundation of Ando Laboratory ([News](https://www.omu.ac.jp/sci/phys/info/news1/entry-112018.html))  
   (Title: Exploring superconductivity in nonequilibrium open systems)

@@ -49,6 +49,10 @@
 
 ## 受賞
 
+- **2026年9月3日**  
+  [2026年度大阪公立大学若手研究者奨励賞(基礎科学部門)並びに南部陽一郎記念若手奨励賞](https://www.omu.ac.jp/research/promotion/measures/award-y/), 大阪公立大学  
+(受賞題目: 非平衡開放系における超伝導基礎理論の構築)
+
 - **2026年6月27日**  
   [第39回 安藤博記念学術奨励賞](https://www.ando-lab.or.jp/index.html), 一般財団法人安藤研究所 ([日刊工業新聞](https://www.nikkan.co.jp/articles/view/00781156), [物理学専攻ニュース](https://www.omu.ac.jp/sci/phys/info/news1/entry-112018.html))  
 (受賞題目: 非平衡開放系における超伝導の開拓)
