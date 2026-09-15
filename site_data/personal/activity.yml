@@ -1,3 +1,10 @@
+- date: "2026-09-15"
+  label: award
+  content:
+    ja: >
+      [マツダ研究助成奨励賞](https://mzaidan.mazda.co.jp/index.html) を受賞しました
+    en: >
+      I have received [Mazda Research Grant Encouragement Award](https://mzaidan.mazda.co.jp/index.html)
 - date: "2026-09-03"
   label: award
   content:
@@ -9,9 +16,9 @@
   label: invited talk
   content:
     ja: >
-      [非エルミート重力物理学ワークショップ](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - 東京都立大学 で招待講演を行います。
+      [非エルミート重力物理学ワークショップ](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - 東京都立大学 で招待講演を行いました。
     en: >
-      I am going to give an invited talk in [Workshop on non-Hermitian gravitational physics](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - Tokyo Metropolitan University, Japan
+      I have given an invited talk in [Workshop on non-Hermitian gravitational physics](https://indico.rcnp.osaka-u.ac.jp/event/2883/) - Tokyo Metropolitan University, Japan
 - date: "2026-08-18"
   label: publication
   content:

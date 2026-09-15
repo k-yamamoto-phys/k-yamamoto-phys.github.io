@@ -51,6 +51,10 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 
 ## Awards
 
+- **Sep. 15, 2026**  
+  [Mazda Research Grant Encouragement Award](https://mzaidan.mazda.co.jp/index.html), Mazda Foundation  
+  (Title: Toward Innovative Information-Transfer Technologies with Quantum Computers: Nonequilibrium-Physics-Based Understanding and Exploration of Functionality)
+
 - **Sep. 3, 2026**  
   [Osaka Metropolitan University Young Researcher Encouragement Award and Yoichiro Nambu Memorial Young Researcher Encouragement Award](https://www.omu.ac.jp/research/promotion/measures/award-y/), Osaka Metropolitan University  
   (Title: Theoretical study on superconductivity in nonequilibrium open systems)

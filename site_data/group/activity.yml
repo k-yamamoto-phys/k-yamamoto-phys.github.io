@@ -13,6 +13,13 @@
 #       hogehoge san invited talk
 #     en: >
 #       hogehoge san invited talk
+- date: "2026-09-15"
+  label: award
+  content:
+    ja: >
+      山本講師が [マツダ研究助成奨励賞](https://mzaidan.mazda.co.jp/index.html) を受賞しました
+    en: >
+      Prof. Yamamoto has received [Mazda Research Grant Encouragement Award](https://mzaidan.mazda.co.jp/index.html)
 - date: "2026-09-03"
   label: award
   content:
