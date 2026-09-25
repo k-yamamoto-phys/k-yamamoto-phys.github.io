@@ -1,7 +1,11 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { convertMarkdownToHtml, convertMarkdownToHtmlWithSectionize } from "./markdown";
 
 describe("convertMarkdownToHtml", () => {
+    afterEach(() => {
+        vi.unstubAllEnvs();
+    });
+
     it("decorates h3 headings with the expected classes", async () => {
         const html = await convertMarkdownToHtml("### Heading");
         expect(html).toContain('class="my-2 p-1 border-l-4 border-primary pl-2"');
@@ -20,6 +24,13 @@ describe("convertMarkdownToHtml", () => {
         );
         expect(html).toContain('class="w-full h-auto mb-0"');
         expect(html).toMatch(/<p>Caption<\/p>/);
+    });
+
+    it("renders relative image paths below the configured base path", async () => {
+        vi.stubEnv("NEXT_PUBLIC_GROUP_BASE_PATH", "/group");
+        const html = await convertMarkdownToHtml("![Poster](images/presentations/poster.jpg)");
+
+        expect(html).toContain('src="/group/images/presentations/poster.jpg"');
     });
 
     it("renders math in image captions using KaTeX", async () => {
