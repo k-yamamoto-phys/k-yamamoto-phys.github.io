@@ -4,6 +4,7 @@ import "katex/dist/katex.min.css";
 import "@/app/globals.css";
 import  NavBar from "./ui/client/header";
 import Footer from "./ui/client/footer";
+import SiteMessage from "./ui/server/siteMessage";
 import { Provider } from 'jotai'
 // import { Noto_Sans_JP, Hind} from 'next/font/google'
 // const note_sans_jp = Noto_Sans_JP({
@@ -28,6 +29,7 @@ export default function RootLayout({
       <ClientHead/>
       <body className="flex min-h-screen flex-col items-stretch">
         <NavBar />
+        <SiteMessage />
 
         {children}
         <Footer />

@@ -311,3 +311,21 @@ https://daisyui.com/theme-generator/ */
     transition: none;
   }
 }
+
+/* 全ページ共通のお知らせ。テーマに依存しない読みやすい配色。 */
+.site-message {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  overflow-wrap: anywhere;
+}
+.site-message--info { background: #dcfce7; color: #14532d; }
+.site-message--warning { background: #fee2e2; color: #7f1d1d; }
+.site-message__content { max-width: 80rem; margin-inline: auto; line-height: 1.65; }
+.site-message__content > * + * { margin-top: 0.5rem; }
+.site-message__content a { color: inherit; text-decoration: underline; text-underline-offset: 0.15em; }
+.site-message__content a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.site-message__content :is(h1, h2, h3, h4, h5, h6) { font-size: 1em; font-weight: 700; }
+.site-message__content ul { padding-left: 1.5rem; list-style: disc; }
+.site-message__content ol { padding-left: 1.5rem; list-style: decimal; }
+.site-message__content pre { overflow-x: auto; }
+.site-message__content blockquote { border-left: 3px solid currentColor; padding-left: 0.75rem; }

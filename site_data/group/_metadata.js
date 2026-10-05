@@ -8,6 +8,16 @@ function normalizePublicURL(value) {
 const publicURL = normalizePublicURL(process.env.NEXT_PUBLIC_GROUP_PUBLIC_URL ?? DEFAULT_PUBLIC_URL);
 
 export const siteMetadata = {
+    // 全ページのヘッダー直下に表示。空文字の場合は非表示。
+    // type: "info"（緑）または "warning"（赤）。text は Markdown。
+    // 例: ja: "**お知らせ**: [詳細はこちら](/ja/research)"
+    SiteMessage: {
+        type: "warning",
+        text: {
+            ja: "[**大阪公立大学基盤システムの障害**](https://e.omu.ac.jp/announce/1.html)により，メール・ネットワークを含む全てのシステムがダウンしています(緊急連絡先: oyakatamaron[atmark]gmail.com (個人メール)) &#x20;",
+            en: "OMU core system is down, including emails and networks (Emergency contact: oyakatamaron[atmark]gmail.com (Personal email))"
+        }
+    },
     publicURL,
     name: {
         en: "Kazuki Yamamoto",
