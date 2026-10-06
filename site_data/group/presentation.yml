@@ -26,7 +26,7 @@
 
 - title: "量⼦開放系の⾮平衡強相関現象の解明と深化: ⽣物と物理の学際融合科学の開拓"
   presenter: 山本 和樹
-  date: '2026-09-01'
+  date: "2026-09-01"
   category: seminar
   type: poster
   detail: >
@@ -127,3 +127,11 @@
   type: invited
   detail: >
     [非平衡固体物性の最前線2026](https://sites.google.com/view/frontiers-of-nonequilibrium26) @ 大阪大学, 2026年11月
+
+- title: "Exceptional fermionic superfluidity with spin-dependent nonreciprocity"
+  presenter: Kazuki Yamamoto
+  date: "2026-11-23"
+  category: international
+  type: invited
+  detail: >
+    [International workshop „Atomic Physics" with focus on ``Quantum Correlations in Molecular Systems"](https://www.pks.mpg.de/atom26) @ Max Planck Institute for the Physics of Complex Systems (MPIPKS), Dresden, November 2026
