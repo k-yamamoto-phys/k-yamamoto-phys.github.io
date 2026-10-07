@@ -22,7 +22,7 @@ export const siteMetadata = {
     SiteMessage: {
         type: "warning",
         text: {
-            ja: "[**大阪公立大学基盤システムの障害**](https://e.omu.ac.jp/announce/1.html)により，メール・ネットワークを含む全てのシステムがダウンしています(緊急連絡先: oyakatamaron[atmark]gmail.com (個人メール)) &#x20;",
+            ja: "[**大阪公立大学基盤システムの障害**](https://e.omu.ac.jp/)により，メール・ネットワークを含む全てのシステムがダウンしています(緊急連絡先: oyakatamaron[atmark]gmail.com (個人メール)) &#x20;",
             en: "OMU core system is down, including emails and networks (Emergency contact: oyakatamaron[atmark]gmail.com (Personal email))"
         }
     },
