@@ -13,13 +13,13 @@
 #       hogehoge san invited talk
 #     en: >
 #       hogehoge san invited talk
-- date: [2026-10-02, 2026-10-08]
-  label: event
+- date: "2026-10-08"
+  label: award
   content:
     ja: >
-      [大阪公立大学基盤システムの障害](https://e.omu.ac.jp/)により，メール・ネットワークを含む全てのシステムがダウンしています(緊急連絡先: oyakatamaron[atmark]gmail.com (山本講師個人メール))
+      山本講師が [2026年度エヌエフ基金研究開発奨励賞](https://nf-foundation.or.jp/award/outline.html) を受賞しました
     en: >
-      OMU core system is down, including emails and networks (Emergency contact: oyakatamaron[atmark]gmail.com (Personal email of Prof. Yamamoto))
+      Prof. Yamamoto has received [NF Foundation R&D Encouragement Award](https://nf-foundation.or.jp/award/outline.html)
 - date: "2026-09-15"
   label: award
   content:
