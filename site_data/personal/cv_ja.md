@@ -49,7 +49,7 @@
 
 ## 受賞
 - **2026年10月8日**  
-  [第15回 エヌエフ基金研究開発奨励賞](https://nf-foundation.or.jp/award/outline.html)，一般財団法人エヌエフ基金 
+  [第15回 エヌエフ基金研究開発奨励賞](https://nf-foundation.or.jp/award/outline.html)，一般財団法人エヌエフ基金  
 (受賞題目: 非平衡開放系における超伝導の機能開拓)
 
 - **2026年9月15日**  
