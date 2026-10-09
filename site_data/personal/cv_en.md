@@ -52,7 +52,7 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 ## Awards
 
 - **Oct. 8, 2026**  
-  [NF Foundation R&D Encouragement Award](https://nf-foundation.or.jp/award/outline.html), NF Foundation  
+  [15th NF Foundation R&D Encouragement Award](https://nf-foundation.or.jp/award/outline.html), NF Foundation  
   (Title: Exploring Novel Functionalities of Superconductivity in Nonequilibrium Open Systems)
 
 - **Sep. 15, 2026**  
