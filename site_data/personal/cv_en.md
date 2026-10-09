@@ -51,6 +51,10 @@ Moved to Germany → Okayama → Hokkaido → Kyoto → Tokyo → Osaka
 
 ## Awards
 
+- **Oct. 8, 2026**  
+  [NF Foundation R&D Encouragement Award](https://nf-foundation.or.jp/award/outline.html), NF Foundation  
+  (Title: Exploring Novel Functionalities of Superconductivity in Nonequilibrium Open Systems)
+
 - **Sep. 15, 2026**  
   [Mazda Research Grant Encouragement Award](https://mzaidan.mazda.co.jp/index.html), Mazda Foundation  
   (Title: Toward Innovative Information-Transfer Technologies with Quantum Computers: Nonequilibrium-Physics-Based Understanding and Exploration of Functionality)
