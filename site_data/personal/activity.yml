@@ -1,8 +1,15 @@
+- date: "2026-11-23"
+  label: invited talk
+  content:
+    ja: >
+      [Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden で招待講演を行います
+    en: >
+      I am going to give an invited talk in [Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden
 - date: "2026-10-08"
   label: award
   content:
     ja: >
-      [2026年度エヌエフ基金研究開発奨励賞](https://nf-foundation.or.jp/award/outline.html) を受賞しました
+      [第15回エヌエフ基金研究開発奨励賞](https://nf-foundation.or.jp/award/outline.html) を受賞しました
     en: >
       I have received [NF Foundation R&D Encouragement Award](https://nf-foundation.or.jp/award/outline.html)
 - date: "2026-09-15"
