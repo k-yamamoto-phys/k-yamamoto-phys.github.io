@@ -143,3 +143,18 @@
   type: invited
   detail: >
     [Atomic Physics 2026](https://www.pks.mpg.de/atom26) @ Max Planck Institute for the Physics of Complex Systems (MPIPKS), Dresden, November 2026
+
+- title: "Quantum Master Equation Approach to Periodically Driven Superconductors"
+  presenter: Yuta Shigedomi, Masaya Nakagawa, Kazuki Yamamoto, Koki Shiraishi and Tsuneya Yoshida
+  date: "2026-11-24"
+  category: international
+  type: poster
+  detail: >
+    [CDS × QUAST Joint Workshop Frontiers in Correlated Quantum Matter](https://rytaroarita.github.io/cds-quast-conference2026/index.html) @ University of Tokyo, November 2026
+- title: "周期駆動下の超伝導体の量子マスター方程式による解析"
+  presenter: 重冨友汰，中川大也，山本和樹，白石航暉，吉田恒也
+  date: "2026-12-16"
+  category: domestic
+  type: poster
+  detail: >
+    [量子物質における超伝導研究の最前線](https://www.rs.tus.ac.jp/tohyama/SC2026/) @ Kyoto University, December 2026
