@@ -38,6 +38,7 @@ export default async function Page() {
                         <h2 className="mt-2 text-2xl font-bold leading-snug text-gray-900">卒研生・大学院生・PDを募集しています</h2>
                         <p className="mt-3 leading-relaxed text-gray-800">
                             大阪公立大学大学院理学研究科・非平衡量子多体物性理論研究室にて卒研生・大学院生を募集しています。
+                            現在研究室見学を受け付けています。
                             ご興味のある方はお気軽にメールでご連絡ください。<a href={`https://www.jsps.go.jp/j-pd/pd_sin.html`} className="text-secondary underline" target="_blank" rel="noopener noreferrer">学振PD</a>も受け入れ可能です。
                         </p>
                         {/* <div className="mt-5">
