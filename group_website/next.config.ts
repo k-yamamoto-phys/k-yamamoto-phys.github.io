@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 
+// ベースパスの前後のスラッシュを揃え、ルート指定は空文字として扱う。
 function normalizeBasePath(value: string | undefined) {
   const trimmed = (value ?? "").trim();
   if (!trimmed || trimmed === "/") return "";
