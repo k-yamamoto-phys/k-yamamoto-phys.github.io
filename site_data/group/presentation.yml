@@ -1,4 +1,13 @@
 # # 新規追加は、上から順に行うことで順番に整合が取れます。sort_presentation.pyを実行することでsortできます。
+- title: "Quantum Master Equation Approach to Periodically Driven Superconductors"
+  presenter: Yuta Shigedomi, Masaya Nakagawa, Kazuki Yamamoto, Koki Shiraishi and Tsuneya Yoshida
+  # 個別の発表日は未確定のため、ユーザー指定により会議期間の初日を設定。
+  date: "2027-03-01"
+  category: international
+  type: poster
+  detail: >
+    [Novel quantum states in condensed matter 2027 (NQS2027)](https://indico.yukawa.kyoto-u.ac.jp/event/104/overview) @ Yukawa Institute for Theoretical Physics, Kyoto University, Kyoto, Japan, March 1–5, 2027
+
 - title: "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics"
   presenter: Kazuki Yamamoto and Ryusuke Hamazaki
   date: "2026-07-14"
