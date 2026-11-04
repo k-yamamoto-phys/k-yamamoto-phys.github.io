@@ -34,7 +34,7 @@ export default async function Page() {
                         <p className="text-sm font-semibold uppercase tracking-wide text-primary">Students and Postdocs</p>
                         <h2 className="mt-2 text-2xl font-bold leading-snug text-gray-900">We welcome motivated students and postdocs</h2>
                         <p className="mt-3 leading-relaxed text-gray-800">
-                            We are always looking for motivated students and postdocs. To join our group as a student, you need to apply for <a href={`https://www.omu.ac.jp/sci/en/international_course/`} className="text-secondary underline" target="_blank" rel="noopener noreferrer">admission to Department of Physics, Osaka Metropolitan University</a>.
+                            We are always looking for motivated students and postdocs. We are currently welcoming visits to our research group. To join our group as a student, you need to apply for <a href={`https://www.omu.ac.jp/sci/en/international_course/`} className="text-secondary underline" target="_blank" rel="noopener noreferrer">admission to Department of Physics, Osaka Metropolitan University</a>.
                             We also support a postdoc application for <a href={`https://www.jsps.go.jp/english/e-ippan/index.html`} className="text-secondary underline" target="_blank" rel="noopener noreferrer">JSPS fellowship</a>. 
                         </p>
                         {/* <div className="mt-5">
