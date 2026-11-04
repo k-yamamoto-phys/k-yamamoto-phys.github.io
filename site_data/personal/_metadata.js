@@ -22,8 +22,8 @@ export const siteMetadata = {
     SiteMessage: {
         type: "warning",
         text: {
-            ja: "[**大阪公立大学基盤システムの障害**](https://e.omu.ac.jp/)により，メール・ネットワークを含む全てのシステムがダウンしています。当面の間，[oyakatamaron@gmail.com]までご連絡をお願いいたします。&#x20;",
-            en: "OMU core system is down, including emails and networks. Please contact me via [oyakatamaron@gmail.com]"
+            ja: "",
+            en: ""
         }
     },
     publicURL: "https://k-yamamoto-phys.github.io",

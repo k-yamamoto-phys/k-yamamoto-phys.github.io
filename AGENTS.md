@@ -22,6 +22,13 @@ Keep raw technical outputs in their original language:
 - raw numerical output
 - copied error messages
 
+## 作業完了時のコミットと push
+
+- この環境では、依頼された変更の実装と必要な確認を終えたら、変更をコミットし、作業ブランチを `origin` に push するところまで必ず実施する。
+- ユーザーが明示的にコミットや push を不要と指定した場合は、その指示を優先する。それ以外は毎回の追加確認を求めずに実施する。
+- 依頼対象外の既存の変更を無断でコミットに含めない。履歴を書き換える force push は行わない。
+- 最終報告には push 先のブランチとコミットを記載する。push に失敗した場合は未完了であることと原因を明記する。
+
 ## Project overview
 
 This repository contains two websites. One is the personal website for Prof. Kazuki yamamoto, and the other is the group website of which Prof. yamamoto organizes. 
