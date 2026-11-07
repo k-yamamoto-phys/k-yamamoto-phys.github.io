@@ -31,7 +31,9 @@ Keep raw technical outputs in their original language:
 
 ## 作業完了時のコミットと push
 
-- この環境では、依頼された変更の実装と必要な確認を終えたら、変更をコミットし、作業ブランチを `origin` に push するところまで必ず実施する。
+- 作業開始時に fork 元 `https://github.com/k-yamamoto-phys/k-yamamoto-phys.github.io.git` の `main` と fork の `origin/main` を取得し、それぞれの更新を確認する。fork 元の変更を取り込み、fork の `main` を同期してから作業する。履歴が分岐している場合は双方の変更を保って統合する。
+- 原則として `main` を直接更新し、作業用ブランチを新たに作成しない。変更の実装と必要な確認を終えたら、コミットして fork の `origin/main` に push するところまで必ず実施する。
+- fork 側の push と fork 元の公開サイトへの反映は別である。fork 元への反映や公開状態を確認し、未反映の場合は最終報告で明記する。
 - ユーザーが明示的にコミットや push を不要と指定した場合は、その指示を優先する。それ以外は毎回の追加確認を求めずに実施する。
 - 依頼対象外の既存の変更を無断でコミットに含めない。履歴を書き換える force push は行わない。
 - 最終報告には push 先のブランチとコミットを記載する。push に失敗した場合は未完了であることと原因を明記する。
