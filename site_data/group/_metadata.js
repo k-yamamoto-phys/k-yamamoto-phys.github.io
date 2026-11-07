@@ -12,10 +12,10 @@ export const siteMetadata = {
     // type: "info"（緑）または "warning"（赤）。text は Markdown。
     // 例: ja: "**お知らせ**: [詳細はこちら](/ja/research)"
     SiteMessage: {
-        type: "warning",
+        type: "info",
         text: {
-            ja: "",
-            en: ""
+            ja: "11月9日（月）に山本和輝氏（京都大学）をお迎えして[非平衡量子研理論セミナー](/ja/seminars)を開催します。",
+            en: "Join us on November 9 for the [Nonequilibrium Quantum Theory Seminar](/seminars) with Kazuki Yamamoto (Kyoto University)."
         }
     },
     publicURL,
@@ -51,10 +51,6 @@ export const siteMetadata = {
                 href: "/activities",
             },
             {
-                name: "Seminars",
-                href: "/seminars",
-            },
-            {
                 name: "Publications",
                 href: "/publications",
             },
@@ -87,10 +83,6 @@ export const siteMetadata = {
             {
                 name: "最近の活動",
                 href: "/ja/activities",
-            },
-            {
-                name: "セミナー",
-                href: "/ja/seminars",
             },
             {
                 name: "出版物",
