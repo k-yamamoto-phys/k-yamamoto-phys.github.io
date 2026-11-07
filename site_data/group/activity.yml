@@ -20,6 +20,13 @@
       山本講師が[Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden で招待講演を行います
     en: >
       Prof. Yamamoto is going to give an invited talk in [Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden
+- date: "2026-11-09"
+  label: event
+  content:
+    ja: >
+      京都大学の山本和輝氏を講演者に迎え、[非平衡量子研理論セミナー](/ja/seminars)を開催します。
+    en: >
+      We will host the [Nonequilibrium Quantum Theory Seminar](/seminars) with speaker Kazuki Yamamoto from Kyoto University.
 # 掲載日。受賞日ではありません。
 - date: "2026-11-04"
   label: award
