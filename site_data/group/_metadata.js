@@ -51,6 +51,10 @@ export const siteMetadata = {
                 href: "/activities",
             },
             {
+                name: "Seminars",
+                href: "/seminars",
+            },
+            {
                 name: "Publications",
                 href: "/publications",
             },
@@ -83,6 +87,10 @@ export const siteMetadata = {
             {
                 name: "最近の活動",
                 href: "/ja/activities",
+            },
+            {
+                name: "セミナー",
+                href: "/ja/seminars",
             },
             {
                 name: "出版物",
