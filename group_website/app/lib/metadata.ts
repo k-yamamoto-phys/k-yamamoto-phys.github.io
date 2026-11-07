@@ -25,7 +25,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
         en: siteUrl(eng_path),
         ja: siteUrl(ja_path),
         };
-    const fullTitle = lang === "ja" ? `${pageTitle} | ${siteMetadata.SiteTitle.ja}` : `${pageTitle} | ${siteMetadata.SiteTitle.en}`;
+    const fullTitle = `${pageTitle} | ${siteMetadata.PageTitleSuffix[lang]}`;
     return {
     title: {
         absolute: fullTitle,

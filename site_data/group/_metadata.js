@@ -31,6 +31,10 @@ export const siteMetadata = {
         en: "Yamamoto group",
         ja: "山本グループ"
     },
+    PageTitleSuffix: {
+        en: "Yamamoto Group, Department of Physics, Osaka Metropolitan University",
+        ja: "大学院理学研究科物理学専攻 物性物理学講座 山本グループ"
+    },
     all_member_img: "/images/members/all/2026.jpg",
     Navigation: {
         en: [
