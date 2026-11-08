@@ -1,9 +1,34 @@
+import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
+import path from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { convertMarkdownToHtml, convertMarkdownToHtmlWithSectionize } from "./markdown";
 
 describe("convertMarkdownToHtml", () => {
     afterEach(() => {
         vi.unstubAllEnvs();
+    });
+
+    it("uses generated WebP for a local Markdown image and preserves external images", async () => {
+        const root = mkdtempSync(path.join(tmpdir(), "markdown-image-"));
+        try {
+            mkdirSync(path.join(root, "public/images"), { recursive: true });
+            mkdirSync(path.join(root, "public/_optimized/images"), { recursive: true });
+            writeFileSync(path.join(root, "public/images/example.png"), "original");
+            writeFileSync(path.join(root, "public/_optimized/images/example.png.webp"), "webp");
+            const cwd = vi.spyOn(process, "cwd").mockReturnValue(root);
+            vi.stubEnv("NEXT_PUBLIC_GROUP_BASE_PATH", "/group");
+            const expected = "/group/_optimized/images/example.png.webp";
+            const html = await convertMarkdownToHtml("![Example](/images/example.png?size=1)\n\n![Remote](https://example.com/a.png)\n\n![Missing](/images/missing.png)");
+            expect(html).toContain(`src="${expected}?size=1"`);
+            expect(html).toContain('src="https://example.com/a.png"');
+            expect(html).toContain('images/missing.png"');
+            cwd.mockRestore();
+        } finally {
+            vi.restoreAllMocks();
+            vi.unstubAllEnvs();
+            rmSync(root, { recursive: true, force: true });
+        }
     });
 
     it("decorates h3 headings with the expected classes", async () => {

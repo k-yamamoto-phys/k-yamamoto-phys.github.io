@@ -44,6 +44,12 @@ export function withBasePath(path: string) {
     return normalized === "/" ? basePath : `${basePath}${normalized}`;
 }
 
+// 集合写真の表示用WebPはビルド時に元画像から生成される。
+export function groupPhotoDisplayPath(path: string) {
+    if (!/^\/images\/members\/all\/[^/]+\.(jpe?g|png|webp)$/i.test(path)) return path;
+    return `${path}-display.webp`;
+}
+
 export function siteUrl(path = "/") {
     if (isUntouchedPath(path) && SCHEME_RE.test(path)) return path;
     const logicalPath = normalizePath(withoutBasePath(path));

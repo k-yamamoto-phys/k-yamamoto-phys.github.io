@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "next dev ",
     "build": "next build",
-    "postbuild": "next-sitemap",
+    "postbuild": "next-sitemap && node ../scripts/optimize-export-images.mjs out",
     "start": "npx serve@latest out",
     "lint": "eslint",
     "test": "vitest",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "predev": "node ../scripts/prepare-markdown-images.mjs",
+    "prebuild": "node ../scripts/prepare-markdown-images.mjs"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

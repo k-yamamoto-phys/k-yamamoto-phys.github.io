@@ -44,3 +44,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 元画像から生成する表示用画像
+/public/images/OMU_photo-display.webp
+/public/images/members/all/*-display.webp
+
+# Markdown表示用の自動生成画像
+/public/_optimized/

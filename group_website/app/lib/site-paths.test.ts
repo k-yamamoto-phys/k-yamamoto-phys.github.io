@@ -1,9 +1,16 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { siteUrl, withBasePath, withoutBasePath } from "./site-paths";
+import { groupPhotoDisplayPath, siteUrl, withBasePath, withoutBasePath } from "./site-paths";
 
 describe("site path helpers", () => {
     afterEach(() => {
         vi.unstubAllEnvs();
+    });
+
+    it("maps original group photos to generated display images and leaves other paths alone", () => {
+        expect(groupPhotoDisplayPath("/images/members/all/new-photo.jpg"))
+            .toBe("/images/members/all/new-photo.jpg-display.webp");
+        expect(groupPhotoDisplayPath("https://example.com/photo.jpg"))
+            .toBe("https://example.com/photo.jpg");
     });
 
     it("keeps app paths rooted at slash by default", () => {

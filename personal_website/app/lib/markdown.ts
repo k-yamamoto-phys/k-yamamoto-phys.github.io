@@ -10,6 +10,7 @@ import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
 // import type { ContainerNode } from "./container-node";
 import remarkParse from "remark-parse";
+import { markdownImagePath } from "../../../scripts/markdown-image-path";
 
 export async function convertMarkdownToHtml(markdownString: string): Promise<string> {
     const altParts = await extractAlts(markdownString); // 画像のalt部分を事前に抽出（remarkmathがparse前に動作して、alt内の数式ノーテーションを削除してしまうため）
@@ -23,6 +24,7 @@ export async function convertMarkdownToHtml(markdownString: string): Promise<str
         .use(rehypeKatex) // 数式対応
         .use(rehyperImageWithCaption, { altData: altParts }) // 画像にキャプションを追加
         .use(rehyperh3Decorate) // h3をデコレート
+        .use(rehypeMarkdownImagePaths)
         .use(rehypeStringify) // HTML AST → HTML文字列に変換
         .process(markdownString);
 
@@ -41,11 +43,20 @@ export async function convertMarkdownToHtmlWithSectionize(markdownString: string
         .use(rehyperImageWithCaption, { altData: altParts }) // 画像にキャプションを追加
         .use(rehyperh3Decorate) // h3をデコレート
         .use(rehypeSectionize) // セクション分割
+        .use(rehypeMarkdownImagePaths)
         .use(rehypeStringify) // HTML AST → HTML文字列に変換
         .process(markdownString);
 
     return processedContent.toString();
 }
+
+const rehypeMarkdownImagePaths: Plugin<[], Root> = () => (tree) => {
+    visit(tree, "element", (node: Element) => {
+        if (node.tagName === "img" && typeof node.properties?.src === "string") {
+            node.properties.src = markdownImagePath(node.properties.src);
+        }
+    });
+};
 
 const rehyperh3Decorate: Plugin<[], Root> = () => {
     return (tree: Root) => {

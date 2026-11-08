@@ -3,7 +3,7 @@ import { MetadataGenerator } from "@/app/lib/metadata";
 import md_content from "@/group/members_other.md";
 import { convertMarkdownToHtml } from "@/app/lib/markdown";
 import { siteMetadata } from "@/group/_metadata";
-import { withBasePath } from "@/app/lib/site-paths";
+import { groupPhotoDisplayPath, withBasePath } from "@/app/lib/site-paths";
 import members from "@/group/members.yml";
 export type memberEntry = {
     name: {
@@ -43,7 +43,7 @@ export default async function Page() {
             <div className="m-2 p-2 prose">
                 <h1>メンバー</h1>
                 <div className="md:w-1/2 w-full mx-auto">
-                    <img src={withBasePath(siteMetadata.all_member_img)} alt="メンバー集合写真" className="w-full object-contain" />
+                    <img src={withBasePath(groupPhotoDisplayPath(siteMetadata.all_member_img))} decoding="async" alt="メンバー集合写真" className="w-full object-contain" />
                 </div>
             </div>
             <h2 className="ml-4 text-2xl font-bold">グループメンバー</h2>
@@ -83,7 +83,7 @@ const MemberCard = async ({ member, lang }: { member: memberEntry, lang: "ja" | 
                     <div className="flex shrink-0 flex-col">
                         <div className="avatar">
                             <div className="w-24 aspect-square rounded-xl">
-                                <img src={withBasePath(member.photo)} alt={member.name[lang]} className="h-full w-full object-cover" />
+                                <img src={withBasePath(member.photo)} alt={member.name[lang]} width={650} height={650} loading="lazy" decoding="async" className="h-full w-full object-cover" />
                             </div>
                         </div>
                     </div>
