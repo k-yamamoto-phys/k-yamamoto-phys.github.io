@@ -150,7 +150,7 @@ export function createOGP(title: string, pagePath: string, lang: OGPLanguage) {
     context.textBaseline = "top";
     context.fillStyle = "rgba(255, 255, 255, 0.84)";
     context.font = 'normal 27px "Noto Sans JP"';
-    context.fillText(lang === "ja" ? "大阪公立大学 山本研究室" : "Yamamoto Group · Osaka Metropolitan University", 84, 112);
+    context.fillText(lang === "ja" ? "大阪公立大学 山本グループ" : "Yamamoto Group · Osaka Metropolitan University", 84, 112);
 
     const { fontSize, lines } = titleLayout(context, normalizedTitle, lang);
     const lineHeight = Math.round(fontSize * 1.35);
