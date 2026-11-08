@@ -3,7 +3,7 @@ import { MetadataGenerator } from "@/app/lib/metadata";
 import md_content from "@/group/members_other.md";
 import { convertMarkdownToHtml } from "@/app/lib/markdown";
 import { siteMetadata } from "@/group/_metadata";
-import { withBasePath } from "@/app/lib/site-paths";
+import { groupPhotoDisplayPath, withBasePath } from "@/app/lib/site-paths";
 import members from "@/group/members.yml";
 export type memberEntry = {
     name: {
@@ -43,7 +43,7 @@ export default async function Page() {
             <div className="m-2 p-2 prose">
                 <h1>メンバー</h1>
                 <div className="md:w-1/2 w-full mx-auto">
-                    <img src={withBasePath(siteMetadata.all_member_img)} decoding="async" alt="メンバー集合写真" className="w-full object-contain" />
+                    <img src={withBasePath(groupPhotoDisplayPath(siteMetadata.all_member_img))} decoding="async" alt="メンバー集合写真" className="w-full object-contain" />
                 </div>
             </div>
             <h2 className="ml-4 text-2xl font-bold">グループメンバー</h2>

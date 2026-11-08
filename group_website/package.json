@@ -9,7 +9,10 @@
     "lint": "eslint",
     "test": "vitest",
     "test:watch": "vitest",
-    "test:visual": "playwright test"
+    "test:visual": "playwright test",
+    "predev": "node utils/prepare-display-images.mjs",
+    "prebuild": "node utils/prepare-display-images.mjs",
+    "postbuild": "node ../scripts/optimize-export-images.mjs out"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

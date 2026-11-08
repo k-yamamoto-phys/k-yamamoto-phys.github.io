@@ -35,8 +35,7 @@ export const siteMetadata = {
         en: "Yamamoto Group, Department of Physics, Osaka Metropolitan University",
         ja: "大学院理学研究科物理学専攻 物性物理学講座 山本グループ"
     },
-    // 表示用の高画質版。元画像は /images/members/all/2026.jpg に保存。
-    all_member_img: "/images/members/all/2026-display.webp",
+    all_member_img: "/images/members/all/2026.jpg",
     Navigation: {
         en: [
             {
