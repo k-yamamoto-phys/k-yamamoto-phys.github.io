@@ -63,7 +63,9 @@ jobs:
 
       - name: Build personal website
         working-directory: ./personal_website
-        run: npx --no-install next build
+        run: |
+          node ../scripts/prepare-markdown-images.mjs
+          npx --no-install next build
 
       - name: Install group website dependencies
         working-directory: ./group_website
@@ -76,6 +78,7 @@ jobs:
           NEXT_PUBLIC_GROUP_PUBLIC_URL: https://k-yamamoto-phys.github.io/group
         run: |
           node utils/prepare-display-images.mjs
+          node ../scripts/prepare-markdown-images.mjs
           npx --no-install next build
 
       - name: Generate sitemap including group pages

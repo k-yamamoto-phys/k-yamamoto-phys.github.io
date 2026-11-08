@@ -11,7 +11,8 @@ import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
 // import type { ContainerNode } from "./container-node";
 import remarkParse from "remark-parse";
-import { withBasePath } from "./site-paths";
+import { markdownImagePath } from "../../../scripts/markdown-image-path";
+import { withBasePath, withoutBasePath } from "./site-paths";
 import remarkGfm from "remark-gfm";
 export async function convertMarkdownToHtml(markdownString: string): Promise<string> {
     const altParts = await extractAlts(markdownString); // 画像のalt部分を事前に抽出（remarkmathがparse前に動作して、alt内の数式ノーテーションを削除してしまうため）
@@ -72,7 +73,7 @@ const rehypeBasePathAssets: Plugin<[], Root> = () => {
         visit(tree, "element", (node: Element) => {
             if (!node.properties) return;
             if (node.tagName === "img" && typeof node.properties.src === "string") {
-                node.properties.src = withBasePath(node.properties.src);
+                node.properties.src = withBasePath(markdownImagePath(withoutBasePath(withBasePath(node.properties.src))));
             }
             if (node.tagName === "a" && typeof node.properties.href === "string") {
                 node.properties.href = withBasePath(node.properties.href);

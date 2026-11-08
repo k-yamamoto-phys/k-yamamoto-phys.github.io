@@ -14,6 +14,8 @@ export async function optimizeExportImages(root) {
         for (const entry of await readdir(dir, { withFileTypes: true })) {
             const file = path.join(dir, entry.name);
             if (entry.isDirectory()) {
+                // Markdown用WebPは元のPNGを可逆変換しているため再圧縮しない。
+                if (entry.name === '_optimized') continue;
                 await visit(file);
                 continue;
             }
