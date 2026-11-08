@@ -16,7 +16,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     return (
         <>
-            <Hero figure_path="/images/OMU_photo.png" backgroundPosition="center 70%" isFullScreen>
+            <Hero figure_path="/images/OMU_photo-display.webp" backgroundPosition="center 70%" isFullScreen>
                 <div className="max-w-4xl mx-auto px-4">
                     <h1 className="text-4xl font-extrabold leading-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] md:text-6xl">Nonequilibrium Many-Body Quantum Matter Theory Group</h1>
                     <p className="mt-8 text-sm font-medium leading-relaxed text-white/95 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] md:mt-10 md:text-lg">
