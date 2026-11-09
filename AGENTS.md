@@ -31,6 +31,7 @@ The goal is to create the readable code of websites by using the Next.js and sev
 
 Important notes:
 
+- ファイルを変更した作業は、変更内容を確認し、必要なチェックを行ったうえで、必ずコミットして現在の作業ブランチをリモートへ push すること。ユーザーから明示的にコミット・push 不要の指示がある場合を除き、ローカルの変更だけで作業完了としない。push に失敗した場合は、未完了であることと失敗理由を報告すること。
 - Do not stop, restart, or replace the user-managed `localhost:3000` server unless the user explicitly asks.
 - If `localhost:3000` is unreachable, report that first instead of starting a new server.
 - Do not run `npm run build` command. Prefer using the existing user-managed dev server for visual checks, and avoid starting another server.
