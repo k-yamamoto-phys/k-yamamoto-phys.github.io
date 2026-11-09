@@ -16,10 +16,10 @@ export const siteMetadata = {
     // type: "info"（緑）または "warning"（赤）。text は Markdown。
     // 例: ja: "**お知らせ**: [詳細はこちら](/ja/research)"
     SiteMessage: {
-        type: "info",
-        text: {
-            ja: "11月9日（月）に山本和輝氏（京都大学）をお迎えして[非平衡量子研理論セミナー](/ja/seminars)を開催します。",
-            en: "Join us on November 9 for the [Nonequilibrium Quantum Theory Seminar](/seminars) with Kazuki Yamamoto (Kyoto University)."
+         type: "info",
+         text: {
+            ja: "",
+            en: ""
         }
     },
     publicURL,
