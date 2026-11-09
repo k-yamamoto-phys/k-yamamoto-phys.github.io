@@ -32,7 +32,7 @@ Keep raw technical outputs in their original language:
 ## 作業完了時のコミットと push
 
 - 作業開始時に fork 元 `https://github.com/k-yamamoto-phys/k-yamamoto-phys.github.io.git` の `main` と fork の `origin/main` を取得し、それぞれの更新を確認する。fork 元の変更を取り込み、fork の `main` を同期してから作業する。履歴が分岐している場合は双方の変更を保って統合する。
-- 原則として `main` を直接更新し、作業用ブランチを新たに作成しない。変更の実装と必要な確認を終えたら、コミットして fork の `origin/main` に push するところまで必ず実施する。
+- 必ず `main` を直接更新し、`work` などの作業用ブランチを新たに作成しない。既存の作業用ブランチに未統合の変更がある場合も、変更を確認して `main` に統合する。変更の実装と必要な確認を終えたら、コミットして fork の `origin/main` に push するところまで必ず実施する。
 - fork 側の push と fork 元の公開サイトへの反映は別である。fork 元への反映や公開状態を確認し、未反映の場合は最終報告で明記する。
 - ユーザーが明示的にコミットや push を不要と指定した場合は、その指示を優先する。それ以外は毎回の追加確認を求めずに実施する。
 - 依頼対象外の既存の変更を無断でコミットに含めない。履歴を書き換える force push は行わない。
@@ -47,7 +47,7 @@ The goal is to create the readable code of websites by using the Next.js and sev
 
 Important notes:
 
-- ファイルを変更した作業は、変更内容を確認し、必要なチェックを行ったうえで、必ずコミットして現在の作業ブランチをリモートへ push すること。ユーザーから明示的にコミット・push 不要の指示がある場合を除き、ローカルの変更だけで作業完了としない。push に失敗した場合は、未完了であることと失敗理由を報告すること。
+- ファイルを変更した作業は、変更内容を確認し、必要なチェックを行ったうえで、必ず `main` にコミットして `origin/main` へ push すること。ユーザーから明示的にコミット・push 不要の指示がある場合を除き、ローカルの変更だけで作業完了としない。push に失敗した場合は、未完了であることと失敗理由を報告すること。
 - Do not stop, restart, or replace the user-managed `localhost:3000` server unless the user explicitly asks.
 - If `localhost:3000` is unreachable, report that first instead of starting a new server.
 - Do not run `npm run build` command. Prefer using the existing user-managed dev server for visual checks, and avoid starting another server.
