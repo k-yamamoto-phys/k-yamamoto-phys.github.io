@@ -6,6 +6,7 @@ import Acctivity from "@/app/ui/server/acctivity";
 import { Crousel, Hero } from "@/app/ui/client/crousel";
 import { withBasePath } from "@/app/lib/site-paths";
 import { TopPageRelease } from "@/app/ui/server/press_release";
+import { SeminarCard } from "@/app/ui/server/seminar-card";
 
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -30,6 +31,7 @@ export default async function Page() {
                     <h2>Theory of Nonequilibrium Quantum Many-Body Physics at the Interface between Condensed Matter Physics, AMO Physics, and Quantum Information</h2>
                     <p>Our research group conducts theoretical studies in quantum many-body systems, focusing on nonequilibrium physics, statistical mechanics, and quantum information. Recent advances in ultracold atoms have enabled the realization of open quantum systems, where controllable parameters allow access to novel quantum states and nonequilibrium phase transitions. Despite these developments, the role of strong correlation effects under dissipation remains far from fully understood. In collaboration with experimental groups, we investigate nonequilibrium quantum many-body phenomena arising from the interplay between dissipation and strong correlations.</p>
                     <TopPageRelease lang={`en`} />
+                    <SeminarCard lang="en" />
                     <section className="not-prose my-10 border-l-4 border-primary bg-primary/10 px-5 py-5 shadow-sm md:px-7">
                         <p className="text-sm font-semibold uppercase tracking-wide text-primary">Students and Postdocs</p>
                         <h2 className="mt-2 text-2xl font-bold leading-snug text-gray-900">We welcome motivated students and postdocs</h2>

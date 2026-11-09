@@ -2,6 +2,7 @@ import { convertMarkdownToHtml } from "@/app/lib/markdown"
 import activity_data from "@/group/activity.yml"
 import React from "react";
 import dayjs from "dayjs";
+import { sortActivities } from "@/app/lib/sort-activities";
 export type activityEntry = {
     date: Date[] | Date; // 単一の日付の場合は文字列、複数の日付の場合は文字列の配列
     label: "award" | "publication" | "event" | "talk" | "invited talk" | "presentation" | "other"     ;
@@ -21,7 +22,7 @@ const BadgeMap = {
 export default function Acctivity({lang, limit}: {lang: string, limit?: number}) {
     const activityData = activity_data as activityEntry[];
     const activity_by_year = Object.entries(
-        activityData.slice(0, limit ?? activityData.length).reduce((acc, activity) => {
+        sortActivities(activityData, limit).reduce((acc, activity) => {
             const year = dayjs(Array.isArray(activity.date) ? activity.date[0] : activity.date).year();
             if (!acc[year]) acc[year] = [];
             acc[year].push(activity);
