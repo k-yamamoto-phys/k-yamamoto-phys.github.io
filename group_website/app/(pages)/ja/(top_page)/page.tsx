@@ -6,6 +6,7 @@ import Acctivity from "@/app/ui/server/acctivity";
 import { Crousel, Hero } from "@/app/ui/client/crousel";
 import { withBasePath } from "@/app/lib/site-paths";
 import { TopPageRelease } from "@/app/ui/server/press_release";
+import { SeminarCard } from "@/app/ui/server/seminar-card";
 
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -32,6 +33,7 @@ export default async function Page() {
                     <h2>情報科学と物質科学の境界領域における非平衡開放系の強相関物理の理論</h2>
                     <p>当研究室では量子多体系における非平衡物理や統計力学、量子情報に興味をもって物性物理の理論研究をしています。近年、極低温に冷却された原子集団である冷却原子系などにおいて、散逸の存在する量子開放系が実現されました。特に最近では、パラメータの自在な制御によって、開放系特有の量子状態や、量子力学的な情報量の非平衡相転移などを実現できることがわかってきています。その一方で、物理に多様性をもたらす強相関効果が、散逸の下でどのような豊かな非平衡現象を誘起するのかといった問題は系統的理解からは程遠いのが現状です。このような背景の下、実験グループとも密接に連携しながら、散逸と強相関効果の協奏で発現する非平衡量子多体現象を研究しています。</p>
                     <TopPageRelease lang={`ja`} />
+                    <SeminarCard lang="ja" />
 
                     <section className="not-prose my-10 border-l-4 border-primary bg-primary/10 px-5 py-5 shadow-sm md:px-7">
                         <p className="text-sm font-semibold uppercase tracking-wide text-primary">Students and Postdocs</p>
