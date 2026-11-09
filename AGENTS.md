@@ -38,6 +38,15 @@ Keep raw technical outputs in their original language:
 - 依頼対象外の既存の変更を無断でコミットに含めない。履歴を書き換える force push は行わない。
 - 最終報告には push 先のブランチとコミットを記載する。push に失敗した場合は未完了であることと原因を明記する。
 
+### 毎回実施する手順
+
+1. `git status --short` と `git branch --show-current` で、既存の変更と現在のブランチを確認する。初期ブランチが `work` などであっても、そのまま作業せず、既存の変更を失わない方法で `main` に切り替える。ローカルに `main` がなければ `origin/main` を追跡する `main` を作成する。
+2. fork 元の `main` と `origin/main` を取得し、`main` に双方の更新を統合する。既存の作業用ブランチに今回の依頼に関係する未反映コミットがあれば、それも確認して統合する。依頼対象外の変更は勝手に含めない。
+3. `main` 上で依頼された変更と必要な確認を完了する。差分を確認して対象ファイルだけをステージし、コミットする。ビルド禁止など、このファイルの他の制約も守る。
+4. push 直前に現在のブランチが `main` であることを再確認し、必ず `git push origin main` を実行する。追跡先設定に依存する引数なしの `git push` や、`work` などへの push で済ませない。通常の作業では push のための追加承認やPR作成を待たない。
+5. リモート側に新しいコミットがあり push が拒否された場合は、再取得して双方の変更を保って統合し、影響する確認を行ってから再度 push する。force push は使わない。認証・接続・権限などの問題が残る場合は、push 未完了と原因を明記する。
+6. push 成功後、`git ls-remote origin refs/heads/main` と `git rev-parse HEAD` のコミットが一致することを確認し、作業ツリーに今回の未コミット変更が残っていないことも確認する。実装やローカルのコミットだけでは完了とせず、`origin/main` への反映を確認してから完了を報告する。
+
 ## Project overview
 
 This repository contains two websites. One is the personal website for Prof. Kazuki yamamoto, and the other is the group website of which Prof. yamamoto organizes. 
