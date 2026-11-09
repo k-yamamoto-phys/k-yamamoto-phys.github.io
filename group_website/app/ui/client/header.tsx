@@ -50,7 +50,11 @@ export default function Navbar() {
                         </span>
                     </Link>
 
-                    <nav className="lab-nav" aria-label={isEnglish ? "Main navigation" : "メインナビゲーション"}>
+                    <nav
+                        className="lab-nav"
+                        style={{ gridTemplateColumns: `repeat(${links.length + 1}, minmax(0, 1fr))` }}
+                        aria-label={isEnglish ? "Main navigation" : "メインナビゲーション"}
+                    >
                         {
                             links.map((link) => (
                                 <Link href={link.href} className="lab-nav__link" key={link.href}>
@@ -90,33 +94,27 @@ export default function Navbar() {
                 </div>
                 <dialog ref={dialogRef} className="modal">
                     <div className="bg-base-100 left-0 right-0 top-72 bottom-0 w-full h-full overflow-y-auto">
-                        <div className="navbar bg-base-100" >
-                            <div className="flex flex-col items-stretch w-full">
-                                <div className="flex items-center justify-between pl-2">
-                                    <div className="flex items-center gap-2">
-                                        <div role="button" onClick={closeModal} className="btn  btn-ghost p-2 md:hidden" >
-                                            <svg
-                                                className="swap-on fill-current h-8 w-8"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 512 512">
-                                                <polygon
-                                                    points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
-                                            </svg>
-                                        </div>
-                                        <Link
-                                            href={isEnglish ? "/" : "/ja"}
-                                            className="flex gap-2 items-center"
-                                            onClick={closeModal}
-                                        >
-                                            {/* ロゴ部分 */}
-                                            <Logo />
-                                            {/* テキスト部分 */}
-                                            <div className="font-bold text-xl ">{siteTitle}</div>
-                                        </Link>
-                                    </div>
-                                    <LangButton />
-                                </div>
-                            </div>
+                        <div className="lab-menu-header">
+                            <button type="button" onClick={closeModal} className="btn btn-ghost p-2" aria-label={isEnglish ? "Close menu" : "メニューを閉じる"}>
+                                <svg
+                                    className="swap-on fill-current h-8 w-8"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <polygon
+                                        points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+                                </svg>
+                            </button>
+                            <Link
+                                href={isEnglish ? "/" : "/ja"}
+                                className="lab-menu-header__brand"
+                                onClick={closeModal}
+                            >
+                                {/* ロゴ部分 */}
+                                <Logo />
+                                {/* テキスト部分 */}
+                                <div className="lab-menu-header__title">{siteTitle}</div>
+                            </Link>
+                            <LangButton />
                         </div>
                         <ul
                             className={`menu menu-xl mt-3 p-2 w-auto`}>

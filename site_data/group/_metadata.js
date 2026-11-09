@@ -63,6 +63,10 @@ export const siteMetadata = {
                 href: "/presentations",
             },
             {
+                name: "Seminars",
+                href: "https://k-yamamoto-phys.github.io/group/seminars",
+            },
+            {
                 name: "Access",
                 href: "/access",
             // },
@@ -95,6 +99,10 @@ export const siteMetadata = {
             {
                 name: "発表",
                 href: "/ja/presentations",
+            },
+            {
+                name: "セミナー情報",
+                href: "https://k-yamamoto-phys.github.io/group/seminars",
             },
             {
                 name: "アクセス",
