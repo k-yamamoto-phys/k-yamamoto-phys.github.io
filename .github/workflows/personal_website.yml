@@ -92,12 +92,14 @@ jobs:
           cp -a personal_website/out/. pages-artifact/
           cp -a group_website/out/. pages-artifact/group/
           cp personal_website/public/sitemap.xml pages-artifact/sitemap.xml
+          cp personal_website/public/sitemap.xml pages-artifact/sitemap-capa.xml
           cp personal_website/public/robots.txt pages-artifact/robots.txt
           touch pages-artifact/.nojekyll
 
           test -f pages-artifact/index.html
           test -f pages-artifact/group/index.html
           test -d pages-artifact/group/_next
+          cmp pages-artifact/sitemap.xml pages-artifact/sitemap-capa.xml
           grep -q '<loc>https://k-yamamoto-phys.github.io/group</loc>' pages-artifact/sitemap.xml
           grep -q '<loc>https://k-yamamoto-phys.github.io/group/ja/research</loc>' pages-artifact/sitemap.xml
 
