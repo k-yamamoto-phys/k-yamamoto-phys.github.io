@@ -17,7 +17,7 @@ export function SeminarCard({ lang }: { lang: "ja" | "en" }) {
 
     return (
         <Link
-            href={seminarsURL}
+            href={seminarsURL[lang]}
             className="not-prose group my-8 flex flex-col gap-4 rounded-xl border border-secondary/25 bg-white p-5 text-base-content shadow-sm transition hover:border-secondary hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-secondary sm:flex-row sm:items-center sm:gap-5 sm:p-7"
         >
             <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-secondary/10 text-secondary">

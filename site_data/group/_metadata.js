@@ -1,5 +1,8 @@
 const DEFAULT_PUBLIC_URL = "https://kazuki-yamamoto.github.io/group";
-export const seminarsURL = "https://k-yamamoto-phys.github.io/group/seminars";
+export const seminarsURL = {
+    ja: "https://k-yamamoto-phys.github.io/group/ja/seminars",
+    en: "https://k-yamamoto-phys.github.io/group/seminars",
+};
 
 function normalizePublicURL(value) {
     const trimmed = (value ?? "").trim().replace(/\/+$/, "");
@@ -65,7 +68,7 @@ export const siteMetadata = {
             },
             {
                 name: "Seminars",
-                href: seminarsURL,
+                href: seminarsURL.en,
             },
             {
                 name: "Access",
@@ -102,8 +105,8 @@ export const siteMetadata = {
                 href: "/ja/presentations",
             },
             {
-                name: "セミナー情報",
-                href: seminarsURL,
+                name: "セミナー",
+                href: seminarsURL.ja,
             },
             {
                 name: "アクセス",
