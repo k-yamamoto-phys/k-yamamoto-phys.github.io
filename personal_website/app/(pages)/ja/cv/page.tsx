@@ -4,7 +4,7 @@ import cv_ja from "@/personal/cv_ja.md"
 import { convertMarkdownToHtml } from "@/app/lib/markdown";
 import { FiExternalLink } from "react-icons/fi";
 export async function generateMetadata(): Promise<Metadata> {   
-    return MetadataGenerator(`CV(日本語)`, `山本和樹の履歴`, '/ja/cv' ); 
+    return MetadataGenerator(`プロフィール`, `山本和樹の履歴`, '/ja/cv');
 }
 
 export default async function Page() {
