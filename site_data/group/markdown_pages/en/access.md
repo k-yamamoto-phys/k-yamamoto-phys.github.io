@@ -1,5 +1,5 @@
 ---
-title: Access
+title: Lab Location
 description: access information for Yamamoto Group
 ---
 

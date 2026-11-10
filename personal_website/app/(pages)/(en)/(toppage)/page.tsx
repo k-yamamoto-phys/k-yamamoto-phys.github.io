@@ -10,7 +10,7 @@ import { siteMetadata } from "@/personal/_metadata";
 export async function generateMetadata(): Promise<Metadata> {
     return MetadataGenerator(
         `Homepage`,
-        `Dr. Kazuki Yamaomoto's personal website`,
+        `Dr. Kazuki Yamamoto's personal website`,
         '/',
     );
 }

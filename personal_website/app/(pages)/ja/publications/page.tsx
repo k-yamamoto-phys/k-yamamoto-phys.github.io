@@ -17,7 +17,7 @@ type Paper = {
     };
 }
 export async function generateMetadata(): Promise<Metadata> {
-    return MetadataGenerator(`Publications`, `List of academic publications by Dr. Kazuki Yamamoto`, '/ja/publications');
+    return MetadataGenerator(`出版物`, `山本和樹の学術出版物一覧`, '/ja/publications');
 }
 
 export default async function Page() {

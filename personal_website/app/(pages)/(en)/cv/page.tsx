@@ -4,7 +4,7 @@ import cv_en from "@/personal/cv_en.md"
 import { convertMarkdownToHtml } from "@/app/lib/markdown";
 import { FiExternalLink } from "react-icons/fi";
 export async function generateMetadata(): Promise<Metadata> {
-    return MetadataGenerator(`CV`, `CV for Dr. Kazuki Yamamoto`, '/cv');
+    return MetadataGenerator(`Profile`, `CV for Dr. Kazuki Yamamoto`, '/cv');
 }
 
 export default async function Page() {

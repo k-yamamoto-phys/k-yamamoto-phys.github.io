@@ -6,7 +6,7 @@ import React from "react";
 import Acctivity from "@/app/ui/server/acctivity";
 
 export async function generateMetadata(): Promise<Metadata> {
-    return MetadataGenerator(`news`, `recent activities and updates for Dr. Kazuki Yamamoto`, '/activities', "en");
+    return MetadataGenerator(`Recent Activities`, `recent activities and updates for Dr. Kazuki Yamamoto`, '/activities', "en");
 }
 
 export default async function Page() {
