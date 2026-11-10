@@ -10,7 +10,7 @@ import { SeminarCard } from "@/app/ui/server/seminar-card";
 
 
 export async function generateMetadata(): Promise<Metadata> {
-    return MetadataGenerator(`Home`, `Non-equilibrium Quantum Many-Body Physics Laboratory. We study the theory of nonequilibrium quantum many-body systems`, '/', "en");
+    return MetadataGenerator(`Nonequilibrium Many-Body Quantum Matter Theory Group`, `Non-equilibrium Quantum Many-Body Physics Laboratory. We study the theory of nonequilibrium quantum many-body systems`, '/', "en");
 }
 
 

@@ -7,7 +7,7 @@ import { groupPhotoDisplayPath, withBasePath } from "@/app/lib/site-paths";
 import members from "@/group/members.yml";
 
 export async function generateMetadata(): Promise<Metadata> {
-    return MetadataGenerator(`member`, `Members of the Yamamoto Group`, '/members', "en");
+    return MetadataGenerator(`Members`, `Members of the Yamamoto Group`, '/members', "en");
 }
 
 export type memberEntry = {

@@ -6,7 +6,7 @@ import { PressReleases } from "@/app/ui/server/press_release";
 import { IoIosArrowDown } from "react-icons/io";
 
 export async function generateMetadata(): Promise<Metadata> {
-    return MetadataGenerator(`研究内容`, `山本グループの研究紹介`, '/ja/research', "ja");
+    return MetadataGenerator(`研究`, `山本グループの研究紹介`, '/ja/research', "ja");
 }
 
 export default async function Pages() {

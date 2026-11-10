@@ -1,3 +1,8 @@
+---
+title: Project
+description: Research projects of the Yamamoto Group
+---
+
 # Project
 
 1. Elucidation and advancement of nonequilibrium strongly correlated

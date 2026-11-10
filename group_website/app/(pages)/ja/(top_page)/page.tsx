@@ -10,7 +10,7 @@ import { SeminarCard } from "@/app/ui/server/seminar-card";
 
 
 export async function generateMetadata(): Promise<Metadata> {
-    return MetadataGenerator(`ホーム`, `非平衡量子多体研究室。非平衡量子多体系の理論研究に取り組んでいます`, '/ja/', "ja");
+    return MetadataGenerator(`非平衡量子多体物性理論研究室`, `非平衡量子多体研究室。非平衡量子多体系の理論研究に取り組んでいます`, '/ja/', "ja");
 }
 
 export default async function Page() {
