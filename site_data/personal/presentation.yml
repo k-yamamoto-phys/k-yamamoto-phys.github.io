@@ -6,6 +6,15 @@
   type: invited
   detail: >
     [Atomic Physics 2026](https://www.pks.mpg.de/atom26) @ Max Planck Institute for the Physics of Complex Systems (MPIPKS), Dresden, November 2026
+# date は研究会の開始日（個別の発表日は未確認）。
+- title: "周期駆動下の超伝導体の量子マスター方程式による解析"
+  presenter: 重冨友汰，中川大也，山本和樹，白石航暉，吉田恒也
+  date: "2026-11-16"
+  category: domestic
+  type: oral
+  detail: >
+    [非平衡固体物性の最前線2026](https://sites.google.com/view/frontiers-of-nonequilibrium26) @ 大阪大学, 2026年11月16–17日
+
 - title: "非平衡開放系のフェルミ超流動と固体電子系への応用に向けて"
   presenter: 山本 和樹
   date: "2026-11-16"
