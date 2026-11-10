@@ -23,7 +23,7 @@ export type memberEntry = {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-    return MetadataGenerator(`メンバー `, `メンバー一覧`, '/members', "ja");
+    return MetadataGenerator(`メンバー`, `メンバー一覧`, '/ja/members', "ja");
 }
 
 export default async function Page() {

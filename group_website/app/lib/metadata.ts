@@ -26,12 +26,19 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
         ja: siteUrl(ja_path),
         };
     const fullTitle = `${pageTitle} | ${siteMetadata.PageTitleSuffix[lang]}`;
+    const pageDescription = description.trim();
+    const separator = lang === "ja"
+        ? (/[。！？]$/.test(pageDescription) ? "" : "。")
+        : (/[.!?]$/.test(pageDescription) ? " " : ". ");
+    const fullDescription = pageDescription
+        ? `${pageDescription}${separator}${siteMetadata.affiliationDescription[lang]}`
+        : siteMetadata.affiliationDescription[lang];
     return {
     title: {
         absolute: fullTitle,
     },
         metadataBase: new URL(siteMetadata.publicURL),
-    description: description,
+    description: fullDescription,
     robots: {
         index: true,
         follow: true,
@@ -47,7 +54,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
     twitter: {
         card: 'summary_large_image',
         title: fullTitle,
-        description,
+        description: fullDescription,
         images: ogp_path, // Must be an absolute URL
     },
     referrer: 'strict-origin-when-cross-origin',
@@ -59,7 +66,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
     },
     openGraph: {
         title: fullTitle,
-        description: description,
+        description: fullDescription,
         url: siteUrl(pagePath),
         images: [
             {
