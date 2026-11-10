@@ -40,7 +40,7 @@ export const siteMetadata = {
         ja: "大阪公立大学 物性物理学講座 山本グループ"
     },
     affiliationDescription: {
-        en: "Yamamoto Group, Condensed Matter Physics Division, Department of Physics, Graduate School of Science, Osaka Metropolitan University.",
+        en: "Osaka Metropolitan University, Graduate School of Science, Department of Physics, Condensed Matter Physics Division, Yamamoto Group.",
         ja: "大阪公立大学 大学院理学研究科 物理学専攻 物性物理学講座 山本グループ。"
     },
     all_member_img: "/images/members/all/2026.jpg",

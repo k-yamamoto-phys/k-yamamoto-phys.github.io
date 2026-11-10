@@ -6,6 +6,10 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
     const lang = page_path === "/ja" || page_path.startsWith("/ja/") || page_path === "/not-found" ? "ja" : "en";
     const name = lang === "ja" ? siteMetadata.name.ja.replace(/\s+/g, "") : siteMetadata.name.en;
     const fullTitle = `${title.trim()} | ${name}`;
+    const isHomePage = page_path === "/" || page_path === "/ja" || page_path === "/ja/";
+    const fullDescription = isHomePage
+        ? `${siteMetadata.affiliationDescription[lang]}${lang === "ja" ? "" : " "}${description.trim()}`
+        : description;
     const ogp_path = `${siteMetadata.publicURL}/ogp/other_page.png`;
     // console.log(title, description, page_path)
     const eng_path = page_path === '/' ? 
@@ -27,7 +31,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
         absolute: fullTitle,
     },
         metadataBase: new URL(siteMetadata.publicURL), 
-    description: description,
+    description: fullDescription,
     robots: {
         index: true,
         follow: true,
@@ -50,7 +54,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
     twitter: {
         card: 'summary_large_image',
         title: fullTitle,
-        description,
+        description: fullDescription,
         images: ogp_path, // Must be an absolute URL
     },
     referrer: 'strict-origin-when-cross-origin',
@@ -62,7 +66,7 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
     },
     openGraph: {
         title: fullTitle,
-        description: description,
+        description: fullDescription,
         url: page_path,
         images: [
             {

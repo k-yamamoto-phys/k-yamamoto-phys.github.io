@@ -35,6 +35,10 @@ export const siteMetadata = {
         ja: "大阪公立大学理学研究科",
         en: "Department of physics, Osaka Metropolitan University"
     },
+    affiliationDescription: {
+        ja: "大阪公立大学 大学院理学研究科 物理学専攻 物性物理学講座。",
+        en: "Osaka Metropolitan University, Graduate School of Science, Department of Physics, Condensed Matter Physics Division."
+    },
     SiteTitle: {
         en: "Kazuki Yamamoto",
         ja: "山本 和樹"

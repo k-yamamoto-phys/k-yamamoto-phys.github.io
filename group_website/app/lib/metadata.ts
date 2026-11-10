@@ -30,9 +30,14 @@ export const MetadataGenerator: (title: string, description: string, page_path: 
     const separator = lang === "ja"
         ? (/[。！？]$/.test(pageDescription) ? "" : "。")
         : (/[.!?]$/.test(pageDescription) ? " " : ". ");
-    const fullDescription = pageDescription
-        ? `${pageDescription}${separator}${siteMetadata.affiliationDescription[lang]}`
-        : siteMetadata.affiliationDescription[lang];
+    const affiliation = siteMetadata.affiliationDescription[lang];
+    const isHomePage = pagePath === "/" || pagePath === "/ja" || pagePath === "/ja/";
+    let fullDescription = affiliation;
+    if (pageDescription) {
+        fullDescription = isHomePage
+            ? `${affiliation}${lang === "ja" ? "" : " "}${pageDescription}${separator.trimEnd()}`
+            : `${pageDescription}${separator}${affiliation}`;
+    }
     return {
     title: {
         absolute: fullTitle,
