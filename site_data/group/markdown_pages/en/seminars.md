@@ -17,7 +17,7 @@ description: Nonequilibrium Quantum Theory Seminar announcements
 
 The Gaussian approximation, which describes environmental effects using cumulants up to second order, has been widely used in open quantum systems. However, rigorous justifications have been limited to systems coupled to many independent baths [1] or cases where the environmental operators are static [2], and quantitative errors in the presence of intrabath interactions have not been investigated. In this talk, we report a rigorous finite-time upper bound on the error of the Gaussian approximation for a pure-dephasing model consisting of a single qubit linearly coupled to a one-dimensional spin bath with short-range interactions at infinite temperature. We also show that, when the system–bath coupling weights are distributed over many sites rather than concentrated in a particular region, the error approaches zero while finite decoherence is maintained. Furthermore, we discuss how the time window over which the approximation is guaranteed grows with the number of coupling sites. These results provide quantitative criteria for when a spin bath with intrabath interactions can be regarded as a Gaussian bath.
 
-[1] M. Fantechi and M. Merkli, Phys. Rev. Lett. 136, 060402 (2026).
+[1] M. Fantechi and M. Merkli, Phys. Rev. Lett. 136, 060402 (2026).  
 [2] K. I. O. Ben Attar and N. Bar-Gill, arXiv:2409.12749.
 
 ### November 9, 2026 (Monday)
