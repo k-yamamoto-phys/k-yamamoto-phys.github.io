@@ -45,7 +45,7 @@ export default async function Page() {
                     </section>
 
                     <h2>Recent Activities</h2>
-                    <Acctivity lang={"en"} limit={5} /> <br />
+                    <Acctivity lang={"en"} limit={10} /> <br />
                     <Link href="/activities" className="btn btn-primary  text-white">More activities<FaArrowRight /></Link>
                 </div>
             </div>
