@@ -12,7 +12,8 @@ type Presentation = {
     date: Date;
     detail: string;
     category: "international" | "domestic" | "seminar";
-    type: "invited" | "oral" | "poster";
+    type?: "invited" | "oral" | "poster";
+    note?: { ja: string; en: string; };
 }
 const BadgeMap = {
     invited: "presentation-badge--invited",
@@ -87,6 +88,7 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
             <div className="presentation-body">
                 <p className="presentation-title">{`"${p.title}"`}</p>
                 <p className="presentation-presenter">{p.presenter}</p>
+                {p.note && <p>{p.note.en}</p>}
                 <div className="presentation-detail" dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
             </div>
         </li>
@@ -94,14 +96,16 @@ async function ConferenceItem({ p, number }: { p: Presentation, number: number }
 }
 async function ConferenceItem_for_futures({ p, number }: { p: Presentation, number: number }) {
     const markdownContent = await convertMarkdownToHtml(p.detail);
-    const badgeType = BadgeMap[p.type];
-    const badgeObject = <span className={`badge presentation-badge ${badgeType}`}>{p.type}</span>
+    const badgeObject = p.type
+        ? <span className={`badge presentation-badge ${BadgeMap[p.type]}`}>{p.type}</span>
+        : null;
     return (
         <li className="presentation-item">
             <span className="presentation-number">{number}.</span>
             <div className="presentation-body">
                 <p className="presentation-title">{`"${p.title}"`}&nbsp;{badgeObject}</p>
                 <p className="presentation-presenter">{p.presenter}</p>
+                {p.note && <p>{p.note.en}</p>}
                 <div className="presentation-detail" dangerouslySetInnerHTML={{ __html: markdownContent || "" }} />
             </div>
         </li >
