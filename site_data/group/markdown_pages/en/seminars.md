@@ -1,6 +1,6 @@
 ---
 title: Seminars
-description: Nonequilibrium Quantum Theory Group seminar announcements
+description: Nonequilibrium Quantum Theory Seminar announcements
 ---
 
 # Seminars
