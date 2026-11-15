@@ -1,4 +1,16 @@
 # # 新規追加は、上から順に行うことで順番に整合が取れます。sort_presentation.pyを実行することでsortできます。
+- title: "Localized states of the non-Hermitian Schrödinger equation with a complex 1/r2 potential: from Efimov states to bipolarons"
+  presenter: Kyoka Tsunoda, Kazuki Yamamoto, and Shimpei Endo
+  # 並び順には研究会全体の開始日を使用。個別の発表日・参加週・発表形式は未確定。
+  date: "2027-02-08"
+  category: international
+  note:
+    ja: "要旨投稿済み（ID: 74）。発表日・発表形式は未確定。"
+    en: "Abstract submitted (ID: 74). Presentation date and format to be announced."
+  detail: >
+    [Novel quantum states in condensed matter 2027 (NQS2027)](https://indico.yukawa.kyoto-u.ac.jp/event/104/)
+    @ Yukawa Institute for Theoretical Physics, Kyoto University, Kyoto, Japan, February 8–March 12, 2027
+
 - title: "Quantum Master Equation Approach to Periodically Driven Superconductors"
   presenter: Yuta Shigedomi, Masaya Nakagawa, Kazuki Yamamoto, Koki Shiraishi and Tsuneya Yoshida
   # 個別の発表日は未確定のため、ユーザー指定により会議期間の初日を設定。
