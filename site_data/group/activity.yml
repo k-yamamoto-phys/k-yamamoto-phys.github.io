@@ -20,6 +20,17 @@
       山本講師が[Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden で招待講演を行います
     en: >
       Prof. Yamamoto is going to give an invited talk in [Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden
+- date: "2026-11-13"
+  label: event
+  content:
+    ja: >
+      大阪大学 大学院理学研究科 理論物質学グループの榊朋央氏（修士課程2年）を講演者に迎え、
+      [非平衡量子研理論セミナー](/ja/seminars)を開催しました。
+      講演題目は「浴内相互作用をもつ中心スピン模型におけるガウス近似の有限時間誤差評価」です。
+    en: >
+      We held the [Nonequilibrium Quantum Theory Seminar](/seminars) with speaker 榊 朋央,
+      a second-year master's student in the Theoretical Condensed Matter Physics Group, Graduate School of Science, The University of Osaka.
+      The talk was titled "Finite-time error bounds for the Gaussian approximation in a central spin model with intrabath interactions."
 - date: "2026-11-09"
   label: event
   content:
