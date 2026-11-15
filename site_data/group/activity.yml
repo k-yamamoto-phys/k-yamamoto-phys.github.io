@@ -24,13 +24,9 @@
   label: event
   content:
     ja: >
-      大阪大学 大学院理学研究科 理論物質学グループの榊朋央氏（修士課程2年）を講演者に迎え、
-      [非平衡量子研理論セミナー](/ja/seminars)を開催しました。
-      講演題目は「浴内相互作用をもつ中心スピン模型におけるガウス近似の有限時間誤差評価」です。
+      大阪大学の榊朋央氏を講演者に迎え、[非平衡量子研理論セミナー](/ja/seminars)を開催しました
     en: >
-      We held the [Nonequilibrium Quantum Theory Seminar](/seminars) with speaker 榊 朋央,
-      a second-year master's student in the Theoretical Condensed Matter Physics Group, Graduate School of Science, The University of Osaka.
-      The talk was titled "Finite-time error bounds for the Gaussian approximation in a central spin model with intrabath interactions."
+      We held the [Nonequilibrium Quantum Theory Seminar](/seminars) with speaker 榊 朋央 from The University of Osaka
 - date: "2026-11-09"
   label: event
   content:
@@ -53,6 +49,13 @@
       共同研究者（リサーチアシスタント）の松原虎之介さんが、[第81回年次大会（2026年）日本物理学会学生優秀発表賞](https://www.jps.or.jp/activities/awards/gakusei/2026a_student_presentation_award.php)を受賞しました。おめでとうございます！
     en: >
       Our collaborator and research assistant, Toranosuke Matsubara, has received the [Student Presentation Award of the Physical Society of Japan at the 81st Annual Meeting (2026)](https://www.jps.or.jp/activities/awards/gakusei/2026a_student_presentation_award.php). Congratulations!
+- date: [2026-11-02, 2026-11-13]
+  label: event
+  content:
+    ja: >
+      研究協力者の松原虎之介さん、竹森颯真さん、藤井淳太朗さん（東京科学大）が研究室に滞在しました
+    en: >
+      Our research collaborators, Toranosuke Matsubara, Soma Takemori, and Juntaro Fujii (Institute of Science Tokyo), stayed in our laboratory
 - date: "2026-10-08"
   label: award
   content:

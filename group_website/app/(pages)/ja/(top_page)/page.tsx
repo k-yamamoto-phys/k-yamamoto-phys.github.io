@@ -49,7 +49,7 @@ export default async function Page() {
                     </section>
 
                     <h2>最近の活動</h2>
-                    <Acctivity lang={"ja"} limit={5} /> <br />
+                    <Acctivity lang={"ja"} limit={10} /> <br />
                     <Link href="/ja/activities" className="btn btn-primary  text-white">一覧へ<FaArrowRight /></Link>
                 </div>
             </div>
