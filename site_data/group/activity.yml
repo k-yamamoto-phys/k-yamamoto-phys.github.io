@@ -20,6 +20,14 @@
       山本講師が[Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden で招待講演を行います
     en: >
       Prof. Yamamoto is going to give an invited talk in [Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden
+# 掲載日。受賞日ではありません。
+- date: "2026-11-16"
+  label: invited talk
+  content:
+    ja: >
+      山本講師が[非平衡固体物性の最前線](https://sites.google.com/view/frontiers-of-nonequilibrium26) @ 大阪大学 で招待講演を行います
+    en: >
+      Prof. Yamamoto is going to give an invited talk in [Frontiers in Nonequilibrium Physics 2026](https://sites.google.com/view/frontiers-of-nonequilibrium26) - Univ. Osaka      
 - date: "2026-11-13"
   label: event
   content:
@@ -34,14 +42,6 @@
       京都大学の山本和輝氏を講演者に迎え，[非平衡量子研理論セミナー](/ja/seminars)を開催しました
     en: >
       We have held [Nonequilibrium Quantum Theory Seminar](/seminars) by Prof. Kazuki Yamamoto from Kyoto University
-# 掲載日。受賞日ではありません。
-- date: "2026-11-16"
-  label: invited talk
-  content:
-    ja: >
-      山本講師が[非平衡固体物性の最前線](https://sites.google.com/view/frontiers-of-nonequilibrium26) @ 大阪大学 で招待講演を行います
-    en: >
-      Prof. Yamamoto is going to give an invited talk in [Frontiers in Nonequilibrium Physics 2026](https://sites.google.com/view/frontiers-of-nonequilibrium26) - Univ. Osaka      
 - date: "2026-11-04"
   label: award
   content:
@@ -161,13 +161,6 @@
       に投稿しました
     en: >
       Original paper "Measurement-induced spatially nonuniform fluctuations of the local particle number and their crossover in a quasiperiodic free-fermion chain" has appeared on [arXiv](https://arxiv.org/abs/2607.03799)
-- date: "2026-05-13"
-  label: award
-  content:
-    ja: >
-      山本講師が[第39回 安藤博記念学術奨励賞](https://www.ando-lab.or.jp/index.html)を受賞しました
-    en: >
-      Prof. Kazuki Yamamoto has received [39th Ando Incentive Prize for the Study of Electronics](https://www.ando-lab.or.jp/index.html)
 - date: [2026-05-25, 2026-06-05]
   label: event
   content:
@@ -175,6 +168,13 @@
       研究協力者の松原虎之介さん、竹森颯真さん、藤井淳太朗さん（東京科学大）が研究室に滞在しました
     en: >
       Our research collaborators, Mr. Toranosuke Matsubara, Mr. Soma Takemori, and Mr. Juntaro Fujii stayed in our laboratory
+- date: "2026-05-13"
+  label: award
+  content:
+    ja: >
+      山本講師が[第39回 安藤博記念学術奨励賞](https://www.ando-lab.or.jp/index.html)を受賞しました
+    en: >
+      Prof. Kazuki Yamamoto has received [39th Ando Incentive Prize for the Study of Electronics](https://www.ando-lab.or.jp/index.html)
 - date: "2026-04-01"
   label: event
   content:

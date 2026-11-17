@@ -229,15 +229,6 @@
     en: >
       I am going to give a talk in [International Conference on Strongly Correlated
       Electron Systems 2025](https://sces2025.org/en) - Montréal, Canada
-- date: "2025-04-29"
-  label: publication
-  content:
-    ja: >
-      共著論文 " [Spin-Depairing-Induced Exceptional Fermionic Superfluidity](https://arxiv.org/abs/2504.19525)
-      "がarXivに公開されました。
-    en: >
-      Joint paper " Spin-Depairing-Induced Exceptional Fermionic Superfluidity " has
-      appeared on [arXiv](https://arxiv.org/abs/2504.19525)
 - date: "2025-05-25"
   label: publication
   content:
@@ -248,6 +239,24 @@
     en: >
       The original paper "Correlation versus dissipation in a non-Hermitian Anderson
       impurity model" has been published in [Physical Review B](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.125157)
+- date: "2025-04-29"
+  label: publication
+  content:
+    ja: >
+      共著論文 " [Spin-Depairing-Induced Exceptional Fermionic Superfluidity](https://arxiv.org/abs/2504.19525)
+      "がarXivに公開されました。
+    en: >
+      Joint paper " Spin-Depairing-Induced Exceptional Fermionic Superfluidity " has
+      appeared on [arXiv](https://arxiv.org/abs/2504.19525)
+- date: "2025-03-20"
+  label: talk
+  content:
+    ja: >
+      [APS Joint March & April Meeting: Global Physics Summit 2025](https://www.aps.org/events/2025/joint-meeting)
+      で口頭発表を行いました。
+    en: >
+      I have given a talk in [APS Joint March & April Meeting: Global Physics Summit
+      2025](https://www.aps.org/events/2025/joint-meeting)
 - date: "2025-03-19"
   label: talk
   content:
@@ -274,15 +283,6 @@
     en: >
       I have received [Best Teacher Award in the Department of Physics](https://www.isct.ac.jp/en/001/about/organizations/school-of-science)
       from Institute of Science Tokyo
-- date: "2025-03-20"
-  label: talk
-  content:
-    ja: >
-      [APS Joint March & April Meeting: Global Physics Summit 2025](https://www.aps.org/events/2025/joint-meeting)
-      で口頭発表を行いました。
-    en: >
-      I have given a talk in [APS Joint March & April Meeting: Global Physics Summit
-      2025](https://www.aps.org/events/2025/joint-meeting)
 - date: "2024-11-25"
   label: publication
   content:
