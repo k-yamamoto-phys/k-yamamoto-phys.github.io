@@ -1,4 +1,4 @@
-# 新規追加は、上から順に行うことで順番に整合が取れます。sort_presentation.pyを実行することでsortできます。
+# date の降順（新しい日付が上）。追加後は python site_data/_misc/sort_presentation.py を実行。
 - title: "Exceptional fermionic superfluidity with spin-dependent nonreciprocity"
   presenter: Kazuki Yamamoto
   date: "2026-11-23"

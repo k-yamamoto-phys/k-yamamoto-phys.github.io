@@ -32,7 +32,7 @@
 - 数式は KaTeX 対応
 - 外部リンクは自動で新しいタブで開く設定
 - 画像の `alt` からキャプションを生成
-- `presentation.yml` は `sort_presentation.py` で日付降順に整形可能（`requirements.txt` に PyYAML）
+- 両サイトの `presentation.yml`・`activity.yml`・`press_releases.yml` は、ルートで `python site_data/_misc/sort_presentation.py` を実行すると、コメントや書式を保って日付降順にソート可能（PyYAML が必要）。期間は開始日を基準とし、同日の順序は維持する。`--check` で書き換えずに確認でき、未整列なら終了コード 1 を返す。
 
 ## 開発
 
