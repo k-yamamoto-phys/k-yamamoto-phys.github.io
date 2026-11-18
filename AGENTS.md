@@ -22,6 +22,12 @@ Keep raw technical outputs in their original language:
 - raw numerical output
 - copied error messages
 
+## 既存文書を手本にする（必須）
+
+- 文章やデータを追加・修正する前に、対象のファイルまたはページを開き、同じ種類の既存項目を日英それぞれで確認する。同じ掲載先に例がなければ、リポジトリ内の同種の文書を探す。
+- 依頼で指定された文例と本人による最新の校正を優先する。それ以外は同種の既存項目を手本にし、文の組み立て、用語、引用符、句読点、リンクの文言・強調、データの書式を揃える。日付、名前、リンク先など、今回の項目に固有の情報は根拠を確認して差し替える。依頼や文例にない説明・リンクを独自に付け足さない。
+- コミット前に、追加・修正した箇所を手本にした既存項目と並べて照合し、日英ともに同じ形式で読めることを確認する。手本が見つからない場合は、最も近い既存の書式に合わせ、採用した書式を作業報告に記載する。
+
 ## 日本語版・英語版の同時更新
 
 - サイトの文章・案内・情報を追加、変更、削除する際は、対応する日本語版と英語版を必ず同じ作業で更新する。研究室サイトと個人サイトの両方に適用する。
@@ -53,6 +59,7 @@ yamamotolabchatgpt-art が追加・編集した内容に対する k-yamamoto-phy
 
 ### 活動記事・お知らせ：短く、開催状況に合わせる
 
+- arXiv への投稿報告は、`site_data/group/activity.yml` の arXiv:2607.03799 の記事を手本にし、`label: publication` とする。日本語は `原著論文 "論文タイトル" を [**arXiv**](論文URL) に投稿しました`、英語は `Original paper "Paper title" has appeared on [**arXiv**](paper URL)` とする。
 - セミナー開催報告は `…氏を講演者に迎え，[非平衡量子研理論セミナー](/ja/seminars)を開催しました`、英語は `We have held [Nonequilibrium Quantum Theory Seminar](/seminars) by … from …` を基準とする。この日本語の読点は全角 `，` とし、この短い開催報告の末尾に `。` / `.` を追加しない。受賞記事の `。おめでとうございます！` / `. Congratulations!` など、別形式の句読点は保持する。
 - 開催済みと確認された記事は `開催します` / `We will host` のままにしない。未来の予定は未来の表現を保ち、日付だけで開催済みと断定しない。終了した告知を `SiteMessage` に残さず、他の有効な告知がなければ日英の `text` を空にする。
 - 賞名や紹介の重複説明を増やさない。松原氏の受賞記事のリンク文字列は `第81回年次大会日本物理学会学生優秀発表賞` / `Student Presentation Award of the Physical Society of Japan at the 81st Annual Meeting` とし、削除された `（2026年）` / `(2026)` を戻さない。英語の紹介は `Our collaborator, Mr. Toranosuke Matsubara, has received …` を維持し、削除された `and research assistant` を再追加しない。日本語に残る `（リサーチアシスタント）` まで削除する根拠にはしない。
