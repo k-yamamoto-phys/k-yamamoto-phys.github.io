@@ -1,4 +1,11 @@
 # date の降順（新しい日付が上）。追加後は python site_data/_misc/sort_presentation.py を実行。
+- title: Exceptional fermionic superfluidity with spin-dependent nonreciprocity
+  presenter: Kazuki Yamamoto
+  date: "2026-12-07"
+  category: seminar
+  type: invited
+  detail: >
+    [Fundamental Quantum Science Program Seminar](https://fqsp.riken.jp/program/) @ RIKEN, Dec. 2026
 - title: "Exceptional fermionic superfluidity with spin-dependent nonreciprocity"
   presenter: Kazuki Yamamoto
   date: "2026-11-26"

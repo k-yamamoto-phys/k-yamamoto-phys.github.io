@@ -13,11 +13,18 @@
 #       hogehoge san invited talk
 #     en: >
 #       hogehoge san invited talk
+- date: "2026-12-09"
+  label: invited seminar
+  content:
+    ja: >
+      山本講師が理化学研究所にて [Fundamental Quantum Science Program Seminar](https://fqsp.riken.jp/program/) を行います
+    en: >
+      Prof. Yamamoto is going to give a [Fundamental Quantum Science Program Seminar](https://fqsp.riken.jp/program/) at RIKEN
 - date: "2026-11-26"
   label: invited talk
   content:
     ja: >
-      山本講師が[Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden で招待講演を行います
+      山本講師が [Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden で招待講演を行います
     en: >
       Prof. Yamamoto is going to give an invited talk in [Atomic Physics 2026](https://www.pks.mpg.de/atom26) - Max Planck Institute for the Physics of Complex Systems, Dresden
 - date: "2026-11-18"

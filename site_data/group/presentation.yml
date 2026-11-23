@@ -7,7 +7,6 @@
   detail: >
     [Novel quantum states in condensed matter 2027 (NQS2027)](https://indico.yukawa.kyoto-u.ac.jp/event/104/)
     @ Yukawa Institute for Theoretical Physics, Kyoto, March 2027
-
 - title: "Quantum Master Equation Approach to Periodically Driven Superconductors"
   presenter: Yuta Shigedomi, Masaya Nakagawa, Kazuki Yamamoto, Koki Shiraishi and Tsuneya Yoshida
   date: "2027-03-01"
@@ -15,7 +14,6 @@
   type: poster
   detail: >
     [Novel quantum states in condensed matter 2027 (NQS2027)](https://indico.yukawa.kyoto-u.ac.jp/event/104/overview) @ Yukawa Institute for Theoretical Physics, Kyoto, March 2027
-
 - title: "周期駆動下の超伝導体の量子マスター方程式による解析"
   presenter: 重冨友汰，中川大也，山本和樹，白石航暉，吉田恒也
   date: "2026-12-16"
@@ -23,6 +21,13 @@
   type: poster
   detail: >
     [量子物質における超伝導研究の最前線](https://www.rs.tus.ac.jp/tohyama/SC2026/) @ Kyoto University, December 2026
+- title: Exceptional fermionic superfluidity with spin-dependent nonreciprocity
+  presenter: Kazuki Yamamoto
+  date: "2026-12-07"
+  category: seminar
+  type: invited
+  detail: >
+    [Fundamental Quantum Science Program Seminar](https://fqsp.riken.jp/program/) @ RIKEN, Dec. 2026
 - title: "Quantum Master Equation Approach to Periodically Driven Superconductors"
   presenter: Yuta Shigedomi, Masaya Nakagawa, Kazuki Yamamoto, Koki Shiraishi and Tsuneya Yoshida
   date: "2026-11-24"
